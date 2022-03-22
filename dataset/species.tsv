@@ -1,0 +1,29 @@
+combined_name	class1	brain_size_notes	body_size	website	comments	brain_size	human	percent	grp	common_name	scientific_name	grp_x
+Chimpanzee (Pan troglodytes)	Ape	368.1 (females)/ 405.6 (males)		https://pubmed.ncbi.nlm.nih.gov/10376740/		386.9	1350	0.2865925926	ape	Chimpanzee	Pan troglodytes	1
+Lar gibbon (Hylobates lar)	Ape								ape	Lar gibbon	Hylobates lar	1
+African green (Chlorocebus aethiops)	Old world monkey				FKA: African green monkey (Cercopithecus aethiops)				old world monkey	African green	Chlorocebus aethiops	2
+Baboon (Papio anubis)	Old world monkey								old world monkey	Baboon	Papio anubis	2
+Barbary macaque (Macaca sylvanus)	Old world monkey								old world monkey	Barbary macaque	Macaca sylvanus	2
+Bonnet macaque (Macaca radiata)	Old world monkey								old world monkey	Bonnet macaque	Macaca radiata	2
+Cynomolgus macaque (Macaca fascicularis)	Old world monkey					74	1350		old world monkey	Cynomolgus macaque	Macaca fascicularis	2
+Langur (Presbytis sp.)	Old world monkey								old world monkey	Langur	Presbytis sp.	2
+Patas (Erythrocebus patas)	Old world monkey								old world monkey	Patas	Erythrocebus patas	2
+Pig-tailed macaque (Macaca nemestrina)	Old world monkey								old world monkey	Pig-tailed macaque	Macaca nemestrina	2
+Rhesus macaque (Macaca mulatta)	Old world monkey	86.1 (female)/ 96.1 (male)		https://pubmed.ncbi.nlm.nih.gov/9662002/					old world monkey	Rhesus macaque	Macaca mulatta	2
+Sooty mangabey (Cercocebus atys)	Old world monkey								old world monkey	Sooty mangabey	Cercocebus atys	2
+Stump-tailed macaque (Macaca arctoides)	Old world monkey								old world monkey	Stump-tailed macaque	Macaca arctoides	2
+Stumptail macaque (Macaca arctoides)	Old world monkey								old world monkey	Stumptail macaque	Macaca arctoides	2
+Talapoin (Cercopithecus talapoin)	Old world monkey								old world monkey	Talapoin	Cercopithecus talapoin	2
+Vervet monkey (Chlorocebus pygerythrus)	Old world monkey								old world monkey	Vervet monkey	Chlorocebus pygerythrus	2
+Capuchin monkey (Cebus sp.)	New world monkey	60.0	2400	https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.21515	captive animals				new world monkey	Capuchin monkey	Cebus sp.	3
+Common marmoset (Callithrix jacchus)	New world monkey	7.7	266.3	https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.21515	captive animals				new world monkey	Common marmoset	Callithrix jacchus	3
+Common woolly monkey (Lagothrix lagothricha)	New world monkey	119.5	6900	https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.21515	captive animals				new world monkey	Common woolly monkey	Lagothrix lagothricha	3
+Cotton-topped tamarin (Saguinus oedipus)	New world monkey	10.2	342.4	https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.21515	captive animals; FKA: Cotton-topped marmoset (Saguinns oedipus)				new world monkey	Cotton-topped tamarin	Saguinus oedipus	3
+Saddle-backed tamarin (Saguinus fuscicollis)	New world monkey	6.0	250	https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.21515	captive animals; FKA: White-lipped marmoset (S. fuscicollis and S. nigricollis)				new world monkey	Saddle-backed tamarin	Saguinus fuscicollis	3
+Spider monkey (Ateles geoffroyi)	New world monkey	108.03	7775	https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.21515	captive animals	108.03	1350	0.08002222222	new world monkey	Spider monkey	Ateles geoffroyi	3
+Squirrel monkey (Saimiri sciureus)	New world monkey	22.93	638.4	https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.21515	captive animals	22.93	1350	0.01698518519	new world monkey	Squirrel monkey	Saimiri sciureus	3
+Tamarins (Saguinus sp.)	New world monkey								new world monkey	Tamarins	Saguinus sp.	3
+White-fronted tamarin (Saguinus nigricollis)	New world monkey	8.6	325	https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.21515	captive animals; FKA: White-lipped marmoset (S. fuscicollis and S. nigricollis)				new world monkey	White-fronted tamarin	Saguinus nigricollis	3
+White-lipped tamarin (Saguinus labiatus)	New world monkey	10.1	450	https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.21515	captive animals; FKA: White-lipped marmoset (S. fuscicollis and S. nigricollis)				new world monkey	White-lipped tamarin	Saguinus labiatus	3
+Bushbaby (Galago senegalensis)	Strepsirrhine primate								prosimian	Bushbaby	Galago senegalensis	4
+Gray mouse lemur (Microcebus murinus)	Strepsirrhine primate	2?		https://pubmed.ncbi.nlm.nih.gov/19410273/	not primary data	2	1350	0.001481481481	prosimian	Gray mouse lemur	Microcebus murinus	4

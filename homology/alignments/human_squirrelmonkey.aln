@@ -1,0 +1,1489 @@
+########################################
+# Program: needle
+# Rundate: Fri 26 Feb 2021 18:43:19
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-E20210226-184240-0858-30896221-p1m.aupfile
+#    -bsequence emboss_needle-E20210226-184240-0858-30896221-p1m.bupfile
+#    -datafile EDNAFULL
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: hg38_dna
+# 2: saiBol1_dna
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18096
+# Identity:   12986/18096 (71.8%)
+# Similarity: 12986/18096 (71.8%)
+# Gaps:        3888/18096 (21.5%)
+# Score: 56675.0
+# 
+#
+#=======================================
+
+hg38_dna           1 CGCGCGGCAATTGGTCCCCGCGCCGACCTCCGCCCGCGAGCGCCGCCGCT     50
+                                                                       
+saiBol1_dna        1 --------------------------------------------------      0
+
+hg38_dna          51 TCCCTTCCCCGCCCCGCGTCCCTCCCCCTCGGCCCCGCGCGTCGCCTGTC    100
+                                                                       
+saiBol1_dna        1 --------------------------------------------------      0
+
+hg38_dna         101 CTCCGAGCCAGTCGCTGACAGCCGCGGCGCCGCGAGCTTCTCCTCTCCTC    150
+                                                                       
+saiBol1_dna        1 --------------------------------------------------      0
+
+hg38_dna         151 ACGACCGAGGCAGGTAAACGCCCGGGGTGGGAGGAACGCGGGCGGGGGCA    200
+                                                                       
+saiBol1_dna        1 --------------------------------------------------      0
+
+hg38_dna         201 GGGGAGCCGCGGGGGCCGAGTGAGGACCCCGGGCCTCGGGTCCCAGGCGC    250
+                                                                       
+saiBol1_dna        1 --------------------------------------------------      0
+
+hg38_dna         251 AAGGGTGCCCGGCCGGGCGGGGTCGGGACCCCAGTGAGGAGGGGCCGGGG    300
+                                                                       
+saiBol1_dna        1 --------------------------------------------------      0
+
+hg38_dna         301 GCTGCCCCGCGGGCGCGTGACGCGTCTCGGGCCTGCCCGGCTGCGCTGGT    350
+                                                                       
+saiBol1_dna        1 --------------------------------------------------      0
+
+hg38_dna         351 CTCCGCTCGGGTGAGGCGGCTTGGCTTCGCTTTTCAGGTTAGGAAAGCTC    400
+                                                                       
+saiBol1_dna        1 --------------------------------------------------      0
+
+hg38_dna         401 CCTTTACTGCGCGTTGGGGGGCTGGGGGAGCTGGCGGAGCCCCGTTAGGG    450
+                                                                       
+saiBol1_dna        1 --------------------------------------------------      0
+
+hg38_dna         451 AGGTCGGTGGCGCCGGGGTGTCTCAGCGCCCCCTGCACCCCGCGCGGGTC    500
+                                                                       
+saiBol1_dna        1 --------------------------------------------------      0
+
+hg38_dna         501 CGGCCCAGCGGGCGATCGCTGGCGCCCAGGGAACTCCGGGAGGGCCGCCA    550
+                                                                       
+saiBol1_dna        1 --------------------------------------------------      0
+
+hg38_dna         551 GCGGGCTCCGCAGGGCGCGGGGCGGGGAGGGGCGCCTGGGGGCCGCGGGG    600
+                                                                       
+saiBol1_dna        1 --------------------------------------------------      0
+
+hg38_dna         601 CTCGCGCTCCCCGCCCGTTGGCCGCCCCTCGGAGGCCGAGATCGGGGCCC    650
+                                                                       
+saiBol1_dna        1 --------------------------------------------------      0
+
+hg38_dna         651 AGAACGC--CCCTTGGCAAGGCCTGGCGCTTCCGCGATGCCCAGAGGGTG    698
+                      .|||.|  .|||.|||         ||       |.|||||       |
+saiBol1_dna        1 -TAACACAAACCTCGGC---------CG-------GCTGCCC-------G     26
+
+hg38_dna         699 CTTGGGGGGATGGAGAGAGGGGCGCCCGCCGGGGGAGTTCCGGGAGCC--    746
+                     | .|.|||.|.||||   .|.|||||.|          ||||.|.|.|  
+saiBol1_dna       27 C-CGCGGGCACGGAG---TGTGCGCCAG----------TCCGCGCGGCAA     62
+
+hg38_dna         747 TCGGTGCCTCCCGCCGCAGCTGCAGCGTTCCTCCCGGGAG-GCGGCCCAG    795
+                     |.||| ||.|.||||| |.|        |||.||||.||| ||       
+saiBol1_dna       63 TTGGT-CCCCGCGCCG-ACC--------TCCGCCCGCGAGCGC-------     95
+
+hg38_dna         796 CCCTTCATCCTCGCCGCCTGAGCTTCTCCGAGGGGGGCTGCAGCCTTGCG    845
+                                |||||||| ..||||.||             |||..|||
+saiBol1_dna       96 -----------CGCCGCCT-CCCTTCCCC-------------GCCCAGCG    120
+
+hg38_dna         846 GCCGTTGCCACCGCCTGGAGAAGCGGCCCACGCGGACTGACGGGC-----    890
+                     .||||                     |||               |     
+saiBol1_dna      121 TCCGT---------------------CCC---------------CNNNNN    134
+
+hg38_dna         891 --------------------------------------------------    890
+                                                                       
+saiBol1_dna      135 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    184
+
+hg38_dna         891 --------------------------------------------------    890
+                                                                       
+saiBol1_dna      185 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    234
+
+hg38_dna         891 --------------------------------------------------    890
+                                                                       
+saiBol1_dna      235 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    284
+
+hg38_dna         891 --------------------------------------------------    890
+                                                                       
+saiBol1_dna      285 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    334
+
+hg38_dna         891 --------------------------------------------------    890
+                                                                       
+saiBol1_dna      335 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    384
+
+hg38_dna         891 --------------------------------------------------    890
+                                                                       
+saiBol1_dna      385 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    434
+
+hg38_dna         891 --------------------------------------------------    890
+                                                                       
+saiBol1_dna      435 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    484
+
+hg38_dna         891 --------------------------------------------------    890
+                                                                       
+saiBol1_dna      485 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    534
+
+hg38_dna         891 --------------------------------------------------    890
+                                                                       
+saiBol1_dna      535 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    584
+
+hg38_dna         891 --------------------------------------------------    890
+                                                                       
+saiBol1_dna      585 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    634
+
+hg38_dna         891 --------------------------------------------------    890
+                                                                       
+saiBol1_dna      635 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    684
+
+hg38_dna         891 --------------------------------------------------    890
+                                                                       
+saiBol1_dna      685 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    734
+
+hg38_dna         891 --------------------------------------------------    890
+                                                                       
+saiBol1_dna      735 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    784
+
+hg38_dna         891 --------------------------------------------------    890
+                                                                       
+saiBol1_dna      785 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    834
+
+hg38_dna         891 --------------------------------------------------    890
+                                                                       
+saiBol1_dna      835 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    884
+
+hg38_dna         891 --------------------------------------------------    890
+                                                                       
+saiBol1_dna      885 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    934
+
+hg38_dna         891 ---------------------GGGGGCGGGGCCTCGGGCCTCGGCGGGGG    919
+                                          ....|||||||||||||||||.|.|||||
+saiBol1_dna      935 NNNNNNNNNNNNNNNNNNNNNNNNNGCGGGGCCTCGGGCCTCTGTGGGGG    984
+
+hg38_dna         920 CGGGGTCCGGGGAGGCCCCACCCTCTGTTCTCCAG--GGGCGGGGAGAGA    967
+                     ||||||||.||.|||||||.||.||||  |||.||  ..||.|||||.||
+saiBol1_dna      985 CGGGGTCCCGGCAGGCCCCGCCTTCTG--CTCGAGACCTGCAGGGAGGGA   1032
+
+hg38_dna         968 GGAGCTGCAGGTCTGCGGCCTGGCCCCAGGTGCGATGGCGGACCCCAGCT   1017
+                     ||||||||.|.|||||..||.||||||||||||||.||| ||||||.|||
+saiBol1_dna     1033 GGAGCTGCGGTTCTGCCTCCGGGCCCCAGGTGCGACGGC-GACCCCCGCT   1081
+
+hg38_dna        1018 TGGCCAGTCACATTCCTCCCAGTCCCCCTGGAGGGAGAACGCTGGCCATG   1067
+                     |||||.||||||.|||||||.|| |||||.||||.|||||||||||||||
+saiBol1_dna     1082 TGGCCTGTCACACTCCTCCCCGT-CCCCTAGAGGAAGAACGCTGGCCATG   1130
+
+hg38_dna        1068 GGGGGCTCCAAGGAACAACCAGCCTCGGATGACGACCCTTGGGTCACCGG   1117
+                     |||||||||||.|.||||||||.|||||||||||||||||||||||||||
+saiBol1_dna     1131 GGGGGCTCCAATGGACAACCAGTCTCGGATGACGACCCTTGGGTCACCGG   1180
+
+hg38_dna        1118 TCTCCCCACCTGTGCGGCAGGCGCCTTCACGTTTCATTATT-AAACAATG   1166
+                     .||.||||||||||.|||||||||||||||||||||||||| ||||||||
+saiBol1_dna     1181 GCTTCCCACCTGTGAGGCAGGCGCCTTCACGTTTCATTATTAAAACAATG   1230
+
+hg38_dna        1167 GGGAGAAATCCATGTTTACTG-TCCTTTTTAAGGAATTTTTTGCTCTTCT   1215
+                     |||||||||||||||||| || |||||||||||||||||||||..|||||
+saiBol1_dna     1231 GGGAGAAATCCATGTTTA-TGATCCTTTTTAAGGAATTTTTTGTCCTTCT   1279
+
+hg38_dna        1216 CTTTGAGGTGGCTGTAGGAAAT-AGATTTTTTTTTTAACCTCGCAATTCC   1264
+                     |||||..||||||||||||||| |..||||||||||.||||||.||||||
+saiBol1_dna     1280 CTTTGTAGTGGCTGTAGGAAATCAATTTTTTTTTTTTACCTCGTAATTCC   1329
+
+hg38_dna        1265 ACCACGGTCACATCCATCCTCGCCATCGCAGAGCCACAGCTCTCCGTTTT   1314
+                     |||||.||||||||||||||||||||||||.|.|||||||||.|.|||||
+saiBol1_dna     1330 ACCACTGTCACATCCATCCTCGCCATCGCAAAACCACAGCTCCCTGTTTT   1379
+
+hg38_dna        1315 TGTTTCCTAGCCTCCAGATTCTCACACAACACAGTGCAGTTTCACTGCTG   1364
+                     ||||||||||||||||||||||||||||||||||||||.|||||||||||
+saiBol1_dna     1380 TGTTTCCTAGCCTCCAGATTCTCACACAACACAGTGCAATTTCACTGCTG   1429
+
+hg38_dna        1365 TAATGATGAGGATCTTCATGGCCGCGTTATTTTCTTGTTCTGAGAGCATC   1414
+                     |||||.||||||||||||||.||.|||||||||||||||.|.||||||||
+saiBol1_dna     1430 TAATGTTGAGGATCTTCATGACCACGTTATTTTCTTGTTATTAGAGCATC   1479
+
+hg38_dna        1415 ACGGTTTAATTAGCAGTTCCCCATATG------ATTTGAAGTGTTT-CCC   1457
+                     |||||||||||||||||||||||||||      ||||||..||||| |||
+saiBol1_dna     1480 ACGGTTTAATTAGCAGTTCCCCATATGTAGAACATTTGAGATGTTTCCCC   1529
+
+hg38_dna        1458 GTTTCCTTAGGGAAAACTCCTGGTAGAATAGGATTAAGGATTTTTACAAA   1507
+                     |||||||||||.|||||||||||||||||||||||.||||||||||||||
+saiBol1_dna     1530 GTTTCCTTAGGAAAAACTCCTGGTAGAATAGGATTGAGGATTTTTACAAA   1579
+
+hg38_dna        1508 TATAATTATCAAAAACATAGGAACAGGGAATTGGATAAATATGTTAAACT   1557
+                     |||||||||||.|||||||||||||||.|||||||.|||||||||||||.
+saiBol1_dna     1580 TATAATTATCAGAAACATAGGAACAGGAAATTGGAAAAATATGTTAAACC   1629
+
+hg38_dna        1558 TCTGGAAAAATCAACAACGCTCTTAGATTTGTAGAAGAAAGGAAAAAATC   1607
+                     ||||||||||||||||||.|||||||||||||||.||||||| |||||||
+saiBol1_dna     1630 TCTGGAAAAATCAACAACACTCTTAGATTTGTAGGAGAAAGG-AAAAATC   1678
+
+hg38_dna        1608 ACCAGTGGAAAGGAGCAATTTTACTTACACAAACACAGAGAAGGTCTTAC   1657
+                     ||||..||||||.|||||||||||||||||||||||.|||||.|||||||
+saiBol1_dna     1679 ACCAAAGGAAAGAAGCAATTTTACTTACACAAACACTGAGAAAGTCTTAC   1728
+
+hg38_dna        1658 AGTGAAAAAAAGCTAACCAGTAAGGGGAAAAGCAGGCAGAGGGGTAGGAT   1707
+                     |||||||||.||||||||||.|||||||||.||||||||||.||||||||
+saiBol1_dna     1729 AGTGAAAAAGAGCTAACCAGAAAGGGGAAAGGCAGGCAGAGAGGTAGGAT   1778
+
+hg38_dna        1708 GTGATTTGTATGTTATTTATATCTAACACAAGTCTTCCACACCGAAAGGA   1757
+                     ||.|||||||||||||||.|||||||||.||||.|||||.||.||||..|
+saiBol1_dna     1779 GTCATTTGTATGTTATTTGTATCTAACAGAAGTTTTCCATACTGAAAAAA   1828
+
+hg38_dna        1758 AAATATTAAGATTATAATAGATAAATGGCAAAATGATGAGTCATTTACAC   1807
+                     ||||||||||||||||||||||||||....||||||||||||||||||||
+saiBol1_dna     1829 AAATATTAAGATTATAATAGATAAATAATGAAATGATGAGTCATTTACAC   1878
+
+hg38_dna        1808 AATAAAATGCAAATTAGAGCATGTTTGGGTTATCATTTTACATCTATTAA   1857
+                     |||||||||||||||||||||||||.|||||||||||||||.|.||||||
+saiBol1_dna     1879 AATAAAATGCAAATTAGAGCATGTTGGGGTTATCATTTTACGTTTATTAA   1928
+
+hg38_dna        1858 AATAACCAAAATAATTAATAGTAACAGCAACCCTTGCTGGAAGGTTGCCC   1907
+                     |.||||||||||.|.|||||||||        ||||||||||||||||||
+saiBol1_dna     1929 ACTAACCAAAATGAGTAATAGTAA--------CTTGCTGGAAGGTTGCCC   1970
+
+hg38_dna        1908 AAAACTTGGCATTTTCAAGTGTCTGGGGAGGTGGCAGGGCTTTGGGGTCA   1957
+                     ||||||||||||||||||||||| .||||.|.|||||..|||||||.|||
+saiBol1_dna     1971 AAAACTTGGCATTTTCAAGTGTC-CGGGAAGCGGCAGCTCTTTGGGATCA   2019
+
+hg38_dna        1958 CAAAGATGGTTCTGCAGTCAATTTTGTGACCTTGGACAGGCTACCTAATT   2007
+                     .|||||||||||||||||||||||||.|||.|||||||||||||.|||||
+saiBol1_dna     2020 GAAAGATGGTTCTGCAGTCAATTTTGCGACTTTGGACAGGCTACTTAATT   2069
+
+hg38_dna        2008 TCCTGATCCTCCTTTTGTCCATTCATAGAATGGAGGAAATGATAGCTACT   2057
+                     ||||||||||.||||||||||||||||||||||||||||||||..||.||
+saiBol1_dna     2070 TCCTGATCCTTCTTTTGTCCATTCATAGAATGGAGGAAATGATGCCTGCT   2119
+
+hg38_dna        2058 TTCTGCGTCTG--------------------------------------T   2069
+                     |.|||||||||                                      |
+saiBol1_dna     2120 TCCTGCGTCTGTTGCAAAGATTGACCAACTATGTAAAACTCACTCTTGCT   2169
+
+hg38_dna        2070 ATGTATGAGTTATTGGGGGCATTTCGAACCAGTGACAAACATTTTGTTAA   2119
+                     |||||||..|||||||||||||||.||.||||| ||||.|.||||||.||
+saiBol1_dna     2170 ATGTATGCATTATTGGGGGCATTTTGAGCCAGT-ACAACCCTTTTGTAAA   2218
+
+hg38_dna        2120 GCAATCTGGTGATGCATTAAGAAGCTGGAAGCTGTGACCCAGAAACCCCA   2169
+                     .||||||||||||||||||||||..||.||||||||||||||||||||||
+saiBol1_dna     2219 ACAATCTGGTGATGCATTAAGAAATTGTAAGCTGTGACCCAGAAACCCCA   2268
+
+hg38_dna        2170 CTCCTGAGAACTTACCTGCAATGGAAGAAACAAACAAACAAAAACAGGCA   2219
+                     ||||||||||.|.||||||||||||||||.|||||||  ||||.||||||
+saiBol1_dna     2269 CTCCTGAGAATTCACCTGCAATGGAAGAACCAAACAA--AAAAGCAGGCA   2316
+
+hg38_dna        2220 TGTATTCCTAGCAGAATGATCTAAAATTAGAA-CACCTGGAAAAGAGCCT   2268
+                     ..|||||||||||||||||||||||||||||| ||.||||..||.|||||
+saiBol1_dna     2317 CATATTCCTAGCAGAATGATCTAAAATTAGAATCAACTGGCCAACAGCCT   2366
+
+hg38_dna        2269 AAATGTATAACACCAGGGCAGTAGCTAAGAAAATTATGACACATTAACTG   2318
+                     ||||||||||||.|||||||||||||||||||||||||||||.|||||||
+saiBol1_dna     2367 AAATGTATAACAGCAGGGCAGTAGCTAAGAAAATTATGACACGTTAACTG   2416
+
+hg38_dna        2319 AAATGAACATTATGTAACCACTAAAAATCATGATTTTGGAGCCTGTGATA   2368
+                     |||||||||||||.||||||..||||.|.||.|||||||||.||||||||
+saiBol1_dna     2417 AAATGAACATTATATAACCATCAAAACTTATTATTTTGGAGTCTGTGATA   2466
+
+hg38_dna        2369 TGTGGGGAAAAACTGACAAGT-AAAAAAGTGGGTTA-TTAACTGCACCTG   2416
+                     |||||||..||||||..|||| |||||||||||||| |.|||||||||||
+saiBol1_dna     2467 TGTGGGGGGAAACTGGTAAGTAAAAAAAGTGGGTTACTAAACTGCACCTG   2516
+
+hg38_dna        2417 CTTACTCTAACGTGAACGCATATGTGAAAAATCTGAAAGGAAAAGCACAG   2466
+                     |||||||||||.||||.||||||||||||||||||||||||||.||||||
+saiBol1_dna     2517 CTTACTCTAACATGAATGCATATGTGAAAAATCTGAAAGGAAAGGCACAG   2566
+
+hg38_dna        2467 AAAATGGACGTTTTCATTGAAATTGTCGGTGATCTTAATTTTCCTTTGGT   2516
+                     |||||||||.||||.|||||||||||.||||||||||||||||.|.|.||
+saiBol1_dna     2567 AAAATGGACATTTTAATTGAAATTGTAGGTGATCTTAATTTTCTTCTAGT   2616
+
+hg38_dna        2517 G-------AATATATTGCTCTCAC----TAAGGGCGTTTAAAAAATAGTT   2555
+                     |       .||||||||.||||||    |||||.|.||||||||||||.|
+saiBol1_dna     2617 GGATACATTATATATTGTTCTCACTAAATAAGGACATTTAAAAAATAGCT   2666
+
+hg38_dna        2556 CACAGGTTTTAATTTTTT-------------------AG-----------   2575
+                     ||||||||||||||||||                   ||           
+saiBol1_dna     2667 CACAGGTTTTAATTTTTTTTTTTTTTTTTTTTTTTTGAGACAAAGTCTCA   2716
+
+hg38_dna        2576 --------------------------------------------------   2575
+                                                                       
+saiBol1_dna     2717 CTCTGTCCCCAGGCTGGAGTGCAGTGGCGAGATCTCAGCTCACCGTAACC   2766
+
+hg38_dna        2576 --------------------------------------------------   2575
+                                                                       
+saiBol1_dna     2767 TCCGTCTCTCGGGTTTAAGGAATTCCCCTGCCTCAGCCTCCCAAGTAGCT   2816
+
+hg38_dna        2576 --------------------------------------------------   2575
+                                                                       
+saiBol1_dna     2817 GGGACTACAGGCACGTGCCACCACGCACAGCTAATTTTTGTATTTTTAGT   2866
+
+hg38_dna        2576 --------------------------------------------------   2575
+                                                                       
+saiBol1_dna     2867 AGGGACGGTGTTTCACAATGTTGGCCAGGATGGTTTTAATCTCCTGACCT   2916
+
+hg38_dna        2576 --------------------------------------------------   2575
+                                                                       
+saiBol1_dna     2917 CATAATCCACCCGCCTCAACCTCCCAAAGTGCTGGGATTACAGGTGTGAC   2966
+
+hg38_dna        2576 -----------------------------------ATGAAATGGACCCAC   2590
+                                                        |||||||||| ||||
+saiBol1_dna     2967 CCACCATGGCTGGCCCACAGGTTTTAATTTTTTTAATGAAATGGA-CCAC   3015
+
+hg38_dna        2591 AGTTTTCTGT-----AAGAGAAAGGAGAGATTGTTATATTTGCTACTTAG   2635
+                     ||||||||||     || |||||||||||.|||||||||||||||.||||
+saiBol1_dna     3016 AGTTTTCTGTGTGTGAA-AGAAAGGAGAGCTTGTTATATTTGCTATTTAG   3064
+
+hg38_dna        2636 AATAAAAGATTTTTAGCCAACGTTGTTTCCTTTTTCAAATATTTTTCCAT   2685
+                     |||||||||||||||.|||||.||||||||||||||.|||         |
+saiBol1_dna     3065 AATAAAAGATTTTTAACCAACCTTGTTTCCTTTTTCTAAT---------T   3105
+
+hg38_dna        2686 TTTTTTAGTTGATTAATGATTTAGTAATTTGTGTATTGGG----------   2725
+                     ||||||||||..|||.|.||||||||||||||.|||||||          
+saiBol1_dna     3106 TTTTTTAGTTACTTAGTAATTTAGTAATTTGTATATTGGGATTTTTTTGC   3155
+
+hg38_dna        2726 --------------------------------------------------   2725
+                                                                       
+saiBol1_dna     3156 TGTTGTTTTGTTGTTGTTGTTGTTGTTTGTTTGTTTGTTTTGAGACAGAG   3205
+
+hg38_dna        2726 --------------------------------------------------   2725
+                                                                       
+saiBol1_dna     3206 TTTCGCTCTTGTTGCTCAGTCTGGAGTGCAATGGCGTGATCTCGGCTCAC   3255
+
+hg38_dna        2726 --------------------------------------------------   2725
+                                                                       
+saiBol1_dna     3256 CGCAACCTCCACCTCACAGGTTCAAGCGATTCTCCTGCCTCAACCTCCTG   3305
+
+hg38_dna        2726 --------------------------------------------------   2725
+                                                                       
+saiBol1_dna     3306 AGTAGATGGGATTATAGGCATGCACCACCATGCCCAGCAAATTTTGTATT   3355
+
+hg38_dna        2726 ------------------------------------------------TT   2727
+                                                                     ||
+saiBol1_dna     3356 TTTAGTAGAGATGGGATTTCTTCATGTTGGTCAGGTGTATATTGGGTTTT   3405
+
+hg38_dna        2728 TTTTTAAGAATCAGTTCTTAGATTCATTTATCAATTCTAGTTTTTTGTTG   2777
+                     |||||||||||||||||||||||||.|||||||||||||||      |||
+saiBol1_dna     3406 TTTTTAAGAATCAGTTCTTAGATTCGTTTATCAATTCTAGT------TTG   3449
+
+hg38_dna        2778 TTGTTTTTAAGGACTCCTGAATATTTTTCAAAACTGAACAATTTCAGCCA   2827
+                     |||||.|||||||||||||||..|||||||||||||||||||||||||||
+saiBol1_dna     3450 TTGTTGTTAAGGACTCCTGAAACTTTTTCAAAACTGAACAATTTCAGCCA   3499
+
+hg38_dna        2828 TGTCTGAGCTTTCCGTCTTCCTGGAGGCACAAATCTAGTTTAGCTGAACC   2877
+                     |||||.|||||||.||||||.||||||||||||||.|||||||||||.||
+saiBol1_dna     3500 TGTCTAAGCTTTCTGTCTTCTTGGAGGCACAAATCCAGTTTAGCTGAGCC   3549
+
+hg38_dna        2878 ACAACAGATTGTACATATCCTGCAGAACCTCTGTGGTCTTAGGAAGGTTG   2927
+                     ||||||||||||||||||||||||||||||||||||.||||.||..||||
+saiBol1_dna     3550 ACAACAGATTGTACATATCCTGCAGAACCTCTGTGGCCTTATGACAGTTG   3599
+
+hg38_dna        2928 AAAGTCACCAAATGTCACAGAAAATGAGGGTCAGGAAAGGCTGTGATCAC   2977
+                     |||||||||||.||||||||||||||||||||||||||||||||||||||
+saiBol1_dna     3600 AAAGTCACCAACTGTCACAGAAAATGAGGGTCAGGAAAGGCTGTGATCAC   3649
+
+hg38_dna        2978 AAGCTCT-TGATCCAGAGGCCACTCGGGTGCATCTGTGTGACTGACACCT   3026
+                     ..|| || ||||||||||||||||.||||.|||||||||.|||.||||| 
+saiBol1_dna     3650 GGGC-CTCTGATCCAGAGGCCACTTGGGTTCATCTGTGTAACTCACACC-   3697
+
+hg38_dna        3027 CATTGCATCATCATTTCTTGTAAAATCAGCTTAATTTTGCAGAGAAATGG   3076
+                               ||||||||||||||||||.|||.|||||||||.|||||||
+saiBol1_dna     3698 ----------TCATTTCTTGTAAAATCACCTTGATTTTGCAGGGAAATGG   3737
+
+hg38_dna        3077 CCACAGATTTTTAGAATTATGCTGAATTATGTAAGGGAGCAGCCATTTTA   3126
+                     ||||||||||||||||||||||||||||||.||||||||..|||||||||
+saiBol1_dna     3738 CCACAGATTTTTAGAATTATGCTGAATTATATAAGGGAGTGGCCATTTTA   3787
+
+hg38_dna        3127 AAAATAATGTAATCAAATAACAATAATAACATAACAGAAGTTTCTGCACC   3176
+                     |||||||||||||.|||.|||||.|.||||||||||||..||||||||||
+saiBol1_dna     3788 AAAATAATGTAATTAAACAACAACAGTAACATAACAGATATTTCTGCACC   3837
+
+hg38_dna        3177 ACACTGACACTGAACATGGCTGTCAACCAACTAGCCAAACCAAGGTGAAA   3226
+                     |||.|||||||||||||||||.||||||||||.|||||||||.|||||||
+saiBol1_dna     3838 ACATTGACACTGAACATGGCTCTCAACCAACTGGCCAAACCACGGTGAAA   3887
+
+hg38_dna        3227 GATTCTCTGAACTTCAGTTTTAACTTACTTCGTCCATTCTCCCTTTTCAG   3276
+                     ||||||||.|||||.|||||||||||||.|.|||||||||||||||||||
+saiBol1_dna     3888 GATTCTCTAAACTTTAGTTTTAACTTACCTTGTCCATTCTCCCTTTTCAG   3937
+
+hg38_dna        3277 ATCTTATTTCTTCTTCCAAGGCAACTATATCCACTGTGAACTGCTGCATA   3326
+                     ||||||||||||||||||||||||||||||||.||||||||||||||||.
+saiBol1_dna     3938 ATCTTATTTCTTCTTCCAAGGCAACTATATCCTCTGTGAACTGCTGCATG   3987
+
+hg38_dna        3327 TTAAACATTCAAAACATGTCTGTATCTAACCCAGTGATGGCTACAGCATT   3376
+                     |||||||||||||||||||||.||||||||||||||||||||||||||||
+saiBol1_dna     3988 TTAAACATTCAAAACATGTCTATATCTAACCCAGTGATGGCTACAGCATT   4037
+
+hg38_dna        3377 ATAAAATAACTCCTAAGTGAATAGTGTGTGCAGCAATTCTCACAGCTAGG   3426
+                     ||||||||||||||||||||||||||||||||||||||||||||||..||
+saiBol1_dna     4038 ATAAAATAACTCCTAAGTGAATAGTGTGTGCAGCAATTCTCACAGCGGGG   4087
+
+hg38_dna        3427 AGAATTTTTTT-----TGTCGATGTGTTAACCATTCCTTTTTCTCCAACT   3471
+                     |||||||||||     |.||.||||||||||||.||||||||||||||.|
+saiBol1_dna     4088 AGAATTTTTTTTTTTCTCTCAATGTGTTAACCAGTCCTTTTTCTCCAAGT   4137
+
+hg38_dna        3472 GCATTCTACTTAAACTGTTACAGTATTGTGTGATCACTTTAAGGGAGGTA   3521
+                     ..||||||||||||||||||||||||||||||||||||||||||||||||
+saiBol1_dna     4138 ATATTCTACTTAAACTGTTACAGTATTGTGTGATCACTTTAAGGGAGGTA   4187
+
+hg38_dna        3522 ATCCTTCAGTGAAAAGCATTATAAATGTTGAAGATTAGACCCCTGAGGAC   3571
+                     |.||||.|.||||||||||||||||||||.||||||||||||||||||.|
+saiBol1_dna     4188 ACCCTTTAATGAAAAGCATTATAAATGTTAAAGATTAGACCCCTGAGGGC   4237
+
+hg38_dna        3572 CTAGCAC----TGAAGCCTGATCACGGGTGCCAATTCCCTGAGAAGCTTT   3617
+                     |||||||    ||||||||.||||.||||||||.||||||||||||||||
+saiBol1_dna     4238 CTAGCACTGAATGAAGCCTAATCATGGGTGCCAGTTCCCTGAGAAGCTTT   4287
+
+hg38_dna        3618 TATAGATTCCCAAATCCCATCGCTAGGCACTCTCTGACTGGCTTGTGATG   3667
+                     |||||| ||.||||||||||.||||.|||||||..|.||||||||...||
+saiBol1_dna     4288 TATAGA-TCACAAATCCCATTGCTAAGCACTCTGCGGCTGGCTTGGTTTG   4336
+
+hg38_dna        3668 GGTTCCAGCAATGTTGTTTTTTAAAAGCTC-CTCAGGTAATTCTGATCAT   3716
+                     |||||||||||||||||||||.|.||.||| .||.|||||||.||||.||
+saiBol1_dna     4337 GGTTCCAGCAATGTTGTTTTTCAGAATCTCTTTCGGGTAATTTTGATGAT   4386
+
+hg38_dna        3717 GGACCAGGTTGGGGACCCTTTGCTCTGTTCAGTTTGTGGTTTCTAGGTGC   3766
+                     |||.||.|||||||||||||||||||.||||||||||||.||||.|||||
+saiBol1_dna     4387 GGATCATGTTGGGGACCCTTTGCTCTATTCAGTTTGTGGCTTCTGGGTGC   4436
+
+hg38_dna        3767 CAGTGAGAAACCCCTACCCCCAATTTTTGTGCAAAATTTTTTTCAGCTTA   3816
+                     | ||||.|||||||||||.|||||||||||||||.|||||.|..||||.|
+saiBol1_dna     4437 C-GTGAAAAACCCCTACCACCAATTTTTGTGCAACATTTTATATAGCTCA   4485
+
+hg38_dna        3817 CATCAAGTTCTTTATGAACCTCAGAAAATTAAAATATAACAAGGGAATTT   3866
+                     .|||||||||||||||.||||||.||.||||||||||||||||.||.|||
+saiBol1_dna     4486 GATCAAGTTCTTTATGGACCTCAAAAGATTAAAATATAACAAGAGAGTTT   4535
+
+hg38_dna        3867 ACTTAGCTCAGAAGAGACAAGGGACATTATGGGGTGAAGG-TCGGGGGTT   3915
+                     ||||||||||||| |||||||||||||||||||||||||| |.|||||.|
+saiBol1_dna     4536 ACTTAGCTCAGAA-AGACAAGGGACATTATGGGGTGAAGGTTGGGGGGCT   4584
+
+hg38_dna        3916 GTTTGACATTTGCCCCTTCCCGATGTAACTAATTAAGCTTCAAGTTGTAA   3965
+                     ||||||||||||||.||||||.||||||||||||||||||||||||||||
+saiBol1_dna     4585 GTTTGACATTTGCCACTTCCCAATGTAACTAATTAAGCTTCAAGTTGTAA   4634
+
+hg38_dna        3966 TGTGTTTTATGGGCTAGAAGGCTTTAGTGCCTATATTTGGATCTCAGCTC   4015
+                     |.||||.||||||||.|||||||||.|||.||.|||||||||||||||||
+saiBol1_dna     4635 TATGTTATATGGGCTGGAAGGCTTTGGTGTCTGTATTTGGATCTCAGCTC   4684
+
+hg38_dna        4016 CAACACCTTGGACTCTTACAACCTTGGGATAAGTTCTTACTAGCTCTGAC   4065
+                     |||||||||||.||..||.|||||||||||||||||||||.|||||||||
+saiBol1_dna     4685 CAACACCTTGGGCTGCTAAAACCTTGGGATAAGTTCTTACCAGCTCTGAC   4734
+
+hg38_dna        4066 TCTCACTCCCCATCTATAAATGGGAATAAGATGA----------------   4099
+                     |||||.|..|||||.|||||||||||||||||||                
+saiBol1_dna     4735 TCTCATTTTCCATCCATAAATGGGAATAAGATGAATAACTTATTGGAGTT   4784
+
+hg38_dna        4100 ----ACGGGGTAATTTATAGATTTTTTAGTACCCTCTCTCTAGTTCCGCT   4145
+                         |.||.||||.||||.|||.||||.|||||||||||||.|||||..|
+saiBol1_dna     4785 ATTCATGGAGTAACTTATGGATCTTTTTGTACCCTCTCTCTGGTTCCATT   4834
+
+hg38_dna        4146 GTTTTGCCATTCTGCTCATGCACCAATGCCATGTGATCTTATTG-TAGCT   4194
+                     ||||||||.||||||||||||||||||||||||.|||||||.|| ||   
+saiBol1_dna     4835 GTTTTGCCTTTCTGCTCATGCACCAATGCCATGCGATCTTACTGTTA---   4881
+
+hg38_dna        4195 TTGCACTC-TGACACCTGGCAGGTCAAGTGCACCCTTGATTATCTTCTCA   4243
+                         |||| |.||||||.|||||||||.|.|||.||.|||||||||||||
+saiBol1_dna     4882 ----ACTCTTAACACCTAGCAGGTCAAATACACTCTGGATTATCTTCTCA   4927
+
+hg38_dna        4244 TTAAAAATTTTCTTCAGTCTTTTAAGTTTTGAGTATAATTTCATAATGTC   4293
+                     |||||||||||||.|||||.|||.||||||||||||.|||||||.|||||
+saiBol1_dna     4928 TTAAAAATTTTCTCCAGTCATTTGAGTTTTGAGTATCATTTCATTATGTC   4977
+
+hg38_dna        4294 TTTTAAAATCTCTTTTGAATTCTTTTTCAAATTTATTTATTTTTT-CTTT   4342
+                     ||||.|||||.|||||||||||||||||||||||||||.|||||| .|||
+saiBol1_dna     4978 TTTTCAAATCCCTTTTGAATTCTTTTTCAAATTTATTTGTTTTTTAATTT   5027
+
+hg38_dna        4343 GACAGATAAGATTATATGTATTGTGTACAAAATTAGAAAGAGATCTTTTC   4392
+                     |||||||||||||||||||||||||||||||||||||||||||.||||||
+saiBol1_dna     5028 GACAGATAAGATTATATGTATTGTGTACAAAATTAGAAAGAGAGCTTTTC   5077
+
+hg38_dna        4393 CTCTAAGATCTGAAACAAGACAAGAATGCTCACACGCACTAGTTCTATTC   4442
+                     ||||||||||||||||||||.|||.|||||||||..|||.||||||.|||
+saiBol1_dna     5078 CTCTAAGATCTGAAACAAGAAAAGTATGCTCACATTCACCAGTTCTGTTC   5127
+
+hg38_dna        4443 AACATATGGTACTGCAAGTCCTAGCCAGGACAGTTAGACAAGAGAAAGAA   4492
+                     |||.|||..|||||.|||||||||||||||||||.|||||    ||||||
+saiBol1_dna     5128 AACCTATAATACTGAAAGTCCTAGCCAGGACAGTGAGACA----AAAGAA   5173
+
+hg38_dna        4493 ATAAAAAGCATCCAAATTTGAAAGGAAAAAGTTAAATTGTTCCTATTTGG   4542
+                     |||||.||||||||||||||||||||||||||||||||||||||||||||
+saiBol1_dna     5174 ATAAAGAGCATCCAAATTTGAAAGGAAAAAGTTAAATTGTTCCTATTTGG   5223
+
+hg38_dna        4543 AGACGACATGATTTTACACTTATAAAACCCTAAAGACTCCACCAGAAAAC   4592
+                     ||||     |||||||.|||||.||||||||.||||||||||..||||||
+saiBol1_dna     5224 AGAC-----GATTTTATACTTAAAAAACCCTGAAGACTCCACTGGAAAAC   5268
+
+hg38_dna        4593 CATTAGAACTAATAAATTCAGTAAAGTTGCAGGATACAAAATTAACATAC   4642
+                     |||.||||||||||||||||||||||||||||..|||||||||||||||.
+saiBol1_dna     5269 CATCAGAACTAATAAATTCAGTAAAGTTGCAGCGTACAAAATTAACATAT   5318
+
+hg38_dna        4643 AAAAATCAGTAGTGTTTCTATATGCCAACAGTGAACTATCAGGAAAGAAA   4692
+                     |||||||||||||||||||||||||||||||||||.|.||.|||||||||
+saiBol1_dna     5319 AAAAATCAGTAGTGTTTCTATATGCCAACAGTGAATTCTCTGGAAAGAAA   5368
+
+hg38_dna        4693 TAAAAAGAAAGTGCCATTTACAATAGCTACAAAAT-AAATATTTCAGAAT   4741
+                     .|||||||||||.|||||||||||||||||||||| ||||||||||||||
+saiBol1_dna     5369 CAAAAAGAAAGTCCCATTTACAATAGCTACAAAATAAAATATTTCAGAAT   5418
+
+hg38_dna        4742 AAATTTAGCCAAGAAGGTGAAAGATCTCTACACTGAAAACTATAAAACAC   4791
+                     ||||||||||||||..||||||||||||||..||||||||||||||||||
+saiBol1_dna     5419 AAATTTAGCCAAGATAGTGAAAGATCTCTATGCTGAAAACTATAAAACAC   5468
+
+hg38_dna        4792 TGATGAAAGAAATTCAAGGAGACACAAATAGAAAGATAGCCTGTGCTCAT   4841
+                     ||||||||.|||||.|||.||||||||||||||    |||||||.|||||
+saiBol1_dna     5469 TGATGAAAAAAATTGAAGAAGACACAAATAGAA----AGCCTGTACTCAT   5514
+
+hg38_dna        4842 GGGGGGATAATTAATGTTGTTAAAATGTCCATACTACCCAAAGTGACCTA   4891
+                     ||.||.|||||||||.||||||||||||||.|||||.|.|||||||.|||
+saiBol1_dna     5515 GGAGGAATAATTAATATTGTTAAAATGTCCGTACTATCTAAAGTGATCTA   5564
+
+hg38_dna        4892 CAGATTCCATAGAATCCCTATCAAAATACCAATGACATTCTTCACAGAAA   4941
+                     |||.|||..||||||.|||||||.|||||||||||||||| |||.|||||
+saiBol1_dna     5565 CAGCTTCAGTAGAATTCCTATCAGAATACCAATGACATTC-TCAGAGAAA   5613
+
+hg38_dna        4942 TAGAAAAAACAATCCTAAAATTGGGTGAAGGTGGCATCTTTGTCTCGTTT   4991
+                     ||| ||||||||||||||||||.|||||||||||||||.|||||||.|||
+saiBol1_dna     5614 TAG-AAAAACAATCCTAAAATTTGGTGAAGGTGGCATCCTTGTCTCATTT   5662
+
+hg38_dna        4992 CAGATCTAAGAGGAAAAGCTCTCAATTTTTCACCATTAAGTATGATGTTA   5041
+                     ||||||||||||||||||||||  .|||||||.|||||||||||||||||
+saiBol1_dna     5663 CAGATCTAAGAGGAAAAGCTCT--GTTTTTCATCATTAAGTATGATGTTA   5710
+
+hg38_dna        5042 GCTGTGACCTTGTCATATGTGGCCTTTATTGTGTTGAGGTACAATGCTTC   5091
+                     ||||..||.||||.||||||||||||||||||||..|||||||||.||||
+saiBol1_dna     5711 GCTGCAACTTTGTTATATGTGGCCTTTATTGTGTCAAGGTACAATCCTTC   5760
+
+hg38_dna        5092 TACACCTAATTCATTGAGAGTTTTTATCATGAAAGAATGTTGAATTTTGT   5141
+                     ||.||||||||||||||||||||||||.|||.||||||||||||||||||
+saiBol1_dna     5761 TATACCTAATTCATTGAGAGTTTTTATTATGCAAGAATGTTGAATTTTGT   5810
+
+hg38_dna        5142 CAAACGCTTTTTCTGCATCTATTGAAATGATCGTATGGTTATTGTCTCAC   5191
+                     ||||.|||||||||||||||.||||||||||..||||.|||||||||||.
+saiBol1_dna     5811 CAAATGCTTTTTCTGCATCTGTTGAAATGATTTTATGTTTATTGTCTCAT   5860
+
+hg38_dna        5192 TCTGTTACTGTGATGTATCACACTTATTGATTTGTGTATGTTGAACCATC   5241
+                     |||||||.||||||.|||||||||||.|||||||||||||||||||||||
+saiBol1_dna     5861 TCTGTTAATGTGATATATCACACTTACTGATTTGTGTATGTTGAACCATC   5910
+
+hg38_dna        5242 CTTGCAGCCCTGGGATGAATCCCACTGTATCATAGTAAATGATCTTTTTA   5291
+                     ||||||.|||| ||||..|||||..|.||||||.||||||.|||||||||
+saiBol1_dna     5911 CTTGCATCCCT-GGATAGATCCCGTTTTATCATGGTAAATTATCTTTTTA   5959
+
+hg38_dna        5292 ATGAGCTGTTGAATTTGCTTCGCTAGAATTTTGTTAAGAATTTTTGCACC   5341
+                     ||||||||||||||||||||.||||||||||||||||||||.|||.||||
+saiBol1_dna     5960 ATGAGCTGTTGAATTTGCTTTGCTAGAATTTTGTTAAGAATGTTTTCACC   6009
+
+hg38_dna        5342 TATGTTCATCAGGGATATTGGCCTATACTGCCATTTTCTTGTGTG-----   5386
+                     ||.||||.||||||||||||||||||||||.||||||||||||||     
+saiBol1_dna     6010 TAGGTTCGTCAGGGATATTGGCCTATACTGTCATTTTCTTGTGTGTGTGT   6059
+
+hg38_dna        5387 --------------------------------------------------   5386
+                                                                       
+saiBol1_dna     6060 GTGTTTTGTGGGTGTGTTTTGTTTGTTTGTTTGTTTATTTTTGAGATGGA   6109
+
+hg38_dna        5387 --------------------------------------------------   5386
+                                                                       
+saiBol1_dna     6110 GTCTTGCTCGTCACCAGGCTGGAATACAGTGGTGCAATCTCAACTCACTG   6159
+
+hg38_dna        5387 --------------------------------------------------   5386
+                                                                       
+saiBol1_dna     6160 CAACCTCTGATTCCCAGGTTCAACCAATTACTCTACCTCAGCCTCCTGAG   6209
+
+hg38_dna        5387 --------------------------------------------------   5386
+                                                                       
+saiBol1_dna     6210 TAGCTGGGATTATAGGCACGCACCACCACACCTGACTAATTTTTGTATTT   6259
+
+hg38_dna        5387 -------------------------------------------------T   5387
+                                                                      |
+saiBol1_dna     6260 TTAGTAGAGACGAGATTTCACCATGTTTACCAGGATGGTTTCTTGCGGTT   6309
+
+hg38_dna        5388 TTTTGTGGGACTTTGACATCAGGATAATGCTGGTTTCTCCTGTTATTAAT   5437
+                     ||||||||||||||||.|||.||.|||||.||||||||||   |||||||
+saiBol1_dna     6310 TTTTGTGGGACTTTGAGATCTGGGTAATGTTGGTTTCTCC---TATTAAT   6356
+
+hg38_dna        5438 TTCTAGTTTTATACCATCATGCTTAGAAAAAAAACTTGATACGATTTCAG   5487
+                     ||||.|||.||||||||..||||.||||||.||||||.|||.||||||||
+saiBol1_dna     6357 TTCTGGTTGTATACCATTGTGCTCAGAAAAGAAACTTAATATGATTTCAG   6406
+
+hg38_dna        5488 TCTAATTAAGTTTGTTAAGACTTGTTTTATGGCCTAACATATGATCTGTC   5537
+                     ||||||||||||.|||||.||||||||||||||||||||||||||||.||
+saiBol1_dna     6407 TCTAATTAAGTTGGTTAAAACTTGTTTTATGGCCTAACATATGATCTATC   6456
+
+hg38_dna        5538 TTGGAGCATGCTCCATGTGCTGTTGAGAAGAATGTGTATTCTGCAGCTGT   5587
+                     .|||||.|||||||||||||||||.|||||||||||||||||||||.|||
+saiBol1_dna     6457 CTGGAGAATGCTCCATGTGCTGTTTAGAAGAATGTGTATTCTGCAGTTGT   6506
+
+hg38_dna        5588 TGGATGGAATGTCCTGTATTTGTCTGTTTGGATCCATTTGGTCTAAGTGA   5637
+                     |||||||||||||||||||||||||||||...||||||||||||.|||||
+saiBol1_dna     6507 TGGATGGAATGTCCTGTATTTGTCTGTTTACGTCCATTTGGTCTGAGTGA   6556
+
+hg38_dna        5638 AGTGTAAGTCTGATGCCTCCTTATTTATTTTCTTTCTAAATCTCCCGTCC   5687
+                     |.||||||||||||||.||||||||||||||||||.|||.||.||.||||
+saiBol1_dna     6557 AATGTAAGTCTGATGCTTCCTTATTTATTTTCTTTTTAATTCACCTGTCC   6606
+
+hg38_dna        5688 -AAAAATCTAAGAGATCCAAAGCAAACAGGGGGTTATAAAATTACCTTTG   5736
+                      ||||||||.|||||||||||||||||||||||||.|||||||||||||.
+saiBol1_dna     6607 AAAAAATCTGAGAGATCCAAAGCAAACAGGGGGTTGTAAAATTACCTTTC   6656
+
+hg38_dna        5737 AATTCTGACTGAAATTGTGTTTACTTTGTAGATTATTTGCTGGTGACTTG   5786
+                     ||||||||||||||||||||||||||||..||||||||.|||.|.|||||
+saiBol1_dna     6657 AATTCTGACTGAAATTGTGTTTACTTTGGGGATTATTTACTGATAACTTG   6706
+
+hg38_dna        5787 GTATCTTTCAATATTGGTTTCCCAAACAAAAAACATTGTATGTCTTTCTC   5836
+                     ||||.||||||||||||.|.||..|.||||||...|||||||||||||||
+saiBol1_dna     6707 GTATTTTTCAATATTGGCTCCCTGAGCAAAAAGTGTTGTATGTCTTTCTC   6756
+
+hg38_dna        5837 TTTTTCCAGTCTTCTTTTATGTCTCAGTAAAATTTTGTAGCTTGCCTACT   5886
+                     |||||||||||||||||||||||||||||||||||||||||||.||||||
+saiBol1_dna     6757 TTTTTCCAGTCTTCTTTTATGTCTCAGTAAAATTTTGTAGCTTTCCTACT   6806
+
+hg38_dna        5887 ACTTATTTTCAGGTTAAATCCTAGATATTTTCAATTCTTACTGCCATTAT   5936
+                     ||||||||||||.|||||||||||||||||||||||.|||||||||||||
+saiBol1_dna     6807 ACTTATTTTCAGATTAAATCCTAGATATTTTCAATTTTTACTGCCATTAT   6856
+
+hg38_dna        5937 GAATGAATGTTTTTCCCCATGAAATGTTTAACTACAGCTGATTTAGGGAC   5986
+                     |     |||||||||||||||||||.|||||.||.|||||||||||||||
+saiBol1_dna     6857 G-----ATGTTTTTCCCCATGAAATCTTTAATTATAGCTGATTTAGGGAC   6901
+
+hg38_dna        5987 TCACTGAGTTTTGATTTGTTGATTTGAAAAACTACCACCCTGTTGAGCTC   6036
+                     |||||||||||||||||||||||||.|||||||||||||||.||.|.|||
+saiBol1_dna     6902 TCACTGAGTTTTGATTTGTTGATTTAAAAAACTACCACCCTATTAAACTC   6951
+
+hg38_dna        6037 ATGTATTTATTCTAAGACATTTTTTGAG----------ATTTTCCAGGTA   6076
+                     |..|||||.|||||||||||||||||||          |||||||||.||
+saiBol1_dna     6952 ACTTATTTGTTCTAAGACATTTTTTGAGATTTTCCTGAATTTTCCAGATA   7001
+
+hg38_dna        6077 AAAAAATTATACCTAGATGAATTTATAGAACAACCTAATAGCATAAAAGC   6126
+                     |||.||||||||||||||||||||||||||.||||||||...|||||||.
+saiBol1_dna     7002 AAAGAATTATACCTAGATGAATTTATAGAATAACCTAATCAAATAAAAGT   7051
+
+hg38_dna        6127 AATAGATTATTGTTCACCACATTAATGGGAATGCCTTTCCTCTTAAAATT   6176
+                     ||||||||||||||.||||||||||||.||||||.|||||||||||||||
+saiBol1_dna     7052 AATAGATTATTGTTTACCACATTAATGAGAATGCTTTTCCTCTTAAAATT   7101
+
+hg38_dna        6177 ATGATATCT-TGGGC-TTTGTGTTTGTGACAGCATTTCTTTATGATGGAA   6224
+                     |||||| || ||.|| ||||||||.||||||.||.|||||||||||||||
+saiBol1_dna     7102 ATGATA-CTGTGTGCTTTTGTGTTCGTGACAACAATTCTTTATGATGGAA   7150
+
+hg38_dna        6225 AGAGACTATCCTTCCAGTTCTATAGAAACGTTTTAAAAATAGCTTACATT   6274
+                     ||||||||||.||||||||||||||||||.|||||||||||||||..|||
+saiBol1_dna     7151 AGAGACTATCATTCCAGTTCTATAGAAACATTTTAAAAATAGCTTTAATT   7200
+
+hg38_dna        6275 TTTAAAAATTTAGGAATG-ATATTGATTTTCATTGAAAACTTTTCAACAT   6323
+                     |||||||||||||||||| ||||||||||||||||||||||||||||.||
+saiBol1_dna     7201 TTTAAAAATTTAGGAATGAATATTGATTTTCATTGAAAACTTTTCAATAT   7250
+
+hg38_dna        6324 CTGAAGAAAATC--TTTTCTTCCTAACCTATTAATAGAGCTCCTGATTTT   6371
+                     ||||||||||||  |||||||||||||||||||||||| .||||||||||
+saiBol1_dna     7251 CTGAAGAAAATCTTTTTTCTTCCTAACCTATTAATAGA-TTCCTGATTTT   7299
+
+hg38_dna        6372 CAACCATTCTTGTATTCCTAAAATAATCCATATTGGTCATAATGTATTCT   6421
+                     ||.||||||||||||||||||||||||||||||.|||||.|.||||||||
+saiBol1_dna     7300 CAGCCATTCTTGTATTCCTAAAATAATCCATATGGGTCACAGTGTATTCT   7349
+
+hg38_dna        6422 TCTTTTACTAAACTGTTAAAATAAGTTGGGTGCTGTTTTTTTAGATTTTG   6471
+                     |||||.|||||||||||||||||||.|||||.|..|||||||.|||||||
+saiBol1_dna     7350 TCTTTAACTAAACTGTTAAAATAAGCTGGGTACCATTTTTTTGGATTTTG   7399
+
+hg38_dna        6472 GCACCTGTGTGAGAGGAGGGTGCCATGGCAGGGTGGCTAAGTGTGCCCAC   6521
+                     |||||||||||||||||||.|.||||||||||  .||| ||||||||||.
+saiBol1_dna     7400 GCACCTGTGTGAGAGGAGGCTCCCATGGCAGG--AGCT-AGTGTGCCCAT   7446
+
+hg38_dna        6522 CTGTGTACTAGCA-TTGAATTTTGACCCTTTATCCCATTGGCTCTAAACA   6570
+                     |||..|||||||| ||||||.|||.|||||||||||||||||||||||| 
+saiBol1_dna     7447 CTGCATACTAGCATTTGAATCTTGGCCCTTTATCCCATTGGCTCTAAAC-   7495
+
+hg38_dna        6571 CTACATCTCAGGTGAAGACGCCCAAATGTTTATCTCTACTGAGTTACAGA   6620
+                       ||||.|||||.|||||.||||||||.|||||||||.|||||||.||||
+saiBol1_dna     7496 --ACATGTCAGGCGAAGATGCCCAAATATTTATCTCTCCTGAGTTCCAGA   7543
+
+hg38_dna        6621 TTCCTATAACAATTGCTTAAATTGATACTCCCACTTGAATGTCTCATAGG   6670
+                     ||.|.|||||||||||.||||||||||||.|||||||||||||||||||.
+saiBol1_dna     7544 TTTCCATAACAATTGCCTAAATTGATACTGCCACTTGAATGTCTCATAGA   7593
+
+hg38_dna        6671 TGTGGCAAAGTTTACATGTCTATACTGAAACTCTTGGTTTTCTCTCCCAG   6720
+                     ||||||||||||||||||||.|.|..|||||||||||||||||.|||||.
+saiBol1_dna     7594 TGTGGCAAAGTTTACATGTCCAAATGGAAACTCTTGGTTTTCTTTCCCAA   7643
+
+hg38_dna        6721 GCATGACCCTCCACCAGTTTGTCCTATTTCAGTAGATGGCATCACCGCCA   6770
+                     |||||.||||||||||.||||||||||||||||||.|.||||||||.|||
+saiBol1_dna     7644 GCATGGCCCTCCACCAATTTGTCCTATTTCAGTAGGTAGCATCACCACCA   7693
+
+hg38_dna        6771 TCTCCCTGGTTATGGAAGTCCCAGACCCGGGCAACTCTCACTCCTCCATC   6820
+                     ||||||||||||||||.|.||||||||.||||||||||||||||||||||
+saiBol1_dna     7694 TCTCCCTGGTTATGGAGGCCCCAGACCTGGGCAACTCTCACTCCTCCATC   7743
+
+hg38_dna        6821 CACTCAACCAGCAGGTCTTATTGGCTCTTTCTGTAAAATATGTCTCATTT   6870
+                     |||||||||||||.||||.|||||||||||||||||||||||||||||||
+saiBol1_dna     7744 CACTCAACCAGCAAGTCTCATTGGCTCTTTCTGTAAAATATGTCTCATTT   7793
+
+hg38_dna        6871 ATTCACAGCCTGCTAGCTGCATGGACTCCATCCCAGGCCACGCCACCATC   6920
+                     |||||||||||||.|.|||||||||||||||||||||||||.||||||||
+saiBol1_dna     7794 ATTCACAGCCTGCCAACTGCATGGACTCCATCCCAGGCCACACCACCATC   7843
+
+hg38_dna        6921 TTCCTGCAGCAGTTTCTTAACTGGCCTCTCCATTCCCTTTCTTGTCCCAC   6970
+                     |||.|||||.|.||||||||||||.|||||||||.|||||||||.|||||
+saiBol1_dna     7844 TTCTTGCAGTAATTTCTTAACTGGTCTCTCCATTTCCTTTCTTGCCCCAC   7893
+
+hg38_dna        6971 TAAATTTTCTTCTATTTAAGAAAAAATGTTTTGTAGACATGGGGTTTCAC   7020
+                     ||||||||||||||||.||||||||||.||||.|||||||..||||||||
+saiBol1_dna     7894 TAAATTTTCTTCTATTGAAGAAAAAATATTTTCTAGACATAAGGTTTCAC   7943
+
+hg38_dna        7021 CATGTTGCCCAGGCTGGTCTCAAACTCCTGGGCTCAAGCAATCCTCCTGC   7070
+                     ||||||||.|||||||||||||||||||||||||||||||||||||||||
+saiBol1_dna     7944 CATGTTGCTCAGGCTGGTCTCAAACTCCTGGGCTCAAGCAATCCTCCTGC   7993
+
+hg38_dna        7071 CTGAGCTTCCCAAAGTGCTGGGATTATAGGCTTGAGCTGAGCTTTTGAAA   7120
+                     .|.|.|.|||||||||||||||||||.|||||||||||||||||||.|||
+saiBol1_dna     7994 TTAAACCTCCCAAAGTGCTGGGATTACAGGCTTGAGCTGAGCTTTTAAAA   8043
+
+hg38_dna        7121 AAA----CATTCTATGATGTTACTGTCCTACTAAGACCCTTTAATGGCTC   7166
+                     |||    .|||||||||..||||||||||||||||||||||||.||||||
+saiBol1_dna     8044 AAAAAACAATTCTATGACATTACTGTCCTACTAAGACCCTTTACTGGCTC   8093
+
+hg38_dna        7167 CCCACTGCTTTCAGAGGAAAATAGAAATTTCTCTCTGTGGACCATGAGGC   7216
+                     |.|||||||||||||.|||.||||||||||||||||||||.|||||||||
+saiBol1_dna     8094 CGCACTGCTTTCAGAAGAAGATAGAAATTTCTCTCTGTGGCCCATGAGGC   8143
+
+hg38_dna        7217 CCTCATGATCTGACCCTCACCACCTCCCTAGTCTTAGCAGTCCACCTGCC   7266
+                     ||||.||||.|||||||||||||||.||||||||.||||||||.||||||
+saiBol1_dna     8144 CCTCCTGATATGACCCTCACCACCTTCCTAGTCTCAGCAGTCCCCCTGCC   8193
+
+hg38_dna        7267 ACTGTCTCATGGGGCTCCACAGATTTGATCTCCTTTTTGGTCCTTAAGCC   7316
+                     .||.|.|||||||.||||.||||||||||   ||||||||||||||||||
+saiBol1_dna     8194 GCTATATCATGGGTCTCCTCAGATTTGAT---CTTTTTGGTCCTTAAGCC   8240
+
+hg38_dna        7317 CACCAAGCTAAGTATCTTATTCAAAACTGTGTCCTCAGCCCCTAGCACAA   7366
+                     |||||||||||||||||||.|||.|||  ||||||||.||||||||||||
+saiBol1_dna     8241 CACCAAGCTAAGTATCTTACTCACAAC--TGTCCTCATCCCCTAGCACAA   8288
+
+hg38_dna        7367 TTCTTGACCCTTAGAATTCTGACACTTGAAATGTGTGTTAAGCTAATCAA   7416
+                     |||||||||||||.|||||||||||||.||||.|.|||||||||||||||
+saiBol1_dna     8289 TTCTTGACCCTTAAAATTCTGACACTTAAAATATATGTTAAGCTAATCAA   8338
+
+hg38_dna        7417 TAAATTATTGTGCCAGGC-----TTGGTGG-CA-CAATAATGTGTTGTGG   7459
+                     ||||||||||||||||||     ||||.|| || |.|||   |.||||||
+saiBol1_dna     8339 TAAATTATTGTGCCAGGCATATATTGGGGGTCACCTATA---TATTGTGG   8385
+
+hg38_dna        7460 GTCACCTA--------TATATAGCTGTGGCTCACACCTATAATCCCAGCA   7501
+                     ||||||||        |.|||||.||||||||||||||||||.|||||||
+saiBol1_dna     8386 GTCACCTATGTATAGGTGTATAGGTGTGGCTCACACCTATAAACCCAGCA   8435
+
+hg38_dna        7502 CTTTGGGAGGCTGAGGCCTGCAGATTGGTTGAGCCCAGGAATTTGAGACC   7551
+                     ||||||| ||.||.|||.||||||||||||||.|||||||.||..|||||
+saiBol1_dna     8436 CTTTGGG-GGATGGGGCATGCAGATTGGTTGAACCCAGGAGTTCAAGACC   8484
+
+hg38_dna        7552 AGCCTGGGCAACATGGCAAGA-CCCCATCACTATTAAAAATACAAAAAAA   7600
+                     |||||||.|||.||||.|||| ||||||||.||.|||||||||    |||
+saiBol1_dna     8485 AGCCTGGACAATATGGAAAGACCCCCATCATTACTAAAAATAC----AAA   8530
+
+hg38_dna        7601 AAAAAAACCAGGCGTGGT-GTTGCATACCTGTGGTCCCAGCTACTCAGGA   7649
+                     ||||.|.||||.|.|.|| ||| |||||||.|||||||||||||||.|.|
+saiBol1_dna     8531 AAAATAGCCAGCCATTGTAGTT-CATACCTATGGTCCCAGCTACTCGGAA   8579
+
+hg38_dna        7650 GGATCACTTGAGCCCACTGGGTGGAGGTTGCAGAGAGCTGAGATCATGCC   7699
+                     |||||||||||||||..||...|||.|||.||||||||||||||||||||
+saiBol1_dna     8580 GGATCACTTGAGCCCGTTGCTGGGAAGTTACAGAGAGCTGAGATCATGCC   8629
+
+hg38_dna        7700 ACTACACTTTGGCCTGG--------GTAAGACCCTGTCTCAAGAAAAAAA   7741
+                     ||.|||||.||||||||        ||.||||.||.||||         |
+saiBol1_dna     8630 ACCACACTCTGGCCTGGGTGGCAGAGTGAGACACTATCTC---------A   8670
+
+hg38_dna        7742 AAAAAAGGTTATGGTACTGTAAATATTATATTACAGTGTATAATTTTTGA   7791
+                     ||||||.||||..|||||.||||   |||||||||.|||.||||||||||
+saiBol1_dna     8671 AAAAAAAGTTACAGTACTATAAA---TATATTACAATGTGTAATTTTTGA   8717
+
+hg38_dna        7792 CAGCTTTTTTTCTCCATTTCTTCTATGGTTATTGGTCAGTTCTAGCCTTC   7841
+                     |||| |||||||||||||||||||||||||.|||||||.||||||.||||
+saiBol1_dna     8718 CAGC-TTTTTTCTCCATTTCTTCTATGGTTTTTGGTCAATTCTAGTCTTC   8766
+
+hg38_dna        7842 TATTTTTTTTTTTAAGCTGACACATACTGGCTGGGCATGGTGGCTCACAC   7891
+                     ||  ||||||||||||.||||||||||||.|||.||||||||||||||||
+saiBol1_dna     8767 TA--TTTTTTTTTAAGATGACACATACTGCCTGAGCATGGTGGCTCACAC   8814
+
+hg38_dna        7892 CTGTAATCTCAGCACTTTGGGAGGCCAAGACAGGAAGATCTCTTGAGCCC   7941
+                     ||||||||||||||||||||||.||||||.|||.||||||.|||||||||
+saiBol1_dna     8815 CTGTAATCTCAGCACTTTGGGAAGCCAAGGCAGCAAGATCGCTTGAGCCC   8864
+
+hg38_dna        7942 AGAAGTTTGAGGCGAGCCTGGGCAACATAGCAAGACCCCATCTCTACCAG   7991
+                     |.|||||||||..||||||||||||||||||||||||.|.||||||||||
+saiBol1_dna     8865 AAAAGTTTGAGATGAGCCTGGGCAACATAGCAAGACCTCTTCTCTACCAG   8914
+
+hg38_dna        7992 AAAAGA------AACAACAACAAAAAGAAACTGGCACATACTAGTTATTC   8035
+                     ||||||      ||||||||||||||||||||||||||||||||||||||
+saiBol1_dna     8915 AAAAGAAACAACAACAACAACAAAAAGAAACTGGCACATACTAGTTATTC   8964
+
+hg38_dna        8036 CATAAATATTTCTTAAATGAATTAATTCTAAAGTTGATTTTTATAATTTA   8085
+                     |||||||||||.||||||..|||||.|||.||.|||||||||||||||||
+saiBol1_dna     8965 CATAAATATTTGTTAAATACATTAACTCTCAAATTGATTTTTATAATTTA   9014
+
+hg38_dna        8086 CATCTTAATAGAAAGACAATCCATCTCAGAGATATTTTTATTCATTAAGG   8135
+                     |||.||||.|||||||||||||||||||||||||||||||||||||||||
+saiBol1_dna     9015 CATTTTAACAGAAAGACAATCCATCTCAGAGATATTTTTATTCATTAAGG   9064
+
+hg38_dna        8136 AAAGTTGCATAAAGTAATTTATTAACCTTTTAAAGCATTCTCTAAGCCTA   8185
+                     |.|||||.|||.||||||||||||...|||||||||||||||||||.|||
+saiBol1_dna     9065 ATAGTTGTATATAGTAATTTATTATTATTTTAAAGCATTCTCTAAGGCTA   9114
+
+hg38_dna        8186 TTTCCCCT---------------------TATAGAGATATGTTTTCTAGT   8214
+                     |||||.||                     |||||||||||||||||||||
+saiBol1_dna     9115 TTTCCTCTTATAGAGATATGTTTTCTCAATATAGAGATATGTTTTCTAGT   9164
+
+hg38_dna        8215 GATGTGTGTATGTTACATTTTCAAATAACTCTTAATTTTATTTAGAAATT   8264
+                     ||||||||  ||||||||||||||||||||||||||||||||||||||||
+saiBol1_dna     9165 GATGTGTG--TGTTACATTTTCAAATAACTCTTAATTTTATTTAGAAATT   9212
+
+hg38_dna        8265 CCACATTTTTGTGGGTTTTATTTATTAAATTCGATTTTCATCTCTATTAT   8314
+                     |||.||||||.||||||||||||.||||||||   |||||||||||.|||
+saiBol1_dna     9213 CCATATTTTTCTGGGTTTTATTTGTTAAATTC---TTTCATCTCTACTAT   9259
+
+hg38_dna        8315 TAATTTATGACAGTTT----ATTTTGAAGTTTTCTGTTTTCTTC-CTTT-   8358
+                     ||||||||.||  |.|    ||||||.||||||||||||||||| |||| 
+saiBol1_dna     9260 TAATTTATAAC--TATGGCAATTTTGCAGTTTTCTGTTTTCTTCTCTTTC   9307
+
+hg38_dna        8359 TGAGTTGAATAATCATTTACTTTATTTTACTTCTTCTATTCAGTTGTATT   8408
+                     |||||||||||||||||||||||||||.||.|.|||||||||||..||||
+saiBol1_dna     9308 TGAGTTGAATAATCATTTACTTTATTTCACCTTTTCTATTCAGTCATATT   9357
+
+hg38_dna        8409 ATCCATGTTCCTCTGATAGCCATGCAGGTTCCAAATCCTCACATTTTTCA   8458
+                     ||||||||||||||||||||||||.|||||||||||||||||||||||||
+saiBol1_dna     9358 ATCCATGTTCCTCTGATAGCCATGTAGGTTCCAAATCCTCACATTTTTCA   9407
+
+hg38_dna        8459 ACTTCTTTAAAAGA------TTTTTTTTGTGCTATCCTGATAAGCGTTAA   8502
+                     .|||..||||||.|      ||||||||.||||||.||||||..| .|||
+saiBol1_dna     9408 GCTTTCTTAAAAAATATTTTTTTTTTTTTTGCTATTCTGATACAC-ATAA   9456
+
+hg38_dna        8503 GTGTTATATCATTTTT-TTTCATTTTTATTATATTCTTAATGATTTTGAT   8551
+                     |||||||||||||||| ||||||||||.|.||||||||||||||||||||
+saiBol1_dna     9457 GTGTTATATCATTTTTGTTTCATTTTTGTCATATTCTTAATGATTTTGAT   9506
+
+hg38_dna        8552 TCTCTTTTTCTATCCTTTTGGTTTTCTTTCTTAGGTAAATGATCAGTTAT   8601
+                     |.|.|||||||||||||||||.|||.|.||||||.|||||.|||||||  
+saiBol1_dna     9507 TATATTTTTCTATCCTTTTGGGTTTTTCTCTTAGATAAATTATCAGTT--   9554
+
+hg38_dna        8602 ATCTTTTGGCCATTTTTTTCTGTTGGAATTACTGTCTCTTACTGCTCTGT   8651
+                      |||||||.||||||.|||.|||||||||||||||||||||.||||||||
+saiBol1_dna     9555 -TCTTTTGACCATTTATTTGTGTTGGAATTACTGTCTCTTAATGCTCTGT   9603
+
+hg38_dna        8652 AAGAATTCCTTGCAAGTTCTAGAAATGAATCCTCTGTTGATTTTAAGTAC   8701
+                     |||||||||||||||||||||     |||||||||||||.||||||.|||
+saiBol1_dna     9604 AAGAATTCCTTGCAAGTTCTA-----GAATCCTCTGTTGGTTTTAACTAC   9648
+
+hg38_dna        8702 TA-AAGTCCCCTTTACCATTGTGTACTCTTTCTATTAACTTTGTCCAGAG   8750
+                     || |||||||.|||||||||||||||||||||||||||||||||||||||
+saiBol1_dna     9649 TACAAGTCCCTTTTACCATTGTGTACTCTTTCTATTAACTTTGTCCAGAG   9698
+
+hg38_dna        8751 TCAGCTTTATCGTGCTGAACAAGAATCTTTACATTTTAATTTTTTTTTTT   8800
+                     |||||||||||.||.||||||||||||||||.|        |||||||||
+saiBol1_dna     9699 TCAGCTTTATCATGTTGAACAAGAATCTTTAAA--------TTTTTTTTT   9740
+
+hg38_dna        8801 AATTTTTAAGTTCAAGGGTACAAGTGCAGGTTTGTTCCATAGGTAAACTC   8850
+                     ||.||||||.||||||||||.||.||||||||||||.|||.||||||||.
+saiBol1_dna     9741 AACTTTTAAATTCAAGGGTATAAATGCAGGTTTGTTACATGGGTAAACTT   9790
+
+hg38_dna        8851 GTGTCATGGGGGTTTGTCATACAGATTATTTCATCACTCAGGTACTAAGC   8900
+                     ||||.||||||||||||.||.|||||||.||||||||.||||||||||||
+saiBol1_dna     9791 GTGTTATGGGGGTTTGTTATGCAGATTACTTCATCACCCAGGTACTAAGC   9840
+
+hg38_dna        8901 CTAGTACCCATTAGTTATTTTTCCTGATCCTCTCCCTCCCTTAGCCCTCC   8950
+                     .||||||.||||||||.||||||||||||||||||||||...| |||||.
+saiBol1_dna     9841 GTAGTACGCATTAGTTGTTTTTCCTGATCCTCTCCCTCCACCA-CCCTCT   9889
+
+hg38_dna        8951 GATAGGCCCTAGTATGTGTTGTTCCTCTGCATGCGTCCATGTGTTCTTAT   9000
+                     |||||||||||.|.||||||||||.|||.||...|||||||||||||.||
+saiBol1_dna     9890 GATAGGCCCTAATGTGTGTTGTTCTTCTCCACATGTCCATGTGTTCTCAT   9939
+
+hg38_dna        9001 CATTTAGGTCCCACTTATAAATGAGAACATGTAGAATTGGGTTTTCTGTT   9050
+                     || |||..|||||||||.|||||||||||||.||.|||.||||||||.||
+saiBol1_dna     9940 CA-TTAACTCCCACTTACAAATGAGAACATGCAGTATTTGGTTTTCTCTT   9988
+
+hg38_dna        9051 CCTGTGTCAGTTTG---------------------------CATATCCCT   9073
+                     |||||||.||||||                           ||.||||||
+saiBol1_dna     9989 CCTGTGTTAGTTTGCTAAGGATAATGGCTTCCAGTTCCATCCACATCCCT  10038
+
+hg38_dna        9074 GCAAAGAACATGATCTCGTTCTTTTCTGGGGCTGCATAGTATTCGATAGC   9123
+                     ||.||||||||||||||..|||||||.||||.||||||||||||.||.|.
+saiBol1_dna    10039 GCGAAGAACATGATCTCACTCTTTTCAGGGGTTGCATAGTATTCAATGGT  10088
+
+hg38_dna        9124 ATATATGTACCACACTTTCATTATCCCAG-CTATCACTGATGGGCATTTA   9172
+                     .|||||.|||||||.||||||||| .||| ||||||.||||||.||||||
+saiBol1_dna    10089 GTATATATACCACATTTTCATTAT-TCAGTCTATCATTGATGGACATTTA  10137
+
+hg38_dna        9173 GGTTGATTCCATGTCTTTGCTATTGTGGATAGTTTTGCAATGAACATACA   9222
+                     |           |||||||||.|||||.|||||.||||||||||.|||||
+saiBol1_dna    10138 G-----------GTCTTTGCTGTTGTGAATAGTGTTGCAATGAAAATACA  10176
+
+hg38_dna        9223 CGTGCATGTGTCTTTGTAATAGGATGATTTATATTCCTTTGGGTATATAC   9272
+                     .|||||||||||||||||||||.||||.||||||||||||||.|||||||
+saiBol1_dna    10177 TGTGCATGTGTCTTTGTAATAGAATGACTTATATTCCTTTGGTTATATAC  10226
+
+hg38_dna        9273 CTAGTAATGGGATTGCTGAGTCGAATGATATTTCCGTCTTTAGGTTTTTG   9322
+                     |||||||||.||||.|||.|||.||||.|||||..||||||||||.||||
+saiBol1_dna    10227 CTAGTAATGAGATTACTGGGTCAAATGGTATTTTTGTCTTTAGGTCTTTG  10276
+
+hg38_dna        9323 AGGATGTAATCAAATTCATCAATTATTTGCCTTATGGTTTGTGCTTTTTG   9372
+                     |||||||||||||||.|||||.||||||||||||||||||||||||||||
+saiBol1_dna    10277 AGGATGTAATCAAATGCATCAGTTATTTGCCTTATGGTTTGTGCTTTTTG  10326
+
+hg38_dna        9373 TTTAAAAAGTTCTTCCCCCATTCCTCCTCCAGGTCACAAAGACATTTCCC   9422
+                     |||.|||||.|||||||||||||||||||||||||||||||||.|||.||
+saiBol1_dna    10327 TTTGAAAAGGTCTTCCCCCATTCCTCCTCCAGGTCACAAAGACGTTTGCC  10376
+
+hg38_dna        9423 AATATTTTCCTCTTCTAGCGCCAAACTTGTACCTTTCACATGTAAGTCTT   9472
+                     ||||||||||||||||||..|||.||||||.|||||||||||||||||||
+saiBol1_dna    10377 AATATTTTCCTCTTCTAGAACCATACTTGTGCCTTTCACATGTAAGTCTT  10426
+
+hg38_dna        9473 GGATCCATCTAGAGTTCACTTTTGTATGTAGTTAGGGATCTAGTTTTCTT   9522
+                     ||||||||||||||||.|.||.||.|||||||||||||||.|||||||||
+saiBol1_dna    10427 GGATCCATCTAGAGTTAAGTTGTGCATGTAGTTAGGGATCCAGTTTTCTT  10476
+
+hg38_dna        9523 TTTCTTGTTTCCCAGAAGCATGAAACCTTCCTCCTTTATTGGTTCGTGGT   9572
+                     ||||||||||||||||||||||||||||||||||||||||..||.|||.|
+saiBol1_dna    10477 TTTCTTGTTTCCCAGAAGCATGAAACCTTCCTCCTTTATTTATTTGTGAT  10526
+
+hg38_dna        9573 GCCCATGTCAGCACACATCAAGTCCCTGTTAAAGTGTATCTACGTGGGTT   9622
+                     ||||...||||||||||||||||||..|.||||||||||||||.||.|.|
+saiBol1_dna    10527 GCCCGCATCAGCACACATCAAGTCCGCGCTAAAGTGTATCTACATGAGCT  10576
+
+hg38_dna        9623 TCTCTCTCAACTTGCTTTTCTGTTTCCTTTGGTCTCTCCGTCTATTCCTG   9672
+                     |||||||||.||||||..|||||.||||||||||||.||           
+saiBol1_dna    10577 TCTCTCTCACCTTGCTCCTCTGTGTCCTTTGGTCTCCCC-----------  10615
+
+hg38_dna        9673 AGCTTTACCGTCCAGTCTTCGTCACTGTGGTTTTGTAGTGATTTCATGTC   9722
+                     |.||||||||||||||||||.|||||||||||||.|||||||||||||||
+saiBol1_dna    10616 ATCTTTACCGTCCAGTCTTCCTCACTGTGGTTTTTTAGTGATTTCATGTC  10665
+
+hg38_dna        9723 TGCTTTGGCAGATTCCCTCCTCTTTACACTTTTTTTTTAAGGTTGACCTT   9772
+                     |||||||||||||||||||||||||.||| ||||||||||||||||||||
+saiBol1_dna    10666 TGCTTTGGCAGATTCCCTCCTCTTTGCAC-TTTTTTTTAAGGTTGACCTT  10714
+
+hg38_dna        9773 ATTATTCATGGACATTTTCTTCCCCATAGAAGTTTACTGAACTTCTCAAA   9822
+                     .||||||||||.||||||||||||||||..||||||.|||||||.|||||
+saiBol1_dna    10715 GTTATTCATGGGCATTTTCTTCCCCATATGAGTTTATTGAACTTGTCAAA  10764
+
+hg38_dna        9823 AAATTGAGATTACCTGGAATTTTAACTGGCATTTTATTGCAACTACCAGT   9872
+                     ||||     ..||||||||||||||||||.|||||||||..|..||||||
+saiBol1_dna    10765 AAAT-----CCACCTGGAATTTTAACTGGTATTTTATTGAGATGACCAGT  10809
+
+hg38_dna        9873 TCATTT-AGGATAATGGACATCTTTATAATACTGAGTTATCGCCATCAAG   9921
+                     |||||| ||||||||||||||||||||||..||||||||||.|.||||||
+saiBol1_dna    10810 TCATTTGAGGATAATGGACATCTTTATAAATCTGAGTTATCACAATCAAG  10859
+
+hg38_dna        9922 ACCATGGAATGCCTCTCCA-TTTTTTTCAGACCATCTTCTGTGTTCTCTG   9970
+                     ||||||.|||||||||||| |||||||||||..||||.||.||||||.||
+saiBol1_dna    10860 ACCATGAAATGCCTCTCCATTTTTTTTCAGATTATCTGCTATGTTCTTTG  10909
+
+hg38_dna        9971 ---------TATAATGTGTCACCCATCAGAAGTCTTTTCTTAGTTAAGTC  10011
+                              ||||||.|.||||||||..||||||||||||||.||     
+saiBol1_dna    10910 TATTCGAGTTATAATTTTTCACCCATTGGAAGTCTTTTCTTAATT-----  10954
+
+hg38_dna       10012 AATTCCTAGACGCTTTACAGTTTGGTTGTTACTTTGAATATCTGTATTTT  10061
+                     |.|||||||.|.|||||||||||||||||||||.|||||||||.||||||
+saiBol1_dna    10955 ATTTCCTAGCCACTTTACAGTTTGGTTGTTACTGTGAATATCTATATTTT  11004
+
+hg38_dna       10062 CTTCTGGTCAGTTATTGCTACTGTAGAGGAATGCCGTTGGTTTTCGTAGG  10111
+                     ||||||||||||||||||||.|||||||.|||||.||||.||||.|||.|
+saiBol1_dna    11005 CTTCTGGTCAGTTATTGCTAGTGTAGAGAAATGCTGTTGATTTTTGTAAG  11054
+
+hg38_dna       10112 CTGACCTTCAGTCCCACAACCTTGCACTCTAGCGTTGGTTCTCATGTTAT  10161
+                     |||||||||.||||||||..||||||..||||.||||||||||||||||.
+saiBol1_dna    11055 CTGACCTTCTGTCCCACAGTCTTGCATGCTAGTGTTGGTTCTCATGTTAC  11104
+
+hg38_dna       10162 CCCTGTT-ATTCTGTTGGATTTTCTATGTGCATGATCACACTAATTGCAA  10210
+                     ||||||| ||||||||||||||||||||||||||||||.||||.||||||
+saiBol1_dna    11105 CCCTGTTGATTCTGTTGGATTTTCTATGTGCATGATCATACTATTTGCAA  11154
+
+hg38_dna       10211 ATAGTGTCAGCTAGAGCACTTTCCTTGCCATTCTTACACCTGTTACTTCT  10260
+                     |||.|||||||||||||.||||.|||||||||||||||||||||||||||
+saiBol1_dna    11155 ATACTGTCAGCTAGAGCTCTTTTCTTGCCATTCTTACACCTGTTACTTCT  11204
+
+hg38_dna       10261 TTGCATATGGCCTTGGACAGCACCTTGAGTCCCATGACAATGGATGTCCC  10310
+                     ||||||||||||||||||||||.||||||||||||||||.||||..||||
+saiBol1_dna    11205 TTGCATATGGCCTTGGACAGCATCTTGAGTCCCATGACAGTGGACATCCC  11254
+
+hg38_dna       10311 TGTTGTATTTCTGAGTGTATTCTTAGCATTCTTCTTAGTAATAAACAGGT  10360
+                     |||..|.|||||.||.||||||||||.||||||||||||||||||||.||
+saiBol1_dna    11255 TGTCATGTTTCTTAGCGTATTCTTAGTATTCTTCTTAGTAATAAACAAGT  11304
+
+hg38_dna       10361 ATTGACCATTACCATATACTTAATAGGATATCTTGAAATATGCCAGAGGA  10410
+                     .|||||||.|||||||||||||||||.|||||||||||||||||||||||
+saiBol1_dna    11305 GTTGACCACTACCATATACTTAATAGAATATCTTGAAATATGCCAGAGGA  11354
+
+hg38_dna       10411 CTAGGCCACTACTTGACTGGTGACAGAGAGTATCTTAGATGTATAGGCCC  10460
+                     ||||.|..||||.||||||.||||||||||||||.||||||.|||||.||
+saiBol1_dna    11355 CTAGACTGCTACCTGACTGCTGACAGAGAGTATCCTAGATGAATAGGTCC  11404
+
+hg38_dna       10461 CCAGACATGCCAGTGTCCTCTCTCACCACCCATCTCCACTCCAAAGTTGT  10510
+                     ||||||||| |||||||  |||||||||.|||||||||||.||||.||||
+saiBol1_dna    11405 CCAGACATG-CAGTGTC--CTCTCACCATCCATCTCCACTTCAAAATTGT  11451
+
+hg38_dna       10511 CTGGCCTCACCCACCTTCTGTGCCTGGTTCTTCTCCTCTGTGCTTCTCTC  10560
+                     ||||||.||||||||||||||||.|||   ||||||||||||||||.|||
+saiBol1_dna    11452 CTGGCCCCACCCACCTTCTGTGCTTGG---TTCTCCTCTGTGCTTCCCTC  11498
+
+hg38_dna       10561 ACTATGCCATGTCCTCGCCTGTTCAGGTGTCTCTAAGAGCTCATAGATCC  10610
+                     ||||||||||||.||.||||||||||||.||||||||||||||||||||.
+saiBol1_dna    11499 ACTATGCCATGTTCTTGCCTGTTCAGGTATCTCTAAGAGCTCATAGATCA  11548
+
+hg38_dna       10611 TTAACTCTTACAGCTTTAAATGAGGCACATTCAAAGCCCGACTCAGTGTC  10660
+                     |||||||||||||.|||||||||||.||.|||||||||||||||||||||
+saiBol1_dna    11549 TTAACTCTTACAGTTTTAAATGAGGAACGTTCAAAGCCCGACTCAGTGTC  11598
+
+hg38_dna       10661 ATTCCCTGCAGTCTCCTCTTCCTCCCATCTTACCCATTTCAGG-------  10703
+                     ||||||||||||||||||.||||||||.|||.|||||||||||       
+saiBol1_dna    11599 ATTCCCTGCAGTCTCCTCGTCCTCCCAGCTTGCCCATTTCAGGGATTTGC  11648
+
+hg38_dna       10704 TAATATCTCCAGCCAGCCAGAGTCTACTGCAGTAGCTGGCACATGAAATA  10753
+                     |.|||..||||||||||||||||||||||||||||||||||||||||||.
+saiBol1_dna    11649 TGATAGATCCAGCCAGCCAGAGTCTACTGCAGTAGCTGGCACATGAAATG  11698
+
+hg38_dna       10754 AATGTTTATTTAACTGAATTGAAAATGTTAGCTGGCCATTGTCA------  10797
+                     .||.|||||||||||||||||||||||||||||||||||||| |      
+saiBol1_dna    11699 CATATTTATTTAACTGAATTGAAAATGTTAGCTGGCCATTGT-AGAAAAT  11747
+
+hg38_dna       10798 --------------------------------------------------  10797
+                                                                       
+saiBol1_dna    11748 AGTATTTATTTTTATTTGTTTTGTTTTGTTATTCTTTTTTTATATTTTTG  11797
+
+hg38_dna       10798 ------------------AAAATACTATTTTGTAAATTTATAAATATGGT  10829
+                                       ||||||.|||||||||||||||||||||||.|
+saiBol1_dna    11798 TTTTTCTTATTTTTATTGAAAATAGTATTTTGTAAATTTATAAATATGAT  11847
+
+hg38_dna       10830 TCTCTTTGTATATCCATTATAAATATTTAGTATTTAGTTTGATTATTCCT  10879
+                     ||||||||||.||||||||||||||||||||.||||||||||||||||||
+saiBol1_dna    11848 TCTCTTTGTACATCCATTATAAATATTTAGTGTTTAGTTTGATTATTCCT  11897
+
+hg38_dna       10880 TATGCTTTATA---ACATGTGTTTTCCCATTCATTCATTTATCCAGCATT  10926
+                     |||||||||||   |.|||||||||||||.||||||||||.|||||||||
+saiBol1_dna    11898 TATGCTTTATAAGGAAATGTGTTTTCCCACTCATTCATTTGTCCAGCATT  11947
+
+hg38_dna       10927 TATTTTGCATGTCTATGGGTCAAGCGCTCTGTCTAGGAACACTGCTGTGA  10976
+                     ||||||||||||||.|||||||||.|||.||||||||.||||||||||||
+saiBol1_dna    11948 TATTTTGCATGTCTGTGGGTCAAGTGCTATGTCTAGGGACACTGCTGTGA  11997
+
+hg38_dna       10977 ACAAAACCAAACTCCCGCCCTAAAGGAGCCTGCACTCCCGTGGAGAACAT  11026
+                     .||||||| |||.|||.|.|.||||||||||||||.||.|||||||||||
+saiBol1_dna    11998 GCAAAACC-AACCCCCCCACCAAAGGAGCCTGCACACCAGTGGAGAACAT  12046
+
+hg38_dna       11027 GAATAATAAGCACAGAGGAAATAACATAATATCTCAAGTAGCTGTAACTG  11076
+                     |||.||.|||||||.|..||||.||||||||.|..||||||.||||||||
+saiBol1_dna    12047 GAACAAGAAGCACACAATAAATGACATAATACCAAAAGTAGTTGTAACTG  12096
+
+hg38_dna       11077 CTCCAGAGAATAATGAAGCCAGGAAAGGGGGTGGGCTAGGGGGTGCTGTT  11126
+                     |||||||||||||||||||||||||||||..||||||.|||||||||.||
+saiBol1_dna    12097 CTCCAGAGAATAATGAAGCCAGGAAAGGGAATGGGCTCGGGGGTGCTATT  12146
+
+hg38_dna       11127 TTAGGTAGAGTGATGGGAACAGCCCCACTGAGCAAACTTTAGCCACATGA  11176
+                     ||||.|||||||||.||||.||||||.|||||||.|||||||||||||||
+saiBol1_dna    12147 TTAGATAGAGTGATAGGAAGAGCCCCCCTGAGCAGACTTTAGCCACATGA  12196
+
+hg38_dna       11177 GTAGCTGGAAGAAAAGCCTTCTAGGACCAGGGAACAGCAAGTGCAACAGC  11226
+                     |||||||||.|||.|||||||||||||||||||.||||||||||||||||
+saiBol1_dna    12197 GTAGCTGGAGGAAGAGCCTTCTAGGACCAGGGAGCAGCAAGTGCAACAGC  12246
+
+hg38_dna       11227 CCTGAGACAGGATGGGCTTGTC-AGTTTGAGGAGCAGTGGGAGGCCTGAA  11275
+                     ||||||||||||.|.||||||| .||.|||||||..||||||||||||||
+saiBol1_dna    12247 CCTGAGACAGGACGTGCTTGTCGGGTGTGAGGAGTGGTGGGAGGCCTGAA  12296
+
+hg38_dna       11276 CCAGGTTACATGGGGCCCAGCCAGTATGGCCACGACTTTGTGTTTTATCC  11325
+                     ||||||.|||||||||||||||||.|||||||||||||||||||||||||
+saiBol1_dna    12297 CCAGGTCACATGGGGCCCAGCCAGCATGGCCACGACTTTGTGTTTTATCC  12346
+
+hg38_dna       11326 AGAGTACAAAGGAGCCTCACTGAGGGACAAGGGAAGT-GGCATGATGTGA  11374
+                     |||||||||||||||.||||||||||||||||||||| |.||  ||||||
+saiBol1_dna    12347 AGAGTACAAAGGAGCTTCACTGAGGGACAAGGGAAGTAGACA--ATGTGA  12394
+
+hg38_dna       11375 CCCGCATATTAAGAGGAGAGCGCTCAATGGCAGCCAGGGGAGGAGCAGGG  11424
+                     |||||             |.|.||||.|||..||||||.|||||||||||
+saiBol1_dna    12395 CCCGC-------------AACACTCAGTGGGGGCCAGGAGAGGAGCAGGG  12431
+
+hg38_dna       11425 AGGCTGGTTGGGAGGCTGTTGAAGAAATCAGGTGAGAAGTGATGGAAGCA  11474
+                     ||||||.|||||||||.|||||||.||||.|||||||||||||.||||||
+saiBol1_dna    12432 AGGCTGTTTGGGAGGCCGTTGAAGGAATCCGGTGAGAAGTGATAGAAGCA  12481
+
+hg38_dna       11475 CCGAATAAGATGGTCATGTTGGAAAAATTGAGAAGCTGAGGTGCTT-AGC  11523
+                     ||.|.||||||||||.||||||||||..||||||||..|.|||||| || 
+saiBol1_dna    12482 CCAACTAAGATGGTCCTGTTGGAAAATGTGAGAAGCCAAAGTGCTTCAG-  12530
+
+hg38_dna       11524 ATTGATTTTCAAGGTAGAGCTACTGAGATTTGCTGATAGATCCAATGTAT  11573
+                     |||||||||||.|||||||||.|||.|||||||||||  ||||||.||||
+saiBol1_dna    12531 ATTGATTTTCAGGGTAGAGCTGCTGGGATTTGCTGAT--ATCCAAAGTAT  12578
+
+hg38_dna       11574 GC--TGGGAGAGAAAATTCAGTCACTCTAGAGCATTGGCTGGATTTGTCA  11621
+                     ||  ||.|||||||||||||||||||||||||||||||||||||||||  
+saiBol1_dna    12579 GCTGTGAGAGAGAAAATTCAGTCACTCTAGAGCATTGGCTGGATTTGT--  12626
+
+hg38_dna       11622 CCCATTGCAGCGAATGGAGAAGGTGCTGACATAAAAGCCCTTTAGACTGA  11671
+                     |.|.|.|.||.|||||||||||||||||||||||||||||||||||.|||
+saiBol1_dna    12627 CTCGTGGGAGTGAATGGAGAAGGTGCTGACATAAAAGCCCTTTAGATTGA  12676
+
+hg38_dna       11672 AAGCTACTGACTGAGGGGATGGTGCCCTAGTTTGATTTCCTGGGGTGTAT  11721
+                     |||.||||||.||||||||||||.|||||||||||.||||||||||||.|
+saiBol1_dna    12677 AAGTTACTGATTGAGGGGATGGTCCCCTAGTTTGAGTTCCTGGGGTGTGT  12726
+
+hg38_dna       11722 GAGTAGCAGGGAGGCCAAGAGCTGGGCCTCACGAGATTGTGGGGACTACA  11771
+                     ||||||||||||||||||||||||||||.||||||||..|||||||| ||
+saiBol1_dna    12727 GAGTAGCAGGGAGGCCAAGAGCTGGGCCCCACGAGATCATGGGGACT-CA  12775
+
+hg38_dna       11772 TCAGGGAAGCAGGCCTGCAAAGAACCTGCACCACAGACCCCCACCTAAAA  11821
+                     |||.|||||||||||||||||||||||||.|..|||||||.|||||||||
+saiBol1_dna    12776 TCAAGGAAGCAGGCCTGCAAAGAACCTGCTCTTCAGACCCGCACCTAAAA  12825
+
+hg38_dna       11822 GAGCCTCCAAAAACCCTAACTGGCATGACCTGA------GTACTTTAACT  11865
+                     |.|||||||||||||.||||||.||||||||||      |||||||||||
+saiBol1_dna    12826 GGGCCTCCAAAAACCTTAACTGTCATGACCTGAGTGCACGTACTTTAACT  12875
+
+hg38_dna       11866 CTGCTTGTAACTTTCAAATATATTTTGATTTGCTT-ATGACCACCAAGGC  11914
+                     |..||||||||||||||||||.|||||||||.||| ||||||||||||.|
+saiBol1_dna    12876 CCACTTGTAACTTTCAAATATGTTTTGATTTACTTAATGACCACCAAGAC  12925
+
+hg38_dna       11915 AAAACTTCCCATTTCAATAATGTTAGTAGAAACATAAACAGGATGTTAAT  11964
+                     |||||||.|||||||   |||||||||||||||||||||||||||||.||
+saiBol1_dna    12926 AAAACTTTCCATTTC---AATGTTAGTAGAAACATAAACAGGATGTTTAT  12972
+
+hg38_dna       11965 TTATTT-ATTTGGTAATTCTTTTTATGAATATTATCCAGTTTAATCATTA  12013
+                     |||||| ||      |||.|||.|   |||||||||.|.||||.||||||
+saiBol1_dna    12973 TTATTTCAT------ATTTTTTCT---AATATTATCTAATTTAGTCATTA  13013
+
+hg38_dna       12014 GCTCTGAAGGAGATGAAAAATAATTTTCTAATTTTTAGAAAAATTTGCAG  12063
+                     ..|.||||||||||| ||||||||||||||||||||| ||||||.||||.
+saiBol1_dna    13014 TTTATGAAGGAGATG-AAAATAATTTTCTAATTTTTA-AAAAATGTGCAA  13061
+
+hg38_dna       12064 CTAATTGGGTGA----TAAAGGTAAGGGGTTTCTGAGTTCACAAAAATGT  12109
+                     ||||||||.|||    ||||||||.|||.||||||||||||||||.||||
+saiBol1_dna    13062 CTAATTGGATGATAGTTAAAGGTATGGGCTTTCTGAGTTCACAAACATGT  13111
+
+hg38_dna       12110 TCTAAAATTGGCAACAGTTTCGGTTGCACGTTTCATTA----AATGTACT  12155
+                     ||.||||.||.|||||||...||||||||.||||||||    ||||||||
+saiBol1_dna    13112 TCCAAAACTGACAACAGTGATGGTTGCACATTTCATTAAATGAATGTACT  13161
+
+hg38_dna       12156 AAAAACCATTGAACTGTACATGGTATATGGTGAATTATATGGTATGTGAA  12205
+                     ||||||.|||||||||||||||.|||.|||||||||||||||||||||||
+saiBol1_dna    13162 AAAAACTATTGAACTGTACATGTTATGTGGTGAATTATATGGTATGTGAA  13211
+
+hg38_dna       12206 TTATATCTCAACAAGCTGGGTATTGTTTTTTTAAAAAATAAAAATAAAAA  12255
+                     ||||||.||||.|||||.||.||||   ||||||||||.||||.|.||||
+saiBol1_dna    13212 TTATATTTCAAAAAGCTAGGCATTG---TTTTAAAAAAAAAAATTTAAAA  13258
+
+hg38_dna       12256 AGGAGAAAGAGAGAGAGAAAAACAATTGCAGATCATCCCAGCACTGAGGA  12305
+                     |  ||||  ||||||.||||||.|.||||||||.|||||||||||| |.|
+saiBol1_dna    13259 A--AGAA--AGAGAGGGAAAAAAATTTGCAGATAATCCCAGCACTG-GCA  13303
+
+hg38_dna       12306 CAAGACTAACTTCA-GTGTTCCAGTATATGCCATTATAGGTTTTACGGCA  12354
+                     |||||||||..||| .||||.||||.|||||||||.|||||||||.||||
+saiBol1_dna    13304 CAAGACTAATCTCATTTGTTACAGTTTATGCCATTTTAGGTTTTATGGCA  13353
+
+hg38_dna       12355 CACAGTGATGATTTGGAGCCTATGATTTGACCTAGGGTACAGCAGGTACT  12404
+                     ||||||||||||||||||||||.|||||||||||||||||||||||||||
+saiBol1_dna    13354 CACAGTGATGATTTGGAGCCTAGGATTTGACCTAGGGTACAGCAGGTACT  13403
+
+hg38_dna       12405 GTTTAGCAATCATTTTACTATTGTCATAGGTCTCTGCTCTTGGAGCTAAG  12454
+                     |||||||||||||||||||||||||||||||||||||||||..||||||.
+saiBol1_dna    13404 GTTTAGCAATCATTTTACTATTGTCATAGGTCTCTGCTCTTCTAGCTAAA  13453
+
+hg38_dna       12455 TGCCCAGGGTAAATGAGATCTTTAATTTGAAAAGAGATTTTTGATTTGAT  12504
+                     |.|||||||||||||||.||||||||.||||||.||||||||.||.|.||
+saiBol1_dna    13454 TACCCAGGGTAAATGAGCTCTTTAATCTGAAAAAAGATTTTTAATGTCAT  13503
+
+hg38_dna       12505 GAATGTACATTCTCCAAAGGGTCATAAATTGTCATTCTGGATGTTTGATC  12554
+                     |||||||||||||||||||||||||||||||||||||||||||||||||.
+saiBol1_dna    13504 GAATGTACATTCTCCAAAGGGTCATAAATTGTCATTCTGGATGTTTGATT  13553
+
+hg38_dna       12555 TGTTTGTTGTTTTGGTACAAAAATTAGAAGAAAATAATTCACTCATAAAA  12604
+                     |.||||||||||.||||||||||||||||||||||||.|||||||.||||
+saiBol1_dna    13554 TATTTGTTGTTTCGGTACAAAAATTAGAAGAAAATAAATCACTCACAAAA  13603
+
+hg38_dna       12605 TGTTAAATAATGAACTAAAAGTCATTCATCAAGTC---------------  12639
+                     |.|||   ||||||||||||.|||||||||.||||               
+saiBol1_dna    13604 TATTA---AATGAACTAAAACTCATTCATCGAGTCAGTGACTGCCTGTCT  13650
+
+hg38_dna       12640 ------CA------------------------------------------  12641
+                           ||                                          
+saiBol1_dna    13651 TGTGAACACAGCCCACTACCCCTATCTGAGCAGCCCCATCCACCTGTCTA  13700
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+saiBol1_dna    13701 GAGAGAGAGATGAATTTTCAAGTAGACTCCCAAAAGCCTGGATGTTTCAT  13750
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+saiBol1_dna    13751 TTCTAGTAGACTTGTACTGAGAATTCCTTTGAAGAAATTCTTCTTGGCAT  13800
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+saiBol1_dna    13801 TCTATGCTGAGGGGATATTAATTCTTTCACATCACAAATATCTATTGTGT  13850
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+saiBol1_dna    13851 CTTGCTCTGTCCAGGCACTGCTCTAGCCCCTGAGGATACAGTAGTGAACA  13900
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+saiBol1_dna    13901 AGAGATGCTTGTTCCCTGCTTACATTCCTACAGAGGAGAGAAGACATTGA  13950
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+saiBol1_dna    13951 ACCGATTATTTAGAAAGATATGTAATTACTGTGTTGCCACACCCCCTTGG  14000
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+saiBol1_dna    14001 AGTCTTCCTAACTAGACATTACACTCACAAGACTTCCACAGGCTACACTA  14050
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+saiBol1_dna    14051 TAGGCTTTGCTAGCCTCAGGTTCCTTAGAAGGGGACGCACCAGGGTCCTC  14100
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+saiBol1_dna    14101 GTGGTGTTCCACACATCAGCCAAGGACTTGTCTTCACTCCCAACCCCCTC  14150
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+saiBol1_dna    14151 AAGTGACTGCTTAGGTACAAGGAATGAGATCCATATTGGTGGGTAAAGGA  14200
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+saiBol1_dna    14201 TTACTCTTGGCATACGAGCCCCATCCCCAACAGGAGCTGATATGCCCTAT  14250
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+saiBol1_dna    14251 AACAGCCTGGTGGACACAGCTTCAAGGGTTCTCACCAGGACGTGCCTACT  14300
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+saiBol1_dna    14301 TCCTGCTTTAGAGCAGGAAGAATCACGGCCCTAAGGAACTCCCCCAAAAG  14350
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+saiBol1_dna    14351 TTTATGGTTCCTCGCAGTCCATGTGCAGCTTACTCATCAGAAGCAATTTT  14400
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+saiBol1_dna    14401 TCTTATAAATAACATTGCTGGCATTCCACCTTTATCAAGTTTCCAGGAAC  14450
+
+hg38_dna       12642 ------------TAACTTAGGGTCACATTTGTCCTTGGAGCAGGAGAAAG  12679
+                                 ||||||||||..|.||||||.|||||||||||||||||
+saiBol1_dna    14451 AGAGCCAGCAATTAACTTAGGGCAAGATTTGTTCTTGGAGCAGGAGAAAG  14500
+
+hg38_dna       12680 AGTTGTGTTCACCCTTTTCTTACTTTTGCTTTTGTCCTAAGTGCTTCAGA  12729
+                     .||||||||||.||||||||.||..|||.|||||||||||||||||||||
+saiBol1_dna    14501 GGTTGTGTTCAGCCTTTTCTGACCATTGTTTTTGTCCTAAGTGCTTCAGA  14550
+
+hg38_dna       12730 GAAGTACAGGGTGGCAACAGTGTTTCTACTGAGCAGCTGATACCATTGCT  12779
+                     .|||||||||||||.||.|||||||.|||||||||||||||.||||||||
+saiBol1_dna    14551 AAAGTACAGGGTGGGAAGAGTGTTTATACTGAGCAGCTGATGCCATTGCT  14600
+
+hg38_dna       12780 ATGCACTCATTCATTATGCAGGAAACATTTAGTAATTTCAACATAAATAT  12829
+                     .|||||||||||||||||.||.||..||||||||.|||||.|||||||||
+saiBol1_dna    14601 GTGCACTCATTCATTATGTAGCAAGTATTTAGTAGTTTCAGCATAAATAT  14650
+
+hg38_dna       12830 GGGACTCTGACGTTCTCCTCTTCATTTTGCAGAGCAGTCATTATGGCGAA  12879
+                     ||||||||||.||||||||||||||||||||||.|||||||.||||||||
+saiBol1_dna    14651 GGGACTCTGATGTTCTCCTCTTCATTTTGCAGAACAGTCATCATGGCGAA  14700
+
+hg38_dna       12880 CCTTGGCTGCTGGATGCTGGTTCTCTTTGTGGCCACATGGAGTGACCTGG  12929
+                     ||||||||.|||||||||||||||||||||||||||||||||||||||||
+saiBol1_dna    14701 CCTTGGCTACTGGATGCTGGTTCTCTTTGTGGCCACATGGAGTGACCTGG  14750
+
+hg38_dna       12930 GCCTCTGCAAGAAGCGCCCGAAGCCTGGAGGATGGAACACTGGGGGCAGC  12979
+                     |||||||.||||||||||||||.||||||||||||||.||||||||.|||
+saiBol1_dna    14751 GCCTCTGTAAGAAGCGCCCGAAACCTGGAGGATGGAATACTGGGGGGAGC  14800
+
+hg38_dna       12980 CGATACCCGGGGCAGGGCAGCCCTGGAGGCAACCGCTACCCACCTCAGGG  13029
+                     ||||||||.||.||||||||||||||||||||||||||||||||.|||  
+saiBol1_dna    14801 CGATACCCAGGCCAGGGCAGCCCTGGAGGCAACCGCTACCCACCCCAG--  14848
+
+hg38_dna       13030 CGGTGGTGGCTGGGGGCAGCCTCATGGTGGTGGCTGGGGG----------  13069
+                      |||||||||||||||||||||||||||||||||||||||          
+saiBol1_dna    14849 -GGTGGTGGCTGGGGGCAGCCTCATGGTGGTGGCTGGGGGCAACCCCATG  14897
+
+hg38_dna       13070 --------------CAGCCTCATGGTGGTGGCTGGGGGCAGCCCCATGGT  13105
+                                   |||||.||||||||.||||||||.||||||||||||
+saiBol1_dna    14898 GTGGCGGCTGGGGACAGCCCCATGGTGGCGGCTGGGGACAGCCCCATGGT  14947
+
+hg38_dna       13106 GGTGGCTGGGGACAGCCTCATGGTGGTGGCTGGGGTCAAGGAGGTGGCAC  13155
+                     ||||||||||||||||||||||||||.|||||||||||||||||||||||
+saiBol1_dna    14948 GGTGGCTGGGGACAGCCTCATGGTGGCGGCTGGGGTCAAGGAGGTGGCAC  14997
+
+hg38_dna       13156 CCACAGTCAGTGGAACAAGCCGAGTAAGCCAAAAACCAACATGAAGCACA  13205
+                     |||||.|||.|||||||||||.||||||||||||||||||||||||||||
+saiBol1_dna    14998 CCACAATCAATGGAACAAGCCCAGTAAGCCAAAAACCAACATGAAGCACA  15047
+
+hg38_dna       13206 TGGCTGGTGCTGCAGCAGCTGGGGCAGTGGTGGGGGGCCTTGGCGGCTAC  13255
+                     ||||||||||||||||.||||||||||||||||||||||||||.||||||
+saiBol1_dna    15048 TGGCTGGTGCTGCAGCGGCTGGGGCAGTGGTGGGGGGCCTTGGTGGCTAC  15097
+
+hg38_dna       13256 ATGCTGGGAAGTGCCATGAGCAGGCCCATCATACATTTCGGCAGTGACTA  13305
+                     |||||||||||||||||||||||||||.||||||||||.||||.||||||
+saiBol1_dna    15098 ATGCTGGGAAGTGCCATGAGCAGGCCCCTCATACATTTTGGCAATGACTA  15147
+
+hg38_dna       13306 TGAGGACCGTTACTATCGTGAAAACATGCACCGTTACCCCAACCAAGTGT  13355
+                     |||||||||.||||||||||||||||||.||||||||||||.||||||.|
+saiBol1_dna    15148 TGAGGACCGCTACTATCGTGAAAACATGTACCGTTACCCCAGCCAAGTAT  15197
+
+hg38_dna       13356 ACTACAGGCCCATGGATGAGTACAGCAACCAGAACAACTTTGTGCACGAC  13405
+                     ||||||.||||.|||||.||||||||||||||||||||||||||||||||
+saiBol1_dna    15198 ACTACAAGCCCGTGGATCAGTACAGCAACCAGAACAACTTTGTGCACGAC  15247
+
+hg38_dna       13406 TGCGTCAATATCACAATCAAGCAGCACACGGTCACCACAACCACCAAGGG  13455
+                     ||||||||..||||.||||||||||||||.||||||||.||||||||.||
+saiBol1_dna    15248 TGCGTCAACGTCACGATCAAGCAGCACACAGTCACCACCACCACCAAAGG  15297
+
+hg38_dna       13456 GGAGAACTTCACCGAGACCGACGTTAAGATGATGGAGCGCGTGGTTGAGC  13505
+                     ||||||||||||.|||||||||||.|||||||||||||||||||||||||
+saiBol1_dna    15298 GGAGAACTTCACTGAGACCGACGTGAAGATGATGGAGCGCGTGGTTGAGC  15347
+
+hg38_dna       13506 AGATGTGTATCACCCAGTACGAGAGGGAATCTCAGGCCTATTACCAGAGA  13555
+                     |||||||||||||.||||||||||.||||||.||||||||||||||||||
+saiBol1_dna    15348 AGATGTGTATCACTCAGTACGAGAAGGAATCCCAGGCCTATTACCAGAGA  15397
+
+hg38_dna       13556 GGATCGAGCATGGTCCTCTTCTCCTCTCCACCTGTGATCCTCCTGATCTC  13605
+                     ||||||||||||||||||||||||||.|||||||||||||||||||||||
+saiBol1_dna    15398 GGATCGAGCATGGTCCTCTTCTCCTCCCCACCTGTGATCCTCCTGATCTC  15447
+
+hg38_dna       13606 TTTCCTCATCTTCCTGATAGTGGGATGAGGAAGGTCTTCCTGTTTTCACC  13655
+                     |||||||||||||||||||||||||||||||||||||||||||||.||||
+saiBol1_dna    15448 TTTCCTCATCTTCCTGATAGTGGGATGAGGAAGGTCTTCCTGTTTCCACC  15497
+
+hg38_dna       13656 ATCTTTCTAATCTTTTTCCAGCTTGAGGGAGGCGGTATCCACCTGCAGCC  13705
+                     |||||||||||||||||||||.|..||||    |||||||||||||||||
+saiBol1_dna    15498 ATCTTTCTAATCTTTTTCCAGGTCAAGGG----GGTATCCACCTGCAGCC  15543
+
+hg38_dna       13706 CTTTTAGTGGTGGTGTCTCACTCTTTCTTCTCTCTTTGTCCCGGATAGGC  13755
+                     ||||||||||||||||||||.||||.||    ||||||||||.|||||.|
+saiBol1_dna    15544 CTTTTAGTGGTGGTGTCTCATTCTTGCT----TCTTTGTCCCTGATAGCC  15589
+
+hg38_dna       13756 TAATCAATACCCTTGGCACTGATGGGCACTGGAAAACATAGAGTAGACCT  13805
+                     ||||||||||||.|||||||||||||||||||||||..|||||.||||||
+saiBol1_dna    15590 TAATCAATACCCCTGGCACTGATGGGCACTGGAAAATCTAGAGCAGACCT  15639
+
+hg38_dna       13806 GAGATGCTG----GTCAAGCCCCCTTTGATTGAGTTCATCATGAGCCGTT  13851
+                     |||||||||    |||||.|||||||||||||||.||||||||.|||.||
+saiBol1_dna    15640 GAGATGCTGTTTAGTCAAACCCCCTTTGATTGAGCTCATCATGGGCCTTT  15689
+
+hg38_dna       13852 GCTAATGCCAGGCCAGTAAAAGTATAACAGCAAATAACCATTGGTTAATC  13901
+                     ||||||.|..|||||.||||..|||||||||||||||.||||||||||||
+saiBol1_dna    15690 GCTAATACTGGGCCAATAAAGATATAACAGCAAATAATCATTGGTTAATC  15739
+
+hg38_dna       13902 TGGACTTATTTTTGGACTTAGTGCAACAGGTTGAGGCTAAAACAAATCTC  13951
+                     ||||..|||||||||||||||||||||||||||.||||||||||||||||
+saiBol1_dna    15740 TGGATGTATTTTTGGACTTAGTGCAACAGGTTGGGGCTAAAACAAATCTC  15789
+
+hg38_dna       13952 AGAACAGTCTGAAATACCTTTGCCTGGATACCTCTGGCTCCTTCAGCAGC  14001
+                     ||||||||||.||||||||||||||||||||||||||||||||||||.||
+saiBol1_dna    15790 AGAACAGTCTCAAATACCTTTGCCTGGATACCTCTGGCTCCTTCAGCGGC  15839
+
+hg38_dna       14002 TAGAGCTCAGTATACTAATGCCCTATCTTAGTAGAGATTTCATAGCTATT  14051
+                     ||||||||||||||||||||||||.||||||.||||||||||||||||||
+saiBol1_dna    15840 TAGAGCTCAGTATACTAATGCCCTGTCTTAGCAGAGATTTCATAGCTATT  15889
+
+hg38_dna       14052 TAGAGATATTTTCCATTTTAAGAAAACCCGACAACATTTCTGCCAGGTTT  14101
+                     ||||.||||||||||||||||||||||..||||||||||||||||.||||
+saiBol1_dna    15890 TAGATATATTTTCCATTTTAAGAAAACTTGACAACATTTCTGCCAAGTTT  15939
+
+hg38_dna       14102 GTTAGGAGGCCACATGATACTTATTCAAAAAAATCCTAGAGATTCTTAGC  14151
+                     ||||||||||..|||||.|||..|||||||||||||||||.|||||||||
+saiBol1_dna    15940 GTTAGGAGGCTGCATGACACTCTTTCAAAAAAATCCTAGAAATTCTTAGC  15989
+
+hg38_dna       14152 TCTTGGGATGCAGGCTCAGCCCGCTGGAGCATGAGCTCTGTGTGTACCGA  14201
+                     ||||||||||||||||||||||.||||||||||||||||||||.|.|.||
+saiBol1_dna    15990 TCTTGGGATGCAGGCTCAGCCCACTGGAGCATGAGCTCTGTGTCTGCAGA  16039
+
+hg38_dna       14202 GAACTGGGGTGATGTTTTACTTTTCACAGTATGGGCTACACAGCAGCTGT  14251
+                     |||.||||||||||||||.|.||||||||||..||||||||||||.||||
+saiBol1_dna    16040 GAAATGGGGTGATGTTTTGCCTTTCACAGTACAGGCTACACAGCAACTGT  16089
+
+hg38_dna       14252 TCAACAAGAGTAAATATTGTCACAACACTGAACCTCTGGCTAGAGGACAT  14301
+                     |||.|||||||||||||.|.|||||||||.||||||||||||||||||||
+saiBol1_dna    16090 TCATCAAGAGTAAATATCGCCACAACACTAAACCTCTGGCTAGAGGACAT  16139
+
+hg38_dna       14302 ATTCACAGTGAACATAACTGTAACATATATGAAAGGCTTCTGGGACTTG-  14350
+                     ||||||||||||||||||||||.||||||||||||||||||||||| || 
+saiBol1_dna    16140 ATTCACAGTGAACATAACTGTAGCATATATGAAAGGCTTCTGGGAC-TGA  16188
+
+hg38_dna       14351 -AAATCAAATGTTTGGGAATGGTGCCCTTGGAGGCAACCTCCCATTTTAG  14399
+                      |||||.|||||||||||||||||||||||.| |||||||||||||||||
+saiBol1_dna    16189 AAAATCTAATGTTTGGGAATGGTGCCCTTGTA-GCAACCTCCCATTTTAG  16237
+
+hg38_dna       14400 ATGTTTAAAGGACCCTATATGTGGCATTCCTTTCTTTAAACTATAGGTAA  14449
+                     ||||||||| ||.|||||||||||||||||||||||||||||||||.|||
+saiBol1_dna    16238 ATGTTTAAA-GAACCTATATGTGGCATTCCTTTCTTTAAACTATAGATAA  16286
+
+hg38_dna       14450 TTAAGGCAGCTGAAAAGTAAATTGCCTTCTAGACACTGAAGGCAAATCTC  14499
+                     ||||||||||.|||||||.|.||.|||||||||||||||||||||||   
+saiBol1_dna    16287 TTAAGGCAGCAGAAAAGTCAGTTACCTTCTAGACACTGAAGGCAAAT---  16333
+
+hg38_dna       14500 CTTTGTCCATTTACCTGGAAACCAGAATGATTTTGACATACAGGAGAGCT  14549
+                     |||||||||||||||||||||||||||||||||.||||||.|||||||||
+saiBol1_dna    16334 CTTTGTCCATTTACCTGGAAACCAGAATGATTTGGACATAGAGGAGAGCT  16383
+
+hg38_dna       14550 GCAGTTGTGAAAGCACCATCATCATAGAGGATGATGTAATTAA-AAAATG  14598
+                     |||||||||||||||.||.||||||||||||||||||.||.|| ||||||
+saiBol1_dna    16384 GCAGTTGTGAAAGCAGCAGCATCATAGAGGATGATGTCATGAAGAAAATG  16433
+
+hg38_dna       14599 GTCAGTGTGCAAAGAAAAGAACTGCTTGCATTTCTTTATTTCTGTCTCAT  14648
+                     |||..|||||||||||||.||||||||||||||||||||.||||||||||
+saiBol1_dna    16434 GTCCATGTGCAAAGAAAATAACTGCTTGCATTTCTTTATCTCTGTCTCAT  16483
+
+hg38_dna       14649 AATTGTCAAAAACCAGAATTAGGTCAAGTTCATAGTTTCTGTAATTGGCT  14698
+                     ||||||||||||||||||||||||||||||.|||||||||||||||||||
+saiBol1_dna    16484 AATTGTCAAAAACCAGAATTAGGTCAAGTTTATAGTTTCTGTAATTGGCT  16533
+
+hg38_dna       14699 TTTGAATCAAAGAATAGGGAGACAATCTAAAAAATATCTTAGGTTGGAGA  14748
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+saiBol1_dna    16534 TTTGAATCAAAGAATAGGGAGACAATCTAAAAAATATCTTAGGTTGGAGA  16583
+
+hg38_dna       14749 TGACAGAAATATGATTGATTTGAAGTGGAAAAAGAAATTCTGTTAATGTT  14798
+                     |||||||||||||||||||||||||||.||||||||||||||||||.|||
+saiBol1_dna    16584 TGACAGAAATATGATTGATTTGAAGTGAAAAAAGAAATTCTGTTAACGTT  16633
+
+hg38_dna       14799 AATTAAAGTAAAATTATTCCCTGAATTGTTTGATATTGTCACCTAGCAGA  14848
+                     ||||||.|||||||||||||  ||.|||||||||||||||||||||||||
+saiBol1_dna    16634 AATTAAGGTAAAATTATTCC--GAGTTGTTTGATATTGTCACCTAGCAGA  16681
+
+hg38_dna       14849 TATGTATTACTTTTCTGCAATGTTATTATTGGCTTGCACTTTGTGAGTAT  14898
+                     |||||||||||.||||||||||   |||||||||||||||||||||||||
+saiBol1_dna    16682 TATGTATTACTCTTCTGCAATG---TTATTGGCTTGCACTTTGTGAGTAT  16728
+
+hg38_dna       14899 TCTATGTAAAAATATATATGTATATAAAATATATATTGCATAGGACAGAC  14948
+                     |..||||||||||||||||||||||||||||||    |||||||||||||
+saiBol1_dna    16729 TTGATGTAAAAATATATATGTATATAAAATATA----GCATAGGACAGAC  16774
+
+hg38_dna       14949 TTAGGAGTTTTGTTTAGAGCAGTTAACATCTGAAGTGTCTAATGCATTAA  14998
+                     ||||||.|||||||||||||||||||||||||||||||||||||||||||
+saiBol1_dna    16775 TTAGGAATTTTGTTTAGAGCAGTTAACATCTGAAGTGTCTAATGCATTAA  16824
+
+hg38_dna       14999 C-TTTTGTAAGGTACTGAATACTTAATATGTGGGAAACCCTTTTGCGTGG  15047
+                     | ||||||||||||||.|||||||||||||||||||||||||||||||.|
+saiBol1_dna    16825 CTTTTTGTAAGGTACTAAATACTTAATATGTGGGAAACCCTTTTGCGTTG  16874
+
+hg38_dna       15048 TCCTTAGGCTTACAATGTGCACTGAATCGTTTCATGTAAGAATCCAAAGT  15097
+                     ||||||||||||||||||||||||||||||||.||.|||||||.||||||
+saiBol1_dna    16875 TCCTTAGGCTTACAATGTGCACTGAATCGTTTTATATAAGAATTCAAAGT  16924
+
+hg38_dna       15098 GGACACCATTAACAGGTCTTTGAAATATGCATGTACTTTATATTTTCTAT  15147
+                     |||||||||||||||.|||||||||.||||||||||     |||||||||
+saiBol1_dna    16925 GGACACCATTAACAGATCTTTGAAACATGCATGTAC-----ATTTTCTAT  16969
+
+hg38_dna       15148 ATTTGTAACTTTGCATGTTCTTGTTTTGTTATATAAAAAAATTGTAAATG  15197
+                     ||||||||||||||||||||||||||||||.|||||||||.||.||||||
+saiBol1_dna    16970 ATTTGTAACTTTGCATGTTCTTGTTTTGTTGTATAAAAAATTTATAAATG  17019
+
+hg38_dna       15198 TTTAATATCTGACTGAAATTAAAC--GAGCGAAGATGAGCACCACC  15241
+                     ||||||||||||||||||||||||  ||||.|||||||||.|||  
+saiBol1_dna    17020 TTTAATATCTGACTGAAATTAAACAGGAGCCAAGATGAGCGCCA--  17063
+
+
+#---------------------------------------
+#---------------------------------------

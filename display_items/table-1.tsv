@@ -1,0 +1,6 @@
+common_name	strain_roa	shortname	mean_sd_bc	expected_duration_bc	power_bc	attack_rate	mean_sd	expected_duration_oth	power_oth
+Chimpanzee	sCJD i.c.	Lampert 1971	14.9±1.0	24	1	24/29	17±7*	39	0.347
+Cynomolgus macaque	vCJD i.c.	Herzog 2005	31±5.0	56	0.977				
+Spider monkey	sCJD i.c.	Zlotnik 1976	23.5±0.8	37	1	30/31	31±8	62	0.732
+Squirrel monkey	sCJD i.c.	Zlotnik 1976	24.6±3.7	44	0.981	196/211	25±5	47	0.871
+Gray mouse lemur	L-BSE i.c.	Mestre-Francés 2012	20.6±1.6	34	1				

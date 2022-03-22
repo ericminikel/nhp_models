@@ -1,0 +1,9 @@
+Last updated: 2022-03-17
+
+Proportion of animals IC inoculated: 186/527
+Animals censored versus reaching endpoint: 260 vs. 267
+Number of cohorts with N < 4 animals: 197
+Number of cohorts with N = 1 animal: 121
+Total number of cohorts: 233
+
+
