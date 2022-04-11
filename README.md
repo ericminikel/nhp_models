@@ -2,8 +2,7 @@
 
 This repository holds the data and source code for the following manuscript in preparation:
 
-[Mortberg MA, Minikel EV. Vallabh SM, **Analysis of non-human primate models for
-evaluating prion disease therapeutic efficacy.** _To be posted to bioRxiv_]().
+[Mortberg MA, Minikel EV. Vallabh SM, **Analysis of non-human primate models for evaluating prion disease therapeutic efficacy.** _bioRxiv_ April 7, 2022. doi: 10.1101/2022.03.22.485331](https://doi.org/10.1101/2022.03.22.485331)
 
 This manuscript describes the aggregation of a dataset of reported prion infection studies in non-human primates based on a systematic literature review, followed by the analysis of that dataset to determine the potential parameters, statistical power, and challenges and limitations for prion therapeutic efficacy studies in such models.
 
