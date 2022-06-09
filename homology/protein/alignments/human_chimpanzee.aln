@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Thu  9 Jun 2022 14:23:27
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220609-142325-0196-65673805-p2m.asequence
+#    -bsequence emboss_needle-I20220609-142325-0196-65673805-p2m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: human
+# 2: chimpanzee
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 253
+# Identity:     251/253 (99.2%)
+# Similarity:   253/253 (100.0%)
+# Gaps:           0/253 ( 0.0%)
+# Score: 1427.0
+# 
+#
+#=======================================
+
+human              1 MANLGCWMLVLFVATWSDLGLCKKRPKPGGWNTGGSRYPGQGSPGGNRYP     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+chimpanzee         1 MANLGCWMLVLFVATWSDLGLCKKRPKPGGWNTGGSRYPGQGSPGGNRYP     50
+
+human             51 PQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQGGGTHSQWN    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+chimpanzee        51 PQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQGGGTHSQWN    100
+
+human            101 KPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAMSRPIIHFGSDYEDRYY    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+chimpanzee       101 KPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAMSRPIIHFGSDYEDRYY    150
+
+human            151 RENMHRYPNQVYYRPMDEYSNQNNFVHDCVNITIKQHTVTTTTKGENFTE    200
+                     |||||||||||||||||:||:|||||||||||||||||||||||||||||
+chimpanzee       151 RENMHRYPNQVYYRPMDQYSSQNNFVHDCVNITIKQHTVTTTTKGENFTE    200
+
+human            201 TDVKMMERVVEQMCITQYERESQAYYQRGSSMVLFSSPPVILLISFLIFL    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+chimpanzee       201 TDVKMMERVVEQMCITQYERESQAYYQRGSSMVLFSSPPVILLISFLIFL    250
+
+human            251 IVG    253
+                     |||
+chimpanzee       251 IVG    253
+
+
+#---------------------------------------
+#---------------------------------------

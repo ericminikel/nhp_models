@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Thu  9 Jun 2022 14:25:27
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220609-142521-0318-29396836-p1m.asequence
+#    -bsequence emboss_needle-I20220609-142521-0318-29396836-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: human
+# 2: gray
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 254
+# Identity:     235/254 (92.5%)
+# Similarity:   248/254 (97.6%)
+# Gaps:           1/254 ( 0.4%)
+# Score: 1348.0
+# 
+#
+#=======================================
+
+human              1 MANLGCWMLVLFVATWSDLGLCKKRPKPGGWNTGGSRYPGQGSPGGNRYP     50
+                     |.:||.||||||||||||:|||||||||||||||||||||||||||||||
+gray               1 MVSLGSWMLVLFVATWSDVGLCKKRPKPGGWNTGGSRYPGQGSPGGNRYP     50
+
+human             51 PQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPH-GGGWGQGGGTHSQW     99
+                     ||||||||||||||||||||||||||||||||||| |||||||||:|.||
+gray              51 PQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPHGGGGWGQGGGSHGQW    100
+
+human            100 NKPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAMSRPIIHFGSDYEDRY    149
+                     ||||||||||||||||||||||||||||||||||||||::|||:||||||
+gray             101 NKPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAMSRPLMHFGNDYEDRY    150
+
+human            150 YRENMHRYPNQVYYRPMDEYSNQNNFVHDCVNITIKQHTVTTTTKGENFT    199
+                     |||||:||||||||:|:|:|||||||||||||||||||||||||||||||
+gray             151 YRENMNRYPNQVYYKPVDQYSNQNNFVHDCVNITIKQHTVTTTTKGENFT    200
+
+human            200 ETDVKMMERVVEQMCITQYERESQAYYQRGSSMVLFSSPPVILLISFLIF    249
+                     |||||||||||||||:|||::|.||.||||||||||||||||||||||||
+gray             201 ETDVKMMERVVEQMCVTQYQKEYQAAYQRGSSMVLFSSPPVILLISFLIF    250
+
+human            250 LIVG    253
+                     ||||
+gray             251 LIVG    254
+
+
+#---------------------------------------
+#---------------------------------------

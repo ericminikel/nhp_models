@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Thu  9 Jun 2022 14:15:24
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220609-142632-0097-10480980-p1m.asequence
+#    -bsequence emboss_needle-I20220609-142632-0097-10480980-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: human
+# 2: spider
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 253
+# Identity:     236/253 (93.3%)
+# Similarity:   243/253 (96.0%)
+# Gaps:           9/253 ( 3.6%)
+# Score: 1325.0
+# 
+#
+#=======================================
+
+human              1 MANLGCWMLVLFVATWSDLGLCKKRPKPGGWNTGGSRYPGQGSPGGNRYP     50
+                     |||||.||||||||||||||||||||||||||||||||||||||||||||
+spider             1 MANLGYWMLVLFVATWSDLGLCKKRPKPGGWNTGGSRYPGQGSPGGNRYP     50
+
+human             51 PQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQGGGTHSQWN    100
+                     ||         |||||||||||||||||||||||||||||||||||:|||
+spider            51 PQ---------GGGWGQPHGGGWGQPHGGGWGQPHGGGWGQGGGTHNQWN     91
+
+human            101 KPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAMSRPIIHFGSDYEDRYY    150
+                     |||||||||||||||||||||||||||||||||||||:||||:|||||||
+spider            92 KPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAMSRPLIHFGNDYEDRYY    141
+
+human            151 RENMHRYPNQVYYRPMDEYSNQNNFVHDCVNITIKQHTVTTTTKGENFTE    200
+                     ||||:||||||||||:|:|:||||||||||||||||||||||||||||||
+spider           142 RENMYRYPNQVYYRPVDQYNNQNNFVHDCVNITIKQHTVTTTTKGENFTE    191
+
+human            201 TDVKMMERVVEQMCITQYERESQAYYQRGSSMVLFSSPPVILLISFLIFL    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+spider           192 TDVKMMERVVEQMCITQYERESQAYYQRGSSMVLFSSPPVILLISFLIFL    241
+
+human            251 IVG    253
+                     |||
+spider           242 IVG    244
+
+
+#---------------------------------------
+#---------------------------------------
