@@ -1,15 +1,21 @@
 options(stringsAsFactors=F)
-
+library(stringr)
 if (interactive()) {
   setwd('~/d/sci/src/nhp_models')
 }
 
-result = data.frame(species=c('chimpanzee','cynomolgus','spider monkey','squirrel monkey','gray mouse lemur'),
-                    dna_filename=c('human_chimpanzee.aln','human_cynomolgus_rcomp.aln','human_spidermonkey_rcomp.aln','human_squirrelmonkey.aln','human_graymouselemur.aln'),
-                    prot_filename=c('human_chimpanzee.aln','human_cynomolgus.aln','human_spidermonkey.aln','human_squirrelmonkey.aln','human_graymouselemur.aln'),
-                    identity_numerator=integer(5),identity_denominator=integer(5),identity_proportion=numeric(5),
-                    tile_numerator=integer(5),tile_denominator=integer(5),tile_proportion=numeric(5),
-                    protein_numerator=integer(5),protein_denominator=integer(5),protein_proportion=numeric(5))
+result = data.frame(species=c('chimpanzee','cynomolgus','rhesus','marmoset','spider monkey','squirrel monkey','tamarin','gray mouse lemur'),
+                    dna_filename=c('human_chimpanzee.aln','human_cynomolgus_rcomp.aln','human_rhesus_rcomp.aln','human_marmoset.aln','human_spidermonkey_rcomp.aln','human_squirrelmonkey.aln','human_tamarin.aln','human_graymouselemur.aln'),
+                    prot_filename=c('human_chimpanzee.aln','human_cynomolgus.aln','human_rhesus.aln','human_marmoset.aln','human_spidermonkey.aln','human_squirrelmonkey.aln','human_tamarin.aln','human_graymouselemur.aln'),
+                    identity_numerator=integer(8),
+                    identity_denominator=integer(8),
+                    identity_proportion=numeric(8),
+                    tile_numerator=integer(8),
+                    tile_denominator=integer(8),
+                    tile_proportion=numeric(8),
+                    protein_numerator=integer(8),
+                    protein_denominator=integer(8),
+                    protein_proportion=numeric(8))
 
 for (r in 1:nrow(result)) {
   

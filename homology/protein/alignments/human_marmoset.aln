@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Thu 30 Jun 2022 10:56:32
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220630-104622-0586-36971022-p1m.asequence
+#    -bsequence emboss_needle-I20220630-104622-0586-36971022-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: human
+# 2: marmoset
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 253
+# Identity:     242/253 (95.7%)
+# Similarity:   250/253 (98.8%)
+# Gaps:           1/253 ( 0.4%)
+# Score: 1375.0
+# 
+#
+#=======================================
+
+human              1 MANLGCWMLVLFVATWSDLGLCKKRPKPGGWNTGGSRYPGQGSPGGNRYP     50
+                     |||||.|||.||||||||||||||||||||||||||||||||||||||||
+marmoset           1 MANLGYWMLFLFVATWSDLGLCKKRPKPGGWNTGGSRYPGQGSPGGNRYP     50
+
+human             51 PQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQGGGTHSQWN    100
+                     || |||||||||||||||||||||||||||||||||||||||||||:|||
+marmoset          51 PQ-GGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQGGGTHNQWN     99
+
+human            101 KPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAMSRPIIHFGSDYEDRYY    150
+                     |||||||||||:|||||||||||||||||||||||||:||||:|||||||
+marmoset         100 KPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAMSRPLIHFGNDYEDRYY    149
+
+human            151 RENMHRYPNQVYYRPMDEYSNQNNFVHDCVNITIKQHTVTTTTKGENFTE    200
+                     ||||:||||||||||:|:|:||||||||||||||||||||||||||||||
+marmoset         150 RENMYRYPNQVYYRPVDQYNNQNNFVHDCVNITIKQHTVTTTTKGENFTE    199
+
+human            201 TDVKMMERVVEQMCITQYERESQAYYQRGSSMVLFSSPPVILLISFLIFL    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+marmoset         200 TDVKMMERVVEQMCITQYERESQAYYQRGSSMVLFSSPPVILLISFLIFL    249
+
+human            251 IVG    253
+                     |||
+marmoset         250 IVG    252
+
+
+#---------------------------------------
+#---------------------------------------

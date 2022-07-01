@@ -1,6 +1,9 @@
 species	dna_filename	prot_filename	identity_numerator	identity_denominator	identity_proportion	tile_numerator	tile_denominator	tile_proportion	protein_numerator	protein_denominator	protein_proportion
 chimpanzee	human_chimpanzee.aln	human_chimpanzee.aln	14942	15162	0.985490040891703	11512	15142	0.760269449214106	206	208	0.990384615384615
 cynomolgus	human_cynomolgus_rcomp.aln	human_cynomolgus.aln	14375	14737	0.97543597747167	4980	14717	0.338384181558742	199	208	0.956730769230769
+rhesus	human_rhesus_rcomp.aln	human_rhesus.aln	14161	15097	0.938000927336557	4714	15077	0.31266167009352	199	208	0.956730769230769
+marmoset	human_marmoset.aln	human_marmoset.aln	13571	15019	0.903588787535788	2152	14999	0.143476231748783	199	208	0.956730769230769
 spider monkey	human_spidermonkey_rcomp.aln	human_spidermonkey.aln	13204	14665	0.900375042618479	2482	14645	0.169477637418914	200	208	0.961538461538462
 squirrel monkey	human_squirrelmonkey.aln	human_squirrelmonkey.aln	12986	14591	0.890000685353985	2182	14571	0.149749502436346	197	208	0.951923076923077
+tamarin	human_tamarin.aln	human_tamarin.aln	13345	15116	0.882839375496163	2142	15096	0.141891891891892	198	208	0.951923076923077
 gray mouse lemur	human_graymouselemur.aln	human_graymouselemur.aln	10664	15132	0.704731694422416	367	15112	0.0242853361566967	193	208	0.932692307692308

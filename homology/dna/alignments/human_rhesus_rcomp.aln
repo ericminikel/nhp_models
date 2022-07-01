@@ -1,0 +1,1301 @@
+########################################
+# Program: needle
+# Rundate: Thu 30 Jun 2022 10:48:42
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220630-104824-0004-75365370-p1m.asequence
+#    -bsequence emboss_needle-I20220630-104824-0004-75365370-p1m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: hg38_dna
+# 2: rheMac10_dna
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15705
+# Identity:   14161/15705 (90.2%)
+# Similarity: 14161/15705 (90.2%)
+# Gaps:         747/15705 ( 4.8%)
+# Score: 66556.0
+# 
+#
+#=======================================
+
+hg38_dna           1 CGCGCGGCAATTGGTCCCCGCGCCGACCTCCGCCCGCGAGCGCCGCCGCT     50
+                                                                       
+rheMac10_dna       1 --------------------------------------------------      0
+
+hg38_dna          51 TCCCTTCCCCGCCCCGCGTCCCTCCCCCTCGGCCCCGCGCGTCGCCTGTC    100
+                                                                       
+rheMac10_dna       1 --------------------------------------------------      0
+
+hg38_dna         101 CTCCGAGCCAGTCGCTGACAGCCGCGGCGCCGCGAGCTTCTCCTCTCCTC    150
+                                                                  |||||
+rheMac10_dna       1 ---------------------------------------------TCCTC      5
+
+hg38_dna         151 ACGACCGAGGCAGGTAAACGCCCGGGGTGGGAGGAACGCGGGCGGGGGCA    200
+                     |||||||||||||||||||.||||||||||..|.|||.|||||||||.||
+rheMac10_dna       6 ACGACCGAGGCAGGTAAACACCCGGGGTGGCGGAAACTCGGGCGGGGACA     55
+
+hg38_dna         201 GGGGAGCCGCGGGGGCCGAGTGAGGACCCCGGGCCTCGGGTCCCAGGCGC    250
+                     |||||||.||||||||||||||||||||||||||||||||||||||||.|
+rheMac10_dna      56 GGGGAGCTGCGGGGGCCGAGTGAGGACCCCGGGCCTCGGGTCCCAGGCAC    105
+
+hg38_dna         251 AAGGGTGCCCGGCCGGGCGGGGTCGGGACCCCAGTGAGGAGGGGCCGGGG    300
+                     ||||.|||||||||||||.|||||.|.|||||||||||||||||||||||
+rheMac10_dna     106 AAGGATGCCCGGCCGGGCAGGGTCCGAACCCCAGTGAGGAGGGGCCGGGG    155
+
+hg38_dna         301 GCTGCCCCGCGGGCGCGTGACGCGTCTCGGGCCTGCCCGGCTGCGCTGGT    350
+                     ||||||||||||||||||||||||||||||||||||||||.|||||||||
+rheMac10_dna     156 GCTGCCCCGCGGGCGCGTGACGCGTCTCGGGCCTGCCCGGGTGCGCTGGT    205
+
+hg38_dna         351 CTCCGCTCGGGTGAGGCGGCTTGGCTTCGCTTTTCAGGTTAGGAAAGCTC    400
+                     |||.|||||||||||||||||.||||||.||||||||| |||||||||||
+rheMac10_dna     206 CTCGGCTCGGGTGAGGCGGCTCGGCTTCACTTTTCAGG-TAGGAAAGCTC    254
+
+hg38_dna         401 CCTTTACTGCGCGTTGGGGGGCTGGGGGAGCTGGCGGAGCCCCGTTAGGG    450
+                     ||||||||.|||||  ||||||||||||||||||||||||||||.|||||
+rheMac10_dna     255 CCTTTACTCCGCGT--GGGGGCTGGGGGAGCTGGCGGAGCCCCGGTAGGG    302
+
+hg38_dna         451 AGGTCGGTGGCGCCGGGGTGTCTCAGCGCCCCCTGCACCCCGCGCGGGTC    500
+                     |.||||||||||||||||||||.|||| ||||.||.||||||||.|||||
+rheMac10_dna     303 AAGTCGGTGGCGCCGGGGTGTCCCAGC-CCCCTTGTACCCCGCGTGGGTC    351
+
+hg38_dna         501 CGGCCCAGCGGGCGATCGCTGGCGCCCAGGGAACTCCGGGAGGGCCGCCA    550
+                     |||||||||||||||||||.||||.|||||||||.||||.||||||||||
+rheMac10_dna     352 CGGCCCAGCGGGCGATCGCCGGCGGCCAGGGAACGCCGGAAGGGCCGCCA    401
+
+hg38_dna         551 GCGGGCTCCGCAGGGCGCGGGGCGGGGAGGGGCGCCTGGGGGCCGCGGGG    600
+                     ||||||||||||||||||||||||.|||||||||||||||||||||||||
+rheMac10_dna     402 GCGGGCTCCGCAGGGCGCGGGGCGAGGAGGGGCGCCTGGGGGCCGCGGGG    451
+
+hg38_dna         601 CTCGCGCTCCCCGCCCGTTGGCCGCCCCTCGGAGGCCGAGATCGGGGCCC    650
+                     |||||||||.||||||||||||||||||||||||||||.|||||||||||
+rheMac10_dna     452 CTCGCGCTCTCCGCCCGTTGGCCGCCCCTCGGAGGCCGGGATCGGGGCCC    501
+
+hg38_dna         651 AGAACGCCCCTTGGCAAGGCCTGGCGCTTCCGCGATGCCCAGAGGGTGCT    700
+                     .|.||||||||.||||||||||||||||||||||||||||||||||||||
+rheMac10_dna     502 GGGACGCCCCTCGGCAAGGCCTGGCGCTTCCGCGATGCCCAGAGGGTGCT    551
+
+hg38_dna         701 T-GGGGGGATGGAGAGAGGGGCGCCCGCCGGGGGAGTTCC-GGGAGCCTC    748
+                     | |||||||||||.||||||.||||||||||||||||||| |||.|||||
+rheMac10_dna     552 TGGGGGGGATGGAAAGAGGGACGCCCGCCGGGGGAGTTCCGGGGCGCCTC    601
+
+hg38_dna         749 GGTGCCTCCCGCCGCAGCTGCAGCGTTCCTCCCGGGAGGCGGCCCAGCCC    798
+                     |||.||||||||||||||.||||||.||||||||||||||.||||.||||
+rheMac10_dna     602 GGTCCCTCCCGCCGCAGCCGCAGCGCTCCTCCCGGGAGGCAGCCCCGCCC    651
+
+hg38_dna         799 TTCATCCTCGCCGCCTGAGCTTCTCCGAGGGGGGCTGCAGCCTTGCGGCC    848
+                     |||||||||||..||.|||||||||||||||.|||.||||||.|||.|||
+rheMac10_dna     652 TTCATCCTCGCGACCGGAGCTTCTCCGAGGGAGGCCGCAGCCGTGCAGCC    701
+
+hg38_dna         849 GT---------TGCCACCGCCTGGAGAAGCGGCCCACGCGGACTGACGGG    889
+                     ||         .|||||||||||..||||.||||||||||    |.||||
+rheMac10_dna     702 GTCGCCACCGCCGCCACCGCCTGAGGAAGGGGCCCACGCG----GGCGGG    747
+
+hg38_dna         890 CGGGGGCGGGGCCTCGGGCCTCGGCGGGGGCGGGGTCCGGGGAGGCCCCA    939
+                     |||||||||||||||.||||||||||||||||||||||.|||||||.|||
+rheMac10_dna     748 CGGGGGCGGGGCCTCAGGCCTCGGCGGGGGCGGGGTCCAGGGAGGCTCCA    797
+
+hg38_dna         940 CCCTCTGTTCTCCAGGGGCGGGGAGAGAGGAGCTGCAGGTCTGCGGCCTG    989
+                     ||||||||||.||||.|||||||||||||.||||||||||||||||||||
+rheMac10_dna     798 CCCTCTGTTCGCCAGTGGCGGGGAGAGAGTAGCTGCAGGTCTGCGGCCTG    847
+
+hg38_dna         990 GCCCCAGGTGCGATGGCGGACCCCAGCTTGGCCAGTCACATTCCTCCCAG   1039
+                     |||||||||||||.||||||||.|||||||.|||||...|||||||||||
+rheMac10_dna     848 GCCCCAGGTGCGACGGCGGACCTCAGCTTGACCAGTAGTATTCCTCCCAG    897
+
+hg38_dna        1040 TCCCCCTGGAGGGAGAACGCTGGCCATGGGGGGCTCCAAGGAACAACCAG   1089
+                      .||||||||||||||||.|||||||||||||||||||||||||||||||
+rheMac10_dna     898 -ACCCCTGGAGGGAGAACACTGGCCATGGGGGGCTCCAAGGAACAACCAG    946
+
+hg38_dna        1090 CCTCGGATGACGACCCTTGGGTCACCGGTCTCCCCACCTGTGCGGCAGGC   1139
+                     |||||.|||||.|||||||||||||.||.||||||||||||||.||||||
+rheMac10_dna     947 CCTCGAATGACTACCCTTGGGTCACTGGCCTCCCCACCTGTGCAGCAGGC    996
+
+hg38_dna        1140 GCCTTCACGTTTCATTATTAAACAATGGGGAGAAATCCATGTTTACTGTC   1189
+                     ||||||.||||||.|||||||||||||||||||||||||||||||||||.
+rheMac10_dna     997 GCCTTCGCGTTTCGTTATTAAACAATGGGGAGAAATCCATGTTTACTGTA   1046
+
+hg38_dna        1190 CTTTTTAAGGAATTTTTTGCTCTTCTCTTTGAGGTGGCTGTAGGAAATAG   1239
+                     |||||||||||||||||||||||||||||||..|||||||||||||||||
+rheMac10_dna    1047 CTTTTTAAGGAATTTTTTGCTCTTCTCTTTGTAGTGGCTGTAGGAAATAG   1096
+
+hg38_dna        1240 ATTTTTTTTTTAACCTCGCAATTCCACCACGGTCACATCCATCCTCGCCA   1289
+                     | ||||||||||||||||.|||||||||||.|.||||||||||.||||||
+rheMac10_dna    1097 A-TTTTTTTTTAACCTCGTAATTCCACCACCGCCACATCCATCTTCGCCA   1145
+
+hg38_dna        1290 TCGCAGAGCCACAGCTCTCCGTTTTTGTTTCCTAGCCTCCAGATTCTCAC   1339
+                     |||||.|||||||||||.|.||||||||||||||||||||||||||||||
+rheMac10_dna    1146 TCGCAAAGCCACAGCTCCCTGTTTTTGTTTCCTAGCCTCCAGATTCTCAC   1195
+
+hg38_dna        1340 ACAACACAGTGCAGTTTCACTGCTGTAATGATGAGGATCTTCATGGCCGC   1389
+                     |||||||||||||||||||||||..|||||.||||.|||||||||||.||
+rheMac10_dna    1196 ACAACACAGTGCAGTTTCACTGCCATAATGCTGAGAATCTTCATGGCTGC   1245
+
+hg38_dna        1390 GTTATTTTCTTGTTCTGAGAGCATCACGGTTTAATTAGCAGTTCCCCATA   1439
+                     ||||||||||||||||.|||.|||||||||||||||||.|||||||||||
+rheMac10_dna    1246 GTTATTTTCTTGTTCTTAGATCATCACGGTTTAATTAGTAGTTCCCCATA   1295
+
+hg38_dna        1440 TG------ATTTGAAGTGTTTCCCGTTTCCTTAGGGAAAACTCCTGGTAG   1483
+                     .|      ||||||..|||||||||||||||||||.||||||||||||||
+rheMac10_dna    1296 GGCAGAACATTTGAGATGTTTCCCGTTTCCTTAGGAAAAACTCCTGGTAG   1345
+
+hg38_dna        1484 AATAGGATTAAGGATTTTTACAAATATAATTATCAAAAACATAGGAACAG   1533
+                     ||.||||||||||||||||||||||||||||.||||||||||||||||||
+rheMac10_dna    1346 AAAAGGATTAAGGATTTTTACAAATATAATTGTCAAAAACATAGGAACAG   1395
+
+hg38_dna        1534 GGAATTGGATAAATATGTTAAACTTCTGGAAAAATCAACAACGCTCTTAG   1583
+                     |.||||||.|.||||||||||||.||||.|||||||||||||||||||||
+rheMac10_dna    1396 GAAATTGGGTGAATATGTTAAACCTCTGAAAAAATCAACAACGCTCTTAG   1445
+
+hg38_dna        1584 ATTTGTAGAAGAAAGGAAAAAATCACCAGTGGAAAGGAGCAATTTTACTT   1633
+                     ||.|||||||||.|||||||||||||||||||.|||.|||||||||||||
+rheMac10_dna    1446 ATCTGTAGAAGAGAGGAAAAAATCACCAGTGGGAAGAAGCAATTTTACTT   1495
+
+hg38_dna        1634 ACACAAACACAGAGAAGGTCTTACAGTGAAAAAAAGCTAACCAGTAAGGG   1683
+                     ||||||.|||.|||||||||||||||||||||||||||||||||||||||
+rheMac10_dna    1496 ACACAAGCACTGAGAAGGTCTTACAGTGAAAAAAAGCTAACCAGTAAGGG   1545
+
+hg38_dna        1684 GAAAAGCAGGCAGAGGGGTAGGATGTGATTTGTATGTTATTTATATCTAA   1733
+                     .||||||||||||||.||||||||||||||||||||||||||.||||||.
+rheMac10_dna    1546 AAAAAGCAGGCAGAGAGGTAGGATGTGATTTGTATGTTATTTGTATCTAG   1595
+
+hg38_dna        1734 CACAAGTCTTCCACACCGAAAGGAAAATATTAAGATTATAATAGATAAAT   1783
+                     |||||.||||||||||.|||||||||||||||||||||||||||||||||
+rheMac10_dna    1596 CACAAATCTTCCACACTGAAAGGAAAATATTAAGATTATAATAGATAAAT   1645
+
+hg38_dna        1784 GGCAAAATGATGAGTCATTTACACAATAAAATGCAAATTAGAGCATGTTT   1833
+                     |.|||||||||||.|.|||||||||||||||||||||||| |||||||||
+rheMac10_dna    1646 GACAAAATGATGAATAATTTACACAATAAAATGCAAATTA-AGCATGTTT   1694
+
+hg38_dna        1834 GGGTTATCATTTTACATCTATTAAAATAACCAAAATAATTAATAGTAACA   1883
+                     |||||||||||||||||.||||||||||||.|||||||||||||||||||
+rheMac10_dna    1695 GGGTTATCATTTTACATTTATTAAAATAACAAAAATAATTAATAGTAACA   1744
+
+hg38_dna        1884 GCAACCCTTGCTGGAAGGTTGCCCAAAACTTGGCATTTTCAAGTGTCTGG   1933
+                     ||||||||||||||||||||||||||||||||.|||||||||||.||.||
+rheMac10_dna    1745 GCAACCCTTGCTGGAAGGTTGCCCAAAACTTGACATTTTCAAGTATCCGG   1794
+
+hg38_dna        1934 GGAGGTGGCAGGGCTTTGGGGTCACAAAGATGGTTCTGCAGTCAATTTTG   1983
+                     ||||||||||||||||||.|.||||||||||||||||.||||||||||||
+rheMac10_dna    1795 GGAGGTGGCAGGGCTTTGAGATCACAAAGATGGTTCTACAGTCAATTTTG   1844
+
+hg38_dna        1984 TGACCTTGGACAGGCTACCTAATTTCCTGATCCTCCTTTTGTCCATTCAT   2033
+                     ||||.|||||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna    1845 TGACTTTGGACAGGCTACCTAATTTCCTGATCCTCCTTTTGTCCATTCAT   1894
+
+hg38_dna        2034 AGAATGGAGGAAATGATAGCTACTTTCTGCGTCTGTATGTATGAGTTATT   2083
+                     ||||||||||||||||||||||||||||||.||||||||||||.||||||
+rheMac10_dna    1895 AGAATGGAGGAAATGATAGCTACTTTCTGCATCTGTATGTATGTGTTATT   1944
+
+hg38_dna        2084 GGGGGCATTTCGAACCAGTGACAAACATTTTGTTAAGCAATCTGGTGATG   2133
+                     .|||||||||.|||||||| ||||||.||||||.||||||||||||||||
+rheMac10_dna    1945 TGGGGCATTTTGAACCAGT-ACAAACCTTTTGTAAAGCAATCTGGTGATG   1993
+
+hg38_dna        2134 CATTAAGAAGCTGGAAGCTGTGACCCAGAAACCCCACTCCTGAGAACTTA   2183
+                     ||||||||||.||||||||||||||.||||||||||||||||||||.|||
+rheMac10_dna    1994 CATTAAGAAGTTGGAAGCTGTGACCTAGAAACCCCACTCCTGAGAATTTA   2043
+
+hg38_dna        2184 CCTGCAATGGAAGAAACAAAC--AAACAAAAACAGGCATGTATTCCTAGC   2231
+                     |||||||||||||||||||||  |||.|||||||||||..||||||.|||
+rheMac10_dna    2044 CCTGCAATGGAAGAAACAAACAAAAAAAAAAACAGGCACATATTCCCAGC   2093
+
+hg38_dna        2232 AGAATGATCTAAAATTAGAACACCTGGAAAAGAGCCTAAATGTATAACAC   2281
+                     ||||||||||||||||||||||.||||||||.||.|||||||||||||||
+rheMac10_dna    2094 AGAATGATCTAAAATTAGAACAGCTGGAAAACAGTCTAAATGTATAACAC   2143
+
+hg38_dna        2282 CAGGGCAGTAGCTAAGAAAATTATGACACATTAACTGAAATGAACATTAT   2331
+                     ||||||||||||||||||||||||||||.||.|||||||||.|||||||.
+rheMac10_dna    2144 CAGGGCAGTAGCTAAGAAAATTATGACAGATAAACTGAAATAAACATTAC   2193
+
+hg38_dna        2332 GTAACCACT--AAAAATCATGATTTTGGAGCCTGTGATATGTGGGGAAAA   2379
+                     ||||||| |  |||||||||||||||||||||||||||||||||||||||
+rheMac10_dna    2194 GTAACCA-TAAAAAAATCATGATTTTGGAGCCTGTGATATGTGGGGAAAA   2242
+
+hg38_dna        2380 ACTGACAAGTAAAAAAGTGGGTTA-TTAACTGCACCTGCTTACTCTAACG   2428
+                     ||||..|||||||||||||||||| |.||||||||||||||.|||||||.
+rheMac10_dna    2243 ACTGGTAAGTAAAAAAGTGGGTTACTAAACTGCACCTGCTTGCTCTAACA   2292
+
+hg38_dna        2429 TGAACGCATATGTGAAAAATCTGAAAG-GAAAAGCACAGAAAATGGACGT   2477
+                     ||||||||||||||||||||||||||| .|||||||||||||||||||||
+rheMac10_dna    2293 TGAACGCATATGTGAAAAATCTGAAAGAAAAAAGCACAGAAAATGGACGT   2342
+
+hg38_dna        2478 TTTCATTGAAATTGTCGGTGATCTTAATTTTCCTTTGGTGAATATATTGC   2527
+                     |||||||||||||.|.||||||||||||||||.|||||||||||||||||
+rheMac10_dna    2343 TTTCATTGAAATTATAGGTGATCTTAATTTTCTTTTGGTGAATATATTGC   2392
+
+hg38_dna        2528 TCTCAC----TAAGGGCGTTTAAAAAATAGTTC-ACAGGTTTTAATTTTT   2572
+                     |.||||    |||||.|.||||||||||||||| ||||||||||||||||
+rheMac10_dna    2393 TGTCACTAAATAAGGACATTTAAAAAATAGTTCAACAGGTTTTAATTTTT   2442
+
+hg38_dna        2573 TAGATGAAATGGACCCACAGTTTTCTGTAAG-AGAAAGGAGAGATTGTTA   2621
+                     ||.|||||||||||||||||||||||||..| |.||||||||||||||||
+rheMac10_dna    2443 TAAATGAAATGGACCCACAGTTTTCTGTGTGTAAAAAGGAGAGATTGTTA   2492
+
+hg38_dna        2622 TATTTGCTACTTAGAATAAAAGATTTTTAGCCAACGTTGTTTCCTTTTTC   2671
+                     |||||||||||||||||||||||||||||||||||.|||||||.||||||
+rheMac10_dna    2493 TATTTGCTACTTAGAATAAAAGATTTTTAGCCAACCTTGTTTCTTTTTTC   2542
+
+hg38_dna        2672 AAATATTTTTCCA-TTTTTTTAGTTGATTAATGATTTAGTAATTTGTGTA   2720
+                     |||||||.||||| |||||||.|||||||||||||||||||||||||.||
+rheMac10_dna    2543 AAATATTGTTCCATTTTTTTTTGTTGATTAATGATTTAGTAATTTGTATA   2592
+
+hg38_dna        2721 TTGGGTTTTTTT--AAGAATCAGTTCTTAGATTCATTTATCAATTCTAGT   2768
+                     ||||||||||||  ||||||||||||||||||||||||||||||||||||
+rheMac10_dna    2593 TTGGGTTTTTTTTAAAGAATCAGTTCTTAGATTCATTTATCAATTCTAGT   2642
+
+hg38_dna        2769 TTTT---TGTTGTTGTTTTTAAGGACTCCTGAATATTTTTCAAAACTGAA   2815
+                     ||||   |||.|||||||||||||||||||||||||||||||||||||||
+rheMac10_dna    2643 TTTTTGCTGTCGTTGTTTTTAAGGACTCCTGAATATTTTTCAAAACTGAA   2692
+
+hg38_dna        2816 CAATTTCAGCCATGTCTGAGCTTTCCGTCTTCCTGGAGGCACAAATCTAG   2865
+                     |||||||||||||||||.|||||||.||||||||||||||||||||||||
+rheMac10_dna    2693 CAATTTCAGCCATGTCTAAGCTTTCTGTCTTCCTGGAGGCACAAATCTAG   2742
+
+hg38_dna        2866 TTTAGCTGAACCACAACAGATTGTACATATCCTGCAGAACCTCTGTGGTC   2915
+                     |||||||||.||||||||||||||||||||||.|||||||||||||||||
+rheMac10_dna    2743 TTTAGCTGAGCCACAACAGATTGTACATATCCAGCAGAACCTCTGTGGTC   2792
+
+hg38_dna        2916 TTAGGAAGGTTGAAAGTCACCAAATGTCACAGAAAATGAGGGTCAGGAAA   2965
+                     |||||||||||||||||||||||.||||||||||||||||||||||||||
+rheMac10_dna    2793 TTAGGAAGGTTGAAAGTCACCAACTGTCACAGAAAATGAGGGTCAGGAAA   2842
+
+hg38_dna        2966 GGCTGTGATCACAAGCTCTTGATCCAGAGGCCACTCGGGTGCATCTGTGT   3015
+                     |||||||||||||||||||||||||||||||||||.||||.|||||||||
+rheMac10_dna    2843 GGCTGTGATCACAAGCTCTTGATCCAGAGGCCACTTGGGTCCATCTGTGT   2892
+
+hg38_dna        3016 GACTGACACCTCATTGCATCATCATTTCTTGTAAAATCAGCTTAATTTTG   3065
+                     .|||.||||||||.||||||||||||||||||||||||||.|||||||||
+rheMac10_dna    2893 AACTCACACCTCACTGCATCATCATTTCTTGTAAAATCAGTTTAATTTTG   2942
+
+hg38_dna        3066 CAGAGAAATGGCCACAGATTTTTAGAATTATGCTGAATTATGTAAGGGAG   3115
+                     |||||||||||||||||||||||||||||||.||||||||||||||||||
+rheMac10_dna    2943 CAGAGAAATGGCCACAGATTTTTAGAATTATTCTGAATTATGTAAGGGAG   2992
+
+hg38_dna        3116 CAGCCATTTTAAAAATAATGTAATCAAATAACAATAATAACATAACAGAA   3165
+                     ||||||||||||||||||||||||.|||||||||||     |||||||||
+rheMac10_dna    2993 CAGCCATTTTAAAAATAATGTAATGAAATAACAATA-----ATAACAGAA   3037
+
+hg38_dna        3166 GTTTCTGCACCACACTGACACTGAACATGGCTGTCAACCAACTAGCCAAA   3215
+                     ||||||||||||||.||||.||||||||||||.|.||||||||.||||||
+rheMac10_dna    3038 GTTTCTGCACCACATTGACCCTGAACATGGCTCTGAACCAACTGGCCAAA   3087
+
+hg38_dna        3216 CCAAGGTGAAAGATTCTCTGAACTTCAGTTTTAACTTACTTCGTCCATTC   3265
+                     |||||||.|||||||||||.||||||||||||||||||||||||||||||
+rheMac10_dna    3088 CCAAGGTAAAAGATTCTCTAAACTTCAGTTTTAACTTACTTCGTCCATTC   3137
+
+hg38_dna        3266 TCCCTTTTCAGATCTTATTTCTTCTTCCAAGGCAACTATATCCACTGTGA   3315
+                     |||||||||||||||||||||||||||||||||||||||||||.||||||
+rheMac10_dna    3138 TCCCTTTTCAGATCTTATTTCTTCTTCCAAGGCAACTATATCCGCTGTGA   3187
+
+hg38_dna        3316 ACTGCTGCATATTAAACATTCAAAACATGTCTGTATCTAACCCAGTGATG   3365
+                     |||||||||||||||||||||||||||.||||||.|||||||||||||||
+rheMac10_dna    3188 ACTGCTGCATATTAAACATTCAAAACACGTCTGTGTCTAACCCAGTGATG   3237
+
+hg38_dna        3366 GCTACAGCATTATAAAATAACTCCTAAGTGAATAGTGTGTGCAGCAATTC   3415
+                     |||||||||||||||||||||||||||||||||.||||||||||||||||
+rheMac10_dna    3238 GCTACAGCATTATAAAATAACTCCTAAGTGAATTGTGTGTGCAGCAATTC   3287
+
+hg38_dna        3416 TCACAGCTAGGAGAATTTTTTTTGTCGATGTGTTAACCATTCCTTTTTCT   3465
+                     ||||.|||.||||||||||||||.||.||||||||||.|.||||||||||
+rheMac10_dna    3288 TCACGGCTGGGAGAATTTTTTTTCTCAATGTGTTAACTAGTCCTTTTTCT   3337
+
+hg38_dna        3466 CCAACTGCATTCTACTTAAACTGTTACAGTATTGTGTGATCACTTTAAGG   3515
+                     ||||||||||||||||||||||||||||||||||||||||||||||||.|
+rheMac10_dna    3338 CCAACTGCATTCTACTTAAACTGTTACAGTATTGTGTGATCACTTTAAAG   3387
+
+hg38_dna        3516 GAGGTAATCCTTCAGTGAAAAGCATTATAAATGTTGAAGATTAGACCCCT   3565
+                     ||.||||.||||||.|||||||||||||||||||||||||||||||||||
+rheMac10_dna    3388 GAAGTAACCCTTCAATGAAAAGCATTATAAATGTTGAAGATTAGACCCCT   3437
+
+hg38_dna        3566 GAGGACCTAGCACTGAAGCCTGATCACGGGTGCCAATTCCCTGAGAAGCT   3615
+                     || ||||||||||||||||||||||.||||||||||||||||||||||||
+rheMac10_dna    3438 GA-GACCTAGCACTGAAGCCTGATCGCGGGTGCCAATTCCCTGAGAAGCT   3486
+
+hg38_dna        3616 TTTATAGATTCCCAAA-------TCCCATCGCTAGGCACTCTCTGACTGG   3658
+                     |||.||||||||||||       |||||||||||||||||||||||||||
+rheMac10_dna    3487 TTTCTAGATTCCCAAAGCCTGTCTCCCATCGCTAGGCACTCTCTGACTGG   3536
+
+hg38_dna        3659 CTTGTGATGGGTTCCAGCAATGTTGTTTTTTAAAAGCTCCTCAGGTAATT   3708
+                     ||||.|||||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna    3537 CTTGGGATGGGTTCCAGCAATGTTGTTTTTTAAAAGCTCCTCAGGTAATT   3586
+
+hg38_dna        3709 CTGATCATGGACCAGGTTGGGGACCCTTTGCTCTGTTCAGTTTGTGGTTT   3758
+                     .||||.|||||||||||||||.||||.|||||||.||||||||||||.||
+rheMac10_dna    3587 TTGATGATGGACCAGGTTGGGAACCCCTTGCTCTATTCAGTTTGTGGCTT   3636
+
+hg38_dna        3759 CTAGGTGCCAGTGAGAAACCCCTACCCCCAATTTTTGTGCAAAA-TTTTT   3807
+                     ||.|||||||||||||||||.||||||||||||||||||||||| |||||
+rheMac10_dna    3637 CTGGGTGCCAGTGAGAAACCGCTACCCCCAATTTTTGTGCAAAATTTTTT   3686
+
+hg38_dna        3808 TTCAGCTTACATCAAGTTCTTTATGAACCTC-AGAAAATTAAAATATAAC   3856
+                     |||||||||||||||||||||||||.||||| |.||||||||||||||||
+rheMac10_dna    3687 TTCAGCTTACATCAAGTTCTTTATGGACCTCAAAAAAATTAAAATATAAC   3736
+
+hg38_dna        3857 AAGGGAATTTACTTAGCTCAGAAGAGACAAGGGACATTATGGGGTGAAGG   3906
+                     |||||||||||||||||||||||.||||||||||||.||||||.||||||
+rheMac10_dna    3737 AAGGGAATTTACTTAGCTCAGAAAAGACAAGGGACACTATGGGTTGAAGG   3786
+
+hg38_dna        3907 TCGGGGGTTGTTTGACATTTGCCCCTTCCCGATGTAACTAATTAAGCTTC   3956
+                     |.||||..||||||||||||||||||||||.|||||||||||||||||||
+rheMac10_dna    3787 TGGGGGACTGTTTGACATTTGCCCCTTCCCAATGTAACTAATTAAGCTTC   3836
+
+hg38_dna        3957 AAGTTGTAATGTGTTTTATGGGCTAGAAGGCTTTAGTGCCTATATTTGGA   4006
+                     |||||||||||||||.||||||||.|||||||||.|||.|||||||||||
+rheMac10_dna    3837 AAGTTGTAATGTGTTATATGGGCTGGAAGGCTTTGGTGGCTATATTTGGA   3886
+
+hg38_dna        4007 TCTCAGCTCCAACACCTTGGACTCTTACAACCTTGGGATAAGTTCTTACT   4056
+                     ||||||||||||||||||||.||.|||||||||||||||||||||.|||.
+rheMac10_dna    3887 TCTCAGCTCCAACACCTTGGGCTGTTACAACCTTGGGATAAGTTCGTACC   3936
+
+hg38_dna        4057 AGCTCTGACTCTCACTCCCCATCTATAAATGGGAATAAGATGAACGGGGT   4106
+                     ||||||||||||||||||||||||||||||||||||||||||||.|||||
+rheMac10_dna    3937 AGCTCTGACTCTCACTCCCCATCTATAAATGGGAATAAGATGAATGGGGT   3986
+
+hg38_dna        4107 AATTTATAGATTTTTTAGTACCCTCTCTCTAGTTCCGCTGTTTTGCCATT   4156
+                     |||||||.||||||||.|||||||||||||||||||..||||||||||||
+rheMac10_dna    3987 AATTTATGGATTTTTTTGTACCCTCTCTCTAGTTCCATTGTTTTGCCATT   4036
+
+hg38_dna        4157 CTGCTCATGCACCAATGCCATGTGATCTTATTGTAGCTTTGCACTCTGAC   4206
+                     |||||.||||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna    4037 CTGCTTATGCACCAATGCCATGTGATCTTATTGTAGCTTTGCACTCTGAC   4086
+
+hg38_dna        4207 ACCTGGCAGGTCAAGTGCACCCTTGATTATCTTCTCATTAAAAATTTTCT   4256
+                     |||||||||||||||||||||||.|||||||||||||||||||.||||||
+rheMac10_dna    4087 ACCTGGCAGGTCAAGTGCACCCTGGATTATCTTCTCATTAAAAGTTTTCT   4136
+
+hg38_dna        4257 TCAGTCTTTTAAGTTTTGAGTATAATTTCATAATGTCTTTTAAAATCTCT   4306
+                     ||||||||||||||||.||||||||||||||||||.|||||||||||.||
+rheMac10_dna    4137 TCAGTCTTTTAAGTTTGGAGTATAATTTCATAATGCCTTTTAAAATCCCT   4186
+
+hg38_dna        4307 TTTGAATTCTTTTTCAAATTTATTTATTTTTT-CTTTGACAGATAAGATT   4355
+                     |||||||||||||||||||||||||||||||| .||||||||||||||||
+rheMac10_dna    4187 TTTGAATTCTTTTTCAAATTTATTTATTTTTTAATTTGACAGATAAGATT   4236
+
+hg38_dna        4356 ATATGTATTGTGTACAAAATTAGAAAGAGATCTTTTCCTCTAAGATCTGA   4405
+                     ||||||||||||||||||||||||||||||.|||||||||||||||||||
+rheMac10_dna    4237 ATATGTATTGTGTACAAAATTAGAAAGAGAGCTTTTCCTCTAAGATCTGA   4286
+
+hg38_dna        4406 AACAAGACAAGAATGCTCACACGCACTAGTTCTATTCAACATATGGTACT   4455
+                     |||||||.||||||||||||||.|||.|||||||||||||||||.|||||
+rheMac10_dna    4287 AACAAGATAAGAATGCTCACACACACCAGTTCTATTCAACATATAGTACT   4336
+
+hg38_dna        4456 GCAAGTCCTAGCCAGGACAGTTAGACAAGAGAAAGAAATAAAAAGCATCC   4505
+                     |.||||.|||||||||||.|||||||||||||||||||||||.|.|||||
+rheMac10_dna    4337 GGAAGTTCTAGCCAGGACGGTTAGACAAGAGAAAGAAATAAAGAACATCC   4386
+
+hg38_dna        4506 AAATTTGAAAGGAAAAAGTTAAATTGTTCCTATTTGGAGACGACATGATT   4555
+                     ||||||||||||||||||||||||||.|||||||||||||..||||||||
+rheMac10_dna    4387 AAATTTGAAAGGAAAAAGTTAAATTGCTCCTATTTGGAGATCACATGATT   4436
+
+hg38_dna        4556 TTACACTTATAAAACCCTAAAGACTCCACCAGAAAACCATTAGAACTAAT   4605
+                     |||.||||||||||||.|||||||||||||||||||||||||||||||||
+rheMac10_dna    4437 TTATACTTATAAAACCATAAAGACTCCACCAGAAAACCATTAGAACTAAT   4486
+
+hg38_dna        4606 AAATTCAGTAAAGTTGCAGGATACAAAATTAACATACAAAAATCAGTAGT   4655
+                     |||||.|||||||||||||||||||||||||||||||||||.||||||||
+rheMac10_dna    4487 AAATTTAGTAAAGTTGCAGGATACAAAATTAACATACAAAATTCAGTAGT   4536
+
+hg38_dna        4656 GTTTCTATATGCCAACAGTGAACTATCAGGAAAGAAATAAAAAGAAAGTG   4705
+                     |||||||||||||||.||||||||.||.|||||||||||||||.|||||.
+rheMac10_dna    4537 GTTTCTATATGCCAATAGTGAACTCTCTGGAAAGAAATAAAAATAAAGTT   4586
+
+hg38_dna        4706 CCATTTACAATAGCTACAAAAT-AAATATTTCAGAATAAATTTAGCCAAG   4754
+                     ||||||||||.||||||||||| |||||||||||||||||||||||||||
+rheMac10_dna    4587 CCATTTACAACAGCTACAAAATAAAATATTTCAGAATAAATTTAGCCAAG   4636
+
+hg38_dna        4755 AAGGTGAAAGATCTCTACACTGAAAACTATAAAACACTGATGAAAGAAAT   4804
+                     |||||||||||||||||||||||||||||||||||||.||||||||||||
+rheMac10_dna    4637 AAGGTGAAAGATCTCTACACTGAAAACTATAAAACACCGATGAAAGAAAT   4686
+
+hg38_dna        4805 TCAAGGAGACACAAATAGAAAGATAGCCTGTGCTCATGGGGGGATAATTA   4854
+                     |.||||||||||||||||||||||||..||||||||||||||.|||||||
+rheMac10_dna    4687 TGAAGGAGACACAAATAGAAAGATAGAATGTGCTCATGGGGGAATAATTA   4736
+
+hg38_dna        4855 ATGTTGTTAAAATGTCCATACTACCCAAAGTGACCTACAGATTCCATAGA   4904
+                     ||.|||||||||||||||||||||||||||||..||||||||||.|||||
+rheMac10_dna    4737 ATATTGTTAAAATGTCCATACTACCCAAAGTGGTCTACAGATTCAATAGA   4786
+
+hg38_dna        4905 ATCCCTATCAAAATACCAATGACATTCTTCACAGAAATAGAAAAAACAAT   4954
+                     ||||||||||.|||||||||||||||||||||||||||||||||||||||
+rheMac10_dna    4787 ATCCCTATCAGAATACCAATGACATTCTTCACAGAAATAGAAAAAACAAT   4836
+
+hg38_dna        4955 CCTAAAATTGGGTGAAGGTGGCATCTTTGTCTCGTTTCAGATCTAAGAGG   5004
+                     |||||||||..||||||||||||||.|||||||.||||||||||||||||
+rheMac10_dna    4837 CCTAAAATTCAGTGAAGGTGGCATCCTTGTCTCATTTCAGATCTAAGAGG   4886
+
+hg38_dna        5005 AAAAGCTCTCAATTTTTCACCATTAAGTATGATGTTAGCTGTGACCTTGT   5054
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna    4887 AAAAGCTCTCAATTTTTCACCATTAAGTATGATGTTAGCTGTGACCTTGT   4936
+
+hg38_dna        5055 CATATGTGGCCTTTATTGTGTTGAGGTACAATGCTTCTACACCTAATTCA   5104
+                     ||||||||||||||||||||||||||||||||.||||||.||||||||||
+rheMac10_dna    4937 CATATGTGGCCTTTATTGTGTTGAGGTACAATCCTTCTATACCTAATTCA   4986
+
+hg38_dna        5105 TTGAGAGTTTTTATCATGAAAGAATGTTGAATTTTGTCAAACGCTTTTTC   5154
+                     |||||||||||||||||.|||||||||||||||||||||.|.||||||||
+rheMac10_dna    4987 TTGAGAGTTTTTATCATAAAAGAATGTTGAATTTTGTCATATGCTTTTTC   5036
+
+hg38_dna        5155 TGCATCTATTGAAATGATCGTATGGTTATTGTCTCACTCTGTTACTGTGA   5204
+                     |||.||||||||||||||.|||||||||||||||||.|||||||||||||
+rheMac10_dna    5037 TGCGTCTATTGAAATGATAGTATGGTTATTGTCTCATTCTGTTACTGTGA   5086
+
+hg38_dna        5205 TGTATCACACTTATTGATTTGTGTATGTTGAACCATCCTTGCAGCCCTGG   5254
+                     |||||||||||||||||||||||||||||||||||||||||||.||||||
+rheMac10_dna    5087 TGTATCACACTTATTGATTTGTGTATGTTGAACCATCCTTGCATCCCTGG   5136
+
+hg38_dna        5255 GATGAATCCCACTGTATCATAGTAAATGATCTTTTTAATGAGCTGTTGAA   5304
+                     |||||.|||||||.|||..|||||||||||||||||||||||||||||||
+rheMac10_dna    5137 GATGAGTCCCACTTTATGGTAGTAAATGATCTTTTTAATGAGCTGTTGAA   5186
+
+hg38_dna        5305 TTTGCTTCGCTAGAATTTTGTTAAGAATTTTTGCACCTATGTTCATCAGG   5354
+                     |||.|||.||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna    5187 TTTACTTTGCTAGAATTTTGTTAAGAATTTTTGCACCTATGTTCATCAGG   5236
+
+hg38_dna        5355 GATATTGGCCTATACTGCCATTTTCTTGTGTGTTTTTGTGGGACTTTGAC   5404
+                     |||||||||||||||||||||||||||||.|.||||||||||||||||||
+rheMac10_dna    5237 GATATTGGCCTATACTGCCATTTTCTTGTATATTTTTGTGGGACTTTGAC   5286
+
+hg38_dna        5405 ATCAGGATAATGCTGGTTTCTCCTGTTATTAATTTCTAGTTTTATACCAT   5454
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna    5287 ATCAGGATAATGCTGGTTTCTCCTGTTATTAATTTCTAGTTTTATACCAT   5336
+
+hg38_dna        5455 CATGCTTAGAAAAAAAACTTGATACGATTTCAGTCTAATTAAGTTTGTTA   5504
+                     |||||||||||||.||||||||||.|||||||||||||||||||||||||
+rheMac10_dna    5337 CATGCTTAGAAAAGAAACTTGATATGATTTCAGTCTAATTAAGTTTGTTA   5386
+
+hg38_dna        5505 AGACTTGTTTTATGGCCTAACATATGATCTGTCTTGGAGCATGCTCCATG   5554
+                     ||||||||||||||.|||||||||||||||.||.|||||.||||||||||
+rheMac10_dna    5387 AGACTTGTTTTATGACCTAACATATGATCTATCCTGGAGAATGCTCCATG   5436
+
+hg38_dna        5555 TGCTGTTGAGAAGAATGTGTATTCTGCAGCTGTTGGATGGAATGTCCTGT   5604
+                     ||||||||||||||||||||.|||||||||||||||||||||||||||||
+rheMac10_dna    5437 TGCTGTTGAGAAGAATGTGTGTTCTGCAGCTGTTGGATGGAATGTCCTGT   5486
+
+hg38_dna        5605 ATTTGTCTGTTTGGATCCATTTGGTCTAAGTGAAGTGTAAGTCTGATGCC   5654
+                     ||||||||||||.||||||||||||.|||||||||||||||||||||||.
+rheMac10_dna    5487 ATTTGTCTGTTTAGATCCATTTGGTTTAAGTGAAGTGTAAGTCTGATGCT   5536
+
+hg38_dna        5655 TCCTTATTTATTTTCTTTCTAAATCTCCCGTCCAAAAATCTAAGAGATCC   5704
+                     ||.||||||||||||||||||||||.|..|||||||||||||||||||||
+rheMac10_dna    5537 TCGTTATTTATTTTCTTTCTAAATCACGTGTCCAAAAATCTAAGAGATCC   5586
+
+hg38_dna        5705 AAAGCAAACAGGGGGTTATAAAATTACCTTTGAATTCTGACTGAAATTGT   5754
+                     ||||||||||.||||||||||||||||||||||||.||||||||||||.|
+rheMac10_dna    5587 AAAGCAAACAAGGGGTTATAAAATTACCTTTGAATGCTGACTGAAATTAT   5636
+
+hg38_dna        5755 GTTTACTTTGTAGATTATTTGCTGGTGACTTGGTATCTTTCAATATTGGT   5804
+                     |||||||||.|.|||||||||||||||||||||||||||||||||.||||
+rheMac10_dna    5637 GTTTACTTTATGGATTATTTGCTGGTGACTTGGTATCTTTCAATACTGGT   5686
+
+hg38_dna        5805 TTCCCAAACAAAAAACATTGTATGTCTTTCTCTTTTTCCAGTCTTCTTTT   5854
+                     ||||..|||||||||..|||||||||||||||||||||||||||||||||
+rheMac10_dna    5687 TTCCAGAACAAAAAAAGTTGTATGTCTTTCTCTTTTTCCAGTCTTCTTTT   5736
+
+hg38_dna        5855 ATGTCTCAGTAAAATTTTGTAGCTTGCCTACTACTTATTTTCAGGTTAAA   5904
+                     |||||||||||||||||||||||||.|||||||.||||||||||||||||
+rheMac10_dna    5737 ATGTCTCAGTAAAATTTTGTAGCTTTCCTACTATTTATTTTCAGGTTAAA   5786
+
+hg38_dna        5905 TCCTAGATATTTTCAATTCTTACTGCCATTATGAATGAATGTTTTTCCCC   5954
+                     ||||||||||||||||||.|||||||||||.||.||||||||||||||||
+rheMac10_dna    5787 TCCTAGATATTTTCAATTTTTACTGCCATTGTGGATGAATGTTTTTCCCC   5836
+
+hg38_dna        5955 ATGAAATGTTTAACTACAGCTGATTTAGGGACTCACTGAGTTTTGATTTG   6004
+                     ||||||||||||||||||.|||||||||||||||||||||||||||||||
+rheMac10_dna    5837 ATGAAATGTTTAACTACAACTGATTTAGGGACTCACTGAGTTTTGATTTG   5886
+
+hg38_dna        6005 TTGATTTGAAAAACTACCACCCTGTTGAGCTCATGTATTTATTCTAAGAC   6054
+                     ||||||||||||||||||||||||||.||||||..|||||||||||||||
+rheMac10_dna    5887 TTGATTTGAAAAACTACCACCCTGTTAAGCTCACATATTTATTCTAAGAC   5936
+
+hg38_dna        6055 ATTTTTTGAG----------ATTTTCCAGGTAAAAAAATTATACCTAGAT   6094
+                     ||||||||||          ||||||||.|||||||||||||||||||||
+rheMac10_dna    5937 ATTTTTTGAGATTTTCCTGAATTTTCCAAGTAAAAAAATTATACCTAGAT   5986
+
+hg38_dna        6095 GAATTTATAGAACAACCTAATAGCATAAAAGCAATAGATTATTGTTCACC   6144
+                     |||||||||||||||||||||||||||||| |||||||||||||||||||
+rheMac10_dna    5987 GAATTTATAGAACAACCTAATAGCATAAAA-CAATAGATTATTGTTCACC   6035
+
+hg38_dna        6145 ACATTAATGGGAATGCCTTTCCTCTTAAAATTATGATATCTTGGGCTTTG   6194
+                     |||||||||||||||||||||||||||||||||.|||||.||||||||||
+rheMac10_dna    6036 ACATTAATGGGAATGCCTTTCCTCTTAAAATTACGATATTTTGGGCTTTG   6085
+
+hg38_dna        6195 TGTTTGTGACAGCATTTCTTTATGATGGAAAGAGACTATCCTTCCAGTTC   6244
+                     |||||||||||||||||||||||||||||||||||||||.||||||||||
+rheMac10_dna    6086 TGTTTGTGACAGCATTTCTTTATGATGGAAAGAGACTATTCTTCCAGTTC   6135
+
+hg38_dna        6245 TATAGAAACGTTTTAAAAATAGCTTACATTTTTAAAAATTTAGGAATGAT   6294
+                     ||||||||.|||||||||||||||||.|||||.|||||||||||||||||
+rheMac10_dna    6136 TATAGAAATGTTTTAAAAATAGCTTAAATTTTCAAAAATTTAGGAATGAT   6185
+
+hg38_dna        6295 ATTGATTTTCATTGAAAACTTTTCAACATCTGAAGAAAATC---TTTTCT   6341
+                     |.|||||||||||||||||||||||||||||||||||||||   ||||||
+rheMac10_dna    6186 ACTGATTTTCATTGAAAACTTTTCAACATCTGAAGAAAATCTTTTTTTCT   6235
+
+hg38_dna        6342 TCCTAACCTATTAATAGAGCTCCTGATTTTCAACCATTCTTGTATTCCTA   6391
+                     |||||||||||||||||||.||||||||||||||||.|||||||||||||
+rheMac10_dna    6236 TCCTAACCTATTAATAGAGTTCCTGATTTTCAACCAGTCTTGTATTCCTA   6285
+
+hg38_dna        6392 AAATAATCCATATTGGTCATAATGTATTCTTCTTTTACTAAACTGTTAAA   6441
+                     ||||||||||||.||.||||||||||   |||||||||||||||||||||
+rheMac10_dna    6286 AAATAATCCATAGTGTTCATAATGTA---TTCTTTTACTAAACTGTTAAA   6332
+
+hg38_dna        6442 ATAAGTTGGGTGCTGTTTTTTTAGATTTTGGCACCTGTGTGAGAGGAGGG   6491
+                     ||||||||||||||.|||||||.|||||||||||||||||||||||||||
+rheMac10_dna    6333 ATAAGTTGGGTGCTATTTTTTTGGATTTTGGCACCTGTGTGAGAGGAGGG   6382
+
+hg38_dna        6492 TGCCATGGCAGGGTGGCTAAGTGTGCCCACCTGTGTACTAGCA-TTGAAT   6540
+                     ||||||.||||||||||||||||||||||||||..|||||||| ||||||
+rheMac10_dna    6383 TGCCATAGCAGGGTGGCTAAGTGTGCCCACCTGCATACTAGCATTTGAAT   6432
+
+hg38_dna        6541 TTTGACCCTTTATCCCATTGGCTCTAAACACTACATCTCAGGTGAAGACG   6590
+                     .|||.|||||||||||||||||||||||.|||.|||||||||||||||.|
+rheMac10_dna    6433 CTTGGCCCTTTATCCCATTGGCTCTAAATACTGCATCTCAGGTGAAGATG   6482
+
+hg38_dna        6591 CCCAAATGTTTATCTCTACTGAGTTACAGATTCCTATAACAATTGCTTAA   6640
+                     |||||||||||||||||||||||||||||||||.||||||||||||.|.|
+rheMac10_dna    6483 CCCAAATGTTTATCTCTACTGAGTTACAGATTCTTATAACAATTGCCTGA   6532
+
+hg38_dna        6641 ATTGATACTCCCACTTGAATGTCTCATAGGTGTGGCAAAGTTTACATGTC   6690
+                     |||||||||||||||||.||||||||||..||||||||||||||||||||
+rheMac10_dna    6533 ATTGATACTCCCACTTGGATGTCTCATATATGTGGCAAAGTTTACATGTC   6582
+
+hg38_dna        6691 TATACTGAAACTCTTGGTTTTCTCTCCCAGGCATGACCCTCCACCAGTTT   6740
+                     .||||||||||||||||||||||.|||||.||||||||||||||||||||
+rheMac10_dna    6583 CATACTGAAACTCTTGGTTTTCTTTCCCAAGCATGACCCTCCACCAGTTT   6632
+
+hg38_dna        6741 GTCCTATTTCAGTAGATGGCATCACCGCCATCTCCCTGGTTATGGAAGTC   6790
+                     ||||||||||||||||||||||||||||||||||||||||||||||||.|
+rheMac10_dna    6633 GTCCTATTTCAGTAGATGGCATCACCGCCATCTCCCTGGTTATGGAAGCC   6682
+
+hg38_dna        6791 CCAGACCCGGGCAACTCTCACTCCTCCATCCACTCAACCAGCAGGTCTTA   6840
+                     |||||||||||||||||||||||||||||||||||||||||.|.||||||
+rheMac10_dna    6683 CCAGACCCGGGCAACTCTCACTCCTCCATCCACTCAACCAGAAAGTCTTA   6732
+
+hg38_dna        6841 TTGGCTCTTTCTGTAAAATATGTCTCATTTATTCACAGCCTGCTAGCTGC   6890
+                     .||||||||||||||||||||||||||||||||||||||||||.||||||
+rheMac10_dna    6733 CTGGCTCTTTCTGTAAAATATGTCTCATTTATTCACAGCCTGCCAGCTGC   6782
+
+hg38_dna        6891 ATGGACTCCATCCCAGGCCACGCCACCATCTTCCTGCAGCAGTTTCTTAA   6940
+                     ||||||||||||||||||||||||||||||||.||||||.||||||||||
+rheMac10_dna    6783 ATGGACTCCATCCCAGGCCACGCCACCATCTTTCTGCAGTAGTTTCTTAA   6832
+
+hg38_dna        6941 CTGGCCTCTCCATTCCCTTTCTTGTCCCACTAAATTTTCTTCTATTTAAG   6990
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna    6833 CTGGCCTCTCCATTCCCTTTCTTGTCCCACTAAATTTTCTTCTATTTAAG   6882
+
+hg38_dna        6991 AAAAAATGTTTTGTAGACATGGGGTTTCACCATGTTGCCCAGGCTGGTCT   7040
+                     |||||||.|||||||||||||||.||||.|||||||||||||||||||||
+rheMac10_dna    6883 AAAAAATATTTTGTAGACATGGGTTTTCGCCATGTTGCCCAGGCTGGTCT   6932
+
+hg38_dna        7041 CAAACTCCTGGGCTCAAGCAATCCTCCTGCCTGAGCTTCCCAAAGTGCTG   7090
+                     |.||||||| |||||||||||||||||||.|||||||||||||||||||.
+rheMac10_dna    6933 CGAACTCCT-GGCTCAAGCAATCCTCCTGTCTGAGCTTCCCAAAGTGCTA   6981
+
+hg38_dna        7091 GGATTATAGGCTTGAGCTGAGCTTTTGAAAAAAC-ATTCTATGATGTTAC   7139
+                     ||||||.||||||||||||||||||..||||||| |||.|||||||||||
+rheMac10_dna    6982 GGATTACAGGCTTGAGCTGAGCTTTAAAAAAAACAATTTTATGATGTTAC   7031
+
+hg38_dna        7140 TGTCCTACTAAGACCCTTTAATGGCTCCCCACTGCTTTCAGAGGAAAATA   7189
+                     ||||||||||||||||||||||||||||||||||||||||||.|||.|||
+rheMac10_dna    7032 TGTCCTACTAAGACCCTTTAATGGCTCCCCACTGCTTTCAGAAGAAGATA   7081
+
+hg38_dna        7190 GAAATTTCTCTCTGTGGACCATGAGGCCCTCATGATCTGACCCTCACCAC   7239
+                     |..||||||||||||||.||||||||||||||||||||||||||||||||
+rheMac10_dna    7082 GGTATTTCTCTCTGTGGCCCATGAGGCCCTCATGATCTGACCCTCACCAC   7131
+
+hg38_dna        7240 CTCCCTAGTCTTAGCAGTCCACCTGCCACTGTCTCATGGGGCTCCACAGA   7289
+                     |||||||||||.|||||||||||||||.|||||||||.||||||||||||
+rheMac10_dna    7132 CTCCCTAGTCTCAGCAGTCCACCTGCCGCTGTCTCATAGGGCTCCACAGA   7181
+
+hg38_dna        7290 TTTGATCTCCTTTTTGGTCCTTAAGCCCACCAAGCTAAGTATCTTATTCA   7339
+                     ||||||||||||||||||.||||||||||||||||||||||||||||||.
+rheMac10_dna    7182 TTTGATCTCCTTTTTGGTTCTTAAGCCCACCAAGCTAAGTATCTTATTCC   7231
+
+hg38_dna        7340 AAACTGTGTCCTCAGCCCCTAGCACAATTCTTGACCCTTAGAATTCTGAC   7389
+                     |||||||||||.|.||||||||||||||||||||||||||||||||||||
+rheMac10_dna    7232 AAACTGTGTCCCCTGCCCCTAGCACAATTCTTGACCCTTAGAATTCTGAC   7281
+
+hg38_dna        7390 ACTTGAAATGTGTGTTAAGCTAATCAATAAATTATTGTGCCAGGCTTGGT   7439
+                     ||||.||.|.|||.|||||||||||||||||||||||||||||||.||||
+rheMac10_dna    7282 ACTTAAAGTATGTATTAAGCTAATCAATAAATTATTGTGCCAGGCATGGT   7331
+
+hg38_dna        7440 GGCACAATAATGTGTTGTGGGTCACCTATATATAGCTGTGGCTCACACCT   7489
+                     ||||||||||||||||||||||||||||||||||||||||||||||||.|
+rheMac10_dna    7332 GGCACAATAATGTGTTGTGGGTCACCTATATATAGCTGTGGCTCACACTT   7381
+
+hg38_dna        7490 ATAATCCCAGCACTTTGGGAGGCTGAGGCCTGCAGATTGGTTGAGCCCAG   7539
+                     |||||||||||||||||||||||||||||.||||||.|.|||||.|||||
+rheMac10_dna    7382 ATAATCCCAGCACTTTGGGAGGCTGAGGCATGCAGACTAGTTGAACCCAG   7431
+
+hg38_dna        7540 GAATTTGAGACCAGCCTGGGCAACATGGCAAGACCCCATCACTATTAAAA   7589
+                     ||.||.|||||||||||||||||||||||.||||||||||||||.|||||
+rheMac10_dna    7432 GAGTTCGAGACCAGCCTGGGCAACATGGCGAGACCCCATCACTACTAAAA   7481
+
+hg38_dna        7590 ATACAAAAAAAAAAAAAACCAGGCGTGGTGTTGCATACCTGTGGTCCCAG   7639
+                     ||||    ||||.||.||||.|||.|||||.|.||||||.||||||||||
+rheMac10_dna    7482 ATAC----AAAATAATAACCGGGCTTGGTGGTACATACCCGTGGTCCCAG   7527
+
+hg38_dna        7640 CTACTCAGGAGGATCACTTGAGCCCACTGGGTGGAGGTTGCAGAGAGCTG   7689
+                     |||||||||||||||||||.||||||.|||||||||||||||||||||||
+rheMac10_dna    7528 CTACTCAGGAGGATCACTTAAGCCCATTGGGTGGAGGTTGCAGAGAGCTG   7577
+
+hg38_dna        7690 AGATCATGCCACTACACTTTGGCCTGGGTAAGACCCTGTCT--CAAGAAA   7737
+                     ||||||||||||||.||||||||||||||.||.||||||||  .||.|||
+rheMac10_dna    7578 AGATCATGCCACTATACTTTGGCCTGGGTGAGCCCCTGTCTAAAAAAAAA   7627
+
+hg38_dna        7738 AAAAAAAAAAGGTTATGGTACTGTAAATATTATATTACAGTGTATAATTT   7787
+                     ||||||||||||||||||||||||||.|.|||||||||||||||||||||
+rheMac10_dna    7628 AAAAAAAAAAGGTTATGGTACTGTAAGTGTTATATTACAGTGTATAATTT   7677
+
+hg38_dna        7788 TTGACAGCTTTTTTTCTCCATTTCTTCTATGGTTATTGGTCAGTTCTAGC   7837
+                     ||||||||||||||.|||||||||||||||||||||||||||||      
+rheMac10_dna    7678 TTGACAGCTTTTTTCCTCCATTTCTTCTATGGTTATTGGTCAGT------   7721
+
+hg38_dna        7838 CTTCTATTTTTTTTTTTAAGCTGACACATACTGGCTGGGCATGGTGGCTC   7887
+                                                                       
+rheMac10_dna    7722 --------------------------------------------------   7721
+
+hg38_dna        7888 ACACCTGTAATCTCAGCACTTTGGGAGGCCAAGACAGGAAGATCTCTTGA   7937
+                          |.||||||||||||||||||||||||||.|.||||||||||||||
+rheMac10_dna    7722 -----TTTAATCTCAGCACTTTGGGAGGCCAAGGCGGGAAGATCTCTTGA   7766
+
+hg38_dna        7938 GCCCAGAAGTTTGAGGCGAGCCTGGGCAACATAGCAAGACCCCATCTCTA   7987
+                     |||||||||||||||.|.|||||||||||||||||||||.||||||||||
+rheMac10_dna    7767 GCCCAGAAGTTTGAGACAAGCCTGGGCAACATAGCAAGATCCCATCTCTA   7816
+
+hg38_dna        7988 CCAGAAAAGA---AACAACAACAAAAAGAAACTGGCACATACTAGTTATT   8034
+                     ||||||||||   |||||||||||||||||||||||||||||||||||||
+rheMac10_dna    7817 CCAGAAAAGAAACAACAACAACAAAAAGAAACTGGCACATACTAGTTATT   7866
+
+hg38_dna        8035 CCATAAATATTTCTTAAATGAATTAATTCTAAAGTTGATTTTTATAATTT   8084
+                     ||||||||||||.|||||||||||||||||||||||||||||||||||||
+rheMac10_dna    7867 CCATAAATATTTGTTAAATGAATTAATTCTAAAGTTGATTTTTATAATTT   7916
+
+hg38_dna        8085 ACATCTTAATAGAAAGACAATCCATCTCAGAGATATTTTTATTCATTAAG   8134
+                     |.|||||||.|||||||||||||||.||.||.||||||||||||||||||
+rheMac10_dna    7917 ATATCTTAACAGAAAGACAATCCATTTCGGAAATATTTTTATTCATTAAG   7966
+
+hg38_dna        8135 GAAAGTTGCATAAAGTAATTTATTAACCTTTTAAAGCATTCTCTAAGCCT   8184
+                     ||||||||.|||.||||||||||||.|||||||||||||||||||||.||
+rheMac10_dna    7967 GAAAGTTGTATATAGTAATTTATTATCCTTTTAAAGCATTCTCTAAGGCT   8016
+
+hg38_dna        8185 ATTTCCCCTTATAGAGATATGTTTTCTAGTGA----TGTGTGTATGTTAC   8230
+                     ||||||||||||||||  ||||||||||||||    |||||||.||||..
+rheMac10_dna    8017 ATTTCCCCTTATAGAG--ATGTTTTCTAGTGATGTGTGTGTGTGTGTTGT   8064
+
+hg38_dna        8231 ATTTTCAAATAACTCTTAATTTTATTTAGAAATTCCACATTTTTGTGGGT   8280
+                     ||||||||||||||||||||||||||||||||||||||||||||.|||||
+rheMac10_dna    8065 ATTTTCAAATAACTCTTAATTTTATTTAGAAATTCCACATTTTTCTGGGT   8114
+
+hg38_dna        8281 TTTATTTATTAAATTCGATTTTCATCTCTATTATTAATT------TATGA   8324
+                     |||||||||||||||.|||||||||||||||||||||||      |||||
+rheMac10_dna    8115 TTTATTTATTAAATTTGATTTTCATCTCTATTATTAATTTATAACTATGA   8164
+
+hg38_dna        8325 CAGTTTATTTTGAAGTTTTCTGTTTTCTTCCTTTTGAGTTGAATAATCAT   8374
+                     ||||||||||||||||||||||||||||||.||||||.||||||||||||
+rheMac10_dna    8165 CAGTTTATTTTGAAGTTTTCTGTTTTCTTCTTTTTGAATTGAATAATCAT   8214
+
+hg38_dna        8375 TTACTTTATTTTACTTCTTCTATTCAGTTGTATTATCCATGTTCCTCTGA   8424
+                     |||||||||||.|||||||.||||||||||||||||||||||||||||||
+rheMac10_dna    8215 TTACTTTATTTCACTTCTTGTATTCAGTTGTATTATCCATGTTCCTCTGA   8264
+
+hg38_dna        8425 TAGCCATGCAGGTTCCAAATCCTCACATTTTTCAACTT-CTTTAAAAGAT   8473
+                     ||||||||.|||||||||||||||||| |||||||||| |||.||||.||
+rheMac10_dna    8265 TAGCCATGTAGGTTCCAAATCCTCACA-TTTTCAACTTCCTTAAAAAAAT   8313
+
+hg38_dna        8474 TTTTTTTGTGCTATCCTGATAAGCGTTAAGTGTTATATCATTTTT-TTTC   8522
+                     ||||||||||||||||||||||||||.|| ||||||||||||||| ||||
+rheMac10_dna    8314 TTTTTTTGTGCTATCCTGATAAGCGTGAA-TGTTATATCATTTTTGTTTC   8362
+
+hg38_dna        8523 ATTTTTATTATATTCTTAATGATTTTGATTCTCTTTTTCTATCCTTTTGG   8572
+                     |.||||||||||||||||||||||||||||.||||||||.||||||||||
+rheMac10_dna    8363 AGTTTTATTATATTCTTAATGATTTTGATTATCTTTTTCAATCCTTTTGG   8412
+
+hg38_dna        8573 TTTTCTTTCTTAGGTAAATGATCAGTTATATCTTTTGGCCATTTTTTTCT   8622
+                     .|||||.||||||||||||.|||.||||||||||||||||| ||||||||
+rheMac10_dna    8413 GTTTCTCTCTTAGGTAAATTATCGGTTATATCTTTTGGCCA-TTTTTTCT   8461
+
+hg38_dna        8623 GTTGGAATTACTGTCTCTTACTGCTCTGTAAGAATTCCTTGCAAGTTCTA   8672
+                     |||||||||||||||||||||||||||||.||||||||||||||||||||
+rheMac10_dna    8462 GTTGGAATTACTGTCTCTTACTGCTCTGTTAGAATTCCTTGCAAGTTCTA   8511
+
+hg38_dna        8673 GAAATGAATCCTCTGTTGATTTTAAGTACTAAAGTCCCCTTTACCATTGT   8722
+                     |||||||||||||||||||||||        |||||||.|||||||||||
+rheMac10_dna    8512 GAAATGAATCCTCTGTTGATTTT--------AAGTCCCTTTTACCATTGT   8553
+
+hg38_dna        8723 GTACTCTTTCTATTAACTTTGTCCAGAGTCAGCTTTATCGTGCTGAACAA   8772
+                     |||.||||||||||||||||||||||||||||||||||||||.||||.||
+rheMac10_dna    8554 GTATTCTTTCTATTAACTTTGTCCAGAGTCAGCTTTATCGTGTTGAATAA   8603
+
+hg38_dna        8773 GAATCTTTACATTTTAATTTTTTTTTTTAATTTTTAAGTTCAAGGGTACA   8822
+                     |||||||||.|||||||   ||||||||||||||||||||||||||.|||
+rheMac10_dna    8604 GAATCTTTAAATTTTAA---TTTTTTTTAATTTTTAAGTTCAAGGGCACA   8650
+
+hg38_dna        8823 AGTGCAGGTTTGTTCCATAGGTAAACTCGTGTCATGGGGGTTTGTCATAC   8872
+                     ||||||||||||||.||||||||||||.||||||.|||||||||||||||
+rheMac10_dna    8651 AGTGCAGGTTTGTTACATAGGTAAACTTGTGTCACGGGGGTTTGTCATAC   8700
+
+hg38_dna        8873 AGATTATTTCATCACTCAGGTACTAAGCCTAGTACCCATTAGTTATTTTT   8922
+                     ||||.|||||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna    8701 AGATAATTTCATCACTCAGGTACTAAGCCTAGTACCCATTAGTTATTTTT   8750
+
+hg38_dna        8923 CCTGATCCTCTCCCTCCCTTAGCCCTCCGATAGGCCCTAGTATGTGTTGT   8972
+                     |||||||||||||.|||...|.||||||||||||||.|.||.||||||||
+rheMac10_dna    8751 CCTGATCCTCTCCGTCCTCCAACCCTCCGATAGGCCTTGGTGTGTGTTGT   8800
+
+hg38_dna        8973 TCCTCTGCATGCGTCCATGTGTTCTTATCATTTAGGTCCCACTTATAAAT   9022
+                     ||||||.||||.|||||||||||||.|||||||||.||||||||||||||
+rheMac10_dna    8801 TCCTCTCCATGTGTCCATGTGTTCTCATCATTTAGCTCCCACTTATAAAT   8850
+
+hg38_dna        9023 GAGAACATGTAGAATTGGGTTTTCTGTTCCTGTGTCAGTTTG--------   9064
+                     ||||||||||||||||.|||||||||||||||||||||||||        
+rheMac10_dna    8851 GAGAACATGTAGAATTTGGTTTTCTGTTCCTGTGTCAGTTTGCTAAGGAT   8900
+
+hg38_dna        9065 -------------------CATATCCCTGCAAAGAACATGATCTCGTTCT   9095
+                                        ||.|||||||||||||||||||||||.||||
+rheMac10_dna    8901 AATGGCTTCCAGTTCCATCCACATCCCTGCAAAGAACATGATCTCATTCT   8950
+
+hg38_dna        9096 TTTCTGGGGCTGCATAGTATTCGATAGCATATATGTACCACACTTTCATT   9145
+                     ||||||||||||||||||||||.||.||||||||||||||||.|||||||
+rheMac10_dna    8951 TTTCTGGGGCTGCATAGTATTCAATGGCATATATGTACCACATTTTCATT   9000
+
+hg38_dna        9146 ATCCCAG-CTATCACTGATGGGCATTTAGGTTGATTCCATGTCTTTGCTA   9194
+                     || |||| ||||||.||||||||||||||||||||||||.||||||||||
+rheMac10_dna    9001 AT-CCAGTCTATCATTGATGGGCATTTAGGTTGATTCCACGTCTTTGCTA   9049
+
+hg38_dna        9195 TTGTGGATAGT-TTTGCAATGAACATACACGTGCATGTGTCTTTGTAATA   9243
+                     .|||||||||| ||.||||||||||||.|||||.||||||||||||||||
+rheMac10_dna    9050 CTGTGGATAGTGTTGGCAATGAACATATACGTGTATGTGTCTTTGTAATA   9099
+
+hg38_dna        9244 GGATGATTTATATTCCTTTGGGTATATACCTAGTAATGGGATTGCTGAGT   9293
+                     |.|||||||||||||||||||.||||||||||||||||.||||||||.||
+rheMac10_dna    9100 GAATGATTTATATTCCTTTGGATATATACCTAGTAATGAGATTGCTGGGT   9149
+
+hg38_dna        9294 CGAATGATATTTCCGTCTTTAGGTTTTTGAGGATGTAATCAAATTCATCA   9343
+                     |.||||.|||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna    9150 CAAATGGTATTTCCGTCTTTAGGTTTTTGAGGATGTAATCAAATTCATCA   9199
+
+hg38_dna        9344 ATTATTTGCCTTATGGTTTGTGCTTTTTGTTTAAAAAGTTCTTCCCCCAT   9393
+                     ||||||.|.|||||||||||||||||||||||.|||||||||||||||||
+rheMac10_dna    9200 ATTATTAGACTTATGGTTTGTGCTTTTTGTTTTAAAAGTTCTTCCCCCAT   9249
+
+hg38_dna        9394 TCCTCCTCCAGGTCACAAAGACATTTCCCAATATTTTCCTCTTCTAGCGC   9443
+                     |||||||.|||||||||||||.||||.|||||||||||||||||||||||
+rheMac10_dna    9250 TCCTCCTTCAGGTCACAAAGATATTTGCCAATATTTTCCTCTTCTAGCGC   9299
+
+hg38_dna        9444 CAAACTTGTACCTTTCACATGTAAGTCTTGGATCCATCTAGAGTTCACTT   9493
+                     ||..||||||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna    9300 CATTCTTGTACCTTTCACATGTAAGTCTTGGATCCATCTAGAGTTCACTT   9349
+
+hg38_dna        9494 TTGTATGTAGTTAGGGATCTAGTTTTCTTTTTCTTGTTTCCCAGAAGCAT   9543
+                     |||||||||||||||||||||||||| |||||||||||||||||||||||
+rheMac10_dna    9350 TTGTATGTAGTTAGGGATCTAGTTTT-TTTTTCTTGTTTCCCAGAAGCAT   9398
+
+hg38_dna        9544 GAAACCTTCCTCCTTTATTGGTTCGTGGTGCCCATGTCAGCACACATCAA   9593
+                     |||||||||||.||.|||||.||.||||||||||.|||||||||||||||
+rheMac10_dna    9399 GAAACCTTCCTTCTGTATTGATTTGTGGTGCCCACGTCAGCACACATCAA   9448
+
+hg38_dna        9594 GTCCCTGTTAAAGTGTATCTACGTGGGTTTCTCTCTCAACTTGCTTTTCT   9643
+                     |||||||.||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna    9449 GTCCCTGCTAAAGTGTATCTACGTGGGTTTCTCTCTCAACTTGCTTTTCT   9498
+
+hg38_dna        9644 GTTTCCTTTGGTCTCTCCGTCTATTCCTGAGCTTTACCGTCCAGTCTTCG   9693
+                     ||||||||||||||||||.|||||||||.||.|||||||||||||||||.
+rheMac10_dna    9499 GTTTCCTTTGGTCTCTCCATCTATTCCTTAGTTTTACCGTCCAGTCTTCA   9548
+
+hg38_dna        9694 TCACTGTGGTTTTGTAGTGATTTCATGTCTGCTTTGGCAGATTCCCTCCT   9743
+                     ||||||||||||||||||||||||.|||||||||||||||||||||||||
+rheMac10_dna    9549 TCACTGTGGTTTTGTAGTGATTTCGTGTCTGCTTTGGCAGATTCCCTCCT   9598
+
+hg38_dna        9744 CTTTACAC-----TTTTTTTTTAAGGTTGACCTTATTATTCATGGACATT   9788
+                     ||||||||     ||||||||||| |||||||||.||||||||||.||||
+rheMac10_dna    9599 CTTTACACTTTTTTTTTTTTTTAA-GTTGACCTTGTTATTCATGGGCATT   9647
+
+hg38_dna        9789 TTCTTCCCCATAGAAGTTTACTGAACTTCTCAAAAAATTGAGATTACCTG   9838
+                     ||||||||||||.|||||||||||||||||||||||||     ..|||||
+rheMac10_dna    9648 TTCTTCCCCATATAAGTTTACTGAACTTCTCAAAAAAT-----CCACCTG   9692
+
+hg38_dna        9839 GAATTTTAACTGGCATTTTATTGCAACTACCAGTTCA-------------   9875
+                     |||||||||||||||||||||||.||||||||||.||             
+rheMac10_dna    9693 GAATTTTAACTGGCATTTTATTGAAACTACCAGTACAGGCCGGGCATGGT   9742
+
+hg38_dna        9876 --------------------------------------------------   9875
+                                                                       
+rheMac10_dna    9743 GGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGCGGATCA   9792
+
+hg38_dna        9876 --------------------------------------------------   9875
+                                                                       
+rheMac10_dna    9793 CCTGAGGTTGGGAGTTCAAGACCAGCCTGACCAACATGGAGAAACCCTGT   9842
+
+hg38_dna        9876 --------------------------------------------------   9875
+                                                                       
+rheMac10_dna    9843 CTGTACTAAAAATACAAAATGAGCTGGGTGTGGTGGTGCATGCCTGTAAT   9892
+
+hg38_dna        9876 --------------------------------------------------   9875
+                                                                       
+rheMac10_dna    9893 CCCAGCTACTAGGGAGGCTGAGGCAGGAGAATCACTTGAACCCAGGAGGC   9942
+
+hg38_dna        9876 --------------------------------------------------   9875
+                                                                       
+rheMac10_dna    9943 GGAGGTTGCGGTGAGCCGAGATCGTGCCATTGCACTCCAGCCTGCGCAAC   9992
+
+hg38_dna        9876 -------------------------------------------------T   9876
+                                                                      |
+rheMac10_dna    9993 AAGAGCAAAACTCCATCTCAGAAAAAAAAAAACCAAACTACCTGTACATT  10042
+
+hg38_dna        9877 TTAGGATAATGGACATCTT--TATAATACTGAGTTATCGCCATCAAGACC   9924
+                     |.|||||||||||||||||  ||||||||||||||||.||.|||||||||
+rheMac10_dna   10043 TGAGGATAATGGACATCTTTATATAATACTGAGTTATTGCAATCAAGACC  10092
+
+hg38_dna        9925 ATGGAATGCCTCTCCATTTTTTTCAGACCATCTTCTGTGTTCTCTGTAT-   9973
+                     |||||||||||||||| ||||||||||.||||||||.|||||||||||| 
+rheMac10_dna   10093 ATGGAATGCCTCTCCA-TTTTTTCAGATCATCTTCTATGTTCTCTGTATT  10141
+
+hg38_dna        9974 --------AATGTGTCACCCATCAGAAGTCTTTTCTTAGTTAAGTCAATT  10015
+                             ||| |.||||||||..|||||||||||||||||||.|||.||
+rheMac10_dna   10142 AGAGTTAAAAT-TTTCACCCATTGGAAGTCTTTTCTTAGTTAAATCAGTT  10190
+
+hg38_dna       10016 CCTAGACGCTTTACAGTTTGGTTGTTACTTTGAATATCTGTATTTTCTTC  10065
+                     |||||||.||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna   10191 CCTAGACACTTTACAGTTTGGTTGTTACTTTGAATATCTGTATTTTCTTC  10240
+
+hg38_dna       10066 TGGTCAGTTATTGCTACTGTAGAGGAATGCCGTTGGTTTTCGTAGGCTGA  10115
+                     ||||||||||||..||.|.|||||||||||.||||.||||.|||||||||
+rheMac10_dna   10241 TGGTCAGTTATTAATAGTATAGAGGAATGCTGTTGATTTTAGTAGGCTGA  10290
+
+hg38_dna       10116 CCTTCAGTCCCACAACCTTGCACTCTAGCGTTGGTTCTCATGTTATCCCT  10165
+                     ||||||||||||.||||||||||||||||||||||||||||||||..|||
+rheMac10_dna   10291 CCTTCAGTCCCATAACCTTGCACTCTAGCGTTGGTTCTCATGTTACTCCT  10340
+
+hg38_dna       10166 GTTATTCTGTTGGATTTTCTATGTGCATGATCACACTAATTGCAAATAGT  10215
+                     ||||||||||||||||||||||||||||||||||||||||||||||||.|
+rheMac10_dna   10341 GTTATTCTGTTGGATTTTCTATGTGCATGATCACACTAATTGCAAATACT  10390
+
+hg38_dna       10216 GTCAGCTAGAGCACTTTCCTTGCCATTCTTACACCTGTTACTTCTTTGCA  10265
+                     ||||||.||||||||||.||||||||||||||||||||||||||||||||
+rheMac10_dna   10391 GTCAGCCAGAGCACTTTTCTTGCCATTCTTACACCTGTTACTTCTTTGCA  10440
+
+hg38_dna       10266 TATGGCCTTGGACAGCACCTTGAGTCCCATGACAATGGATGTCCCTGTTG  10315
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna   10441 TATGGCCTTGGACAGCACCTTGAGTCCCATGACAATGGATGTCCCTGTTG  10490
+
+hg38_dna       10316 TATTTCTGAGTGTATTCTTAGCATTCTTCTTAGTAATAAACAGGTATTGA  10365
+                     |.|||||.|||.|||||||||...||||||||||||||||||||||||||
+rheMac10_dna   10491 TGTTTCTAAGTTTATTCTTAGTGCTCTTCTTAGTAATAAACAGGTATTGA  10540
+
+hg38_dna       10366 CCATTACCATATACTTAATAGGATATCTTGAAATATGCCAGAGGACTAGG  10415
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna   10541 CCATTACCATATACTTAATAGGATATCTTGAAATATGCCAGAGGACTAGG  10590
+
+hg38_dna       10416 CCACTACTTGACTGGTGACAGAGAGTATCTTAGATGTATAGGCCCCCAGA  10465
+                     |||||||.|||||..|||||||||||||||||||||.|||||||.|||||
+rheMac10_dna   10591 CCACTACCTGACTCATGACAGAGAGTATCTTAGATGAATAGGCCTCCAGA  10640
+
+hg38_dna       10466 CATGCCAGTGTCCTCTCTCACCACCCATCTCCACTCCAAAGTTGTCTGGC  10515
+                     ||||||||||||||.|||||.|||||||||||||||||.|||||||||||
+rheMac10_dna   10641 CATGCCAGTGTCCTTTCTCATCACCCATCTCCACTCCAGAGTTGTCTGGC  10690
+
+hg38_dna       10516 CTCACCCACCTTCTGTGCCTGGTTCTTCTCCTCTGTGCTTCTCTCACTAT  10565
+                     |.|||||||||||||||||||||||||||||||||.||||||||||||||
+rheMac10_dna   10691 CCCACCCACCTTCTGTGCCTGGTTCTTCTCCTCTGAGCTTCTCTCACTAT  10740
+
+hg38_dna       10566 GCCATGTCCTCGCCTGTTCAGGTGTCTCTAAGAGCTCATAGATCCTTAAC  10615
+                     |||||||||||||||||||||||||.||||||||||||||||||||||||
+rheMac10_dna   10741 GCCATGTCCTCGCCTGTTCAGGTGTATCTAAGAGCTCATAGATCCTTAAC  10790
+
+hg38_dna       10616 TCTTACAGCTTTAAATGAGGCACATTCAAAGCCCGACTCAGTGTCATTCC  10665
+                     ||||||||||||||||.||||||.||||||||||||||||||||||||||
+rheMac10_dna   10791 TCTTACAGCTTTAAATAAGGCACGTTCAAAGCCCGACTCAGTGTCATTCC  10840
+
+hg38_dna       10666 CTGCAGTCTCCTCTTCCTCCCATCTTACCCATTTCAGGTAATATCTCCAG  10715
+                     ||||||||||||||||||||||||||.|||||||||||||||||||||||
+rheMac10_dna   10841 CTGCAGTCTCCTCTTCCTCCCATCTTGCCCATTTCAGGTAATATCTCCAG  10890
+
+hg38_dna       10716 CCAGCCAGAGTCTACTGCAGTAGCTGGCACATGAAATAAATGTTTATTTA  10765
+                     ||||||||||||||||||||.|||||||||||.||||||||..|||||||
+rheMac10_dna   10891 CCAGCCAGAGTCTACTGCAGGAGCTGGCACATAAAATAAATACTTATTTA  10940
+
+hg38_dna       10766 ACTGAATTGAAAATGTTAGCTGGCCATTGTCAAAAATACTATTTTGTAAA  10815
+                     ||||||||||||||||||||||||||||||||||||||||||||||||.|
+rheMac10_dna   10941 ACTGAATTGAAAATGTTAGCTGGCCATTGTCAAAAATACTATTTTGTACA  10990
+
+hg38_dna       10816 TTTATAAATATGGTTCTCTTTGTATATCCATTATAAATATTTAGTATTTA  10865
+                     ||||||||||||||||||||||..||||.||||||||||||||.||||||
+rheMac10_dna   10991 TTTATAAATATGGTTCTCTTTGCGTATCTATTATAAATATTTAATATTTA  11040
+
+hg38_dna       10866 GTTTGATTATTCCTTATGCTTTATAACATGTGTTTTCCCATTCATTCATT  10915
+                     ||||||||||||||||||||||||||||||||||||||||.|||||||||
+rheMac10_dna   11041 GTTTGATTATTCCTTATGCTTTATAACATGTGTTTTCCCACTCATTCATT  11090
+
+hg38_dna       10916 TATCCAGCATTTATTTTGCATGTCTATGGGTCAAGCGCTCTGTCTAGGAA  10965
+                     |.||||||||||||||||||.|||||||||||||||.||.||||||||||
+rheMac10_dna   11091 TGTCCAGCATTTATTTTGCAAGTCTATGGGTCAAGCACTGTGTCTAGGAA  11140
+
+hg38_dna       10966 CACTGCTGTGAACAAAACCAAACTCCCGCCCTAAAGGAGCCTGCACTCCC  11015
+                     |||||||||||||||||||||||.||.|||||.|||.|||||||||||||
+rheMac10_dna   11141 CACTGCTGTGAACAAAACCAAACCCCTGCCCTCAAGCAGCCTGCACTCCC  11190
+
+hg38_dna       11016 GTGGAGAACATGAATAATAAGCACAGAGGAAATAACATAATATCTCAAGT  11065
+                     ||||||||.|||||.||||||||||.|..|||||||||||||||||||||
+rheMac10_dna   11191 GTGGAGAATATGAACAATAAGCACACAATAAATAACATAATATCTCAAGT  11240
+
+hg38_dna       11066 AGCTGTAACTGCTCCAGAGAATAATGAAGCCAGGAAAGGGGGTGGGCTAG  11115
+                     ||||||||||||||||||||||.|||||.|..||||||||||||||||| 
+rheMac10_dna   11241 AGCTGTAACTGCTCCAGAGAATGATGAAACTGGGAAAGGGGGTGGGCTA-  11289
+
+hg38_dna       11116 GGGGTGCTGTTTTAGGTAGAGTGATGGGAACAGCCCCACTGAGCAAACTT  11165
+                     ||||||||.|||||||||||||||||||||.|||||||||||||||||||
+rheMac10_dna   11290 GGGGTGCTATTTTAGGTAGAGTGATGGGAAGAGCCCCACTGAGCAAACTT  11339
+
+hg38_dna       11166 TAGCCACATGAGTAGCTGGAAGAAAAGCCTTCTAGGACCAGGGAACAGCA  11215
+                     .|||||||||||||||||||||||||||||||||||.||||.|||||.||
+rheMac10_dna   11340 GAGCCACATGAGTAGCTGGAAGAAAAGCCTTCTAGGCCCAGAGAACAACA  11389
+
+hg38_dna       11216 AGTGCAACAGCCCTGAGACAGGATGGGCTTGTCA-GTTTGAGGAGCAGTG  11264
+                     ||.||||||||||||||||||||.|.|||||||| ||||||||.||||||
+rheMac10_dna   11390 AGGGCAACAGCCCTGAGACAGGACGTGCTTGTCAGGTTTGAGGGGCAGTG  11439
+
+hg38_dna       11265 GGAGGCCTGAACCAGGTTACATGGGGCCCAGCCAGTATGGCCACGACTTT  11314
+                     |||||||||||||||||.|||||||||||||||||.||||||.||||.||
+rheMac10_dna   11440 GGAGGCCTGAACCAGGTCACATGGGGCCCAGCCAGCATGGCCTCGACCTT  11489
+
+hg38_dna       11315 GTGTTTTATCCAGAGTACAAAGGAGCCTCACTGAGGGACAAGGGAAGTGG  11364
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna   11490 GTGTTTTATCCAGAGTACAAAGGAGCCTCACTGAGGGACAAGGGAAGTGG  11539
+
+hg38_dna       11365 CATGATGTGACCCGCATATTAAGAGGAGAGCGCTCAATGGCAGCCAGGGG  11414
+                     ||.||||||||||||||||||||||||||||.|||||.||||||||||||
+rheMac10_dna   11540 CACGATGTGACCCGCATATTAAGAGGAGAGCACTCAAAGGCAGCCAGGGG  11589
+
+hg38_dna       11415 AGGAGCAGGGAGGCTGGTTGGGAGGCTGTTGAAGAAATCAGGTGAGAAGT  11464
+                     |||||||||.||||||||||||||||||||||||.||||||.||||||||
+rheMac10_dna   11590 AGGAGCAGGTAGGCTGGTTGGGAGGCTGTTGAAGGAATCAGATGAGAAGT  11639
+
+hg38_dna       11465 GATGGAAGCACCGAATAAGATGGTCATGTTGGAAAAATTGAGAAGCTGAG  11514
+                     ||||||.|||||||||||||||||||||||||||||..||||||||||||
+rheMac10_dna   11640 GATGGAGGCACCGAATAAGATGGTCATGTTGGAAAATGTGAGAAGCTGAG  11689
+
+hg38_dna       11515 GTGCTTAGCATTGATTTTCAAGGTAGAGCTACTGAGATTTGCTGATAGAT  11564
+                     ||||||||.|||||||||||||||||||||.|||||||||||||||||||
+rheMac10_dna   11690 GTGCTTAGGATTGATTTTCAAGGTAGAGCTGCTGAGATTTGCTGATAGAT  11739
+
+hg38_dna       11565 CCAATGTATGC--TGGGAGAGAAAATTCAGTCACTCTAGAGCATTGGCTG  11612
+                     |||.|||||||  ||.||||||||||||||||||||||||||.|||||||
+rheMac10_dna   11740 CCAGTGTATGCTGTGAGAGAGAAAATTCAGTCACTCTAGAGCTTTGGCTG  11789
+
+hg38_dna       11613 GATTTGTCACCCATTGCAGCGAATGGAGAAGGTGCTGACATAAAAGCCCT  11662
+                     ||||||||||||||||.||.|||||||||||||||||||||||||||||.
+rheMac10_dna   11790 GATTTGTCACCCATTGGAGTGAATGGAGAAGGTGCTGACATAAAAGCCCC  11839
+
+hg38_dna       11663 TTAGACTGAAAGCTACTGACTGAGGGGATGGTGCCCTAGTTTGATTTCCT  11712
+                     |||||.||||.|.|||||||||||||||||||||||||||||||||||||
+rheMac10_dna   11840 TTAGATTGAACGTTACTGACTGAGGGGATGGTGCCCTAGTTTGATTTCCT  11889
+
+hg38_dna       11713 GGGGTGTATGAGTAGCAGGGAGGCCAAGAGCTGGGCCTCACGAGATTGTG  11762
+                     |||||||.|||||||||||||.||||||||||||||||||.|||||..||
+rheMac10_dna   11890 GGGGTGTGTGAGTAGCAGGGAAGCCAAGAGCTGGGCCTCATGAGATCATG  11939
+
+hg38_dna       11763 GGGACTACATCAGGGAAGCAGGCCTGCAAAGAACCTGCACCACAGACCCC  11812
+                     ||..||||||||.|||||||.|||||||||||||||||.|||||||||||
+rheMac10_dna   11940 GGACCTACATCAAGGAAGCAAGCCTGCAAAGAACCTGCCCCACAGACCCC  11989
+
+hg38_dna       11813 CACCTAAAAGAGCCTCCAAAAACCCTAACTGGCATGACCTGAGTACTTTA  11862
+                     |||||||||||||||||||||||||||||||||||||||          |
+rheMac10_dna   11990 CACCTAAAAGAGCCTCCAAAAACCCTAACTGGCATGACC----------A  12029
+
+hg38_dna       11863 ACTCTGCTTGTAACTTTCAAATATATTTTGATTTGCTTATGACCACCAAG  11912
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna   12030 ACTCTGCTTGTAACTTTCAAATATATTTTGATTTGCTTATGACCACCAAG  12079
+
+hg38_dna       11913 GCAAAACTTCCCATTTCAATAATGTTAGTAGAAACATAAACAGGATGTTA  11962
+                     |||||||||||||||||||||||||||||||||||||||||||.||||||
+rheMac10_dna   12080 GCAAAACTTCCCATTTCAATAATGTTAGTAGAAACATAAACAGAATGTTA  12129
+
+hg38_dna       11963 ATTTATTTATTTGGTAATTCTTTTTATGAATATTATCCAGTTTAATCATT  12012
+                     |||||||||||||.|||||||||||.|||||||||||||.||.|.|||||
+rheMac10_dna   12130 ATTTATTTATTTGATAATTCTTTTTGTGAATATTATCCAATTCAGTCATT  12179
+
+hg38_dna       12013 AGCTCTGAAGGAGATGAAAAATAATTTTCTAATTTTTAGAAAAATTTGCA  12062
+                     ||||||||||||||||||||||||||||||||||||||.||.||||||||
+rheMac10_dna   12180 AGCTCTGAAGGAGATGAAAAATAATTTTCTAATTTTTAAAAGAATTTGCA  12229
+
+hg38_dna       12063 GCTAATTGGGTGA----TAAAGGTAAGGGGTTTCTGAGTTCACAAAAATG  12108
+                     |||||||||||||    |||||||||||||||||||||||||||||||||
+rheMac10_dna   12230 GCTAATTGGGTGATAGTTAAAGGTAAGGGGTTTCTGAGTTCACAAAAATG  12279
+
+hg38_dna       12109 TTCTAAAATTGGCAACAGTTTCGGTTGCACGTTTCATTAAATGTACTAAA  12158
+                     |||||||||||.||||||||..||||||||.|||||||||||||.|||||
+rheMac10_dna   12280 TTCTAAAATTGACAACAGTTATGGTTGCACATTTCATTAAATGTTCTAAA  12329
+
+hg38_dna       12159 AACCATTGAACTGTACATGGTATATGGTGAATTATATGGTATGTGAATTA  12208
+                     ||||||||||||||||||||||.||||||.||||||||||||||||||||
+rheMac10_dna   12330 AACCATTGAACTGTACATGGTACATGGTGGATTATATGGTATGTGAATTA  12379
+
+hg38_dna       12209 TATCTCAACAAGCTGGGTATTGTTTTTTTAAAAAATAAAAATAAAAAAGG  12258
+                     |||||.||||||||.|||||| |||||..|||||||||||||||||||||
+rheMac10_dna   12380 TATCTGAACAAGCTAGGTATT-TTTTTAAAAAAAATAAAAATAAAAAAGG  12428
+
+hg38_dna       12259 AGAAAGAGAGAGAGAAAAACAATTGCAGATCATCCCAGCACTGAGGACAA  12308
+                     ||||||||     |.||||..|||||||||||||||||||||||||||||
+rheMac10_dna   12429 AGAAAGAG-----GGAAAAATATTGCAGATCATCCCAGCACTGAGGACAA  12473
+
+hg38_dna       12309 GACTAACTTCAGTG----------------TTCCAGTATATGCCATTATA  12342
+                     ||||||||||||||                ||.||||||||||||||.||
+rheMac10_dna   12474 GACTAACTTCAGTGTTACAGTATATGCCATTTACAGTATATGCCATTTTA  12523
+
+hg38_dna       12343 GGTTTTACGGCACACAGTGATGATTTGGAGCCTATGATTTGACCTAGGGT  12392
+                     |||||||.||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna   12524 GGTTTTATGGCACACAGTGATGATTTGGAGCCTATGATTTGACCTAGGGT  12573
+
+hg38_dna       12393 ACAGCAGGTACTGTTTAGCAATCATTTTACTATTGTCATAGGTCTCTGCT  12442
+                     ||||||||||||.|||||||||||||||||||||||||||||||||||||
+rheMac10_dna   12574 ACAGCAGGTACTATTTAGCAATCATTTTACTATTGTCATAGGTCTCTGCT  12623
+
+hg38_dna       12443 CTTGGAGCTAAGTGCCCAGGGTAAATGAGATCTTTAATTTGAAAAGAGAT  12492
+                     ||.||||||||||...||||||||||||||||||||||||||||||||| 
+rheMac10_dna   12624 CTGGGAGCTAAGTATGCAGGGTAAATGAGATCTTTAATTTGAAAAGAGA-  12672
+
+hg38_dna       12493 TTTTGATTTGATGAATGTACATTCTCCAAAGGGTCATAAATTGTCATTCT  12542
+                     ||||.|||||||||||.||||||||||||||||||.||||.|||||||||
+rheMac10_dna   12673 TTTTAATTTGATGAATATACATTCTCCAAAGGGTCGTAAACTGTCATTCT  12722
+
+hg38_dna       12543 GGATGTTTGATCTGTTTGTTGTTTTGGTACAAAAATTAGAAGAAAATAAT  12592
+                     |||||||||||.|||||||||||||.|||||||||||||||||||||||.
+rheMac10_dna   12723 GGATGTTTGATTTGTTTGTTGTTTTAGTACAAAAATTAGAAGAAAATAAA  12772
+
+hg38_dna       12593 TCACTCATAAAATGTTAAATAATGAACTAAAAGTCATTCATCAAGTCCAT  12642
+                     |||||||||||||.||||||||||||||||||.|||||||||||||||||
+rheMac10_dna   12773 TCACTCATAAAATATTAAATAATGAACTAAAACTCATTCATCAAGTCCAT  12822
+
+hg38_dna       12643 AACTTAGGGTCACATTTGTCCTTGGAGCAGGAGAAAGAGTTGTGTTCACC  12692
+                     ||||||||||||.||||||||||||||||||||||||||||||||||||.
+rheMac10_dna   12823 AACTTAGGGTCAGATTTGTCCTTGGAGCAGGAGAAAGAGTTGTGTTCACG  12872
+
+hg38_dna       12693 CTTTTCTTACTTTTGCTTTTGTCCTAAGTGCTTCAGAGAAGTACAGGGTG  12742
+                     ||||||||||.|||||||||||||||||||||||||||||||||||||.|
+rheMac10_dna   12873 CTTTTCTTACCTTTGCTTTTGTCCTAAGTGCTTCAGAGAAGTACAGGGCG  12922
+
+hg38_dna       12743 GCAACAGTGTTTCTAC-TGAGCAGCTGATACCATTGCTATGCACTCATTC  12791
+                     |.|||||.||||| || ||||||||||||.||||||||||||||||||||
+rheMac10_dna   12923 GGAACAGCGTTTC-ACTTGAGCAGCTGATGCCATTGCTATGCACTCATTC  12971
+
+hg38_dna       12792 ATTATGCAGGAAACATTTAGTAATTTCAACATAAATATGGGACTCTGACG  12841
+                     ||||||||..||||||||||||.|||||||||||||||||||||||||..
+rheMac10_dna   12972 ATTATGCACCAAACATTTAGTAGTTTCAACATAAATATGGGACTCTGATA  13021
+
+hg38_dna       12842 TTCTCCTCTTCATTTTGCAGAGCAGTCATTATGGCGAACCTTGGCTGCTG  12891
+                     |||||.||||||||||.||||.|||||||.||||||||||||||||||||
+rheMac10_dna   13022 TTCTCTTCTTCATTTTACAGAACAGTCATCATGGCGAACCTTGGCTGCTG  13071
+
+hg38_dna       12892 GATGCTGGTTCTCTTTGTGGCCACATGGAGTGACCTGGGCCTCTGCAAGA  12941
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna   13072 GATGCTGGTTCTCTTTGTGGCCACATGGAGTGACCTGGGCCTCTGCAAGA  13121
+
+hg38_dna       12942 AGCGCCCGAAGCCTGGAGGATGGAACACTGGGGGCAGCCGATACCCGGGG  12991
+                     |||||||.|||||||||||||||||||||||.||||||||||||||||||
+rheMac10_dna   13122 AGCGCCCAAAGCCTGGAGGATGGAACACTGGAGGCAGCCGATACCCGGGG  13171
+
+hg38_dna       12992 CAGGGCAGCCCTGGAGGCAACCGCTACCCACCTCAGGGCGGTGGTGGCTG  13041
+                     ||||||||||||||||||||||||||||||||.|||||.|||||||||||
+rheMac10_dna   13172 CAGGGCAGCCCTGGAGGCAACCGCTACCCACCCCAGGGTGGTGGTGGCTG  13221
+
+hg38_dna       13042 GGGGCAGCCTCATGGTGGTGGCTGGGGGCAGCCTCATGGTGGTGGCTGGG  13091
+                     ||||||||||||||||||||||||||||||.||.||||||||.|||||||
+rheMac10_dna   13222 GGGGCAGCCTCATGGTGGTGGCTGGGGGCAACCCCATGGTGGCGGCTGGG  13271
+
+hg38_dna       13092 GGCAGCCCCATGGTGGTGGCTGGGGACAGCCTCATGGTGGTGGCTGGGGT  13141
+                     |.|||||.||||||||.|||||||||||||||||||||||||||||||||
+rheMac10_dna   13272 GACAGCCTCATGGTGGCGGCTGGGGACAGCCTCATGGTGGTGGCTGGGGT  13321
+
+hg38_dna       13142 CAAGGAGGTGGCACCCACAGTCAGTGGAACAAGCCGAGTAAGCCAAAAAC  13191
+                     |||||||||||||||||||.|||||||.|||||||.||||||||||||||
+rheMac10_dna   13322 CAAGGAGGTGGCACCCACAATCAGTGGCACAAGCCCAGTAAGCCAAAAAC  13371
+
+hg38_dna       13192 CAACATGAAGCACATGGCTGGTGCTGCAGCAGCTGGGGCAGTGGTGGGGG  13241
+                     ||.|||||||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna   13372 CAGCATGAAGCACATGGCTGGTGCTGCAGCAGCTGGGGCAGTGGTGGGGG  13421
+
+hg38_dna       13242 GCCTTGGCGGCTACATGCTGGGAAGTGCCATGAGCAGGCCCATCATACAT  13291
+                     |||||||||||||||||||||||||||||||||||||||||.||||||||
+rheMac10_dna   13422 GCCTTGGCGGCTACATGCTGGGAAGTGCCATGAGCAGGCCCCTCATACAT  13471
+
+hg38_dna       13292 TTCGGCAGTGACTATGAGGACCGTTACTATCGTGAAAACATGCACCGTTA  13341
+                     ||.||||.||||||||||||||||||||||||||||||||||.|||||||
+rheMac10_dna   13472 TTTGGCAATGACTATGAGGACCGTTACTATCGTGAAAACATGTACCGTTA  13521
+
+hg38_dna       13342 CCCCAACCAAGTGTACTACAGGCCCATGGATGAGTACAGCAACCAGAACA  13391
+                     ||||||||||||||||||||||||..|||||.||||||||||||||||||
+rheMac10_dna   13522 CCCCAACCAAGTGTACTACAGGCCTGTGGATCAGTACAGCAACCAGAACA  13571
+
+hg38_dna       13392 ACTTTGTGCACGACTGCGTCAATATCACAATCAAGCAGCACACGGTCACC  13441
+                     ||||||||||||||||||||||||||||.||.|||||||||||.||||||
+rheMac10_dna   13572 ACTTTGTGCACGACTGCGTCAATATCACGATTAAGCAGCACACAGTCACC  13621
+
+hg38_dna       13442 ACAACCACCAAGGGGGAGAACTTCACCGAGACCGACGTTAAGATGATGGA  13491
+                     ||.||||||||.||||||||||||||||||||||||||||||||||||||
+rheMac10_dna   13622 ACCACCACCAAAGGGGAGAACTTCACCGAGACCGACGTTAAGATGATGGA  13671
+
+hg38_dna       13492 GCGCGTGGTTGAGCAGATGTGTATCACCCAGTACGAGAGGGAATCTCAGG  13541
+                     ||||||||||||||||||||||||||||||||||||||.||||||.||||
+rheMac10_dna   13672 GCGCGTGGTTGAGCAGATGTGTATCACCCAGTACGAGAAGGAATCACAGG  13721
+
+hg38_dna       13542 CCTATTACCAGAGAGGATCGAGCATGGTCCTCTTCTCCTCTCCACCTGTG  13591
+                     |||||||.||||||||||||||||||||||||||||||||.||.||||||
+rheMac10_dna   13722 CCTATTATCAGAGAGGATCGAGCATGGTCCTCTTCTCCTCCCCGCCTGTG  13771
+
+hg38_dna       13592 ATCCTCCTGATCTCTTTCCTCATCTTCCTGATAGTGGGATGAGGAAGGTC  13641
+                     |||||||||||.||||||||||||||||||||||||||||||||||||||
+rheMac10_dna   13772 ATCCTCCTGATTTCTTTCCTCATCTTCCTGATAGTGGGATGAGGAAGGTC  13821
+
+hg38_dna       13642 TTCCTGTTTTCACCATCTTTCTAATCTTTTTCCAGCTTGAGGGAGGCGGT  13691
+                     |||||||||||||||||||||||||||||||||||.||||||||||..||
+rheMac10_dna   13822 TTCCTGTTTTCACCATCTTTCTAATCTTTTTCCAGGTTGAGGGAGGGAGT  13871
+
+hg38_dna       13692 ATCCACCTGCAGCCCTTTTAGTGGTGGTGTCTCACTCTTTCTTCTCTCTT  13741
+                     |||||.||||||||||||||||||||||||||||.||||.||||||||||
+rheMac10_dna   13872 ATCCATCTGCAGCCCTTTTAGTGGTGGTGTCTCATTCTTGCTTCTCTCTT  13921
+
+hg38_dna       13742 TGTCCCGGATAGGCTAATCAATACCCTTGGCACTGATGGGCACTGGAAAA  13791
+                     ||||||.|||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna   13922 TGTCCCTGATAGGCTAATCAATACCCTTGGCACTGATGGGCACTGGAAAA  13971
+
+hg38_dna       13792 CATAGAGTAGACCTGAGATGCTGGTCAAGCCCCCTTTGATTGAGTTCATC  13841
+                     .|||||||||||||||||||||.|||||||||||||||||||||||||||
+rheMac10_dna   13972 TATAGAGTAGACCTGAGATGCTAGTCAAGCCCCCTTTGATTGAGTTCATC  14021
+
+hg38_dna       13842 ATGAGCCGTTGCTAATGCCAGGCCAGTAAAAGTATAACAGCAAATAACCA  13891
+                     |||.|||||||||||||||.|||||||||||.||||||||||||||||||
+rheMac10_dna   14022 ATGGGCCGTTGCTAATGCCGGGCCAGTAAAAATATAACAGCAAATAACCA  14071
+
+hg38_dna       13892 TTGGTTAATCTGGACTTATTTTTGGACTTAGTGCAACAGGTTGAGGCTAA  13941
+                     ||||||||||||.||||||||||||||||||||||.||||||||||||||
+rheMac10_dna   14072 TTGGTTAATCTGTACTTATTTTTGGACTTAGTGCAGCAGGTTGAGGCTAA  14121
+
+hg38_dna       13942 AACAAATCTCAGAACAGTCTGAAATACCTTTGCCTGGATACCTCTGGCTC  13991
+                     ||||||||||||||||||||.|||||||||||||||||||||||||||||
+rheMac10_dna   14122 AACAAATCTCAGAACAGTCTCAAATACCTTTGCCTGGATACCTCTGGCTC  14171
+
+hg38_dna       13992 CTTCAGCAGCTAGAGCTCAGTATACTAATGCCCTATCTTAGTAGAGATTT  14041
+                     |||||||.||||||||||||||||||||||||||.||||||.||||||||
+rheMac10_dna   14172 CTTCAGCGGCTAGAGCTCAGTATACTAATGCCCTGTCTTAGCAGAGATTT  14221
+
+hg38_dna       14042 CATAGCTATTTAGAGATATTTTCCATTTTAAGAAAACCCGACAACATTTC  14091
+                     |||||||||||||||||||||||||||||||||||||||..|||||||||
+rheMac10_dna   14222 CATAGCTATTTAGAGATATTTTCCATTTTAAGAAAACCCAGCAACATTTC  14271
+
+hg38_dna       14092 TGCCAGGTTTGTTAGGAGGCCACATGATACTTATTC--AAAAAAATCCTA  14139
+                     |||||.|||||||||||||||.|||||||||.||||  ||||||||||||
+rheMac10_dna   14272 TGCCAAGTTTGTTAGGAGGCCGCATGATACTCATTCAAAAAAAAATCCTA  14321
+
+hg38_dna       14140 GAGATTCTTAGCTCTTGGGATGCAGGCTCAGCCCGCTGGAGCATGAGCTC  14189
+                     ||.|||.||||||||.||||..|.||||..||||.|||||||||||||||
+rheMac10_dna   14322 GAAATTGTTAGCTCTCGGGACACTGGCTTGGCCCACTGGAGCATGAGCTC  14371
+
+hg38_dna       14190 TGTGTGTACCGAGAACTGGGGTGATGTTTTACTTTTCACAGTATGGGCTA  14239
+                     |||.|.|||.|||||||||||..||||||||||||||||||||.||||||
+rheMac10_dna   14372 TGTATCTACGGAGAACTGGGGCAATGTTTTACTTTTCACAGTAAGGGCTA  14421
+
+hg38_dna       14240 CACAGCAGCTGTTCAACAAGAGTAAATATTGTCACAACACTGAACCTCTG  14289
+                     |||||||||||||||.|||||||||||||.|..||||||||.||||||||
+rheMac10_dna   14422 CACAGCAGCTGTTCATCAAGAGTAAATATCGGTACAACACTAAACCTCTG  14471
+
+hg38_dna       14290 GCTAGAGGACATATTCACAGTGAACATAACTGTAACATATATGAAAGGCT  14339
+                     ||||||||||||||||||||||||||||||||||||||||.|||||||||
+rheMac10_dna   14472 GCTAGAGGACATATTCACAGTGAACATAACTGTAACATATTTGAAAGGCT  14521
+
+hg38_dna       14340 TCTGGGACTTGAAATCAAATGTTTGGGAATGGTGCCCTTGGAGGCAACCT  14389
+                     ||||||||||.|||||.|||||||||||||||||||.|||||||||||||
+rheMac10_dna   14522 TCTGGGACTTAAAATCTAATGTTTGGGAATGGTGCCGTTGGAGGCAACCT  14571
+
+hg38_dna       14390 CCCATTTTAGATGTTTAAAGGACCCTATATGTGGCATTCCTTTCTTTAAA  14439
+                     |||.||||   ||||||||||| |||||..||||||||||||||||||||
+rheMac10_dna   14572 CCCGTTTT---TGTTTAAAGGA-CCTATGCGTGGCATTCCTTTCTTTAAA  14617
+
+hg38_dna       14440 CTATAGGTAATTAAGGCAGCTGAAAAGTAAATTGCCTTCTAGACACTGAA  14489
+                     ||.|||||||||||||||||.|||||||||||||||||||||||||||||
+rheMac10_dna   14618 CTCTAGGTAATTAAGGCAGCAGAAAAGTAAATTGCCTTCTAGACACTGAA  14667
+
+hg38_dna       14490 GGCAAATCTCCTTTGTCCATTTACCTGGAAACCAGAATGATTTTGACATA  14539
+                     ||||||||||||||||||||||||||.|||||||||||||||||||||||
+rheMac10_dna   14668 GGCAAATCTCCTTTGTCCATTTACCTAGAAACCAGAATGATTTTGACATA  14717
+
+hg38_dna       14540 CAGGAGAGCTGCAGTTGTGAAAGCACCATCATCATAGAGGATGATGTAAT  14589
+                     |.||||||||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna   14718 CTGGAGAGCTGCAGTTGTGAAAGCACCATCATCATAGAGGATGATGTAAT  14767
+
+hg38_dna       14590 TAA-AAAATGGTCAGTGTGCAAAGAAAAGAACTGCTTGCATTTCTTTATT  14638
+                     ||| ||||||||||||||||||||||||||||||||.|||||||||||||
+rheMac10_dna   14768 TAAGAAAATGGTCAGTGTGCAAAGAAAAGAACTGCTAGCATTTCTTTATT  14817
+
+hg38_dna       14639 TCTGTCTCATAATTGTCAAAAACCAGAATTAGGTCAAGTTCATAGTTTCT  14688
+                     |||||||||||||||||||||||||||||||||||||||||||||.||||
+rheMac10_dna   14818 TCTGTCTCATAATTGTCAAAAACCAGAATTAGGTCAAGTTCATAGCTTCT  14867
+
+hg38_dna       14689 GTAATTGGCTTTTGAATCAAAGAATAGGGAGACAATCTAAAAAATATCTT  14738
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna   14868 GTAATTGGCTTTTGAATCAAAGAATAGGGAGACAATCTAAAAAATATCTT  14917
+
+hg38_dna       14739 AGGTTGGAGATGACAGAAATATGATTGATTTGAAGTGGAAAAAGAAATTC  14788
+                     |.||||||||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna   14918 ACGTTGGAGATGACAGAAATATGATTGATTTGAAGTGGAAAAAGAAATTC  14967
+
+hg38_dna       14789 TGTTAATGTTAATTAAAGTAAAATTATTCCCTGAATTGTTTGATATTGTC  14838
+                     |.||||..||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna   14968 TATTAACATTAATTAAAGTAAAATTATTCCCTGAATTGTTTGATATTGTC  15017
+
+hg38_dna       14839 ACCTAGCAGATATGTATTACTTTTCTGCAATGTTATTATTGGCTTGCACT  14888
+                     |.||||||||||.|||||||||||||||||||||||||||||||||||||
+rheMac10_dna   15018 ATCTAGCAGATACGTATTACTTTTCTGCAATGTTATTATTGGCTTGCACT  15067
+
+hg38_dna       14889 TTGTGAGTATTCTATGTAAAAATATATATGTATATAAAATATATATTGCA  14938
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna   15068 TTGTGAGTATTCTATGTAAAAATATATATGTATATAAAATATATATTGCA  15117
+
+hg38_dna       14939 TAGGACAGACTTAGGAGTTTTGTTTAGAGCAGTTAACATCTGAAGTGTCT  14988
+                     |||||||||.||||||||||||||||||||||||||||||||||||||||
+rheMac10_dna   15118 TAGGACAGATTTAGGAGTTTTGTTTAGAGCAGTTAACATCTGAAGTGTCT  15167
+
+hg38_dna       14989 AATGCATTAACTTTTGTAAGGTACTGAATACTTAATATGTGGGAAACCCT  15038
+                     |||||||||||||||||||||||||||||||||||||||||||||.||||
+rheMac10_dna   15168 AATGCATTAACTTTTGTAAGGTACTGAATACTTAATATGTGGGAAGCCCT  15217
+
+hg38_dna       15039 TTTGCGTGGTCCTTAGGCTTACAATGTGCACTGAATCGTTTCATGTAAGA  15088
+                     |||||||||||||||||||||||||||||||||||||||||..|.|||||
+rheMac10_dna   15218 TTTGCGTGGTCCTTAGGCTTACAATGTGCACTGAATCGTTTTGTATAAGA  15267
+
+hg38_dna       15089 ATCCAAAGTGGACACCATTAACAGGTCTTTGAAATATGCATGTACTTTAT  15138
+                     ||||||||||||||||||||||||||||||||||||||||||||.|||||
+rheMac10_dna   15268 ATCCAAAGTGGACACCATTAACAGGTCTTTGAAATATGCATGTAATTTAT  15317
+
+hg38_dna       15139 ATTTTCTATATTTGTAACTTTGCATGTTCTTGTTTTGTTATATAAAAAAA  15188
+                     |||||||||||||||||||||||||||||||||||||||.|||||||||.
+rheMac10_dna   15318 ATTTTCTATATTTGTAACTTTGCATGTTCTTGTTTTGTTGTATAAAAAAT  15367
+
+hg38_dna       15189 TTGTAAATGTTTAATATCTGACTGAAATTAAAC--GAGCGAAGATGAGCA  15236
+                     ||.||||||||||||||||||||||||||||||  |||||||||||||||
+rheMac10_dna   15368 TTATAAATGTTTAATATCTGACTGAAATTAAACAGGAGCGAAGATGAGCA  15417
+
+hg38_dna       15237 CCACC  15241
+                     |||||
+rheMac10_dna   15418 CCACC  15422
+
+
+#---------------------------------------
+#---------------------------------------

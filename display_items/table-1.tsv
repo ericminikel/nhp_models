@@ -1,6 +1,10 @@
 common_name	strain_roa	shortname	mean_sd_bc	expected_duration_bc	power_bc	attack_rate	mean_sd	expected_duration_oth	power_oth
-Chimpanzee	sCJD i.c.	Lampert 1971	14.9±1.0	24	1	24/29	17±7*	39	0.347
-Cynomolgus macaque	vCJD i.c.	Herzog 2005	31±5.0	56	0.977				
-Spider monkey	sCJD i.c.	Zlotnik 1976	23.5±0.8	37	1	30/31	31±8	62	0.732
-Squirrel monkey	sCJD i.c.	Zlotnik 1976	24.6±3.7	44	0.981	196/211	25±5	47	0.871
+Chimpanzee	sCJD i.c.	Lampert 1971	14.9±1.0	24	1	24/29	17±7*	39	0.338
+Cynomolgus macaque	vCJD i.c.	Comoy 2017	30.9±4.8	56	0.982				
+Rhesus macaque	BSE i.p.	Krasemann 2013	56±6.0	95	1				
+Common marmoset	sCJD i.c.	Baker 1990	21.3±1.5	35	1	3/3*	14.6±3.0	28	0.89
+Spider monkey	sCJD i.c.	Zlotnik 1976	23.5±0.8	37	1	30/31	31±8	62	0.735
+Squirrel monkey	gCJD i.c.	Brown 1991	16±2.0	28	1	6/7	19.9±2.4	34	0.989
+Squirrel monkey	sCJD i.c.	Williams 2007	21±0.8	33	1	196/211	25±5	47	0.858
+Tamarins	Kuru → Tamarin → Tamarin → Tamarin i.c.	Peterson 1978	8.4±1.4	15	0.961	3/3	7.8±2.02	16	0.752
 Gray mouse lemur	L-BSE i.c.	Mestre-Francés 2012	20.6±1.6	34	1				

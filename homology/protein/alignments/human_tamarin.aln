@@ -1,0 +1,65 @@
+########################################
+# Program: needle
+# Rundate: Thu 30 Jun 2022 10:49:52
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220630-104707-0354-40669909-p1m.asequence
+#    -bsequence emboss_needle-I20220630-104707-0354-40669909-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: human
+# 2: tamarin
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 253
+# Identity:     241/253 (95.3%)
+# Similarity:   250/253 (98.8%)
+# Gaps:           1/253 ( 0.4%)
+# Score: 1372.0
+# 
+#
+#=======================================
+
+human              1 MANLGCWMLVLFVATWSDLGLCKKRPKPGGWNTGGSRYPGQGSPGGNRYP     50
+                     |||||.|||.||||||||||||||||||||||||||||||||||||||||
+tamarin            1 MANLGYWMLFLFVATWSDLGLCKKRPKPGGWNTGGSRYPGQGSPGGNRYP     50
+
+human             51 PQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQGGGTHSQWN    100
+                     || |||||||||||||||||||||||||||||||||||||||||||:|||
+tamarin           51 PQ-GGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQGGGTHNQWN     99
+
+human            101 KPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAMSRPIIHFGSDYEDRYY    150
+                     |||||||||||:|||||||||||||||||||||||||:||||:|||||||
+tamarin          100 KPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAMSRPLIHFGNDYEDRYY    149
+
+human            151 RENMHRYPNQVYYRPMDEYSNQNNFVHDCVNITIKQHTVTTTTKGENFTE    200
+                     ||||:||||||||||:|:|:||||||||||||||||||||||||||||||
+tamarin          150 RENMYRYPNQVYYRPVDQYNNQNNFVHDCVNITIKQHTVTTTTKGENFTE    199
+
+human            201 TDVKMMERVVEQMCITQYERESQAYYQRGSSMVLFSSPPVILLISFLIFL    250
+                     |||||||||||||||||||:||||||||||||||||||||||||||||||
+tamarin          200 TDVKMMERVVEQMCITQYEKESQAYYQRGSSMVLFSSPPVILLISFLIFL    249
+
+human            251 IVG    253
+                     |||
+tamarin          250 IVG    252
+
+
+#---------------------------------------
+#---------------------------------------

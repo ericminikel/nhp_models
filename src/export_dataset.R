@@ -61,7 +61,7 @@ species_meta = data.frame(grp=c('ape','old world monkey','new world monkey','pro
                           grp_x=1:4)
 
 
-path = 'data/full_spreadsheet_2022-03-17-1348.xlsx'
+path = 'data/full_spreadsheet_2022-06-30-1607.xlsx'
 
 studies = read.xlsx(path,sheet=2)
 colnames(studies) = gsub('[^0-9a-z_]','_',tolower(colnames(studies)))
@@ -69,7 +69,7 @@ studies = studies[!is.na(studies$website),]
 
 studies$year5bin = 5*floor(studies$year/5)
 
-species = read.xlsx(path,sheet='Notes',startRow = 15,rows=15:43)
+species = read.xlsx(path,sheet='Notes',startRow = 15,rows=15:45)
 colnames(species)[1:6] = c('combined_name','class1','brain_size_notes','body_size','website','comments')
 species$grp = tolower(species$class1)
 species$grp[species$class1=='Strepsirrhine primate'] = 'prosimian'
@@ -103,6 +103,9 @@ b9$primate_id = ''
 final_colnames = intersect(intersect(colnames(gg), colnames(ao)), colnames(b9))
 
 data = rbind(gg[,final_colnames], ao[,final_colnames], b9[,final_colnames])
+
+# needed in development but not once dataset is finalized:
+# data = data[!is.na(data$pmid),]
 
 while (any(grepl('__',colnames(data)))) {
   colnames(data) = gsub('__','_',colnames(data))
@@ -182,7 +185,7 @@ write.table(species,'dataset/species.tsv',sep='\t',row.names=F,col.names=T,quote
 write.table(data,'dataset/data.tsv',sep='\t',row.names=F,col.names=T,quote=F,na='')
 
 
-write.xlsx(list(table_s1_studies=studies,
+write.xlsx(list(table_s1_studies=studies[,1:11],
                 table_s2_data=data,
                 table_s3_species=species),
            file='display_items/supplementary-file.xlsx',

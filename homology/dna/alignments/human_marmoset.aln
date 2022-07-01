@@ -1,0 +1,1405 @@
+########################################
+# Program: needle
+# Rundate: Thu 30 Jun 2022 10:52:06
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20220630-105114-0635-22949339-p1m.asequence
+#    -bsequence emboss_needle-I20220630-105114-0635-22949339-p1m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: hg38_dna
+# 2: calJac4_dna
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17012
+# Identity:   13571/17012 (79.8%)
+# Similarity: 13571/17012 (79.8%)
+# Gaps:        2066/17012 (12.1%)
+# Score: 59809.0
+# 
+#
+#=======================================
+
+hg38_dna           1 --------------------------------------------------      0
+                                                                       
+calJac4_dna        1 GGAGCTTTGGGCCGAATTTCCAATTAAAGATGATTTTTACAGTCAATGAG     50
+
+hg38_dna           1 --------------------------------------------------      0
+                                                                       
+calJac4_dna       51 CCACGTCAGGGAGCGATGGCACCCGGAGGCGGTATCAACTGATGCAAGTG    100
+
+hg38_dna           1 --------------------------------------------------      0
+                                                                       
+calJac4_dna      101 TTCAAGCGAATCTCAACTCGTTTTTTCCAGTGACTCATTCCCTGCCCTGC    150
+
+hg38_dna           1 --------------------------------------------------      0
+                                                                       
+calJac4_dna      151 TTCGGAGCGCTGCACCCTTTAACATAAACCTCGGCCGGCTGCCCGCGGCG    200
+
+hg38_dna           1 ---------------------CGCGCGGCAATTGGTCCCCGCGCCGACCT     29
+                                          |||||||||||||||||||||||||||||
+calJac4_dna      201 GGCACGGAGGGTGCGCCAGTCCGCGCGGCAATTGGTCCCCGCGCCGACCT    250
+
+hg38_dna          30 CCGCCCGCGAGCGCCGCCGCTTCCCTTCCCCGCCCCGCGTCCCTCCCCC-     78
+                     ||||||||||||||||||||.||||||||||||||.||||||||||||| 
+calJac4_dna      251 CCGCCCGCGAGCGCCGCCGCCTCCCTTCCCCGCCCAGCGTCCCTCCCCCA    300
+
+hg38_dna          79 TCGGCCCCGCGCGTCGCCTGTCCTCCGAGCCAGTCGCTGACAGCCGCGGC    128
+                     |.||||||||||||||||||.||||.|..||||||||||||||||||.||
+calJac4_dna      301 TTGGCCCCGCGCGTCGCCTGCCCTCAGCACCAGTCGCTGACAGCCGCTGC    350
+
+hg38_dna         129 GCCGCGAGCTTCTCCTCTCCTCACGACCGAGGCAGGTAAACGCCCGGGGT    178
+                     ||.||||||||||||||.|||.|||||||||.|||||||||.||.|||||
+calJac4_dna      351 GCGGCGAGCTTCTCCTCGCCTAACGACCGAGACAGGTAAACACCGGGGGT    400
+
+hg38_dna         179 GGGAGGAACGCGGGCGGGGGCAGGGGAGCCGCGGGGGCCGAGTGAGGACC    228
+                     ||..||.||||||||||||||||.||||||.|.|.|||||||||||||||
+calJac4_dna      401 GGTGGGGACGCGGGCGGGGGCAGAGGAGCCACTGAGGCCGAGTGAGGACC    450
+
+hg38_dna         229 CCGGGCCTCGGGTCCCAGGCGCAAGGGTGCCCGGCCGGGCGGGGTCGGGA    278
+                     |||||||||||||||||||.||.||||.|||.|.|.||.|.|||||.|||
+calJac4_dna      451 CCGGGCCTCGGGTCCCAGGTGCTAGGGCGCCGGACTGGACAGGGTCAGGA    500
+
+hg38_dna         279 CCCCAGTGAGGAGGGGCCGGGGGCTGCCCCGCGGGCGCGTGACGCGTCTC    328
+                     ||||.||.|||||||||.||||.||||||||.||||.||||||.||||||
+calJac4_dna      501 CCCCCGTAAGGAGGGGCTGGGGACTGCCCCGAGGGCACGTGACCCGTCTC    550
+
+hg38_dna         329 GGGCCTGCCCGGCTGCGCTGGTCTCCGCTCGGGTGAGGCGGCTTGGCTTC    378
+                     ||||||||||...||||||||||||.|||..||||.||||||||||||||
+calJac4_dna      551 GGGCCTGCCCCAATGCGCTGGTCTCGGCTAAGGTGGGGCGGCTTGGCTTC    600
+
+hg38_dna         379 GCTTTTCAGGTTAGGAAAGCTCCCTTTACTGCGCGTTGGGGGGCTGGGGG    428
+                     |||||||.||||||||..||||||||.|||.|||||  ||||||||||||
+calJac4_dna      601 GCTTTTCGGGTTAGGACCGCTCCCTTCACTCCGCGT--GGGGGCTGGGGG    648
+
+hg38_dna         429 AGCTGGCGGAGCCCCGTTAGGGAGGTCGGTGGCGC-CGGGGTGTCTCAGC    477
+                     |||||||||||||||...||||||||||||||||| |.|.|||||.||||
+calJac4_dna      649 AGCTGGCGGAGCCCCTGGAGGGAGGTCGGTGGCGCGCCGTGTGTCGCAGC    698
+
+hg38_dna         478 GCCCCCTGCACCCCGCGCGGGTCCGGCCCAGCGGGCGATCGCTGGCGCCC    527
+                     |||||||||||||||||.|||||||.||||||.|              ||
+calJac4_dna      699 GCCCCCTGCACCCCGCGTGGGTCCGTCCCAGCTG--------------CC    734
+
+hg38_dna         528 AGGGAACTCCGGGAGGGCCGCCAGCGGGCTCCGCAGGGCGCGGGGCGGGG    577
+                     ||||||||||.|||||||||||||||||||||||.||||||||||||.||
+calJac4_dna      735 AGGGAACTCCAGGAGGGCCGCCAGCGGGCTCCGCGGGGCGCGGGGCGAGG    784
+
+hg38_dna         578 AGGGGCGCCTGGGGGCCGCGGGGCTCGCGCTCCCCGCCCGTTGGCCGCCC    627
+                     ||||||..|||||||||||||||  |.||.||||.||.||||||||||||
+calJac4_dna      785 AGGGGCCACTGGGGGCCGCGGGG--CCCGGTCCCTGCGCGTTGGCCGCCC    832
+
+hg38_dna         628 CTCGGAGGCCGAGATCGGGGCCCAGAACGCCCCTTGGCAAGGCCTGGCGC    677
+                     |||||||||||.|.|||||.|||||.|||||.||.|||||||||.|||.|
+calJac4_dna      833 CTCGGAGGCCGGGGTCGGGACCCAGGACGCCGCTCGGCAAGGCCCGGCCC    882
+
+hg38_dna         678 TTCCGCGATGCCCAGAGGGTGCTTGGGGGGATGGAGAGAGGGGCGCCCGC    727
+                     ||||.||||.|||||||||||||||.||.|||||.|||..||||.|||||
+calJac4_dna      883 TTCCCCGATACCCAGAGGGTGCTTGTGGAGATGGGGAGGCGGGCCCCCGC    932
+
+hg38_dna         728 CGGGGGAGTTCCGG-GAGCCTCGGTGCCTCCCGCCGCAGCTGCAGCGTTC    776
+                     ||||||||||..|| |.|||||.|.|||||||||||||||.||..|..||
+calJac4_dna      933 CGGGGGAGTTATGGAGCGCCTCAGGGCCTCCCGCCGCAGCCGCCTCACTC    982
+
+hg38_dna         777 CTCCCGGGAGGCGGCCCAGCCCTTCATCCTCGCCGCCTGAGCTTCTCCGA    826
+                     ||||.|||.||||||||.||||||||||||||..|||.|||||||||.||
+calJac4_dna      983 CTCCGGGGTGGCGGCCCCGCCCTTCATCCTCGGGGCCGGAGCTTCTCTGA   1032
+
+hg38_dna         827 GGGGGGCTGCAGCCTTGCGGCCGTTGCCACCGCCTGGAGAAGCGGCCCAC    876
+                     |||.|||.||||||..|||||.||||||||.||.||..||||.|||||||
+calJac4_dna     1033 GGGAGGCCGCAGCCGAGCGGCAGTTGCCACAGCTTGTGGAAGGGGCCCAC   1082
+
+hg38_dna         877 GCGGACTGACGGGCGGGGGCGGGGCCTCGGGCCTCGGCGGGGGCGGGGTC    926
+                     |||    |.|||||||||||||||||||||||||.||.||||||||||||
+calJac4_dna     1083 GCG----GGCGGGCGGGGGCGGGGCCTCGGGCCTTGGTGGGGGCGGGGTC   1128
+
+hg38_dna         927 CGGGGAGGCCCCACCCTCTGTTCTCCAGGGGCGGGGAGAGAGGAGCTGCA    976
+                     |..|||.|||||.||.|||||||.|||..|||||||||.||||||||||.
+calJac4_dna     1129 CCTGGACGCCCCGCCTTCTGTTCGCCACCGGCGGGGAGGGAGGAGCTGCG   1178
+
+hg38_dna         977 GGTCTGCGGCCTGGCCCCAGGTGCGATGGCGGACCCCAGCTTGGCCAGTC   1026
+                     |||||||..||.||||||||||||||.||| ||||||..|||.|||.|||
+calJac4_dna     1179 GGTCTGCCTCCGGGCCCCAGGTGCGACGGC-GACCCCCACTTTGCCTGTC   1227
+
+hg38_dna        1027 ACATTCCTCCCAGTCCCCCTGGAGGGAGAACGCTGGCCATGG-GGGGCTC   1075
+                     |||.|||||||.|| ||||||||||.|||||.|||||||||| |||||||
+calJac4_dna     1228 ACACTCCTCCCCGT-CCCCTGGAGGAAGAACACTGGCCATGGCGGGGCTC   1276
+
+hg38_dna        1076 CAAGGAACAACCAGCCTCGGATGACGACCCTTGGGTCACCGGTCTCCCCA   1125
+                     |||.|.|||||.||.|||.||||||||||||||.||||||||.||.||||
+calJac4_dna     1277 CAATGGACAACGAGTCTCAGATGACGACCCTTGTGTCACCGGGCTTCCCA   1326
+
+hg38_dna        1126 CCTGTGCGGCAGGCGCCTTCACGTTTCATTATTAAACAATGGGGAGAAAT   1175
+                     .|||||||||||||||||||||||||||||||||||||||||||||||||
+calJac4_dna     1327 TCTGTGCGGCAGGCGCCTTCACGTTTCATTATTAAACAATGGGGAGAAAT   1376
+
+hg38_dna        1176 CCATGTTTACTGTCCTTTTTAAGGAATTTTTTGCTCTTCTCTTTGAGGTG   1225
+                     |||||||||..|||||||||||||||||||||||.||||||||||..|||
+calJac4_dna     1377 CCATGTTTATGGTCCTTTTTAAGGAATTTTTTGCCCTTCTCTTTGTAGTG   1426
+
+hg38_dna        1226 GCTGTAGGAAATAGATTTTTTTTTTAACCTCGCAATTCCACCACGGTCAC   1275
+                     |||||||||||...||||||||||| ||||||.|||||||||||.|||||
+calJac4_dna     1427 GCTGTAGGAAACCAATTTTTTTTTT-ACCTCGTAATTCCACCACTGTCAC   1475
+
+hg38_dna        1276 ATCCATCCTCGCCATCGCAGAGCCACAGCTCTCCGTTTTTGTTTCCTAGC   1325
+                     |||||||||||||||||||.|.|||||||||.|.||||||||||||||||
+calJac4_dna     1476 ATCCATCCTCGCCATCGCAAAACCACAGCTCCCTGTTTTTGTTTCCTAGC   1525
+
+hg38_dna        1326 CTCCAGATTCTCACACAACACAGTGCAGTTTCACTGCTGTAATGATGAGG   1375
+                     ||||||||||||||||.||||||||||.||||.|||||||||||||||||
+calJac4_dna     1526 CTCCAGATTCTCACACGACACAGTGCAATTTCGCTGCTGTAATGATGAGG   1575
+
+hg38_dna        1376 ATCTTCATGGCCGCGTTATTTTCTTGTTCTGAGAGCATCACGGTTTAATT   1425
+                     |||||||||.||.|||||||||||||||||.|||||||||||||||||||
+calJac4_dna     1576 ATCTTCATGACCACGTTATTTTCTTGTTCTTAGAGCATCACGGTTTAATT   1625
+
+hg38_dna        1426 AGCAGTTCCCCATATG------ATTTGAAGTGTTTCCCGTTTCCTTAGGG   1469
+                     ||||||||||||||||      ||||||..|||||||||||||||||.|.
+calJac4_dna     1626 AGCAGTTCCCCATATGTAGAACATTTGAGATGTTTCCCGTTTCCTTACGA   1675
+
+hg38_dna        1470 AAAACTCCTGGTAGAATAGGATTAAGGATTTTTACAAATATAATTATCAA   1519
+                     |||||||||||||||||||||||.||||||||||||||||||.||||||.
+calJac4_dna     1676 AAAACTCCTGGTAGAATAGGATTGAGGATTTTTACAAATATAGTTATCAG   1725
+
+hg38_dna        1520 AAACATAGGAACAGGGAATTGGATAAATATGTTAAACTTCTGGAAAAATC   1569
+                     |||||||||||||||.|||||||||||||||||||.|.||||||||||||
+calJac4_dna     1726 AAACATAGGAACAGGAAATTGGATAAATATGTTAAGCCTCTGGAAAAATC   1775
+
+hg38_dna        1570 AACAACGCTCTTAGATTTGTAGAAGAAAGGAAAAAATCACCAGTGGAAAG   1619
+                     ||||||..||||||||||||||.||||||.||||||||||||..||||||
+calJac4_dna     1776 AACAACAATCTTAGATTTGTAGGAGAAAGAAAAAAATCACCAAAGGAAAG   1825
+
+hg38_dna        1620 GAGCAATTTTACTTACACAAACACAGAGAAGGTCTTACAGTGAAAAAAAG   1669
+                     .|.|||||||||||||||||||||.||||||||||||||||||||||.||
+calJac4_dna     1826 AACCAATTTTACTTACACAAACACTGAGAAGGTCTTACAGTGAAAAACAG   1875
+
+hg38_dna        1670 CTAACCAGTAAGGGGAAAAGCAGGCAGAGGGGTAGGATGTGATTTGTATG   1719
+                     ||||||||.|||||||||.||||||||||.||.|||||||.|||||||||
+calJac4_dna     1876 CTAACCAGAAAGGGGAAAGGCAGGCAGAGAGGCAGGATGTCATTTGTATG   1925
+
+hg38_dna        1720 TTATTTATATCTAACACAAGTCTTCCACACCGAAAGGAAAATATTAAGAT   1769
+                     ||||||.||||||||||||||.|||||.||.|||||.|||||||||||||
+calJac4_dna     1926 TTATTTGTATCTAACACAAGTTTTCCATACTGAAAGAAAAATATTAAGAT   1975
+
+hg38_dna        1770 TATAATAGATAAATGGCAAAATGATGAGTCATTTACACAATAAAATGCAA   1819
+                     ||||||||||||||....||||||||||||||||||||||.|||||||||
+calJac4_dna     1976 TATAATAGATAAATAAAGAAATGATGAGTCATTTACACAACAAAATGCAA   2025
+
+hg38_dna        1820 ATTAGAGCATGTTTGGGTTATCATTTTACATCTATTAAAATAACCAAAAT   1869
+                     |||||||||||||.|||||||||||||||||.|||||||.||||||||||
+calJac4_dna     2026 ATTAGAGCATGTTGGGGTTATCATTTTACATTTATTAAACTAACCAAAAT   2075
+
+hg38_dna        1870 AATTAATAGTAACAGCAACCCTTGCTGGAAGGTTGCCCAAAACTTGGCAT   1919
+                     .|.|||.|||||||||||||||||||||||||||||||||||||||.|||
+calJac4_dna     2076 GAGTAACAGTAACAGCAACCCTTGCTGGAAGGTTGCCCAAAACTTGTCAT   2125
+
+hg38_dna        1920 TTTCAAGTGTCTGGGGAGGTGGCAGGGCTTTGGGGTCACAAAGATGGTTC   1969
+                     ||||||||||| ..|||||||||||..|||||||||||.|||||||||||
+calJac4_dna     2126 TTTCAAGTGTC-CAGGAGGTGGCAGCTCTTTGGGGTCAGAAAGATGGTTC   2174
+
+hg38_dna        1970 TGCAGTCAATTTTGTGACCTTGGACAGGCTACCTAATTTCCTGATCCTCC   2019
+                     .|||||||||||||||||.|||||||||||||.|.|||||||||||||||
+calJac4_dna     2175 GGCAGTCAATTTTGTGACTTTGGACAGGCTACTTCATTTCCTGATCCTCC   2224
+
+hg38_dna        2020 TTTTGTCCATTCATAGAATGGAGGAAATGATAGCTACTTTCTGCGTCTG-   2068
+                     ||||||||||||||||||||||||||||||||.||||||.||||.|||| 
+calJac4_dna     2225 TTTTGTCCATTCATAGAATGGAGGAAATGATACCTACTTCCTGCATCTGT   2274
+
+hg38_dna        2069 -------------------------------------TATGTATGAGTTA   2081
+                                                          ||||||||..|||
+calJac4_dna     2275 TACAAAGATTAACCAACTATGTCAAATTCACCCTTGATATGTATGCATTA   2324
+
+hg38_dna        2082 TTGGGGGCATTTCGAACCAGTGACAAACATTTTGTTAAGCAATCTGGTGA   2131
+                     |||||||||||||||.|| .|.||||.|.||||||.||||||||||||||
+calJac4_dna     2325 TTGGGGGCATTTCGAGCC-TTTACAACCCTTTTGTAAAGCAATCTGGTGA   2373
+
+hg38_dna        2132 TGCATTAAGAAGCTGGAAGCTGTGACCCAGAAACCCCACTCCTGAGAACT   2181
+                     ||||||||||||.||.|||||||||||||||.|||||||||||||| .||
+calJac4_dna     2374 TGCATTAAGAAGTTGAAAGCTGTGACCCAGACACCCCACTCCTGAG-GCT   2422
+
+hg38_dna        2182 T-ACCTGCAATGGAAGAAACAAACAAACAAAAACAGGCATGTATTCCTAG   2230
+                     | ||||||||||||||||.|||||||  ||||.||||||..|||||||||
+calJac4_dna     2423 TCACCTGCAATGGAAGAACCAAACAA--AAAAGCAGGCACATATTCCTAG   2470
+
+hg38_dna        2231 CAGAATGATCTAAAATTAGAA-CACCTGGAAAAGAGCCTAAATGTATAAC   2279
+                     ||||||||||||||||||||| ||.||||..||.||||||||||||||||
+calJac4_dna     2471 CAGAATGATCTAAAATTAGAACCAGCTGGCCAACAGCCTAAATGTATAAC   2520
+
+hg38_dna        2280 ACCAGGGCAGTAGCTAAGAAAATTATGACACATTAACTGAAATGAACATT   2329
+                     |.|||||||||||||||||||.||.|||||||||||||||||||||||||
+calJac4_dna     2521 AGCAGGGCAGTAGCTAAGAAATTTCTGACACATTAACTGAAATGAACATT   2570
+
+hg38_dna        2330 ATGTAACCACTAAAAATCATGATTTTGGAGCCTGTGATATGTGGGGAAAA   2379
+                     ||.||||||..|.||.||||||||||||||.|||||||||||||||..||
+calJac4_dna     2571 ATATAACCATCAGAACTCATGATTTTGGAGTCTGTGATATGTGGGGGGAA   2620
+
+hg38_dna        2380 ACTGACAAGTAAAAAAGTGGGTTA-TTAACTGCACCTGCTTACTCTAACG   2428
+                     ||||..|||||||||||||..||| |.|||||||||||||||||||.||.
+calJac4_dna     2621 ACTGGTAAGTAAAAAAGTGCATTACTAAACTGCACCTGCTTACTCTTACA   2670
+
+hg38_dna        2429 TGAACGCATATGTGAAAAATCTGAAAGGAAAAGCACAGAAAATGGACGTT   2478
+                     .|||.|||||||||||||||||..|||||||||||||||||.|||||.||
+calJac4_dna     2671 AGAATGCATATGTGAAAAATCTTGAAGGAAAAGCACAGAAAGTGGACATT   2720
+
+hg38_dna        2479 TTCATTGAAATTGTCGGTGATCTTAATTTTCCTTTGGTG-------AATA   2521
+                     ||.|||||||||||.||||||||||.|||||.|||||||       .|||
+calJac4_dna     2721 TTAATTGAAATTGTAGGTGATCTTAGTTTTCTTTTGGTGGATACATTATA   2770
+
+hg38_dna        2522 TATTGCTCTCAC----TAAGGGCGTTTAAAAAATAGTTCACAGGTTTTAA   2567
+                     |.|||.||||||    |||||.|.||||||||||||||||||||||||||
+calJac4_dna     2771 TTTTGTTCTCACTAAATAAGGACATTTAAAAAATAGTTCACAGGTTTTAA   2820
+
+hg38_dna        2568 ------------------TTTTTTAGA-----------------------   2576
+                                       ||||||.||                       
+calJac4_dna     2821 ATTTTTTTTTTTTTTTTTTTTTTTTGAGACAGAGTCTCACTCTGTCGCCA   2870
+
+hg38_dna        2577 ---TGAAATG----------------GACCCACAGTTTTCTGTAAG--AG   2605
+                        ||..|||                |||.|||     ||||| .|  ||
+calJac4_dna     2871 GGCTGGTATGCAGTGGCATTTGAGCAGACTCAC-----TCTGT-CGCCAG   2914
+
+hg38_dna        2606 AAAGGAG---AGATTGTTATATTTGCTACTTA------------------   2634
+                     ...||||   || |.||.|.||.| |.|||.|                  
+calJac4_dna     2915 GCTGGAGTGCAG-TGGTGAGATCT-CAACTCACCGTAACCCCCGTCTCTC   2962
+
+hg38_dna        2635 -GAATAAAAGATTT--------TTAG----CCAACGT---------TGT-   2661
+                      ||.|.||.||.||        |.||    |||| ||         ||| 
+calJac4_dna     2963 GGATTTAAGGAATTCCCCTGCCTCAGTGTCCCAA-GTAGCTGGGACTGTA   3011
+
+hg38_dna        2662 ------TTCCTTTTTCAAA------TATTTTTCCATTTTTTTAGTTGATT   2699
+                           |.||   ..||.|      ||.||||..| |||||||||.||  
+calJac4_dna     3012 GGCACGTGCC---ACCACACCCAGCTAATTTTGTA-TTTTTTAGTAGA--   3055
+
+hg38_dna        2700 AATGAT--------------TTAGTAATTTGTGTATTGGG---TTTTTTT   2732
+                        |||              ||.||.|..|||.|||||||   |||||||
+calJac4_dna     3056 ---GATGGGGTTTCTCCATGTTGGTCAGGTGTATATTGGGTTTTTTTTTT   3102
+
+hg38_dna        2733 AAGAATCAGTTCTTAGATTCATTTATCAATTCTAGTTTTTTGTTGTTGTT   2782
+                     ||||||||||||||||||||.||||||||||||||   ||||||||||||
+calJac4_dna     3103 AAGAATCAGTTCTTAGATTCGTTTATCAATTCTAG---TTTGTTGTTGTT   3149
+
+hg38_dna        2783 TTTAAGGACTCCTGAATATTTTTCAAAACTGAACAATTTCAGCCATGTCT   2832
+                     |||||||.||||||||..||||||||||||||||||||||||||||||||
+calJac4_dna     3150 TTTAAGGGCTCCTGAAACTTTTTCAAAACTGAACAATTTCAGCCATGTCT   3199
+
+hg38_dna        2833 GAGCTTTCCGTCTTCCTGGAGGCACAAATCTAGTTTAGCTGAACCACAAC   2882
+                     .|||||||.||||||.||||||||||||||.|||||||||||.|||||||
+calJac4_dna     3200 AAGCTTTCTGTCTTCTTGGAGGCACAAATCCAGTTTAGCTGAGCCACAAC   3249
+
+hg38_dna        2883 AGATTGTACATATCCTGCAGAACCTCTGTGGTCTTAGGAAGGTTGAAAGT   2932
+                     |||||||||||||||||||||||||||||||.||.|.||..|||||||||
+calJac4_dna     3250 AGATTGTACATATCCTGCAGAACCTCTGTGGCCTCATGACAGTTGAAAGT   3299
+
+hg38_dna        2933 CACCAAATGTCACAGAAAATGAGGGTCAGGAAAGGCTGTGATCACAAGCT   2982
+                     ||||||.|||||||||||||||||||||||||||||||||||||||.||.
+calJac4_dna     3300 CACCAACTGTCACAGAAAATGAGGGTCAGGAAAGGCTGTGATCACAGGCC   3349
+
+hg38_dna        2983 CTTGATCCAGAGGCCACTCGGGTGCATCTGTGTGACTGACACCTCATTGC   3032
+                     ||||||||||||||||||.||||.|||||||||.|||.||||||||||||
+calJac4_dna     3350 CTTGATCCAGAGGCCACTTGGGTTCATCTGTGTAACTCACACCTCATTGC   3399
+
+hg38_dna        3033 ATCATCATTTCTTGTAAAATCAGCTTAATTTTGCAGAGAAATGGCCACAG   3082
+                     ||||||||||||||||||||||.|||.||||||||       ||||||||
+calJac4_dna     3400 ATCATCATTTCTTGTAAAATCACCTTGATTTTGCA-------GGCCACAG   3442
+
+hg38_dna        3083 ATTTTTAGAATTATGCTGAATTATGTAAGGGAGCAGCCATTTTAAAAATA   3132
+                     |||||||||||||||||.|||||..||||||||.||||||||||||||||
+calJac4_dna     3443 ATTTTTAGAATTATGCTAAATTACATAAGGGAGAAGCCATTTTAAAAATA   3492
+
+hg38_dna        3133 ATGTAATCAAATAACAATAATAACATAACAGAAGTTTCTGCACCACACTG   3182
+                     |||||||.|||.|||||.|.||||  ||||||..|||||||||||||.||
+calJac4_dna     3493 ATGTAATTAAACAACAACAGTAAC--AACAGATATTTCTGCACCACATTG   3540
+
+hg38_dna        3183 ACACTGAACATGGCTGTCAACCAACTAGCCAAACCAAGGTGAAAGATTCT   3232
+                     |||||||||||||||.||||||||||.|||||||||||||||||||||||
+calJac4_dna     3541 ACACTGAACATGGCTCTCAACCAACTGGCCAAACCAAGGTGAAAGATTCT   3590
+
+hg38_dna        3233 CTGAACTTCAGTTTTAACTTACTTCGTCCATTCTCCCTTTTCAGATCTTA   3282
+                     ||.|||||.|||||||||||||.|.|||||||||||||||||||||||||
+calJac4_dna     3591 CTAAACTTTAGTTTTAACTTACCTTGTCCATTCTCCCTTTTCAGATCTTA   3640
+
+hg38_dna        3283 TTTCTTCTTCCAAGGCAACTATATCCACTGTGAACTGCTGCATATTAAAC   3332
+                     |||||||||||||||||||||||||||||||||||||||||.||||||||
+calJac4_dna     3641 TTTCTTCTTCCAAGGCAACTATATCCACTGTGAACTGCTGCGTATTAAAC   3690
+
+hg38_dna        3333 ATTCAAAACATGTCTGTATCTAACCCAGTGATGGCTACAGCATTATAAAA   3382
+                     ||||||||||||||||||||||||.|||||||||||||||||||||||||
+calJac4_dna     3691 ATTCAAAACATGTCTGTATCTAACTCAGTGATGGCTACAGCATTATAAAA   3740
+
+hg38_dna        3383 TAACTCCTAAGTGAATAGTGTGTGCAGCAATTCTCACAGCTAGGAGAATT   3432
+                     ||||||||||||||||||||||||||||||||||.||||...||||||||
+calJac4_dna     3741 TAACTCCTAAGTGAATAGTGTGTGCAGCAATTCTTACAGTGGGGAGAATT   3790
+
+hg38_dna        3433 TTTTT--TGTCGATGTGTTAACCATTCCTTTTTCTCCAACTGCATTCTAC   3480
+                     |||||  |.||.||||||||||||.|||.||||||||||||..|||||||
+calJac4_dna     3791 TTTTTTCTCTCTATGTGTTAACCAGTCCATTTTCTCCAACTATATTCTAC   3840
+
+hg38_dna        3481 TTAAACTGTTACAGTATTGTGTGATCACTTTAAGGGAGGTAATCCTTCAG   3530
+                     ||||||||||||||||||||||||||||||||||||||||||.||||.|.
+calJac4_dna     3841 TTAAACTGTTACAGTATTGTGTGATCACTTTAAGGGAGGTAACCCTTTAA   3890
+
+hg38_dna        3531 TGAAAAGCATTATAAATGTTGAAGATTAGACCCCTGAGGACCTAGCAC--   3578
+                     ||||||||||||||||||||.||||||||||||||||||.||||||||  
+calJac4_dna     3891 TGAAAAGCATTATAAATGTTAAAGATTAGACCCCTGAGGGCCTAGCACTA   3940
+
+hg38_dna        3579 --TGAAGCCTGATCACGGGTGCCAATTCCCTGAGAAGCTTTTATAGATTC   3626
+                       ||||||||||||||||||||||.||||||||||||||||||||| .||
+calJac4_dna     3941 AATGAAGCCTGATCACGGGTGCCAGTTCCCTGAGAAGCTTTTATAG-GTC   3989
+
+hg38_dna        3627 CCAAATCCCATCGCTAGGCACTCTCTGACTGGCTTGTGATGGGTTCCAGC   3676
+                     .||||||||||.||||.|.|||||..|.||||||||.|||||||||||||
+calJac4_dna     3990 GCAAATCCCATTGCTAAGAACTCTGCGGCTGGCTTGGGATGGGTTCCAGC   4039
+
+hg38_dna        3677 AATGTTGTTTTTTAAAAGCTC-CTCAGGTAATTCTGATCATGGACCAGGT   3725
+                     ||||||||||||.||||.||| .||.||.||||.|||||||.||||||||
+calJac4_dna     4040 AATGTTGTTTTTCAAAATCTCTTTCGGGCAATTTTGATCATCGACCAGGT   4089
+
+hg38_dna        3726 TGGGGACCCTTTGCTCTGTTCAGTTTGTGGTTTCTAGGTGCCAGTGAGAA   3775
+                     ||||| |||||||||||.||||||||||||.||||..||||||||||.||
+calJac4_dna     4090 TGGGG-CCCTTTGCTCTATTCAGTTTGTGGCTTCTGTGTGCCAGTGAAAA   4138
+
+hg38_dna        3776 ACCCCTACCCCCAATTTTTGTGCAAAATTTTTTTCAGCTTACATCAAGTT   3825
+                     ||||||||||||||||||||||||..|||||.|..||.||||||||||||
+calJac4_dna     4139 ACCCCTACCCCCAATTTTTGTGCAGCATTTTGTATAGTTTACATCAAGTT   4188
+
+hg38_dna        3826 CTTTATG-----------AACCT---------------------CAGAAA   3843
+                     |||||||           |||.|                     || ||.
+calJac4_dna     4189 CTTTATGTTACAAAGATTAACATGTAAATGTTACAAAATCTTTACA-AAG   4237
+
+hg38_dna        3844 ATTAAAATATAACAAGGGAATTTACTTAGCTCAGAAGAGACAAGGGACAT   3893
+                     |||||.||.|||||||.|||||||||||||||||||.||||||||||..|
+calJac4_dna     4238 ATTAACATGTAACAAGAGAATTTACTTAGCTCAGAAAAGACAAGGGAAGT   4287
+
+hg38_dna        3894 TATGGGGTGAAGGTCGGGGGTTGTTTGACATTTGCCCCTTCCCGATGTAA   3943
+                     ||||||||||||||.|||||.|||||.|||||||||.||||||.|.||||
+calJac4_dna     4288 TATGGGGTGAAGGTTGGGGGCTGTTTAACATTTGCCACTTCCCAACGTAA   4337
+
+hg38_dna        3944 CTAATTAAGCTTCAAGTTGTAATGTGTTTTATGGGCTAGAAGGCTTTAGT   3993
+                     |||||||||||||||||||||||.||||.||||||||.||||.||||.||
+calJac4_dna     4338 CTAATTAAGCTTCAAGTTGTAATATGTTATATGGGCTGGAAGTCTTTGGT   4387
+
+hg38_dna        3994 GCCTATATTTGGATCTCAGCTCCAACACCTTGGACTCTTACAACCTTGGG   4043
+                     |.|||||||||||||||||||||||||||||||.||.|||.|||||||||
+calJac4_dna     4388 GTCTATATTTGGATCTCAGCTCCAACACCTTGGGCTGTTAAAACCTTGGG   4437
+
+hg38_dna        4044 ATAAGTTCTTACTAGCTCTGACTCTCACTCCCCATCTATAAATGGGAATA   4093
+                     ||||||||||||.||||||||||||||.||||||||||||||||||||||
+calJac4_dna     4438 ATAAGTTCTTACCAGCTCTGACTCTCATTCCCCATCTATAAATGGGAATA   4487
+
+hg38_dna        4094 AGATGAA---------------------CGGGGTAATTTATAGATTTTTT   4122
+                     |||||||                     ..|.||||.||||.|||.||||
+calJac4_dna     4488 AGATGAATAACATATTGGAGTTATTCATGAGAGTAACTTATGGATCTTTT   4537
+
+hg38_dna        4123 AGTACCCTCTCTCTAGTTCCGCTGTTTTGCCATTCTGCTCATGCACCAAT   4172
+                     .|||||||||||||.|||||...||||||||.||||||||||||||||||
+calJac4_dna     4538 TGTACCCTCTCTCTGGTTCCATCGTTTTGCCTTTCTGCTCATGCACCAAT   4587
+
+hg38_dna        4173 GCCATGTGATCTTATTG-TAGCTTTGCACTC-TGACACCTGGCAGGTCAA   4220
+                     ||||||||||||||.|| ||       |||| |.||||||||||||||||
+calJac4_dna     4588 GCCATGTGATCTTACTGTTA-------ACTCTTAACACCTGGCAGGTCAA   4630
+
+hg38_dna        4221 GTGCACCCTTGATTATCTTCTCATTAAAAATTTTCTTCAGTCTTTTAAGT   4270
+                     .|.||||||.||||||.|||||||||||||||||||||||||.|||.|||
+calJac4_dna     4631 ATACACCCTGGATTATATTCTCATTAAAAATTTTCTTCAGTCATTTGAGT   4680
+
+hg38_dna        4271 TTTGAGTATAATTTCATAATGTCTTTTAAAATCTCTTTTGAATTCTTTTT   4320
+                     |||||||||.||||.||.|||||||||||.|||.||||||||||.|||||
+calJac4_dna     4681 TTTGAGTATCATTTTATTATGTCTTTTAATATCCCTTTTGAATTATTTTT   4730
+
+hg38_dna        4321 CAAATTTATTTATTTTTT-CTTTGACAGATAAGATTATATGTATT----G   4365
+                     |||||||||||.|||||| .|||||||||||||||||||||||||    |
+calJac4_dna     4731 CAAATTTATTTGTTTTTTAATTTGACAGATAAGATTATATGTATTTATGG   4780
+
+hg38_dna        4366 TGTACAAAATTAGAAAGAGATCTTTTCCTCTAAGATCTGAAACAAGACAA   4415
+                     ||||||||||||||||||||.||||.||||||||||||||||||||||||
+calJac4_dna     4781 TGTACAAAATTAGAAAGAGAGCTTTACCTCTAAGATCTGAAACAAGACAA   4830
+
+hg38_dna        4416 GAATGCTCACACGCACTAGTTCTATTCAACATATGGTACTGCAAGTCCTA   4465
+                     |.||||||||||.|||.|||||||||||||||.|.||||||.|||| |||
+calJac4_dna     4831 GTATGCTCACACTCACGAGTTCTATTCAACATGTAGTACTGGAAGT-CTA   4879
+
+hg38_dna        4466 GCCAGGACAGTTAGACAAGAGAAAGAAATAAAAAGCATCCAAATTTGAAA   4515
+                     |||||||||||.|||||.|||||||    |||.|||||||||||||||||
+calJac4_dna     4880 GCCAGGACAGTGAGACATGAGAAAG----AAAGAGCATCCAAATTTGAAA   4925
+
+hg38_dna        4516 GGAAAAAGTTAAATTGTTCCTATTTGGAGACGACATGATTTTACACTTAT   4565
+                     |||||||||||||||||||||||||||||     |||||||||.|||||.
+calJac4_dna     4926 GGAAAAAGTTAAATTGTTCCTATTTGGAG-----ATGATTTTATACTTAA   4970
+
+hg38_dna        4566 AAAACCCTAAAGACTCCACCAGAAAACCATTAGAACTAATAAATTCAGTA   4615
+                     |||||||||||||||||||.||||||||||.||||.|||||||||||||.
+calJac4_dna     4971 AAAACCCTAAAGACTCCACTAGAAAACCATCAGAAATAATAAATTCAGTC   5020
+
+hg38_dna        4616 AAGTTGCAGGATACAAAATTAACATACAAAAATCAGTAGTGTTTCTATAT   4665
+                     |||||.||||.|||||||||||..||||||||||||||||||||||||||
+calJac4_dna     5021 AAGTTTCAGGGTACAAAATTAATGTACAAAAATCAGTAGTGTTTCTATAT   5070
+
+hg38_dna        4666 GCCAACAGTGAACTATCAGGAAAGAAATAAAAAGAAAGTGCCATTTACAA   4715
+                     ||||||||||||||.|..|||||||||.|||||||||||.|||||||.||
+calJac4_dna     5071 GCCAACAGTGAACTCTTTGGAAAGAAACAAAAAGAAAGTCCCATTTATAA   5120
+
+hg38_dna        4716 TAGCTACAAAAT-AAATATTTCAGAATAAATTTAGCCAAGAAGGTGAAAG   4764
+                     |||||||||||| ||||||||||||||||||||||||||||.||||||||
+calJac4_dna     5121 TAGCTACAAAATAAAATATTTCAGAATAAATTTAGCCAAGATGGTGAAAG   5170
+
+hg38_dna        4765 ATCTCTACACTGAAAACTATAAAACACTGATGAAAGAAATTCAAGGAGAC   4814
+                     |||||||..||||||||||.||||||||||.||||||||||.|||.||||
+calJac4_dna     5171 ATCTCTATGCTGAAAACTACAAAACACTGAGGAAAGAAATTGAAGAAGAC   5220
+
+hg38_dna        4815 ACAAATAGAAAGATAGCCTGTGCTCATGGGGGGATAATTAATGTTGTTAA   4864
+                     ||||        |||||||.|.|.|||||.||.|||||||||.|||||||
+calJac4_dna     5221 ACAA--------ATAGCCTATACGCATGGAGGAATAATTAATATTGTTAA   5262
+
+hg38_dna        4865 AATGTCCATACTACCCAAAGTGACCTACAGATTCCATAGAATCCCTATCA   4914
+                     |||||||||||||.|.|||||||.||||||||||..||||||.|||||||
+calJac4_dna     5263 AATGTCCATACTATCTAAAGTGATCTACAGATTCAGTAGAATTCCTATCA   5312
+
+hg38_dna        4915 AAATACCAATGACATTCTTCACAGAAATAGAAAAAACAATCCTAAAATTG   4964
+                     .|||||||||||||||| |||.||||||||  |||||||||||||||||.
+calJac4_dna     5313 GAATACCAATGACATTC-TCAGAGAAATAG--AAAACAATCCTAAAATTT   5359
+
+hg38_dna        4965 GGTGAAGGTGGCATCTTTGTCTCGTTTCAGATCTAAGAGGAAAAGCTCTC   5014
+                     |||||||||||||||.|||||||.||||||||||||.|||||||||||||
+calJac4_dna     5360 GGTGAAGGTGGCATCCTTGTCTCATTTCAGATCTAAAAGGAAAAGCTCTC   5409
+
+hg38_dna        5015 AATTTTTCACCATTAAGTATGATGTTAGCTGTGACCTTGTCATATGTGGC   5064
+                     |||||||||||||||||||||||||||||.|..||.||||||||||||||
+calJac4_dna     5410 AATTTTTCACCATTAAGTATGATGTTAGCCGCAACTTTGTCATATGTGGC   5459
+
+hg38_dna        5065 CTTTATTGTGTTGAGGTACAATGCTTCTACACCTAATTCATTGAGAGTTT   5114
+                     |||||||||||.|||||.||||.||||||.||.|||||||||||||||||
+calJac4_dna     5460 CTTTATTGTGTCGAGGTGCAATCCTTCTATACTTAATTCATTGAGAGTTT   5509
+
+hg38_dna        5115 TTATCATGAAAGAATGTTGAATTTTGTCAAACGCTTTTTCTGCATCTATT   5164
+                     ||||.|||.||||||||||||||||||||||||||||||||||||||.||
+calJac4_dna     5510 TTATTATGCAAGAATGTTGAATTTTGTCAAACGCTTTTTCTGCATCTGTT   5559
+
+hg38_dna        5165 GAAATGATCGTATGGTTATTGTCTCACTCTGTTACTGTGATGTATCACAC   5214
+                     ||||||||..||||||||||||||||.|||||||.|||||||||||||||
+calJac4_dna     5560 GAAATGATTTTATGGTTATTGTCTCATTCTGTTAATGTGATGTATCACAC   5609
+
+hg38_dna        5215 TTATTGATTTGTGTATGTTGAACCATCCTTGCAGCCCTGGGATGAATCCC   5264
+                     |||||||||||||||||||||.|||||||||||.|||| |||||.|||||
+calJac4_dna     5610 TTATTGATTTGTGTATGTTGAGCCATCCTTGCATCCCT-GGATGGATCCC   5658
+
+hg38_dna        5265 ACTGTATCATAGTAAATGATCTTTTTAATGAGCTGTTGAATTTGCTTCGC   5314
+                     ..|.||||||.||||||.||||||||||||||||||..|||||||||.||
+calJac4_dna     5659 GTTTTATCATGGTAAATTATCTTTTTAATGAGCTGTCAAATTTGCTTTGC   5708
+
+hg38_dna        5315 TAGAATTTTGTTAAGAATTTTTGCACCTATGTTCATCAGGGATATTGGCC   5364
+                     |||||||.||||||||||.|||.||||.|.||||||||||||||||||||
+calJac4_dna     5709 TAGAATTCTGTTAAGAATGTTTTCACCCAGGTTCATCAGGGATATTGGCC   5758
+
+hg38_dna        5365 TATACTGCCATTTTCTTGTGTG----------------------------   5386
+                     |||||||.|.||||||||||||                            
+calJac4_dna     5759 TATACTGTCGTTTTCTTGTGTGTGTGTGTTTTGTGTGTGTTTTGTTTGTT   5808
+
+hg38_dna        5387 --------------------------------------------------   5386
+                                                                       
+calJac4_dna     5809 TGTTTTTGAGATGGAGTCTTGCTCGTCACCAGACTGGAATGCAGTGGCGC   5858
+
+hg38_dna        5387 --------------------------------------------------   5386
+                                                                       
+calJac4_dna     5859 AATCTCAACTCACTGCAACTTCTGATTCCCGGGTTCAAGCAATTCTTCTC   5908
+
+hg38_dna        5387 --------------------------------------------------   5386
+                                                                       
+calJac4_dna     5909 CCTCAGCCTCCTGAGTAGCTGGGATTATAGGCATGCACCACCCCACCCAG   5958
+
+hg38_dna        5387 --------------------------------------------------   5386
+                                                                       
+calJac4_dna     5959 CTAATTTTTGTATTTTTAGTAGAGATGAGATTTCACCATGTTGGCCAGGA   6008
+
+hg38_dna        5387 --------------TTTTTGTGGGACTTTGACATCAGGATAATGCTGGTT   5422
+                                   |||||||||||||||||.|||.||.|||||.|||||
+calJac4_dna     6009 TGGTTTCTTGCGGTTTTTTGTGGGACTTTGAGATCTGGGTAATGTTGGTT   6058
+
+hg38_dna        5423 TCTCCTGTTATTAATTTCTAGTTTTATACCATCATGCTTAGAAAAAAAAC   5472
+                     .|||||.|||||||||||.||||.||||||||..||||.||||||.||||
+calJac4_dna     6059 CCTCCTATTATTAATTTCCAGTTGTATACCATTGTGCTCAGAAAAGAAAC   6108
+
+hg38_dna        5473 TTGATACGATTTCAGTCTAATTAAGTTTGTTAAGACTTGTTTTATGGCCT   5522
+                     |.|||..||||||||||||||||||||.||||||||||||||||||||||
+calJac4_dna     6109 TCGATGTGATTTCAGTCTAATTAAGTTGGTTAAGACTTGTTTTATGGCCT   6158
+
+hg38_dna        5523 AACATATGATCTGTCTTGGAGCATGCTCCATGTGCTGTTGAGAAGAATGT   5572
+                     ||||||||||||.||.|||||.|||||||||||||||||.|||.||||||
+calJac4_dna     6159 AACATATGATCTATCCTGGAGAATGCTCCATGTGCTGTTTAGAGGAATGT   6208
+
+hg38_dna        5573 GTATTCTGCAGCTGTTGGATGGAATGTCCTGTATTTGTCTGTTTGGATCC   5622
+                     |||||||||||.||||||||||||||||||||||||||||||||...|||
+calJac4_dna     6209 GTATTCTGCAGTTGTTGGATGGAATGTCCTGTATTTGTCTGTTTACGTCC   6258
+
+hg38_dna        5623 ATTTGGTCTAAGTGAAGTGTAAGTCTGATGCCTCCTTATTTATTTTCTTT   5672
+                     ||||||.|||||||||||.||||||||||||.||||||||||||||||||
+calJac4_dna     6259 ATTTGGCCTAAGTGAAGTATAAGTCTGATGCTTCCTTATTTATTTTCTTT   6308
+
+hg38_dna        5673 CTAAATCTCCCGTCC-AAAAATCTAAGAGATCCAAAGCAAACAGGGGGTT   5721
+                     .|||.|..||.|||| |||||.|||||||||.||||||||||||||||||
+calJac4_dna     6309 TTAATTTACCTGTCCAAAAAACCTAAGAGATTCAAAGCAAACAGGGGGTT   6358
+
+hg38_dna        5722 ATAAAATTACCTTTGAATTCTGACTGAAATTGTGTTTACTTTGTAGATTA   5771
+                     .|||||||||||||||||||||||||||||||||||||||||.|.|||||
+calJac4_dna     6359 GTAAAATTACCTTTGAATTCTGACTGAAATTGTGTTTACTTTATGGATTA   6408
+
+hg38_dna        5772 TTTGCTGGTGACTTGGTATCTTTCAATATTGGTTTCCCAAACAAAAAACA   5821
+                     |||.|||.|.|||||||...||||||||||||.|||||.|||||||||||
+calJac4_dna     6409 TTTACTGATAACTTGGTGGTTTTCAATATTGGCTTCCCGAACAAAAAACA   6458
+
+hg38_dna        5822 TTGTATGTCTTTCTCTTTTTCCAGTCTTCTTTTATGTCTCAGTAAAATTT   5871
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+calJac4_dna     6459 TTGTATGTCTTTCTCTTTTTCCAGTCTTCTTTTATGTCTCAGTAAAATTT   6508
+
+hg38_dna        5872 TGTAGCTTGCCTACTACTTATTTTCAGGTTAAATCCTAGATATTTTCAAT   5921
+                     ||||||||.||||||||||||||||||||||||||||||||||.||||||
+calJac4_dna     6509 TGTAGCTTTCCTACTACTTATTTTCAGGTTAAATCCTAGATATATTCAAT   6558
+
+hg38_dna        5922 TCTTACTGCCATTA-TGAATGAATGTTTTTCCCCATGAAATGTTTAACTA   5970
+                     |.|||||||||||| ||||||||||||||||||||||||||.|||||.||
+calJac4_dna     6559 TTTTACTGCCATTATTGAATGAATGTTTTTCCCCATGAAATCTTTAATTA   6608
+
+hg38_dna        5971 CAGCTGATTTAGGGACTCACTGAGTTTTGATTTGTTGATTTGAAAAACTA   6020
+                     |||||||||||||||||||||||||||||||||||||||||.||||   |
+calJac4_dna     6609 CAGCTGATTTAGGGACTCACTGAGTTTTGATTTGTTGATTTAAAAA---A   6655
+
+hg38_dna        6021 CCACCCTGTTGAGCTCATGTATTTATTCTAAGACATTTTTTGAG------   6064
+                     |||||||.||.|.||||..|||||.|||||||||||||||||||      
+calJac4_dna     6656 CCACCCTATTAAACTCACTTATTTGTTCTAAGACATTTTTTGAGATTTTC   6705
+
+hg38_dna        6065 ----ATTTTCCAGGTAAAAAAATTATACCTAGATGAATTTATAGAACAAC   6110
+                         |||||||||..||||.||||||||||||||||||||||||||.|||
+calJac4_dna     6706 CTGAATTTTCCAGACAAAAGAATTATACCTAGATGAATTTATAGAATAAC   6755
+
+hg38_dna        6111 CTAATAGCATAAAAGCAATAGATTATTGTTCACCACATTAATGGGAATGC   6160
+                     |||||...|||||||.||||||||||||||.||||||||||||.||||||
+calJac4_dna     6756 CTAATCAAATAAAAGTAATAGATTATTGTTTACCACATTAATGAGAATGC   6805
+
+hg38_dna        6161 CTTTCCTCTTAAAATTATGATATCTTGGGC-TTTGTGTTTGTGACAGCAT   6209
+                     .||||||||||||||||||||||..||.|| ||||||||.||||||.||.
+calJac4_dna     6806 TTTTCCTCTTAAAATTATGATATTGTGTGCTTTTGTGTTCGTGACAACAA   6855
+
+hg38_dna        6210 TTCTTTATGATGGAAAGAGACTATCCTTCCAGTTCTATAGAAACGTTTTA   6259
+                     ||||||||||||||||||||||||||||||||||||.|||||||.|||||
+calJac4_dna     6856 TTCTTTATGATGGAAAGAGACTATCCTTCCAGTTCTGTAGAAACATTTTA   6905
+
+hg38_dna        6260 AAAATAGCTTACATTTTTAAAAATTTAGGAAT-GATATTGATTTTCATTG   6308
+                     |||||||||||.|||||||||||||||||||| |||||||||||||||||
+calJac4_dna     6906 AAAATAGCTTAAATTTTTAAAAATTTAGGAATGGATATTGATTTTCATTG   6955
+
+hg38_dna        6309 AAAACTTTTCAACATCTGAAGAAAATC--TTTTCTTCCTAACCTATTAAT   6356
+                     ||||||||||||.||||||||||||||  |||||||||||||||||||||
+calJac4_dna     6956 AAAACTTTTCAATATCTGAAGAAAATCTTTTTTCTTCCTAACCTATTAAT   7005
+
+hg38_dna        6357 AGAGCTCCTGATTTTCAACCATTCTTGTATTCCTAAAATAATCCATATTG   6406
+                     ||| .||||||||||...|.||||||||||||||||||||||||||||.|
+calJac4_dna     7006 AGA-TTCCTGATTTTTTGCAATTCTTGTATTCCTAAAATAATCCATATGG   7054
+
+hg38_dna        6407 GTCATAATGTATTCTTCTTTTACTAAACTGTTAAAATAAGTTGGGTGCTG   6456
+                     |||| .|||||   ||||||.|||||||||||||||||||.||||||||.
+calJac4_dna     7055 GTCA-CATGTA---TTCTTTAACTAAACTGTTAAAATAAGCTGGGTGCTA   7100
+
+hg38_dna        6457 TTTTTTTAGATTTTGGCACCTGTGTGAGAGGAGGGTGCCATGGCAGGGTG   6506
+                     |||||||.||||||||||||||||||||||||||.|.|||||||||||||
+calJac4_dna     7101 TTTTTTTGGATTTTGGCACCTGTGTGAGAGGAGGCTCCCATGGCAGGGTG   7150
+
+hg38_dna        6507 GCTAAGTGTGCCCACCTGTGTACTAGCA-TTGAATTTTGACCCTTTATCC   6555
+                     ||||||||||.|||.|||...||||||| ||||.|.|||.||||||||||
+calJac4_dna     7151 GCTAAGTGTGGCCAACTGCACACTAGCATTTGAGTCTTGGCCCTTTATCC   7200
+
+hg38_dna        6556 CATTGGCTCTAAACACTACATCTCAGGTGAAGACGCCCAAATGTTTATCT   6605
+                     ||||||||||||||   ||||||||||||||||.||||||||.|||||||
+calJac4_dna     7201 CATTGGCTCTAAAC---ACATCTCAGGTGAAGATGCCCAAATATTTATCT   7247
+
+hg38_dna        6606 CTACTGAGTTACAGATTCCTATAACAATTGCTTAAATTGATACTCCCACT   6655
+                     ||||||||||.||||||.|.|||||||||||.||||||||||||.|||||
+calJac4_dna     7248 CTACTGAGTTCCAGATTTCCATAACAATTGCCTAAATTGATACTGCCACT   7297
+
+hg38_dna        6656 TGAATGTCTCATAGGTGTGGCAAAGTTTACATGTCTATACTGAAACTCTT   6705
+                     ||||||||||||||.|||||||||.||||||||||.|.|..|||||||||
+calJac4_dna     7298 TGAATGTCTCATAGATGTGGCAAAATTTACATGTCAAAATGGAAACTCTT   7347
+
+hg38_dna        6706 GGTTTTCTCTCCCAGGCATGACCCTCCACCAGTTTGTCCTATTTCAGTAG   6755
+                     ||||||||.|||||||||||.||||||||||.||||||||||.|||||||
+calJac4_dna     7348 GGTTTTCTTTCCCAGGCATGGCCCTCCACCAATTTGTCCTATCTCAGTAG   7397
+
+hg38_dna        6756 ATGGCATCACCGCCATCTCCCTGGTTATGGAAGTCCCAGACCCGGGCAAC   6805
+                     ||.||||||||||||||||||||||||||||.|.||||||||.|||||||
+calJac4_dna     7398 ATAGCATCACCGCCATCTCCCTGGTTATGGAGGCCCCAGACCTGGGCAAC   7447
+
+hg38_dna        6806 TCTCACTCCTCCATCCACTCAACCAGCAGGTCTTATTGGCTCTTTCTGTA   6855
+                     ||||||||||||||||||||||||||||..||||||||||||||||||| 
+calJac4_dna     7448 TCTCACTCCTCCATCCACTCAACCAGCAAATCTTATTGGCTCTTTCTGT-   7496
+
+hg38_dna        6856 AAATATGTCTCATTTATTCACAGCCTGCTAGCTGCATGGACTCCATCCCA   6905
+                     ||||||||||||||||||||||||||||.||||||||||||.||||||||
+calJac4_dna     7497 AAATATGTCTCATTTATTCACAGCCTGCCAGCTGCATGGACACCATCCCA   7546
+
+hg38_dna        6906 GGCCACGCCACCATCTTCCTGCAGCAGTTTCTTAACTGGCCTCTCCATTC   6955
+                     ||||||.|||||||||||||||||.|.||||.||||||..|||||||||.
+calJac4_dna     7547 GGCCACACCACCATCTTCCTGCAGTAATTTCATAACTGCTCTCTCCATTT   7596
+
+hg38_dna        6956 CCTTTCTTGTCCCACTAAATTTTCTTCTATTTAAGAAAAAATGTTTTGTA   7005
+                     |||||||||.||||||||||||||||||.|||||| |.||||.||||.||
+calJac4_dna     7597 CCTTTCTTGCCCCACTAAATTTTCTTCTGTTTAAG-AGAAATATTTTCTA   7645
+
+hg38_dna        7006 GACATGGGGTTTCACCATGTTGCCCAGGCTGGTCTCAAACTCCTGGGCTC   7055
+                     ||.||..||||||||||||||||.||||||||||||.|||||||||||||
+calJac4_dna     7646 GATATAAGGTTTCACCATGTTGCTCAGGCTGGTCTCTAACTCCTGGGCTC   7695
+
+hg38_dna        7056 AAGCAATCCTCCTGCCTGAGCTTCCCAAAGTGCTGGGATTATAGGCTTGA   7105
+                     |||||||||||||||.|.|.|||||||||||||||||||||.||||||||
+calJac4_dna     7696 AAGCAATCCTCCTGCTTAAACTTCCCAAAGTGCTGGGATTACAGGCTTGA   7745
+
+hg38_dna        7106 GCTGAGCTTTTGAAAAAA--CATTCTATGATGTTACTGTCCTACTAAGAC   7153
+                     |||||||||||.||||||  .||||.||||||||||||||||||||||||
+calJac4_dna     7746 GCTGAGCTTTTTAAAAAAACAATTCCATGATGTTACTGTCCTACTAAGAC   7795
+
+hg38_dna        7154 CCTTTAATGGCTCCCCACTGCTTTCAGAGGAAAATAGAAATTTCTCTCTG   7203
+                     ||||||.||||||..|||||||||||||.|||.||||||||||||.||||
+calJac4_dna     7796 CCTTTACTGGCTCTGCACTGCTTTCAGAAGAAGATAGAAATTTCTGTCTG   7845
+
+hg38_dna        7204 TGGACCATGAGGCCCTCATGATCTGACCCTCACCACCTCCCTAGTCTTAG   7253
+                     |||.|||||||||||||.||||.|||||.||||||||||.|||||||.||
+calJac4_dna     7846 TGGCCCATGAGGCCCTCCTGATGTGACCTTCACCACCTCTCTAGTCTCAG   7895
+
+hg38_dna        7254 CAGTCCACCTGCCACTGTCTCATGGGGCTCCACAGATTTGATCTCCTTTT   7303
+                     ||||...|||||||||||.||||||||||||.||||||||||||.|||||
+calJac4_dna     7896 CAGTTGCCCTGCCACTGTATCATGGGGCTCCTCAGATTTGATCTTCTTTT   7945
+
+hg38_dna        7304 TGGTCCTTAAGCCCACCAAGCTAAGTATCTTATTCAAAACTGTGTCC--T   7351
+                     |||||||||||.||||||||||||||.|||||||||.|||  |||||  .
+calJac4_dna     7946 TGGTCCTTAAGTCCACCAAGCTAAGTGTCTTATTCACAAC--TGTCCATG   7993
+
+hg38_dna        7352 CAGCCCCTAGCACAATTCTTGACCCTTAGAATTCTGACACTTGAAATGTG   7401
+                     ||.|||.|||||||||||||||.|||||||||||||||||||.||||.||
+calJac4_dna     7994 CATCCCATAGCACAATTCTTGATCCTTAGAATTCTGACACTTAAAATATG   8043
+
+hg38_dna        7402 TGTTAAGCTAATCAATAAATTATTGTGCCAGGCTTGGTGGCACAATAATG   7451
+                     ||||||||||||||||.||||||.|||||||||              ||.
+calJac4_dna     8044 TGTTAAGCTAATCAATCAATTATCGTGCCAGGC--------------ATA   8079
+
+hg38_dna        7452 TGTTGTGGGTCACCTATATATAGCTGTGGCTCACACCTATAATCCCAGCA   7501
+                     |||||||||||||||||.|||||.||||||||||||||||||.|||||||
+calJac4_dna     8080 TGTTGTGGGTCACCTATGTATAGGTGTGGCTCACACCTATAAACCCAGCA   8129
+
+hg38_dna        7502 CTTTGGGAGGCTGAGGCCTGCAGATTGGTTGAGCCCAGGAATTTGAGACC   7551
+                     |||||.|.||.||||||.||||||||||||||.|||||||.||..|||||
+calJac4_dna     8130 CTTTGTGGGGATGAGGCATGCAGATTGGTTGAACCCAGGAGTTCAAGACC   8179
+
+hg38_dna        7552 AGCCTGGGCAACATGGCAAGACCCCATCACTATTAAAAATACAAAAAAAA   7601
+                     |||||||.|.||||||.||||||.|||||.||.|||||||||    ||||
+calJac4_dna     8180 AGCCTGGACGACATGGAAAGACCTCATCATTAATAAAAATAC----AAAA   8225
+
+hg38_dna        7602 AAAAAACCAGGCGTGGTGTTGCATACCTGTGGTCCCAGCTACTCAGGAGG   7651
+                     |.|.|.||||.|.||||..|||||||||.||||||||||||||..|.|||
+calJac4_dna     8226 ACATAGCCAGCCATGGTAGTGCATACCTATGGTCCCAGCTACTTGGAAGG   8275
+
+hg38_dna        7652 ATCACTTGAGCCCACTGGGTGGAGGTTGCAGAGAGCTGAGATCATGCCAC   7701
+                     ||||||||||||||.||...|||.||||||||||||||||||||||||||
+calJac4_dna     8276 ATCACTTGAGCCCATTGCTGGGAAGTTGCAGAGAGCTGAGATCATGCCAC   8325
+
+hg38_dna        7702 TACACTTTGGCCTGG--------GTAAGACCCTGTCTCAAGAAAAAAAAA   7743
+                     .|||||.||||||||        ||.||||||||||||        ||||
+calJac4_dna     8326 CACACTCTGGCCTGGGTGGCAGAGTGAGACCCTGTCTC--------AAAA   8367
+
+hg38_dna        7744 AAAAGGTTATGGTACTGTAAATATTATATTACAGTGTATAATTTTTGACA   7793
+                     ||||.||||..||||||||||   |||||||||||.|.||||||||||||
+calJac4_dna     8368 AAAAAGTTACAGTACTGTAAA---TATATTACAGTTTGTAATTTTTGACA   8414
+
+hg38_dna        7794 GCTTTTTTTCTCCATTTCTTCTATGGTTATTGGTCAGTTCTAGCCTTCTA   7843
+                     || |||||||||||||||||||||||||.|||||||.||||||.||||||
+calJac4_dna     8415 GC-TTTTTTCTCCATTTCTTCTATGGTTTTTGGTCAATTCTAGTCTTCTA   8463
+
+hg38_dna        7844 TTTTTTTTTTTAAGCTGACACATACTGGCTGGGCATGGTGGCTCACACCT   7893
+                       ||||||||||||.||||||||||||.||||||||||||||||||||||
+calJac4_dna     8464 --TTTTTTTTTAAGATGACACATACTGCCTGGGCATGGTGGCTCACACCT   8511
+
+hg38_dna        7894 GTAATCTCAGCACTTTGGGAGGCCAAGACAGGAAGATCTCTTGAGCCCAG   7943
+                     ||||||||||||.||||.||||||||..|||.|||||..|||||||||||
+calJac4_dna     8512 GTAATCTCAGCAGTTTGAGAGGCCAAAGCAGCAAGATTGCTTGAGCCCAG   8561
+
+hg38_dna        7944 AAGTTTGAGGCGAGCCTGGGCAACATAGCAAGACCCCATCTCTACCAGAA   7993
+                     ||||||||||.|||||||||||||||||||||||||||||||||||||||
+calJac4_dna     8562 AAGTTTGAGGTGAGCCTGGGCAACATAGCAAGACCCCATCTCTACCAGAA   8611
+
+hg38_dna        7994 AAGA------AACAACAACAAAAAGAAACTGGCACATACTAGTTATTCCA   8037
+                     ||||      ||||||||||||||||||||||||||||||||||||||||
+calJac4_dna     8612 AAGAAACAACAACAACAACAAAAAGAAACTGGCACATACTAGTTATTCCA   8661
+
+hg38_dna        8038 TAAATATTTCTTAAATGAATTAATTCTAAAGTTGATTTTTATAATTTACA   8087
+                     |||||||||.||||||..|||||||||.||||.|||||||||||||||||
+calJac4_dna     8662 TAAATATTTGTTAAATACATTAATTCTCAAGTCGATTTTTATAATTTACA   8711
+
+hg38_dna        8088 TCTTAATAGAAAGACAATCCATCTCAGAGATATTTTTATTCATTAAGGAA   8137
+                     |.||||.|||||||||.|||||||||||||||||||||||||||||.||.
+calJac4_dna     8712 TTTTAACAGAAAGACAGTCCATCTCAGAGATATTTTTATTCATTAAAGAC   8761
+
+hg38_dna        8138 AGTTGCATAAAGTAATTTATTAACCTTTTAAAGCATTCTCTAAGCCTATT   8187
+                     |||||.|||.||||||||||||...||||||||||||||.||||.|||.|
+calJac4_dna     8762 AGTTGTATATAGTAATTTATTATTATTTTAAAGCATTCTTTAAGACTACT   8811
+
+hg38_dna        8188 TCCCCT---------------------TATAGAGATATGTTTTCTAGTGA   8216
+                     |||.||                     |||||||||||||||||||||||
+calJac4_dna     8812 TCCTCTTATAGAGATATGTTTTCTCAATATAGAGATATGTTTTCTAGTGA   8861
+
+hg38_dna        8217 TGTGTGTATGTTACATTTTCAAATAACTCTTAATTTTATTTAGAAATTCC   8266
+                     ||||    |||||||||||||||.|||||  |||||||||||||||||||
+calJac4_dna     8862 TGTG----TGTTACATTTTCAAAGAACTC--AATTTTATTTAGAAATTCC   8905
+
+hg38_dna        8267 ACATTTTTGTGGGTTTTATTTATTAAATTCGATTTTCATCTCTATTATTA   8316
+                     ||||||||.|||||||||||||||||||||.|.|||||||.|||.|.||.
+calJac4_dna     8906 ACATTTTTCTGGGTTTTATTTATTAAATTCTACTTTCATCGCTACTGTTC   8955
+
+hg38_dna        8317 ATTTATGACAGTTT----ATTTTGAAGTTTTCTGTTTTCTTC-CTTT-TG   8360
+                     ||||||.||  |.|    ||||||.|||||||||.||||||| |||| |.
+calJac4_dna     8956 ATTTATAAC--TATGGCAATTTTGCAGTTTTCTGCTTTCTTCTCTTTCTC   9003
+
+hg38_dna        8361 AGTTGAATAATCATTTACTTTATTTTACTTCTTCTATTCAGTTGTATTAT   8410
+                     ||||||||||||||||||||||||||||.|.|||||||||||..||||||
+calJac4_dna     9004 AGTTGAATAATCATTTACTTTATTTTACCTTTTCTATTCAGTCATATTAT   9053
+
+hg38_dna        8411 CCATGTTCCTCTGATAGCCATGCAGGTTCCAAATCCTCACATTTTTCAAC   8460
+                     ||||||||||||||||||||||.|||||||||||||||||||||||||.|
+calJac4_dna     9054 CCATGTTCCTCTGATAGCCATGTAGGTTCCAAATCCTCACATTTTTCAGC   9103
+
+hg38_dna        8461 TTCTTTAAAAGATTT-TTTTTGTGCTATCCTGATAAGCGTTAAGTGTTAT   8509
+                     ||..||||||..||| |||||.||||||.||||||.|| .||||||||||
+calJac4_dna     9104 TTTCTTAAAATTTTTCTTTTTTTGCTATTCTGATACGC-ATAAGTGTTAT   9152
+
+hg38_dna        8510 ATCATTTTT-TTTCATTTTTATTATATTCTTAATGATTTTGATTCTCTTT   8558
+                     ||||||||| ||||||||||||.|||||||||||||||||||||.|||||
+calJac4_dna     9153 ATCATTTTTGTTTCATTTTTATCATATTCTTAATGATTTTGATTATCTTT   9202
+
+hg38_dna        8559 TTCTATCCTTTTGGTTTTCTTTCTTAGGTAAATGATCAGTTATATCTTTT   8608
+                     ||||||||||||||.|||||.||||||.|||||..||||||   ||||||
+calJac4_dna     9203 TTCTATCCTTTTGGGTTTCTCTCTTAGATAAATTGTCAGTT---TCTTTT   9249
+
+hg38_dna        8609 GGCCATTTTTTTCTGTTGGAATTACTGTCTCTTACTGCTCTGTAAGAATT   8658
+                     ||||||||.|||.|||||||||||||||||||||.|||||||||||||||
+calJac4_dna     9250 GGCCATTTGTTTGTGTTGGAATTACTGTCTCTTAATGCTCTGTAAGAATT   9299
+
+hg38_dna        8659 CCTTGCAAGTTCTAGAAATGAATCCTCTGTTGATTTTAAGTACTA-AAGT   8707
+                     ||||||||||||||     |||||||||||||.||||||.||||| ||||
+calJac4_dna     9300 CCTTGCAAGTTCTA-----GAATCCTCTGTTGGTTTTAACTACTACAAGT   9344
+
+hg38_dna        8708 CCCCTTTACCATTGTGTACTCTTTCTATTAACTTTGTCCAGAGTCAGCTT   8757
+                     |||.||||||||||||||||||||||||||||||||||||.|||||||||
+calJac4_dna     9345 CCCTTTTACCATTGTGTACTCTTTCTATTAACTTTGTCCACAGTCAGCTT   9394
+
+hg38_dna        8758 TATCGTGCTGAACAAGAATCTTTACATTTTA-ATTTTTTTTTTTAATTTT   8806
+                     |||||||.||||||||||||||||    ||| |  |||||||||||.|||
+calJac4_dna     9395 TATCGTGTTGAACAAGAATCTTTA----TTACA--TTTTTTTTTAACTTT   9438
+
+hg38_dna        8807 TAAGTTCAAGGGTACAAGTGCAGGTTTGTTCCATAGGTAAACTCGTGTCA   8856
+                     |||||||||||.||.|||||||||||||||.|||.||||||||.||||.|
+calJac4_dna     9439 TAAGTTCAAGGATATAAGTGCAGGTTTGTTACATGGGTAAACTTGTGTTA   9488
+
+hg38_dna        8857 TGGGGGTTTGTCATACAGATTATTTCATCACTCAGGTACTAAGCCTAGTA   8906
+                     |||||||||||..|||||||||.||||||||.||||||||||.|||||.|
+calJac4_dna     9489 TGGGGGTTTGTTGTACAGATTACTTCATCACCCAGGTACTAAACCTAGCA   9538
+
+hg38_dna        8907 CCCATTAGTTATTTTTCCTGATCCTCTCCCTCCCTTAGCCCTCCGATAGG   8956
+                     |.||||||||.||||||||||||||||||||||...| |||||.||||||
+calJac4_dna     9539 CACATTAGTTGTTTTTCCTGATCCTCTCCCTCCACCA-CCCTCTGATAGG   9587
+
+hg38_dna        8957 CCCTAGTATGTGTTGTTCCTCTGCATGCGTCCATGTGTTCTTATCATTTA   9006
+                     |||||.|.||||||||||||.|.||...|||||||||||||.|||| |||
+calJac4_dna     9588 CCCTAATGTGTGTTGTTCCTTTCCACATGTCCATGTGTTCTCATCA-TTA   9636
+
+hg38_dna        9007 GGTCCCACTTATAAATGAGAACATGTAGAATTGGGTTTTCTGTTCCTGTG   9056
+                     ..|||||||||||||||||||||||.|..|||.||||||||.||||||||
+calJac4_dna     9637 ACTCCCACTTATAAATGAGAACATGCAATATTTGGTTTTCTCTTCCTGTG   9686
+
+hg38_dna        9057 TCAGTTTG---------------------------CATATCCCTGCAAAG   9079
+                     |.||||||                           ||.||||||||||||
+calJac4_dna     9687 TTAGTTTGCTAAGGATAATGGCTTCCAGTTCCATCCACATCCCTGCAAAG   9736
+
+hg38_dna        9080 AACATGATCTCGTTCTTTTCTGGGGCTGCATAGTATTCGATAGCATATAT   9129
+                     |||||||||||..||||||.|.|||.|||||||||||||||.|..|||||
+calJac4_dna     9737 AACATGATCTCACTCTTTTTTAGGGTTGCATAGTATTCGATGGTGTATAT   9786
+
+hg38_dna        9130 GTACCACACTTTCATTATCCCAG-CTATCACTGATGGGCATTTAGGTTGA   9178
+                     .|||||.|.||||||||| .||| ||||||.||||||||||||||     
+calJac4_dna     9787 ATACCATATTTTCATTAT-TCAGTCTATCATTGATGGGCATTTAG-----   9830
+
+hg38_dna        9179 TTCCATGTCTTTGCTATTGTGGATAGTTTTGCAATGAACATACACGTGCA   9228
+                           .||||||||.|||||..||||.||||||||||.|||||.|||||
+calJac4_dna     9831 ------ATCTTTGCTGTTGTGAGTAGTGTTGCAATGAAAATACATGTGCA   9874
+
+hg38_dna        9229 TGTGTCTTTGTAATAGGATGATTTATATTCCTTTGGGTATATACCTAGTA   9278
+                     ||||||||||||||||.|||||||||||||||||||||||||||||||||
+calJac4_dna     9875 TGTGTCTTTGTAATAGAATGATTTATATTCCTTTGGGTATATACCTAGTA   9924
+
+hg38_dna        9279 ATGGGATTGCTGAGTCGAATGATATTTCCGTCTTTAGGTTTTTGAGGATG   9328
+                     |||.||||||||.|||.||||.||||||.||||||||||.||||||||||
+calJac4_dna     9925 ATGAGATTGCTGGGTCAAATGGTATTTCTGTCTTTAGGTCTTTGAGGATG   9974
+
+hg38_dna        9329 TAATCAAATTCATCAATTATTTGCCTTATGGTTTGTGCTTTTTGTTTAAA   9378
+                     |.|||||||.|||||||||||||||||||||||||||||.|||||||.||
+calJac4_dna     9975 TTATCAAATGCATCAATTATTTGCCTTATGGTTTGTGCTCTTTGTTTGAA  10024
+
+hg38_dna        9379 AAGTTCTTCCCCCATTCCTCCTCCAGGTCACAAAGACATTTCCCAATATT   9428
+                     |||||||||||||||||||||||||||||||||||||||||.|||.||||
+calJac4_dna    10025 AAGTTCTTCCCCCATTCCTCCTCCAGGTCACAAAGACATTTGCCAGTATT  10074
+
+hg38_dna        9429 TTCCTCTTCTAGCGCCAAACTTGTACCTTTCACATGTAAGTCTTGGATCC   9478
+                     |||||||||||||||||.||||||||||||||||||||||||||||||||
+calJac4_dna    10075 TTCCTCTTCTAGCGCCATACTTGTACCTTTCACATGTAAGTCTTGGATCC  10124
+
+hg38_dna        9479 ATCTAGAGTTCACTTTTGTATGTAGTTAGGGATCTAGTTTTCTTTTTCTT   9528
+                     .|||||||||.|||||||.|||||||||||||||.|||||||||||||||
+calJac4_dna    10125 CTCTAGAGTTAACTTTTGCATGTAGTTAGGGATCCAGTTTTCTTTTTCTT  10174
+
+hg38_dna        9529 GTTTCCCAGAAGCATGAAACCTTCCTCCTTTATTGGTTCGTGGTGCCCAT   9578
+                     |||||||||||||||||||||||||||.||||||..||.|||..|||  |
+calJac4_dna    10175 GTTTCCCAGAAGCATGAAACCTTCCTCTTTTATTTATTTGTGAAGCC--T  10222
+
+hg38_dna        9579 G--TCAGCACACATCAAGTCCCTGTTAAAGTGTATCTACGTGGGTTTCTC   9626
+                     |  |||||||||||||||||..||.||||||.|||||||.||.||||||.
+calJac4_dna    10223 GCATCAGCACACATCAAGTCTGTGCTAAAGTATATCTACATGAGTTTCTT  10272
+
+hg38_dna        9627 TCTCAACTTGCTTTTCTGTTTCCTTTGGTCTCTCCGTCTATTCCTGAGCT   9676
+                     ||||||||||||..|||||.||||||||||||.||           |.||
+calJac4_dna    10273 TCTCAACTTGCTCCTCTGTGTCCTTTGGTCTCCCC-----------ATCT  10311
+
+hg38_dna        9677 TTACCGTCCAGTCTTCGTCACTGTGGTTTTGTAGTGATTTCATGTCTGCT   9726
+                     ||.||..|||||.|||.|||||||||||||||||||||||||||||||||
+calJac4_dna    10312 TTCCCACCCAGTTTTCATCACTGTGGTTTTGTAGTGATTTCATGTCTGCT  10361
+
+hg38_dna        9727 TTGGCAGATTCCCTCCTCTTTACACTTTTTTTTTAAGGTTGACCTTATTA   9776
+                     |||||||||||||||||||||.||| ||||||||||||||||||||.|||
+calJac4_dna    10362 TTGGCAGATTCCCTCCTCTTTGCAC-TTTTTTTTAAGGTTGACCTTGTTA  10410
+
+hg38_dna        9777 TTCATGGACATTTTCTTCCCCATAGAAGTTTACTGAACTTCTCAAAAAAT   9826
+                     |||||||.||||||||||||||||..|||||..|||||||||||||||||
+calJac4_dna    10411 TTCATGGGCATTTTCTTCCCCATATGAGTTTTTTGAACTTCTCAAAAAAT  10460
+
+hg38_dna        9827 TGAGATTACCTGGAATTTTAACTGGCATTTTATTGCAACTACCAGTTCAT   9876
+                          ..||||||||||||||||||||||||||||.||.|||||||||||
+calJac4_dna    10461 -----CCACCTGGAATTTTAACTGGCATTTTATTGAAATTACCAGTTCAT  10505
+
+hg38_dna        9877 TT-AGGATAATGGACATCTTTATAATACTGAGTTATCGCCATCAAGACCA   9925
+                     || ||||||||||||||||||||||||||||||||||.|.||||||||||
+calJac4_dna    10506 TTGAGGATAATGGACATCTTTATAATACTGAGTTATCACAATCAAGACCA  10555
+
+hg38_dna        9926 TGGAATGCCTCTCCATTTTTTTCAGACCATCTTCTGTGTTCTCTG-----   9970
+                     ||.|||||||||||| ||||||||||..|||||||.||||||.||     
+calJac4_dna    10556 TGAAATGCCTCTCCA-TTTTTTCAGATTATCTTCTATGTTCTTTGTATTC  10604
+
+hg38_dna        9971 ----TATAATGTGTCACCCATCAGAAGTCTTTTCTTAGTTAAGTCAATTC  10016
+                         ||||||.|.||||||||..|||||||||||||||||||||||.|||
+calJac4_dna    10605 GAGTTATAATTTTTCACCCATTGGAAGTCTTTTCTTAGTTAAGTCATTTC  10654
+
+hg38_dna       10017 CTAGACGCTTTACAGTTTGGTTGTTACTTTGAATATCTGTATTTTCTTCT  10066
+                     ||||.|.|||||||||||||||||||||.|||||||...|||||||||||
+calJac4_dna    10655 CTAGCCACTTTACAGTTTGGTTGTTACTGTGAATATTCCTATTTTCTTCT  10704
+
+hg38_dna       10067 GGTCAGTTATTGCTACTGTAGAGGAATGCCGTTGGTTTTCGTAGGCTGAC  10116
+                     ||||||||||||||..|||||||.|||||..|||.||||.|||.||||||
+calJac4_dna    10705 GGTCAGTTATTGCTGGTGTAGAGAAATGCTATTGATTTTTGTAAGCTGAC  10754
+
+hg38_dna       10117 CTTCAGTCCCACAACCTTGCACTCTAGCGTTGGTTCTCATGTTATCCCTG  10166
+                     ||||.||||||||.|||||||..|||||||||||||||||||||.|||||
+calJac4_dna    10755 CTTCTGTCCCACAGCCTTGCATGCTAGCGTTGGTTCTCATGTTACCCCTG  10804
+
+hg38_dna       10167 TT-ATTCTGTTGGATTTTCTATGTGCATGATCACACTAATTGCAAATAGT  10215
+                     || |||||||||||||||||||||.||||.||||||||||||||||||.|
+calJac4_dna    10805 TTGATTCTGTTGGATTTTCTATGTTCATGGTCACACTAATTGCAAATACT  10854
+
+hg38_dna       10216 GTCAGCTAGAGCACTTTCCTTGCCATTCTTACACCTGTTACTTCTTTGCA  10265
+                     ||||||||||||.||||.||||||||||||||||||||||||||||||||
+calJac4_dna    10855 GTCAGCTAGAGCTCTTTTCTTGCCATTCTTACACCTGTTACTTCTTTGCA  10904
+
+hg38_dna       10266 TATGGCCTTGGACAGCACCTTGAGTCCCATGACAATGGATGTCCCTGTTG  10315
+                     |.||||.||||||||||.|||||||||||||.||.||||..|.|||||..
+calJac4_dna    10905 TGTGGCTTTGGACAGCATCTTGAGTCCCATGGCAGTGGACATTCCTGTCA  10954
+
+hg38_dna       10316 TATTTCTGAGTGTATTCTTAGCATTCTTCTTAGTAATAAACAGGTATTGA  10365
+                     |.||||||||.|||            ||||||||||||||||.||.||||
+calJac4_dna    10955 TGTTTCTGAGCGTA------------TTCTTAGTAATAAACAAGTGTTGA  10992
+
+hg38_dna       10366 CCATTACCATATACTTAATAGGATATCTTGAAATATGCCAGAGGACTAGG  10415
+                     |||.|||||||||||||||||.|||||||||||||||||||||.|||||.
+calJac4_dna    10993 CCACTACCATATACTTAATAGAATATCTTGAAATATGCCAGAGAACTAGA  11042
+
+hg38_dna       10416 CCACTACTTGACTGGTGACAGAGAGTATCTTAGATGTATAGGCCCCCAGA  10465
+                     ||.||||.||||||.|||||||||||||||||||||.|||||.|||||||
+calJac4_dna    11043 CCGCTACCTGACTGCTGACAGAGAGTATCTTAGATGAATAGGTCCCCAGA  11092
+
+hg38_dna       10466 CATGCCAGTGTCCTCTCTCACCACCCATCTCCACTCCAAAGTTGTCTGGC  10515
+                     |||||||||||||||||||||||.|||||||||||.|||||.||||||||
+calJac4_dna    11093 CATGCCAGTGTCCTCTCTCACCATCCATCTCCACTTCAAAGCTGTCTGGC  11142
+
+hg38_dna       10516 CTCACCCACCTTCTGTGCCTGGTTCTTCTCCTCTGTGCTTCTCTCACTAT  10565
+                     |.||||.|||||||.|||||||   ||||||||||||||||.||||||||
+calJac4_dna    11143 CCCACCTACCTTCTATGCCTGG---TTCTCCTCTGTGCTTCCCTCACTAT  11189
+
+hg38_dna       10566 GCCATGTCCTCGCCTGTTCAGGTGTCTCTAAGAGCTCATAGATCCTTAAC  10615
+                     |||||||.||.||||||||||||||||||||||||||||.||||.|||||
+calJac4_dna    11190 GCCATGTTCTTGCCTGTTCAGGTGTCTCTAAGAGCTCATGGATCATTAAC  11239
+
+hg38_dna       10616 TCTTACAGCTTTAAATGAGGCACATTCAAAGCCCGACTCAGTGTCATTCC  10665
+                     ||||||||.|||||||||||||..||||||||||.|||.|.|||||||||
+calJac4_dna    11240 TCTTACAGTTTTAAATGAGGCATGTTCAAAGCCCAACTTACTGTCATTCC  11289
+
+hg38_dna       10666 CTGCAGTCTCCTCTTCCTCCCATCTTACCCATTTCAGG-------TAATA  10708
+                     |||||||||||.|.||||.|||.|||.|||||||||||       |.|||
+calJac4_dna    11290 CTGCAGTCTCCCCATCCTTCCAGCTTGCCCATTTCAGGGATCTGCTGATA  11339
+
+hg38_dna       10709 TCTCCAGCCAGCCAGAGTCTACTGCAGTAGCTGGCACATGAAATAAATGT  10758
+                     ..||||||||||||||||||.||||||||||||||.|||||||||.||.|
+calJac4_dna    11340 GATCCAGCCAGCCAGAGTCTGCTGCAGTAGCTGGCGCATGAAATACATAT  11389
+
+hg38_dna       10759 TTATTTAACTGAATTGAAAATGTTAGCTGGCCATTGTCAAAAAT------  10802
+                     .||.|||||||||.|||||||||||||||||||||||..|||||      
+calJac4_dna    11390 GTACTTAACTGAACTGAAAATGTTAGCTGGCCATTGTAGAAAATAGTATT  11439
+
+hg38_dna       10803 --------------------------------------------------  10802
+                                                                       
+calJac4_dna    11440 TTTTAATTTTAATTTTTATTTGTTTTGTTATTCTTTATTTTTTTGTTTTT  11489
+
+hg38_dna       10803 ------------------ACTATTTTGTAAATTTATAAATATGGTTCTCT  10834
+                                       |.||||||.||||||||||||||   ||||||
+calJac4_dna    11490 CTTATTTTTATTGAAAAGAGTATTTTTTAAATTTATAAATA---TTCTCT  11536
+
+hg38_dna       10835 TTGTATATCCATTATAAATATTTAGTATTTAGTTTGATTATTCCTTATGC  10884
+                     |||||.||||||||.||||.||||.|.|||||||||||||||||||||||
+calJac4_dna    11537 TTGTACATCCATTAGAAATGTTTAATGTTTAGTTTGATTATTCCTTATGC  11586
+
+hg38_dna       10885 TTTATA---ACATGTGTTTTCCCATTCATTCATTTATCCAGCATTTATTT  10931
+                     ||||||   |.||.||||||||||.||||||||||.||||||||||||||
+calJac4_dna    11587 TTTATAAGGAAATATGTTTTCCCACTCATTCATTTGTCCAGCATTTATTT  11636
+
+hg38_dna       10932 TGCATGTCTATGGGTCAAGCGCTCTGTCTAGGAACACTGCTGTGAACAAA  10981
+                     ||||||.||.||||||||||..|.||||||||.||||||||||||.||||
+calJac4_dna    11637 TGCATGCCTGTGGGTCAAGCAGTATGTCTAGGGACACTGCTGTGAGCAAA  11686
+
+hg38_dna       10982 ACCAAACTCCCGCCCTAAAGGAGCCTGCACTCCCGTGGAGAACATGAATA  11031
+                     |||||.|..||.||..||||||||||.||..||.||||||||||||||.|
+calJac4_dna    11687 ACCAACCCACCCCCGAAAAGGAGCCTTCATGCCAGTGGAGAACATGAACA  11736
+
+hg38_dna       11032 ATAAGCACAGAGGAAATAACATAATATCTCAAGTAGCTGTAACTGCTCCA  11081
+                     |||||||.|.|..|.||.|||||||||||.||||||||||||||||||||
+calJac4_dna    11737 ATAAGCAAACAATAGATGACATAATATCTAAAGTAGCTGTAACTGCTCCA  11786
+
+hg38_dna       11082 GAGAATAATGAAGCCAGGAAAGGGGGTGGGCTAGGGGGTGCTGTTTTAGG  11131
+                     ||||||||||||||||||||||||..||||||..||||||||.||||||.
+calJac4_dna    11787 GAGAATAATGAAGCCAGGAAAGGGAATGGGCTCAGGGGTGCTATTTTAGA  11836
+
+hg38_dna       11132 TAGAGTGATGGGAACAGCCCCACTGAGCAAACTTTAGCCACATGAGTAGC  11181
+                     ||||||||||||||.||||||.|||||||.||||||||||||||||||||
+calJac4_dna    11837 TAGAGTGATGGGAAGAGCCCCCCTGAGCAGACTTTAGCCACATGAGTAGC  11886
+
+hg38_dna       11182 TGGAAGAAAAGCCTTCTAGGACCAGGGAACAGCAAGTGCAACAGCCCTGA  11231
+                     ||||.|||.|||||||||||||||||||||||||||||||||||||||||
+calJac4_dna    11887 TGGAGGAAGAGCCTTCTAGGACCAGGGAACAGCAAGTGCAACAGCCCTGA  11936
+
+hg38_dna       11232 GACAGGATGGGCTTGTCA-GTTTGAGGAGCAGTGGGAGGCCTGAACCAGG  11280
+                     |||||||||.|||||||| ||||||||||..|||||||||||||||||||
+calJac4_dna    11937 GACAGGATGTGCTTGTCAGGTTTGAGGAGTGGTGGGAGGCCTGAACCAGG  11986
+
+hg38_dna       11281 TTACATGGGGCCCAGCCAGTATGGCCACGACTTTGTGTTTTATCCAGAGT  11330
+                     |.|||||||||||||||||.||||||||||||||||||||||||||||||
+calJac4_dna    11987 TCACATGGGGCCCAGCCAGCATGGCCACGACTTTGTGTTTTATCCAGAGT  12036
+
+hg38_dna       11331 ACAAAGGAGCCTCACTGAGGGACAAGGGAAGT-GGCATGATGTGACCCGC  11379
+                     ||||||||||||||.||||||||||||||||| |.||  ||||||||.||
+calJac4_dna    12037 ACAAAGGAGCCTCATTGAGGGACAAGGGAAGTAGACA--ATGTGACCTGC  12084
+
+hg38_dna       11380 ATATTAAGAGGAGAGCGCTCAATGGCAGCCAGGGGAGGAGCAGGGAGGCT  11429
+                     | ||            |||.|||||..||||||.||||||||||||||||
+calJac4_dna    12085 A-AT------------GCTTAATGGGGGCCAGGAGAGGAGCAGGGAGGCT  12121
+
+hg38_dna       11430 GGTTGGGAGGCTGTTGAAGAAATCAGGTGAGAAGTGATGGAAGCACCGAA  11479
+                     |||||||||||.|||||||.||||.||||||||||               
+calJac4_dna    12122 GGTTGGGAGGCCGTTGAAGGAATCCGGTGAGAAGT---------------  12156
+
+hg38_dna       11480 TAAGATGGTCATGTTGGAAAAATTGAGAAGCTGAGGTGCTTAGCATTGAT  11529
+                        |||||||.||||||||||..||||||||..||||||||||.|||||.
+calJac4_dna    12157 ---GATGGTCCTGTTGGAAAACGTGAGAAGCCAAGGTGCTTAGGATTGAC  12203
+
+hg38_dna       11530 TTTCAAGGTAGAGCTACTGAGATTTGCTGATAGATCCAATGTATGC--TG  11577
+                     |||||.|||||||||.|||.|||||||.|||||||||||.||||||  ||
+calJac4_dna    12204 TTTCAGGGTAGAGCTGCTGGGATTTGCCGATAGATCCAAAGTATGCTATG  12253
+
+hg38_dna       11578 GGAGAGAAAATTCAGTCACTCTAGAGCATTGGCTGGATTTGTCACCCATT  11627
+                     .|||||||||||||||||||||||||||||||||||||||||  |.|.|.
+calJac4_dna    12254 AGAGAGAAAATTCAGTCACTCTAGAGCATTGGCTGGATTTGT--CTCGTG  12301
+
+hg38_dna       11628 GCAGCGAATGGAGAAGGTGCTGACATAAAAGCCCTTTAGACTGAAAGCTA  11677
+                     |.||.||||||||||||||||||..|||||||||.|||||.||||||.||
+calJac4_dna    12302 GGAGTGAATGGAGAAGGTGCTGATGTAAAAGCCCATTAGATTGAAAGTTA  12351
+
+hg38_dna       11678 CTGACTGAGGGGATGGTGCCCTAGTTTGATTTCCTGGGGTGTATGAGTAG  11727
+                     ||||.||||||||||||.||||||||||||||||||||||.|||||.|||
+calJac4_dna    12352 CTGATTGAGGGGATGGTCCCCTAGTTTGATTTCCTGGGGTATATGAATAG  12401
+
+hg38_dna       11728 CAGGGAGGCCAAGAGCTGGGCCTCACGAGATTGTGGGGACTACATCAGGG  11777
+                     ||||||||||||||||||||||.||||||||..|.|||||| ||||||||
+calJac4_dna    12402 CAGGGAGGCCAAGAGCTGGGCCCCACGAGATCATAGGGACT-CATCAGGG  12450
+
+hg38_dna       11778 AAGCAGGCCTGCAAAGAACCTGCACCACAGACCCCCACCTAAAAGAGCCT  11827
+                     ||||||||||.|||.|||||.||.|..||||||||||||||||||.||||
+calJac4_dna    12451 AAGCAGGCCTACAAGGAACCAGCTCTTCAGACCCCCACCTAAAAGGGCCT  12500
+
+hg38_dna       11828 CCAAAAACCCTAACTGGCATGACCTGAGTACTTTAACTCTGCTTGTAACT  11877
+                     |||||||||.|||||||||||||||||||||||||||||..|||||||||
+calJac4_dna    12501 CCAAAAACCTTAACTGGCATGACCTGAGTACTTTAACTCCACTTGTAACT  12550
+
+hg38_dna       11878 TTCAAATATATTTTGATTTGCTT-ATGACCACCAAGGCAAAACTTCCCAT  11926
+                     |||||  ||.||||.||||.||| ||||||||||||.||.|||||.||||
+calJac4_dna    12551 TTCAA--ATGTTTTTATTTACTTAATGACCACCAAGACAGAACTTTCCAT  12598
+
+hg38_dna       11927 TTCAATAATGTTAGTAGAAACATAAACAGGATGTTAATTTATTTATTTGG  11976
+                     |||||||||||||||||||||||||||||||||||.|||||||||||   
+calJac4_dna    12599 TTCAATAATGTTAGTAGAAACATAAACAGGATGTTTATTTATTTATT---  12645
+
+hg38_dna       11977 TAATTC-----TTTTTATGAATATTATCCAGTTTAATCATTAGCTCTGAA  12021
+                     ||.|||     |||.||.||||||||||||.||||.||||||..||||||
+calJac4_dna    12646 TATTTCATATTTTTCTAAGAATATTATCCAATTTAGTCATTATTTCTGAA  12695
+
+hg38_dna       12022 GGAGATGAAAAATAATTTTCTAATTTTTAGAAAAATTTGCAGCTAATTGG  12071
+                     ||||||| ||.|||||||||||||||||| |||||||||||.||||||||
+calJac4_dna    12696 GGAGATG-AAGATAATTTTCTAATTTTTA-AAAAATTTGCAACTAATTGG  12743
+
+hg38_dna       12072 GTGA----TAAAGGTAAGGGGTTTCTGAGTTCACAAAAATGTTCTAAAAT  12117
+                     .|||    ||||||||.|.|.||||||||||||||||.|||||..|||||
+calJac4_dna    12744 ATGATAGTTAAAGGTATGCGCTTTCTGAGTTCACAAACATGTTACAAAAT  12793
+
+hg38_dna       12118 TGGCAACAGTTTCGGTTGCACGTTTCATTAAATGTACTAAAAACCATTGA  12167
+                     ||.|||||||...||||||||.||||||||||||||||||||||.||.||
+calJac4_dna    12794 TGACAACAGTGATGGTTGCACATTTCATTAAATGTACTAAAAACTATCGA  12843
+
+hg38_dna       12168 ACTGTACATGGTATATGGTGAATTATATGGTATGTGAATTATATCTCAAC  12217
+                     ||||||||||.|||.|||||||||||||||.||||||||||||||||||.
+calJac4_dna    12844 ACTGTACATGTTATGTGGTGAATTATATGGGATGTGAATTATATCTCAAA  12893
+
+hg38_dna       12218 AAGCTGGGTATTGTTTTTTTAAAAAA--TAAAAATAAAAAAGGAGAAAGA  12265
+                     |||||.||.|||||||||..||||||  |||||.|||||.|  |||||||
+calJac4_dna    12894 AAGCTAGGCATTGTTTTTAAAAAAAAATTAAAATTAAAATA--AGAAAGA  12941
+
+hg38_dna       12266 GAGAGAGAAAAACAATTGCAGATCATCCCAGCACTGAGGACAAGACTAAC  12315
+                     |||||.|.||||.||||||||||.|||||||||||| |.||||||||||.
+calJac4_dna    12942 GAGAGGGGAAAAAAATTGCAGATAATCCCAGCACTG-GCACAAGACTAAT  12990
+
+hg38_dna       12316 TTCAGTGTTCCAGTATATGCCATTATAGGTTTTACGGCACACAGTGATGA  12365
+                     .||||||||.||||.|||||||.|.|||||||||.|||||||||||||.|
+calJac4_dna    12991 CTCAGTGTTACAGTGTATGCCAGTTTAGGTTTTAGGGCACACAGTGATTA  13040
+
+hg38_dna       12366 TTTGGAGCCTATGATTTGACCTAGGGTACAGCAGGTACTGTTTAGCAATC  12415
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+calJac4_dna    13041 TTTGGAGCCTATGATTTGACCTAGGGTACAGCAGGTACTGTTTAGCAATC  13090
+
+hg38_dna       12416 ATTTTACTATTGTCATAGGTCTCTGCTCTTGGAGCTAAGTGCCCAGGGTA  12465
+                     ||||||.|||||||.|||||||||||||||.|||||||.|.|||||||.|
+calJac4_dna    13091 ATTTTATTATTGTCGTAGGTCTCTGCTCTTTGAGCTAAATACCCAGGGCA  13140
+
+hg38_dna       12466 AATGAGATCTTTAATTTGAAAAGAGATTTTTGATTTGATGAATGTACATT  12515
+                     ||||||.||||||||.||||||.||||||||.||..|||||||||||||.
+calJac4_dna    13141 AATGAGCTCTTTAATCTGAAAAAAGATTTTTAATGCGATGAATGTACATC  13190
+
+hg38_dna       12516 CTCCAAAGGGTCATAAATTGTCATTCTGGATGTTTGATCTGTTTGTTGTT  12565
+                     ||||||||.|||||||||||||||||||||||||||||.|.|||||||||
+calJac4_dna    13191 CTCCAAAGTGTCATAAATTGTCATTCTGGATGTTTGATTTATTTGTTGTT  13240
+
+hg38_dna       12566 TTGGTACAAAAATTAGAAGAAAATAATTCACTCATAAAATGTTAAATAAT  12615
+                     ||||||||||||||||||||||||||.|||||||.|||||.|||   |||
+calJac4_dna    13241 TTGGTACAAAAATTAGAAGAAAATAAATCACTCACAAAATATTA---AAT  13287
+
+hg38_dna       12616 GAACTAAAAGTCATTCATCAAGTC---------------------CA---  12641
+                     |||||||||.|||||||||.||||                     ||   
+calJac4_dna    13288 GAACTAAAACTCATTCATCGAGTCAGTGACTGGCTGTCTTATGAACACAG  13337
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+calJac4_dna    13338 CCCACTACCCCTATCTGAGCAGCCCCATCCACCTGTCTAGAGAGAGAGAT  13387
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+calJac4_dna    13388 GAATTTTCAAGTAGACTCCCAAAAGCCTGGATCTTTCACTTCTAGTAGAC  13437
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+calJac4_dna    13438 TTGTACTGAGAATTTCTTTGAGGAAATTCTTCTTGGCATTCTATGCTGAG  13487
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+calJac4_dna    13488 GGGATATTAATTCTTTCACATCACAAATATCTATTGTGTCTTGCTCTGTC  13537
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+calJac4_dna    13538 CAGGCACTGCTCTAGCCCCTGAGGATACAGTAGTGAACAAGAGACGCTTG  13587
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+calJac4_dna    13588 TTCCCTGCTTACATTCCTGCAGAGGAGAGAAGACATTGAACTGATTATTT  13637
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+calJac4_dna    13638 AGAAAGATATGTAATTACTGTGTTGCCACACCCCCTTGGAGTCTTCCTAA  13687
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+calJac4_dna    13688 CTAGACATTACATTCACAAGACTTCCACAGGCTACACTATAGGCTTTGCT  13737
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+calJac4_dna    13738 CAGCCTCAGCTTCCTTAGAAAGGGACACACCAGGGTTCTCATGGTGTTCC  13787
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+calJac4_dna    13788 ACACATCAGCCAAAGACTTGTCTTCACTCCCAACCCCCTCAAGTGACTAC  13837
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+calJac4_dna    13838 TCAGGTACAAAGAATGAGATCCATATTGGTGGGTAAAGGGTTACTCTTGG  13887
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+calJac4_dna    13888 CATACGAGCCCCATCCCCCATAGGAGCTGATATGCCCTATAACAGCCTGA  13937
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+calJac4_dna    13938 TGGGCACAGCCTCAAGGGTCCTCACCAGGACACGCCTAGTTCCTGCTTTA  13987
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+calJac4_dna    13988 GAGCAGGAAGAATCACGGCCCTAAGGAACTCTCCCAAAAGTTTATGGTTC  14037
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+calJac4_dna    14038 CTCACAGCCCATGTGCAGCTTACTAATCAGAAGCAATTTTTCTTATAAAT  14087
+
+hg38_dna       12642 --------------------------------------------------  12641
+                                                                       
+calJac4_dna    14088 AACATTGCTGGCATTCCACCTTTATTAAGTTTCCAGGAATGGAGCCAGCA  14137
+
+hg38_dna       12642 --TAACTTAGGGTCACATTTGTCCTTGGAGCAGGAGAAAGAGTTGTGTTC  12689
+                       |||||||||||||.||||||.|||||||||||||||||||||||||||
+calJac4_dna    14138 ATTAACTTAGGGTCAGATTTGTTCTTGGAGCAGGAGAAAGAGTTGTGTTC  14187
+
+hg38_dna       12690 ACCCTTTTCTTACTTTTGCTTTTGTCCTAAGTGCTTCAGAGAAGTACAGG  12739
+                     |.||||||||..|..||..|||||||||||||||||||||.|||||||||
+calJac4_dna    14188 AGCCTTTTCTGCCCATTCTTTTTGTCCTAAGTGCTTCAGAAAAGTACAGG  14237
+
+hg38_dna       12740 GTGGCAACAGTGTTTCTACTGAGCAGCTGATACCATTGCTATGCACTCAT  12789
+                     ||||.||.|||| ||.||||||||||||||.|||||||||.|||||||| 
+calJac4_dna    14238 GTGGGAAGAGTG-TTATACTGAGCAGCTGACACCATTGCTGTGCACTCA-  14285
+
+hg38_dna       12790 TCATTATGCAGGAAACATTTAGTAATTTCAACATAAATATGGGACTCTGA  12839
+                     |||||||||||.||||||||||||.|||||.||||||.||||||||||||
+calJac4_dna    14286 TCATTATGCAGCAAACATTTAGTAGTTTCAGCATAAACATGGGACTCTGA  14335
+
+hg38_dna       12840 CGTTCTCCTCTTCATTTTGCAGAGCAGTCATTATGGCGAACCTTGGCTGC  12889
+                     .||||||||||||||||||||||.|||||||.|||||.||||||||||.|
+calJac4_dna    14336 TGTTCTCCTCTTCATTTTGCAGAACAGTCATCATGGCAAACCTTGGCTAC  14385
+
+hg38_dna       12890 TGGATGCTGGTTCTCTTTGTGGCCACATGGAGTGACCTGGGCCTCTGCAA  12939
+                     |||||||||.||||||||||||||||||||||||||||||||||||||||
+calJac4_dna    14386 TGGATGCTGTTTCTCTTTGTGGCCACATGGAGTGACCTGGGCCTCTGCAA  14435
+
+hg38_dna       12940 GAAGCGCCCGAAGCCTGGAGGATGGAACACTGGGGGCAGCCGATACCCGG  12989
+                     ||||||||||||.||||||||||||||.||||||||||||||||||||.|
+calJac4_dna    14436 GAAGCGCCCGAAACCTGGAGGATGGAATACTGGGGGCAGCCGATACCCAG  14485
+
+hg38_dna       12990 GGCAGGGCAGCCCTGGAGGCAACCGCTACCCACCTCAGGGCGGTGGTGGC  13039
+                     |.|||||||||||||||||||||||.||||||||.|||   |||||||||
+calJac4_dna    14486 GCCAGGGCAGCCCTGGAGGCAACCGGTACCCACCCCAG---GGTGGTGGC  14532
+
+hg38_dna       13040 TGGGGGCAGCCTCATGGTGGTGGCTGGGGGCAGCCTCATGGTGGTGGCTG  13089
+                     ||||||||||||||||||||||||||||||||.|||||||||||.|||||
+calJac4_dna    14533 TGGGGGCAGCCTCATGGTGGTGGCTGGGGGCAACCTCATGGTGGCGGCTG  14582
+
+hg38_dna       13090 GGGGCAGCCCCATGGTGGTGGCTGGGGACAGCCTCATGGTGGTGGCTGGG  13139
+                     |||.||||||||||||||.|||||||||||||||||||||||||||||||
+calJac4_dna    14583 GGGACAGCCCCATGGTGGCGGCTGGGGACAGCCTCATGGTGGTGGCTGGG  14632
+
+hg38_dna       13140 GTCAAGGAGGTGGCACCCACAGTCAGTGGAACAAGCCGAGTAAGCCAAAA  13189
+                     |||||||||||||||||||||.|||.|||||||||||.||||||||||||
+calJac4_dna    14633 GTCAAGGAGGTGGCACCCACAATCAATGGAACAAGCCCAGTAAGCCAAAA  14682
+
+hg38_dna       13190 ACCAACATGAAGCACATGGCTGGTGCTGCAGCAGCTGGGGCAGTGGTGGG  13239
+                     |||||||||||||||.||||||||||||||||.|||||||||||||||||
+calJac4_dna    14683 ACCAACATGAAGCACGTGGCTGGTGCTGCAGCGGCTGGGGCAGTGGTGGG  14732
+
+hg38_dna       13240 GGGCCTTGGCGGCTACATGCTGGGAAGTGCCATGAGCAGGCCCATCATAC  13289
+                     .||||||||.|||||||||||||||||||||||||||||||||.||||||
+calJac4_dna    14733 AGGCCTTGGTGGCTACATGCTGGGAAGTGCCATGAGCAGGCCCCTCATAC  14782
+
+hg38_dna       13290 ATTTCGGCAGTGACTATGAGGACCGTTACTATCGTGAAAACATGCACCGT  13339
+                     ||||.||||.||||||||||||||||||||||||||||||||||.|||||
+calJac4_dna    14783 ATTTTGGCAATGACTATGAGGACCGTTACTATCGTGAAAACATGTACCGT  14832
+
+hg38_dna       13340 TACCCCAACCAAGTGTACTACAGGCCCATGGATGAGTACAGCAACCAGAA  13389
+                     ||||||||||||||.||||||||||||.|||||.||||||.|||||||||
+calJac4_dna    14833 TACCCCAACCAAGTATACTACAGGCCCGTGGATCAGTACAACAACCAGAA  14882
+
+hg38_dna       13390 CAACTTTGTGCACGACTGCGTCAATATCACAATCAAGCAGCACACGGTCA  13439
+                     ||||||||||||||||||||||||||||||.|||||||||||||||||||
+calJac4_dna    14883 CAACTTTGTGCACGACTGCGTCAATATCACGATCAAGCAGCACACGGTCA  14932
+
+hg38_dna       13440 CCACAACCACCAAGGGGGAGAACTTCACCGAGACCGACGTTAAGATGATG  13489
+                     ||||.||||||||.||||||||||||||.|||||.|||||||||||||||
+calJac4_dna    14933 CCACCACCACCAAAGGGGAGAACTTCACTGAGACTGACGTTAAGATGATG  14982
+
+hg38_dna       13490 GAGCGCGTGGTTGAGCAGATGTGTATCACCCAGTACGAGAGGGAATCTCA  13539
+                     |||||.|||||||||||||||||||||||.|||||.|||||||||||.||
+calJac4_dna    14983 GAGCGTGTGGTTGAGCAGATGTGTATCACTCAGTATGAGAGGGAATCCCA  15032
+
+hg38_dna       13540 GGCCTATTACCAGAGAGGATCGAGCATGGTCCTCTTCTCCTCTCCACCTG  13589
+                     ||||||||||||||||||||||||||||||||||||||||||.|||||||
+calJac4_dna    15033 GGCCTATTACCAGAGAGGATCGAGCATGGTCCTCTTCTCCTCCCCACCTG  15082
+
+hg38_dna       13590 TGATCCTCCTGATCTCTTTCCTCATCTTCCTGATAGTGGGATGAGGAAGG  13639
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+calJac4_dna    15083 TGATCCTCCTGATCTCTTTCCTCATCTTCCTGATAGTGGGATGAGGAAGG  15132
+
+hg38_dna       13640 TCTTCCTGTTTTCACCATCTTTCTAATCTTTTTCCAGCTTGAGGGAGGCG  13689
+                     |||||||||||||||||||||||||||||||||||||.||||||||||.|
+calJac4_dna    15133 TCTTCCTGTTTTCACCATCTTTCTAATCTTTTTCCAGGTTGAGGGAGGGG  15182
+
+hg38_dna       13690 GTATCCACCTGCAGCCCTTTTAGTGGTGGTGTCTCACTCTTTCTTCTCTC  13739
+                     |||||.||.|||||||||||||||||||| ||||||.||||.||    ||
+calJac4_dna    15183 GTATCTACATGCAGCCCTTTTAGTGGTGG-GTCTCATTCTTGCT----TC  15227
+
+hg38_dna       13740 TTTGTCCCGGATAGGCTAATCAATACCCTTGGCACTGATGGGCACTGGAA  13789
+                     ||||||||.|||||.|||||||||||||.|||||||..||||||||||||
+calJac4_dna    15228 TTTGTCCCTGATAGCCTAATCAATACCCCTGGCACTAGTGGGCACTGGAA  15277
+
+hg38_dna       13790 AACATAGAGTAGACCTGAGATGC----TGGTCAAGCCCCCTTTGATTGAG  13835
+                     ||..|||||.|||||||||||||    |.||||| .||||||||||||||
+calJac4_dna    15278 AATCTAGAGCAGACCTGAGATGCTATTTAGTCAA-ACCCCTTTGATTGAG  15326
+
+hg38_dna       13836 TTCATCATGAGCCGTTGCTAATGCCAGGCCAGTAAAAGTATAACAGCAAA  13885
+                     |||||||||.|||.||||||||.||.|||||.|||||.||||||||||||
+calJac4_dna    15327 TTCATCATGGGCCTTTGCTAATACCGGGCCAATAAAAATATAACAGCAAA  15376
+
+hg38_dna       13886 TAACCATTGGTTAATCTGGACTTATTTTTGGACTTAGTGCAACAGGTTGA  13935
+                     |||.|||||||||||||||||.|||||||||||||||||||||||||||.
+calJac4_dna    15377 TAATCATTGGTTAATCTGGACATATTTTTGGACTTAGTGCAACAGGTTGG  15426
+
+hg38_dna       13936 GGCTAAAACAAATCTCAGAACAGTCTGAAATACCTTTGCCTGGATACCTC  13985
+                     |||||||||||||||||||.||||||.||.||||||||||||||||||||
+calJac4_dna    15427 GGCTAAAACAAATCTCAGAGCAGTCTCAAGTACCTTTGCCTGGATACCTC  15476
+
+hg38_dna       13986 TGGCTCCTTCAGCAGCTAGAGCTCAGTATACTAATGCCCTATCTTAGTAG  14035
+                     |||||||||||||.|||.|||||||||.|||||||||||.|||||||.||
+calJac4_dna    15477 TGGCTCCTTCAGCGGCTGGAGCTCAGTGTACTAATGCCCGATCTTAGCAG  15526
+
+hg38_dna       14036 AGATTTCATAGCTATTTAGAGATATTTTCCATTTTAAGAAAACCCGACAA  14085
+                     |||||||||||||||||.|||||||||||||||||||||||||..|||||
+calJac4_dna    15527 AGATTTCATAGCTATTTCGAGATATTTTCCATTTTAAGAAAACTTGACAA  15576
+
+hg38_dna       14086 CATTTCTGCCAGGTTTGTTAGGAGGCCACATGATACTTATTCAAAAAAAT  14135
+                     |||||||||||.||||||||||||||..|||||.|||..|||||||||||
+calJac4_dna    15577 CATTTCTGCCAAGTTTGTTAGGAGGCTGCATGACACTCTTTCAAAAAAAT  15626
+
+hg38_dna       14136 CCTAGAGATTCTTAGCTCTTGGGATGCAGGCTCAGCCCGCTGGAGCATGA  14185
+                     ||||||.||||||||||||.|||||||||||||||.||||||||||||||
+calJac4_dna    15627 CCTAGAAATTCTTAGCTCTCGGGATGCAGGCTCAGTCCGCTGGAGCATGA  15676
+
+hg38_dna       14186 GCTCTGTGTGTACCGAGAACTGGGGTGATGTTTTACTTTTCACAGTATGG  14235
+                     |||||||||.|.|.|||||.|||.||||||||||.|.||||||||.|..|
+calJac4_dna    15677 GCTCTGTGTCTGCAGAGAAATGGAGTGATGTTTTGCCTTTCACAGAACAG  15726
+
+hg38_dna       14236 GCTACACAGCAGCTGTTCAACAAGAGTAAATATTGTCACAACACTGAACC  14285
+                     |||||||||||||||||||.|||||||||||||.|.|||||||||.||||
+calJac4_dna    15727 GCTACACAGCAGCTGTTCATCAAGAGTAAATATCGGCACAACACTAAACC  15776
+
+hg38_dna       14286 TCTGGCTAGAGGACATATTCACAGTGAACATAACTGTAACATATATGAAA  14335
+                     ||||||||||||||.||||||..|||||||||||||||.|||||||||||
+calJac4_dna    15777 TCTGGCTAGAGGACGTATTCATGGTGAACATAACTGTAGCATATATGAAA  15826
+
+hg38_dna       14336 GGCTTCTGGGACTTG--AAATCAAATGTTTGGGAATGGTGCCCTTGGAGG  14383
+                     ||||.|..|||| ||  |||||.|||||||||||||||||||||||.| |
+calJac4_dna    15827 GGCTACCAGGAC-TGAAAAATCTAATGTTTGGGAATGGTGCCCTTGTA-G  15874
+
+hg38_dna       14384 CAACCTCCCATTTTAGATGTTTAAAGGACCCTATATGTGGCATTCCTTTC  14433
+                     ||||||||.|||||||||||||||| ||.|||||||||||||||||||||
+calJac4_dna    15875 CAACCTCCAATTTTAGATGTTTAAA-GAACCTATATGTGGCATTCCTTTC  15923
+
+hg38_dna       14434 TTTAAACTATAGGTAATTAAGGCAGCTGAAAAGTAAATTGCCTTCTAGAC  14483
+                     ||||||||||||.|||||||||||||.|||||||.|.||.||||||||||
+calJac4_dna    15924 TTTAAACTATAGATAATTAAGGCAGCAGAAAAGTCAGTTACCTTCTAGAC  15973
+
+hg38_dna       14484 ACTGAAGGCAAATCTCCTTTGTCCATTTACCTGGAAACCAGAATGATTTT  14533
+                     |||||||||||||||||.||||.||||||||||.||||||||||||||||
+calJac4_dna    15974 ACTGAAGGCAAATCTCCATTGTTCATTTACCTGAAAACCAGAATGATTTT  16023
+
+hg38_dna       14534 GACATACAGGAGAGCTGCAGTTGTGAAAGCACCATCATCATAGAGGATGA  14583
+                     ||||||.||||||||||||||||||||||||.||||||||.|||||||||
+calJac4_dna    16024 GACATAGAGGAGAGCTGCAGTTGTGAAAGCAGCATCATCACAGAGGATGA  16073
+
+hg38_dna       14584 TGTAATTAA-AAAATGGTCAGTGTGCAAAGAAAAGAACTGCTTGCATTTC  14632
+                     |||.||.|| |||||||||..|||.||..|||.|||||||||||||.|||
+calJac4_dna    16074 TGTCATGAAGAAAATGGTCCATGTACAGGGAACAGAACTGCTTGCACTTC  16123
+
+hg38_dna       14633 TTTATTTCTGTCTCATAATTGTCAAAAACCAGAATTAGGTCAAGTTCATA  14682
+                     |||||.|||||||||||||||||||||||||||.||||||||||||||||
+calJac4_dna    16124 TTTATCTCTGTCTCATAATTGTCAAAAACCAGAGTTAGGTCAAGTTCATA  16173
+
+hg38_dna       14683 GTTTCTGTAATTGGCTTTTGAATCAAAGAATAGGGAGACAATCTAAAAAA  14732
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+calJac4_dna    16174 GTTTCTGTAATTGGCTTTTGAATCAAAGAATAGGGAGACAATCTAAAAAA  16223
+
+hg38_dna       14733 TATCTTAGGTTGGAGATGACAGAAATATGATTGATTTGAAGTGGAAAAAG  14782
+                     ||||.|||||||||||||||||||||||||||||||||||||||||||||
+calJac4_dna    16224 TATCGTAGGTTGGAGATGACAGAAATATGATTGATTTGAAGTGGAAAAAG  16273
+
+hg38_dna       14783 AAATTCTGTTAATGTTAATTAAAGTAAAATTATTCCCTGAATTGTTTGAT  14832
+                     ||||||||||||.|.|||||||.|||||||||||||||||..||||||||
+calJac4_dna    16274 AAATTCTGTTAACGGTAATTAAGGTAAAATTATTCCCTGAGCTGTTTGAT  16323
+
+hg38_dna       14833 ATTGTCACCTAGCAGATATGTATTACTTTTCTGCAATGTTATTATTGGCT  14882
+                     |||||||||||||||||||||||||||.||||||||||   |||||||||
+calJac4_dna    16324 ATTGTCACCTAGCAGATATGTATTACTCTTCTGCAATG---TTATTGGCT  16370
+
+hg38_dna       14883 TGCACTTTGTGAGTATTCTATGTAAAAATATATATGTATATAAAATATAT  14932
+                     |||||||||||||||||..|||||||||||||||||||.|||||||||| 
+calJac4_dna    16371 TGCACTTTGTGAGTATTTGATGTAAAAATATATATGTACATAAAATATA-  16419
+
+hg38_dna       14933 ATTGCATAGGACAGACTTAGGAGTTTTGTTTAGAGCAGTTAACATCTGAA  14982
+                        |||||||||||||||.|||.|||||||||||||||||||||||||||
+calJac4_dna    16420 ---GCATAGGACAGACTTGGGAATTTTGTTTAGAGCAGTTAACATCTGAA  16466
+
+hg38_dna       14983 GTGTCTAATGCATTAAC-TTTTGTAAGGTACTGAATACTTAATATGTGGG  15031
+                     ||||||||||||||||| ||||.|||||||||.|||||||||||||||||
+calJac4_dna    16467 GTGTCTAATGCATTAACTTTTTCTAAGGTACTAAATACTTAATATGTGGG  16516
+
+hg38_dna       15032 AAACCCTTTTGCGTGGTCCTTAGGCTTACAATGTGCACTGAATCGTTTCA  15081
+                     ||||||||||||||||||||||||||||||||||||||.|||||||||.|
+calJac4_dna    16517 AAACCCTTTTGCGTGGTCCTTAGGCTTACAATGTGCACCGAATCGTTTTA  16566
+
+hg38_dna       15082 TGTAAGAATCCAAAGTGGACACCATTAACAGGTCTTTGAAATATGCATGT  15131
+                     |.|||||||||||||||||||||||||||||||||||||||.||||||||
+calJac4_dna    16567 TATAAGAATCCAAAGTGGACACCATTAACAGGTCTTTGAAACATGCATGT  16616
+
+hg38_dna       15132 ACTTTATATTTTCTATATTTGTAACTTTGCATGTTCTTGTTTTGTTATAT  15181
+                     ||     |||||||||||||||||||||||||||||||||||.|||.|||
+calJac4_dna    16617 AC-----ATTTTCTATATTTGTAACTTTGCATGTTCTTGTTTCGTTGTAT  16661
+
+hg38_dna       15182 AAAAAAATTGTAAATGTTTAATATCTGACTGAAATTAAAC--GAGCGAAG  15229
+                     ||||||.||.||||||||||||||    ||||||||||||  ||||.|||
+calJac4_dna    16662 AAAAAATTTATAAATGTTTAATAT----CTGAAATTAAACAGGAGCAAAG  16707
+
+hg38_dna       15230 ATGAGCACCACC  15241
+                     ||||||.|||  
+calJac4_dna    16708 ATGAGCGCCA--  16717
+
+
+#---------------------------------------
+#---------------------------------------

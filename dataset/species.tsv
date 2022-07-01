@@ -5,18 +5,18 @@ African green (Chlorocebus aethiops)	Old world monkey				FKA: African green monk
 Baboon (Papio anubis)	Old world monkey								old world monkey	Baboon	Papio anubis	2
 Barbary macaque (Macaca sylvanus)	Old world monkey								old world monkey	Barbary macaque	Macaca sylvanus	2
 Bonnet macaque (Macaca radiata)	Old world monkey								old world monkey	Bonnet macaque	Macaca radiata	2
-Cynomolgus macaque (Macaca fascicularis)	Old world monkey					74	1350		old world monkey	Cynomolgus macaque	Macaca fascicularis	2
+Cynomolgus macaque (Macaca fascicularis)	Old world monkey					74	1350	0.05481481481	old world monkey	Cynomolgus macaque	Macaca fascicularis	2
 Langur (Presbytis sp.)	Old world monkey								old world monkey	Langur	Presbytis sp.	2
 Patas (Erythrocebus patas)	Old world monkey								old world monkey	Patas	Erythrocebus patas	2
 Pig-tailed macaque (Macaca nemestrina)	Old world monkey								old world monkey	Pig-tailed macaque	Macaca nemestrina	2
-Rhesus macaque (Macaca mulatta)	Old world monkey	86.1 (female)/ 96.1 (male)		https://pubmed.ncbi.nlm.nih.gov/9662002/					old world monkey	Rhesus macaque	Macaca mulatta	2
+Rhesus macaque (Macaca mulatta)	Old world monkey	86.1 (female)/ 96.1 (male)		https://pubmed.ncbi.nlm.nih.gov/9662002/		91.1	1350	0.06748148148	old world monkey	Rhesus macaque	Macaca mulatta	2
 Sooty mangabey (Cercocebus atys)	Old world monkey								old world monkey	Sooty mangabey	Cercocebus atys	2
 Stump-tailed macaque (Macaca arctoides)	Old world monkey								old world monkey	Stump-tailed macaque	Macaca arctoides	2
 Stumptail macaque (Macaca arctoides)	Old world monkey								old world monkey	Stumptail macaque	Macaca arctoides	2
 Talapoin (Cercopithecus talapoin)	Old world monkey								old world monkey	Talapoin	Cercopithecus talapoin	2
 Vervet monkey (Chlorocebus pygerythrus)	Old world monkey								old world monkey	Vervet monkey	Chlorocebus pygerythrus	2
 Capuchin monkey (Cebus sp.)	New world monkey	60.0	2400	https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.21515	captive animals				new world monkey	Capuchin monkey	Cebus sp.	3
-Common marmoset (Callithrix jacchus)	New world monkey	7.7	266.3	https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.21515	captive animals				new world monkey	Common marmoset	Callithrix jacchus	3
+Common marmoset (Callithrix jacchus)	New world monkey	7.7	266.3	https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.21515	captive animals	7.7	1350	0.005703703704	new world monkey	Common marmoset	Callithrix jacchus	3
 Common woolly monkey (Lagothrix lagothricha)	New world monkey	119.5	6900	https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.21515	captive animals				new world monkey	Common woolly monkey	Lagothrix lagothricha	3
 Cotton-topped tamarin (Saguinus oedipus)	New world monkey	10.2	342.4	https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.21515	captive animals; FKA: Cotton-topped marmoset (Saguinns oedipus)				new world monkey	Cotton-topped tamarin	Saguinus oedipus	3
 Saddle-backed tamarin (Saguinus fuscicollis)	New world monkey	6.0	250	https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.21515	captive animals; FKA: White-lipped marmoset (S. fuscicollis and S. nigricollis)				new world monkey	Saddle-backed tamarin	Saguinus fuscicollis	3

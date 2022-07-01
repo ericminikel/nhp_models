@@ -55,7 +55,7 @@ endpoint_params = data.frame(endpoint=c('histology','symptom onset','terminal pr
 species_meta = data.frame(grp=c('ape','old world monkey','new world monkey','prosimian'),
                           grp_x=1:4)
 
-year5bins = data.frame(year5bin=seq(1965,2015,5))
+year5bins = data.frame(year5bin=seq(1965,2020,5))
 
 #### READ IN ANALYTICAL DATASET
 
@@ -76,11 +76,13 @@ cat(file=stderr(), 'done.\nCreating Figure 1...')
 
 studies$flowchart = ''
 studies$flowchart[studies$review_status != 'excluded'] = 'Included'
-studies$flowchart[studies$comments %in% c('all animals included in other publications','review article','no nhp endpoint data')] = '1 No original NHP endpoint data*'
-studies$flowchart[studies$comments %in% c('full text not found')] = '4 Full text not found'
-studies$flowchart[studies$comments %in% c('not enough details')] = '3 Not enough detail'
-studies$flowchart[studies$comments %in% c('no nhp data')] = '2 No NHP data'
-studies$flowchart[studies$comments %in% c('drug interventions')] = '5 Drug intervention'
+studies$flowchart[studies$comments %in% c('no nhp endpoint data')] = '2 No NHP endpoint data'
+studies$flowchart[studies$comments %in% c('all animals included in other publications')] = '3 All animals reported elsewhere'
+studies$flowchart[studies$comments %in% c('review article')] = '5 Review article'
+studies$flowchart[studies$comments %in% c('full text not found')] = '6 Full text not found'
+studies$flowchart[studies$comments %in% c('not enough details')] = '4 Not enough detail'
+studies$flowchart[studies$comments %in% c('no nhp data')] = '1 No NHP data'
+studies$flowchart[studies$comments %in% c('drug interventions')] = '7 Drug intervention'
 
 exclusion_table = sqldf("select flowchart, count(*) n from studies where review_status = 'excluded' group by 1;")
 
@@ -180,16 +182,16 @@ par(mar=c(2,3,3,6))
 study_col = '#0071BC'
 animal_col = '#FF8E43'
 barwidth=4
-xlims = c(1965, 2020)
-ylims = c(0,11)
+xlims = c(1965, 2025)
+ylims = c(0,13)
 plot(NA, NA, xlim=xlims, ylim=ylims, ann=F, axes=F, xaxs='i', yaxs='i')
-axis(side=1, at=seq(1960, 2020, 10), lwd=0, line=-0.5)
-axis(side=1, at=seq(1960, 2020, 5), labels=NA, lwd=1, lwd.ticks=0.5, tck=-0.1)
-axis(side=1, at=seq(1960, 2020, 1), labels=NA, lwd=0, lwd.ticks=0.5, tck=-0.05)
-axis(side=2, at=0:2*5, tck=-0.1, labels=NA)
-axis(side=2, at=0:10, tck=-0.05, labels=NA)
-axis(side=2, at=0:2*5, las=2, line=-0.5, lwd=0)
-mtext(side=2, line=1.75, text='N studies', col='black')
+axis(side=1, at=seq(1960, 2025, 10), lwd=0, line=-0.5, cex.axis=0.92)
+axis(side=1, at=seq(1960, 2025, 5), labels=NA, lwd=1, lwd.ticks=0.5, tck=-0.1)
+axis(side=1, at=seq(1960, 2025, 1), labels=NA, lwd=0, lwd.ticks=0.5, tck=-0.05)
+axis(side=2, at=0:3*5, tck=-0.1, labels=NA)
+axis(side=2, at=0:15, tck=-0.05, labels=NA)
+axis(side=2, at=0:3*5, las=2, line=-0.5, lwd=0)
+mtext(side=2, line=1.75, text='N studies', col='black', cex=0.92)
 year_study$mid = year_study$year5bin + 2.5
 year_animal$mid = year_animal$year5bin + 2.5
 rect(xleft=year_study$mid-barwidth/2, xright=year_study$mid+barwidth/2, ybottom=rep(0, nrow(year_study)), ytop=year_study$n_studies, col=study_col, border=NA)
@@ -229,16 +231,16 @@ for (i in 1:nrow(year5bins)) {
 year_strain_complete$mid = year_strain_complete$year5bin+2.5
 
 barwidth=4
-xlims = c(1965, 2020)
-ylims = c(0,120)
+xlims = c(1965, 2025)
+ylims = c(0,200)
 plot(NA, NA, xlim=xlims, ylim=ylims, ann=F, axes=F, xaxs='i', yaxs='i')
-axis(side=1, at=seq(1960, 2020, 10), lwd=0, line=-0.5)
-axis(side=1, at=seq(1960, 2020, 5), labels=NA, lwd=1, lwd.ticks=0.5, tck=-0.1)
-axis(side=1, at=seq(1960, 2020, 1), labels=NA, lwd=0, lwd.ticks=0.5, tck=-0.05)
-axis(side=2, at=0:3*50, tck=-0.1, labels=NA)
-axis(side=2, at=0:3*50, las=2, line=-0.5, lwd=0)
-axis(side=2, at=0:15*10, tck=-0.05, labels=NA)
-mtext(side=2, line=1.75, text='N animals', col='black')
+axis(side=1, at=seq(1960, 2025, 10), lwd=0, line=-0.5, cex.axis=0.92)
+axis(side=1, at=seq(1960, 2025, 5), labels=NA, lwd=1, lwd.ticks=0.5, tck=-0.1)
+axis(side=1, at=seq(1960, 2025, 1), labels=NA, lwd=0, lwd.ticks=0.5, tck=-0.05)
+axis(side=2, at=0:4*50, tck=-0.1, labels=NA)
+axis(side=2, at=0:4*50, las=2, line=-0.5, lwd=0)
+axis(side=2, at=0:20*10, tck=-0.05, labels=NA)
+mtext(side=2, line=1.75, text='N animals', col='black', cex=0.92)
 rect(xleft=year_strain_complete$mid-barwidth/2, xright=year_strain_complete$mid+barwidth/2, ybottom=year_strain_complete$cumn-year_strain_complete$n_animals, ytop=year_strain_complete$cumn, col=year_strain_complete$color, border=NA)
 par(xpd=T)
 legend(x=max(xlims)+2,y=max(ylims)*1.75,cex=1.0,legend=strain_params$strain,pch=15,col=strain_params$color,text.col=strain_params$color,bty='n')
@@ -273,16 +275,16 @@ for (i in 1:nrow(year5bins)) {
 year_roa_complete$mid = year_roa_complete$year5bin+2.5
 
 barwidth=4
-xlims = c(1965, 2020)
-ylims = c(0,120)
+xlims = c(1965, 2025)
+ylims = c(0,200)
 plot(NA, NA, xlim=xlims, ylim=ylims, ann=F, axes=F, xaxs='i', yaxs='i')
-axis(side=1, at=seq(1960, 2020, 10), lwd=0, line=-0.5)
-axis(side=1, at=seq(1960, 2020, 5), labels=NA, lwd=1, lwd.ticks=0.5, tck=-0.1)
-axis(side=1, at=seq(1960, 2020, 1), labels=NA, lwd=0, lwd.ticks=0.5, tck=-0.05)
-axis(side=2, at=0:3*50, tck=-0.1, labels=NA)
-axis(side=2, at=0:3*50, lwd=0, las=2, line=-0.5)
-axis(side=2, at=0:15*10, tck=-0.05, labels=NA)
-mtext(side=2, line=1.75, text='N animals', col='black')
+axis(side=1, at=seq(1960, 2025, 10), lwd=0, line=-0.5, cex.axis=0.92)
+axis(side=1, at=seq(1960, 2025, 5), labels=NA, lwd=1, lwd.ticks=0.5, tck=-0.1)
+axis(side=1, at=seq(1960, 2025, 1), labels=NA, lwd=0, lwd.ticks=0.5, tck=-0.05)
+axis(side=2, at=0:4*50, tck=-0.1, labels=NA)
+axis(side=2, at=0:4*50, lwd=0, las=2, line=-0.5)
+axis(side=2, at=0:20*10, tck=-0.05, labels=NA)
+mtext(side=2, line=1.75, text='N animals', col='black', cex=0.92)
 rect(xleft=year_roa_complete$mid-barwidth/2, xright=year_roa_complete$mid+barwidth/2, ybottom=year_roa_complete$cumn-year_roa_complete$n_animals, ytop=year_roa_complete$cumn, col=year_roa_complete$color, border=NA)
 par(xpd=T)
 legend(x=max(xlims)+2,y=max(ylims)*1.75,cex=1.0,legend=roa_params$roa,pch=15,col=roa_params$color,text.col=roa_params$color,bty='n')
@@ -291,7 +293,7 @@ mtext(side=3, line=1, text='route of administration', cex=0.8)
 mtext(side=3, line=0.25, cex=1.5, adj=-0.1, text=LETTERS[panel])
 panel = panel + 1
 
-par(mar=c(2,4,3,3))
+par(mar=c(2,4,3,1))
 endpoint_n = sqldf("
 select   p.x, p.color, p.disp, sum(dd.n) n_animals
 from     data_dedup dd, endpoint_params p
@@ -300,13 +302,13 @@ group by 1, 2, 3
 order by 1 ,2, 3
 ;")
 barwidth=0.4
-xlims = c(0,400)
+xlims = c(0,700)
 ylims = range(endpoint_n$x) + c(-0.5, 0.5)
 endpoint_n$y = max(endpoint_n$x)-endpoint_n$x+1
 plot(NA, NA, xlim=xlims, ylim=ylims, ann=F, axes=F, xaxs='i', yaxs='i')
-axis(side=1, at=0:4*100, tck=-0.1, labels=NA)
-axis(side=1, at=0:40*10, tck=-0.05, labels=NA)
-axis(side=1, at=0:4*100, lwd=0, line=-0.5)
+axis(side=1, at=0:7*100, tck=-0.1, labels=NA)
+axis(side=1, at=0:70*10, tck=-0.05, labels=NA)
+axis(side=1, at=0:7*100, lwd=0, line=-0.5)
 axis(side=2, at=ylims, labels=NA, lwd.ticks=0)
 mtext(side=2, at=endpoint_n$y, text=endpoint_n$disp, line=0.25, las=2, cex=0.6)
 rect(xleft=rep(0,nrow(endpoint_n)), xright=endpoint_n$n_animals, ybottom=endpoint_n$y-barwidth, ytop=endpoint_n$y+barwidth, col=endpoint_n$color,border=NA)
@@ -318,8 +320,9 @@ passage_params = data.frame(passage=c('primary','2nd','3rd+'),
                             color=c('#FFAA00','#9ACD32','#4393C3'),
                             x=1:3)
 data_dedup$passaged = grepl('\u2192',data_dedup$strain) # one right arrow means 2nd passage
-data_dedup$passage3 = grepl('\u2192.*\u2192',data_dedup$animal_comments) # 2+ right arrows means 3rd or higher
-data_dedup$passage3 = grepl('3rd',data_dedup$animal_comments) # "3rd" also means 3rd or higher
+data_dedup$passage3 = grepl('\u2192.*\u2192',data_dedup$strain) | # 2+ right arrows means 3rd or higher. 
+  grepl('\u2192.*\u2192',data_dedup$animal_comments) | # sometimes this is in comments rather than strain field
+  grepl('3rd|4th',data_dedup$animal_comments) # and sometimes listed as number instead of arrows
 data_dedup$passage = 'primary'
 data_dedup$passage[data_dedup$passaged] = '2nd'
 data_dedup$passage[data_dedup$passage3] = '3rd+'
@@ -331,14 +334,14 @@ where    dd.passage = p.passage
 group by 1, 2, 3
 order by 1, 2, 3
 ;")
-par(mar=c(2,4,3,3))
+par(mar=c(2,4,3,1))
 xlims = c(0,100*ceiling(max(passage_n$n_animals)/100))
 ylims = range(passage_n$x) + c(-0.5, 0.5)
 passage_n$y = max(passage_n$x)-passage_n$x+1
 plot(NA, NA, xlim=xlims, ylim=ylims, ann=F, axes=F, xaxs='i', yaxs='i')
-axis(side=1, at=0:4*100, tck=-0.15, labels=NA)
-axis(side=1, at=0:40*10, tck=-0.075, labels=NA)
-axis(side=1, at=0:4*100, lwd=0, line=-0.5)
+axis(side=1, at=0:10*100, tck=-0.15, labels=NA)
+axis(side=1, at=0:100*10, tck=-0.075, labels=NA)
+axis(side=1, at=0:10*100, lwd=0, line=-0.5)
 axis(side=2, at=ylims, labels=NA, lwd.ticks=0)
 mtext(side=2, at=passage_n$y, text=passage_n$passage, line=0.25, las=2, cex=0.6)
 rect(xleft=rep(0,nrow(passage_n)), xright=passage_n$n_animals, ybottom=passage_n$y-barwidth, ytop=passage_n$y+barwidth, col=passage_n$color, border=NA)
@@ -351,14 +354,14 @@ outcome_params$n = 0
 outcome_params$n[outcome_params$outcome=='endpoint'] = sum(data_dedup$n_endpoint)
 outcome_params$n[outcome_params$outcome=='intercurrent'] = sum(data_dedup$n_intercurrent)
 outcome_params$n[outcome_params$outcome=='censored'] = sum(data_dedup$n_censored)
-par(mar=c(2,4,3,3))
-xlims = c(0,400)
+par(mar=c(2,4,3,1))
+xlims = c(0,700)
 ylims = range(outcome_params$x) + c(-0.5, 0.5)
 outcome_params$y = max(outcome_params$x)-outcome_params$x+1
 plot(NA, NA, xlim=xlims, ylim=ylims, ann=F, axes=F, xaxs='i', yaxs='i')
-axis(side=1, at=0:4*100, tck=-0.15, labels=NA)
-axis(side=1, at=0:40*10, tck=-0.075, labels=NA)
-axis(side=1, at=0:4*100, lwd=0, line=-0.5)
+axis(side=1, at=0:7*100, tck=-0.15, labels=NA)
+axis(side=1, at=0:70*10, tck=-0.075, labels=NA)
+axis(side=1, at=0:7*100, lwd=0, line=-0.5)
 axis(side=2, at=ylims, labels=NA, lwd.ticks=0)
 mtext(side=2, at=outcome_params$y, text=outcome_params$outcome, line=0.25, las=2, cex=0.6)
 rect(xleft=rep(0,nrow(outcome_params)), xright=outcome_params$n, ybottom=outcome_params$y-barwidth, ytop=outcome_params$y+barwidth, col=outcome_params$color, border=NA)
@@ -382,7 +385,7 @@ order by 1, 2, 3
 # ['#ffffcc','#ffeda0','#fed976','#feb24c','#fd8d3c','#fc4e2a','#e31a1c','#bd0026','#800026']
 
 species_count$color[species_count$grp_x == 1] = c('#238b45','#005a32')
-species_count$color[species_count$grp_x == 2] = c('#fe9929','#ec7014','#cc4c02','#993404','#662506','#e31a1c','#bd0026','#800026') #rev(c('#fee6ce','#fdd0a2','#fdae6b','#fd8d3c','#f16913','#d94801','#a63603','#7f2704'))
+species_count$color[species_count$grp_x == 2] = c('#fe9929','#ec7014','#cc4c02','#993404','#662506','#e31a1c','#bd0026','#800026','#600013') #rev(c('#fee6ce','#fdd0a2','#fdae6b','#fd8d3c','#f16913','#d94801','#a63603','#7f2704'))
 species_count$color[species_count$grp_x == 3] = c('#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#08519c','#08306b')
 species_count$color[species_count$grp_x == 4] = c('#6a51a3')
 
@@ -403,9 +406,9 @@ axis(side=2, at=ylims, labels=NA, lwd.ticks=0)
 mtext(side=2, at=species_count$y, line=8, las=2, text=species_count$common_name, cex=0.5, font=1)
 mtext(side=2, at=species_count$y, line=0.25, las=2, text=species_count$scientific_name, cex=0.5, font=3)
 #mtext(side=2, at=species_count$y, line=0.25, las=2, text=species_count$common_name, cex=0.5, font=1)
-axis(side=1, at=0:5*50, tck=-0.05, labels=NA)
-axis(side=1, at=0:5*50, lwd=0, line=-0.5)
-axis(side=1, at=0:25*10, tck=-0.025, labels=NA)
+axis(side=1, at=0:6*50, tck=-0.05, labels=NA)
+axis(side=1, at=0:6*50, lwd=0, line=-0.5)
+axis(side=1, at=0:30*10, tck=-0.025, labels=NA)
 rect(xleft=rep(0,nrow(species_count)), xright=species_count$n_animals, ybottom=species_count$y-barwidth, ytop=species_count$y+barwidth, col=alpha(species_count$color,ci_alpha), border=NA)
 rect(xleft=rep(0,nrow(species_count)), xright=species_count$n_endpoint, ybottom=species_count$y-barwidth, ytop=species_count$y+barwidth, col=species_count$color, border=NA)
 
@@ -433,7 +436,7 @@ unnecessary_message = dev.off()
 cat(file=stderr(), 'done.\nCreating Figure 3...')
 
 resx=300
-png('display_items/figure-3.png',width=6.5*resx,height=4.5*resx,res=resx)
+png('display_items/figure-3.png',width=6.5*resx,height=6.5*resx,res=resx)
 
 power_cohorts = sqldf("
                       select   *
@@ -457,7 +460,7 @@ power_cohorts$u95 = power_cohorts$mean_mpi + 1.96 * power_cohorts$sd_mpi/sqrt(po
 power_cohorts = power_cohorts[with(power_cohorts, order(-species_y, mean_mpi)),]
 power_cohorts$y = nrow(power_cohorts):1
 
-studies$shortname = paste0(gsub(',.*','',studies$first_author),' ',studies$year)
+studies$shortname = paste0(gsub(',.*','',gsub(' +[A-Z]{1,2}$','',studies$first_author)),' ',studies$year)
 power_cohorts$shortname = studies$shortname[match(power_cohorts$pmid, studies$pmid)]
 
 power_cohorts$common_name = species_count$common_name[match(power_cohorts$species, species_count$species)]
@@ -465,16 +468,22 @@ power_cohorts$common_name = species_count$common_name[match(power_cohorts$specie
 power_cohorts$roa_disp = power_cohorts$roa_details
 power_cohorts$roa_disp[power_cohorts$roa_details == ''] = power_cohorts$roa[power_cohorts$roa_details == '']
 power_cohorts$details_disp = paste0(power_cohorts$strain, ' ', power_cohorts$roa_disp)
-power_cohorts$details_disp = gsub('ic','i.c.',gsub('iv','i.v.',gsub('ip','i.p.',power_cohorts$details_disp)))
+power_cohorts$details_disp = gsub('ic','i.c.',gsub('iv','i.v.',gsub('ip|intraperitoneal','i.p.',power_cohorts$details_disp)))
+power_cohorts$details_disp = gsub(' → ','→',gsub('Cynomolgus macaque','Cyno',power_cohorts$details_disp))
 power_cohorts$details_disp[power_cohorts$details_disp=='BSE → Cynomolgus macaque i.v.'] = 'BSE→Cyno i.v.'
+power_cohorts$details_disp[power_cohorts$details_disp=='vCJD → Cynomolgus macaque'] = 'vCJD→Cyno'
 power_cohorts$details_disp[power_cohorts$details_disp=='vCJD i.c./intratonsilar'] = 'vCJD i.c./tonsil'
+power_cohorts$details_disp[power_cohorts$details_disp=='Kuru→Tamarin i.c.'] = 'Kuru 2nd i.c.'
+power_cohorts$details_disp[power_cohorts$details_disp=='Kuru→ Tamarin→ Tamarin i.c.'] = 'Kuru 3rd i.c.'
+power_cohorts$details_disp[power_cohorts$details_disp=='Kuru→Tamarin→Tamarin→Tamarin i.c.'] = 'Kuru 4th i.c.'
+
 
 power_cohort_species = sqldf("select common_name, color, max(y) maxy from power_cohorts group by 1, 2 order by 1, 2;")
 
 ylims = range(power_cohorts$y) + c(-0.6, 0.6)
-xlims = c(0, max(power_cohorts$max_mpi, na.rm=T)*1.05)
+xlims = c(0, max(power_cohorts$max_mpi, na.rm=T)*1.15)
 
-par(mar=c(3,12,1,6))
+par(mar=c(3,12,1,7))
 plot(NA, NA, xlim=xlims, ylim=ylims, axes=F, ann=F, xaxs='i', yaxs='i')
 axis(side=2, at=ylims, labels=NA, lwd=1, lwd.ticks=0)
 mtext(side=2, at=power_cohorts$y, text=power_cohorts$shortname, las=2, line=0.25)
@@ -484,7 +493,7 @@ mtext(side=1, line=2, text='years to endpoint (mean, range)')
 points(x=power_cohorts$mean_mpi, y=power_cohorts$y, pch=19, col=power_cohorts$color)
 arrows(x0=power_cohorts$min_mpi, x1=power_cohorts$max_mpi, y0=power_cohorts$y, col=power_cohorts$color, lwd=3, angle=90, length=0.05, code=3)
 abline(h=power_cohort_species$maxy + 0.5, lwd=0.25)
-text(x=4*12, y=power_cohort_species$maxy, pos=4, col=power_cohort_species$color, labels=power_cohort_species$common_name, font=2, cex=0.7)
+text(x=5*12, y=power_cohort_species$maxy, pos=4, col=power_cohort_species$color, labels=gsub(' macaque','',power_cohort_species$common_name), font=2, cex=0.7)
 mtext(side=4, line=0.25, at=power_cohorts$y, text=power_cohorts$details_disp, las=2)
 unnecessary_message = dev.off()
 
@@ -514,12 +523,19 @@ data_dedup$roa_ic[grepl('ic',data_dedup$roa_details)] = 'i.c.'
 power_cohorts$roa_ic = ''
 power_cohorts$roa_ic[grepl('ic',power_cohorts$roa_group)] = 'i.c.'
 power_cohorts$roa_ic[grepl('ic',power_cohorts$roa_details)] = 'i.c.'
+power_cohorts$roa_ic[power_cohorts$roa_details=='ip'] = 'i.p.'
 power_cohorts$strain_roa = paste0(power_cohorts$strain, ' ', power_cohorts$roa_ic)
+power_cohorts$strain_roa[power_cohorts$strain_roa=='Kuru →  Tamarin →  Tamarin i.c.'] = 'passaged Kuru i.c.'
 
 power_cohorts$mean_sd_bc = paste0(power_cohorts$mean_mpi,'±',formatC(power_cohorts$sd_mpi,format='f',digits=1))
 
+best_row_for_each_species = which(!duplicated(power_cohorts$species) & power_cohorts$cohort_id!='417327-19')
+better_row_for_tamarin = which(power_cohorts$cohort_id=='417327-25')
+additional_row_for_sq_scjd = which(power_cohorts$cohort_id=='17251588-1')
+rows_for_tbl1 = sort(c(best_row_for_each_species, better_row_for_tamarin, additional_row_for_sq_scjd))
+
 tbl1_cols = c('common_name','strain','roa_group','strain_roa','shortname','mean_mpi','sd_mpi','mean_sd_bc','cohort_id')
-table1_bestcase = power_cohorts[c(1,3,14,16,19),tbl1_cols]
+table1_bestcase = power_cohorts[rows_for_tbl1,tbl1_cols]
 data_dedup$common_name = species$common_name[match(data_dedup$species,species$combined_name)]
 
 table1 = table1_bestcase
@@ -529,38 +545,71 @@ table1$mean = as.numeric(NA)
 table1$sd = as.numeric(NA)
 table1$expected_duration_oth = as.integer(NA)
 table1$power_oth = as.numeric(NA)
+table1$p_attack = as.numeric(NA)
 
 row = data$cohort_id=='8179297-1' & data$endpoint=='symptom onset'
-# table1$attack_rate[1] = paste0(data$n_endpoint[row],'/',data$n[row])
+table1$p_attack[1] = 24/29 
 table1$attack_rate[1] = '24/29' # account for the 4 outliers they excluded from their mean±sd calculation - explained in text
 table1$mean[1] = data$mean_mpi[row]
 table1$sd[1] = data$sd_mpi[row]
 table1$mean_sd[1] = paste0(data$mean_mpi[row],'±',data$sd_mpi[row],'*')
 
 # this study was only 2 animals - we should require at least 3, like in Figure 3..
+table1$p_attack[2] = NA
 # row = data$cohort_id == '11259641-9' & data$endpoint=='terminal prion disease'
 # table1$attack_rate[2] = paste0(data$n_endpoint[row],'/',data$n[row])
 # table1$mean[2] = data$mean_mpi[row]
 # table1$sd[2] = data$sd_mpi[row]
 # table1$mean_sd[2] = paste0(data$mean_mpi[row],'±',data$sd_mpi[row])
 
+
+row = data$cohort_id=='2276050-5' & data$endpoint=='symptom onset'
+table1$p_attack[4] = 3/3
+table1$attack_rate[4] = '3/3*' # paste0(data$n_endpoint[row],'/',data$n[row])
+table1$mean[4] = 14.6 # data$mean_mpi[row]
+table1$sd[4] = 3.0 # data$sd_mpi[row]
+table1$mean_sd[4] = '14.6±3.0' # paste0(data$mean_mpi[row],'±',data$sd_mpi[row])
+
+# spider monkey
 row = data$cohort_id=='8179297-3' & data$endpoint=='symptom onset'
-table1$attack_rate[3] = paste0(data$n_endpoint[row],'/',data$n[row])
-table1$mean[3] = data$mean_mpi[row]
-table1$sd[3] = data$sd_mpi[row]
-table1$mean_sd[3] = paste0(data$mean_mpi[row],'±',data$sd_mpi[row])
+table1$p_attack[5] = 30/31
+table1$attack_rate[5] = paste0(data$n_endpoint[row],'/',data$n[row])
+table1$mean[5] = data$mean_mpi[row]
+table1$sd[5] = data$sd_mpi[row]
+table1$mean_sd[5] = paste0(data$mean_mpi[row],'±',data$sd_mpi[row])
 
+# from Brown 1991, combining all other gCJD D178N cases (besides H.Tu) inoculated into SQ:
+other_gcjd_sq_months = c(19, NA, 18, 24, 20, 21, 17.5)
+table1$p_attack[6] = mean(!is.na(other_gcjd_sq_months))
+table1$attack_rate[6] = paste0(sum(!is.na(other_gcjd_sq_months)),'/',length(other_gcjd_sq_months))
+table1$mean[6] = mean(other_gcjd_sq_months, na.rm=T)
+table1$sd[6] = sd(other_gcjd_sq_months, na.rm=T)
+table1$mean_sd[6] = paste0(formatC(table1$mean[6],format='f',digits=1),'±',formatC(table1$sd[6], format='f', digits=1))
+
+# squirrel monkey sCJD cohort from Brown 1994
 row = data$cohort_id=='8179297-2' & data$endpoint=='symptom onset'
-table1$attack_rate[4] = paste0(data$n_endpoint[row],'/',data$n[row])
-table1$mean[4] = data$mean_mpi[row]
-table1$sd[4] = data$sd_mpi[row]
-table1$mean_sd[4] = paste0(data$mean_mpi[row],'±',data$sd_mpi[row])
+target_row = 7
+table1$p_attack[target_row] = 196/211
+table1$attack_rate[target_row] = paste0(data$n_endpoint[row],'/',data$n[row])
+table1$mean[target_row] = data$mean_mpi[row]
+table1$sd[target_row] = data$sd_mpi[row]
+table1$mean_sd[target_row] = paste0(data$mean_mpi[row],'±',data$sd_mpi[row])
 
-table1$p_attack[1] = 24/29 
-table1$p_attack[2] = 2/2
-table1$p_attack[3] = 30/31
-table1$p_attack[4] = 196/211
-table1$p_attack[5] = NA
+row = data$cohort_id=='417327-19' & data$endpoint=='terminal prion disease'
+target_row = 8
+table1$p_attack[target_row] = data$n_endpoint[row] / data$n[row]
+table1$attack_rate[target_row] = paste0(data$n_endpoint[row],'/',data$n[row])
+table1$mean[target_row] = data$mean_mpi[row]
+table1$sd[target_row] = data$sd_mpi[row]
+table1$mean_sd[target_row] = paste0(data$mean_mpi[row],'±',data$sd_mpi[row])
+
+
+
+
+
+
+
+
 
 n_iter = 1000
 set.seed(1)
@@ -582,8 +631,8 @@ for (i in 1:nrow(table1)) {
   table1$power_bc[i] = mean(pvals < 0.05)
 }
 
-# now do the power calculation under the "other" scenario where available = rows 1, 3, 4
-for (i in c(1,3,4)) {
+# now do the power calculation under the "other" scenario where available 
+for (i in which(!is.na(table1$p_attack))) {
   n_integer = 6
   maxes = numeric(0)
   pvals = numeric(0)
@@ -628,6 +677,9 @@ write(paste0('Number of cohorts with N < 4 animals: ',sum(data_dedup$n < 4)),tex
 write(paste0('Number of cohorts with N = 1 animal: ',sum(data_dedup$n == 1)),text_stats_path,append=T)
 write(paste0('Total number of cohorts: ',sum(!is.na(data_dedup$n))),text_stats_path,append=T)
 
+write(paste0('Studies added in 2022 expanded search: ',sum(substr(studies$date_searched,1,4)=='2022' & studies$review_status=='done')),text_stats_path,append=T)
+write(paste0('Of which published since 2020: ',sum(substr(studies$date_searched,1,4)=='2022' & studies$review_status=='done' & studies$year >= 2020)),text_stats_path,append=T)
+
 write(paste0('\n'),text_stats_path,append=T)
 
 
@@ -636,4 +688,5 @@ write(paste0('\n'),text_stats_path,append=T)
 
 elapsed_time = Sys.time() - start_time
 cat(file=stderr(), paste0('done.\nAll tasks complete in ',formatC(as.numeric(elapsed_time), format='f', digits=1),' ',units(elapsed_time),'.\n'))
+
 
