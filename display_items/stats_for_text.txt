@@ -1,4 +1,4 @@
-Last updated: 2022-06-30
+Last updated: 2022-07-02
 
 Proportion of animals IC inoculated: 382/883
 Animals censored versus reaching endpoint: 410 vs. 473

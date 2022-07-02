@@ -527,7 +527,7 @@ power_cohorts$roa_ic[power_cohorts$roa_details=='ip'] = 'i.p.'
 power_cohorts$strain_roa = paste0(power_cohorts$strain, ' ', power_cohorts$roa_ic)
 power_cohorts$strain_roa[power_cohorts$strain_roa=='Kuru →  Tamarin →  Tamarin i.c.'] = 'passaged Kuru i.c.'
 
-power_cohorts$mean_sd_bc = paste0(power_cohorts$mean_mpi,'±',formatC(power_cohorts$sd_mpi,format='f',digits=1))
+power_cohorts$mean_sd_bc = paste0(formatC(power_cohorts$mean_mpi,format='f',digits=1),'±',formatC(power_cohorts$sd_mpi,format='f',digits=1))
 
 best_row_for_each_species = which(!duplicated(power_cohorts$species) & power_cohorts$cohort_id!='417327-19')
 better_row_for_tamarin = which(power_cohorts$cohort_id=='417327-25')
@@ -552,7 +552,7 @@ table1$p_attack[1] = 24/29
 table1$attack_rate[1] = '24/29' # account for the 4 outliers they excluded from their mean±sd calculation - explained in text
 table1$mean[1] = data$mean_mpi[row]
 table1$sd[1] = data$sd_mpi[row]
-table1$mean_sd[1] = paste0(data$mean_mpi[row],'±',data$sd_mpi[row],'*')
+table1$mean_sd[1] = paste0(formatC(data$mean_mpi[row],format='f',digits=1),'±',formatC(data$sd_mpi[row],format='f',digits=1),'*')
 
 # this study was only 2 animals - we should require at least 3, like in Figure 3..
 table1$p_attack[2] = NA
@@ -576,7 +576,7 @@ table1$p_attack[5] = 30/31
 table1$attack_rate[5] = paste0(data$n_endpoint[row],'/',data$n[row])
 table1$mean[5] = data$mean_mpi[row]
 table1$sd[5] = data$sd_mpi[row]
-table1$mean_sd[5] = paste0(data$mean_mpi[row],'±',data$sd_mpi[row])
+table1$mean_sd[5] = paste0(formatC(data$mean_mpi[row],format='f',digits=1),'±',formatC(data$sd_mpi[row],format='f',digits=1))
 
 # from Brown 1991, combining all other gCJD D178N cases (besides H.Tu) inoculated into SQ:
 other_gcjd_sq_months = c(19, NA, 18, 24, 20, 21, 17.5)
